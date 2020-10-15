@@ -20,14 +20,8 @@ footer{
     box-shadow: 0px, 0px, 2px, 1px black;
 }
 
-ul li:nth-child(odd){
-background-color: greenyellow;
-
-}
-
-
 nav ul{
-    list-style: none; 
+     list-style: none; 
 }
 nav ul a,
 nav ul a:link,
@@ -41,3 +35,10 @@ nav a :focus{
    background:crimson; 
 }
 
+ ul li:nth-child(odd){
+    background-color: greenyellow;
+   
+}
+.bullet{
+   list-style:square;
+}
