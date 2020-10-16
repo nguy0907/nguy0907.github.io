@@ -1,6 +1,6 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
-    color: darkblue;
+    color: black;
     font-size: 18px;
 }
 
@@ -13,11 +13,11 @@ footer{
 }
 
 .site-title{
-    color: black;
+    color: gray;
 }
 
 #my-image{
-    box-shadow: 0px, 0px, 2px, 1px black;
+    box-shadow: 0 0 2px 1px black;
 }
 
 nav ul{
@@ -28,6 +28,7 @@ nav ul a:link,
 nav ul a:visited{
     text-decoration:none;
     background: greenyellow;
+    border: 1px solid #000;
 }
 
 nav ul a:hover,
