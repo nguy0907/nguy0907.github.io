@@ -1,0 +1,160 @@
+/*1 rem = 10 px*/
+body{
+font-family: Arial, Helvetica, sans-serif;
+color: rgb(35, 43, 43);
+background-image: url("../images/white_brick_wall.png");
+}
+/*
+This is a CSS Comment
+Shortcut for adding the comment Control + / or Command + /
+*/
+h1{
+    color: white;
+}
+
+p{
+    background-color: lightblue;
+}
+/* Selecting multiple elements to add same style */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    text-decoration: underline;
+}
+/*Selecting child element*/
+nav ul{
+list-style: none;
+}
+
+/* Selecting child elements multiple level*/
+nav ul a {
+    color:darkslategrey;
+    text-decoration:none;
+}
+/* Selecting HTML element with class name*/
+.orange-link{
+    background: darkslategrey;
+    color: orange;
+    text-decoration: none;
+}
+
+/* Selecting element with id value*/
+#tow{
+    background: orange url(../images/bread.jpg) no-repeat center center;
+    background-size: cover;
+    /* additional styles to make text visible*/
+    color:white;
+    font-size:24;
+    /*font-size:24px;*/
+    /*updating the font to rem unit*/
+    font-size:1.5rem;
+    /*1.5 x 16 =24*/
+    padding: 1em;
+    /*1em= 1 x 24px = 24px*/
+    width: 50vw;
+
+}
+/*Adding multiple classes to an element*/
+.large-text{
+    /*font-size: 20px;*/
+    font-size: px;
+}
+/* direct child selector*/
+article>p {
+    /*font-size: 24px;*/
+
+    font-size: 1.5rem;
+    font-weight: bold;
+    /*Light, regular, normal, bold, bolder OR 100, 200, 300...800*/
+    line-height: 1.4;
+    text-transform: lowercase;
+    text-align: center;
+}
+
+/* Adjacent Sibling Selector
+Selecting only ul that is adjacent to a h3
+*/
+
+h3+ul{
+    /*thickness style color*/
+    border: 1px solid black;
+}
+/*Attribute Selector*/
+[href="#tow"]{
+    font-weight: bold;   
+}
+/*Using Pseudo Classes
+Styling Navigation
+*/
+
+nav ul a,
+nav ul a:link,
+nav ul a:visited{
+    background: orange;
+    /*horizontal vertical blur spread color*/ 
+    box-shadow: -2px 2px 4px 2px black;
+}
+nav ul a:hover,
+nav a:focus {
+    text-decoration: underline;
+}
+
+nav ul a:active {
+    box-shadow: 0 0 4px 2px black;
+}
+
+/*Position related selectors*/
+/*First child*/
+aside ul li:first-child{
+    font-weight: bold;    
+}
+/*last child*/
+section ol li:last-child{
+    font-weight: bold;
+} 
+
+/*collapse table border into one*/
+table{
+    border-collapse: collapse;
+}
+tbody tr:nth-child(even){
+  /*hex color value with 6 characters*/
+    background-color: #d5836c;
+}
+/* Where n is 0,1,2,... until the number of elements*/
+table th:nth-child(n),
+table td:nth-child(n){
+/* hex color value with 3 characters*/
+/* #000000= #000 black #FFFFFF = #FFF = White*/
+    border: 1px solid #000;
+}
+
+/* 2n+1 if n is 0,1,2,3.. then 2n+1 */
+table td:nth-child(2n+1){
+    background-color: rgba(0, 0, 0, 0.2);
+}
+/* Specificity: 0001*/
+footer{
+    background-color: aqua;
+}
+/*Specificiy: 0002*/
+body footer{
+    background: orange;
+}
+/* Specificity: 0001*/
+footer {
+    background-color: red;
+}
+
+/*0010*/
+.site-footer{
+    background-color:cornflowerblue; 
+}
+/*specificity:0011*/
+footer.site-footer{
+    background-color: teal;
+}
+
