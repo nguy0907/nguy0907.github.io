@@ -4,4 +4,6 @@ body{
 
 h1{
     text-align: center;
+    background: url(../images/thursday.jpg) no-repeat center center;
+    background-size: cover;
 }
