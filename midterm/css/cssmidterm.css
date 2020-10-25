@@ -1,0 +1,31 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    position: absolute;
+    top:30%;
+    width:100%;
+
+    text-align: center;
+}
+img{
+    width:100%;
+}
+
+.container{
+    position: relative;
+    max-width: 900px;
+    margin:0 auto;
+}
+nav ul{
+    list-style:none;
+    font-size: 18px;
+}
+nav ul li{
+    display: inline-block;
+    width: 30%;
+    padding: 1em;
+    box-sizing: border-box;
+    border-right: 1px solid white;
+}
