@@ -43,7 +43,7 @@ nav ul li:last-child{
     margin: 0 auto;
     background-color: lightblue;
 }
-article{
+article>p{
     width:20%;
     float: left;
 }
