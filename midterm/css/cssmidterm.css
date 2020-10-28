@@ -1,21 +1,24 @@
-h1{
-    position: absolute;
-    top:14%;
-    width:100%;
-    text-align: center;
-    color: white;
-    font-size:60px;
-} 
-
 body{
     font-family: Arial, Helvetica, sans-serif;
     background: lightcyan;
 }
 
+/* Aligning the heading and changing the position */
+h1{
+    position: absolute;
+    top:19%;
+    width:100%;
+    text-align: center;
+    color: white;
+    font-size:60px;
+    font-weight: unset;
+} 
+
+
 img{
     width:100%;
 }
-
+/* Making the page shrink a little */
 .container{
     position: relative;
     max-width: 900px;
@@ -23,8 +26,9 @@ img{
 }
 nav ul{
     list-style:none;
-    font-weight: bold;
+    font-weight: unset;
 }
+/* Making the list in rows */
 nav ul li{
     display: inline-block;
     width: 33%;
@@ -32,20 +36,35 @@ nav ul li{
     box-sizing: border-box;
     border-right: 1px solid white;
      font-size: 30px;
+     
 }
 
 nav ul li:last-child{
     border: none;
 }
-.container{
-    max-width: 1500px;
 
+h2{
+    font-weight: unset;
+    margin-left: 1rem;
+}
+.container{
+    max-width: 1300px;
     margin: 0 auto;
     background-color: lightblue;
 }
-article>p{
-    width:20%;
-    float: left;
+/* wrap text around the image */
+.wrap{
+    width:10%;
+   float:left;
+   margin-right: 1rem;
+   margin-left: 1rem;
+   margin-bottom: 1rem;
+ 
+}
+
+h3{
+    margin-left: 1rem;
+    font-weight: unset;
 }
 
 aside{
@@ -53,8 +72,23 @@ aside{
     padding: 1.5em;
     width: 80%;
     box-sizing: border-box;
+    margin-left: 1rem;
 }
 footer{
     text-align: right;
 }
+label{
+  width:40px;
+}
+
+.button{
+  border: 1px solid black;
+    box-sizing: border-box;
+  width: 4%;
+  padding-left: 1px;
+    font-size: 11px;
+}
+
+
+
 
