@@ -14,7 +14,6 @@ h1{
     font-weight: unset;
 } 
 
-
 img{
     width:100%;
 }
@@ -23,6 +22,8 @@ img{
     position: relative;
     max-width: 900px;
     margin:0 auto;
+    max-height: 1500px;
+    height:1500px;
 }
 nav ul{
     list-style:none;
@@ -62,23 +63,26 @@ h2{
  
 }
 
-h3{
-    margin-left: 1rem;
-    font-weight: unset;
-}
-
 aside{
     border: 1px solid black;
     padding: 1.5em;
-    width: 80%;
+    width: 98%;
     box-sizing: border-box;
     margin-left: 1rem;
+   height:20%;
 }
 footer{
     text-align: right;
+    margin-top: 8.0rem;
+    margin-right:0.5rem;
+}
+
+
+input{
+width:1200px;
 }
 label{
-  width:40px;
+    padding: 2em;
 }
 
 .button{
@@ -88,7 +92,12 @@ label{
   padding-left: 1px;
     font-size: 11px;
 }
+.radiobutton{
+  position: absolute;
 
-
+}
+div{
+    padding: .5em; 
+}
 
 
