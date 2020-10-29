@@ -6,8 +6,9 @@ body{
 /* Aligning the heading and changing the position */
 h1{
     position: absolute;
-    top:19%;
+    top:15%;
     width:100%;
+   
     text-align: center;
     color: white;
     font-size:60px;
@@ -62,42 +63,55 @@ h2{
    margin-bottom: 1rem;
  
 }
-
+/* Adding border to the form */
 aside{
     border: 1px solid black;
     padding: 1.5em;
     width: 98%;
     box-sizing: border-box;
     margin-left: 1rem;
-   height:20%;
+   height:24%;
 }
 footer{
     text-align: right;
-    margin-top: 8.0rem;
+    margin-top: 3.0rem;
     margin-right:0.5rem;
 }
-
 
 input{
 width:1200px;
 }
-label{
-    padding: 2em;
+
+textarea{
+    width:1200px;
+    height:100px;
 }
 
+h3{
+    font-weight: unset;
+    position: absolute;
+     top: -20px;
+   
+}
+/* A custom made button instead of using the default button */
 .button{
   border: 1px solid black;
-    box-sizing: border-box;
+  box-sizing: border-box;
   width: 4%;
   padding-left: 1px;
-    font-size: 11px;
+  font-size: 11px;
 }
-.radiobutton{
-  position: absolute;
 
-}
-div{
+.name,
+.message,
+.email{
     padding: .5em; 
 }
 
+.radiobutton{
+  position: fixed;
+  display: inline-block;
+  box-sizing: border-box;
+
+}
 
