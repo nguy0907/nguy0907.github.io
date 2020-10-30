@@ -23,8 +23,7 @@ img{
     position: relative;
     max-width: 900px;
     margin:0 auto;
-    max-height: 1500px;
-    height:1500px;
+
 }
 nav ul{
     list-style:none;
@@ -70,16 +69,20 @@ aside{
     width: 98%;
     box-sizing: border-box;
     margin-left: 1rem;
-   height:26%;
+    padding-bottom:.3em;
+
 }
 footer{
     text-align: right;
-    margin-top: 2.0rem;
+    margin-top: 4.0rem;
     margin-right:0.5rem;
+    position:relative;
+    padding-bottom:2.5em;
 }
 
 input{
 width:1200px;
+margin-top: 10px;
 }
 
 textarea{
@@ -89,7 +92,8 @@ textarea{
 
 h3{
     font-weight: unset;   
-     top: -18px;
+    margin-bottom:20px;
+    
    
 }
 /* A custom made button instead of using the default button */
@@ -102,7 +106,7 @@ h3{
   padding-top: 0.5rem;
   font-size: 11px;
   margin-left: 1px;
-  margin-top: 85px;
+  margin-top: 10px;
 }
 
 .name,
@@ -111,10 +115,10 @@ h3{
     padding: .5em; 
 }
 
-.radiobutton{
-  position: absolute;
-  display: inline;
-  box-sizing: border-box;
-  top: 90%;
+.radiobutton> input{
+  position: relative;
+  display: inline-block;
+  width: 1%;
+  margin-top: 1px;
 }
 
