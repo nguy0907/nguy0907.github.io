@@ -97,7 +97,7 @@ h3{
    
 }
 /* A custom made button instead of using the default button */
-.button{
+button{
   border: 1px solid black;
   box-sizing: border-box;
   width: 3.8%;
@@ -107,6 +107,8 @@ h3{
   font-size: 11px;
   margin-left: 1px;
   margin-top: 10px;
+  margin-bottom:10px;
+  background:none;
 }
 
 .name,
