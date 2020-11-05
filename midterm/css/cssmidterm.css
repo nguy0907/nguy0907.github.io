@@ -49,7 +49,7 @@ nav ul a:visited{
     background:none;
     color: black;
 }
-
+/* When the words in the list are hovered, it will change the colour of the text */
 nav ul a:hover,
 nav a:focus{
    color:lightcyan;
@@ -60,7 +60,7 @@ nav ul li:first-child{
     margin-left: -.5rem;
    
 }
-
+/* Doesn't add the line to the last item on the list */
 nav ul li:last-child{
     border: none;
     
@@ -108,6 +108,7 @@ aside{
     padding-bottom:.3em;
 
 }
+
 footer{
     text-align: right;
     margin-top: 2.5rem;
