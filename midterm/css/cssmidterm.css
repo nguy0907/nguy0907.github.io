@@ -27,6 +27,8 @@ img{
 nav ul{
     list-style:none;
     font-weight: unset;
+    margin-top:-4px;
+   
     
 }
 /* Making the list in rows */
@@ -35,10 +37,15 @@ nav ul li{
     width: 33%;
     padding: 1em;
     box-sizing: border-box;
-    border-right: 1px solid white;
+    border-right: 1px solid grey;
      font-size: 20px;
-     padding-left: 80px;
+     padding-left: 160px;
+
      
+}
+
+nav ul li:first-child{
+    border-right: 1px solid black;
 }
 
 nav ul li:last-child{
