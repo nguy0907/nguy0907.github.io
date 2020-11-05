@@ -38,18 +38,20 @@ nav ul li{
     padding: 1em;
     box-sizing: border-box;
     border-right: 1px solid grey;
-     font-size: 20px;
-     padding-left: 160px;
+     font-size: 25px;
+     text-align: center;
 
      
 }
 
 nav ul li:first-child{
     border-right: 1px solid black;
+   
 }
 
 nav ul li:last-child{
     border: none;
+    
 }
 
 h2{
