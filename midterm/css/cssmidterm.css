@@ -46,6 +46,7 @@ nav ul li{
 
 nav ul li:first-child{
     border-right: 1px solid black;
+    text-align: center;
    
 }
 
@@ -77,9 +78,14 @@ h2{
 p{
     margin-left: 1rem;
 }
-
+/* This is the section of the facts*/
 section ul{
     font-size:14px;
+margin-top: -1rem;  
+}
+
+section ul li{
+ margin-top: -.2rem;  
 }
 /* Adding border to the form */
 aside{
