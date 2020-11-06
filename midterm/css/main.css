@@ -6,7 +6,7 @@ body{
 /* Aligning the heading and changing the position */
 h1{
     position: absolute;
-    top:15%;
+    top:16%;
     width:100%;
     text-align: center;
     color: white;
@@ -57,7 +57,7 @@ nav a:focus{
 
 nav ul li:first-child{
     border-right: 1px solid black;
-    margin-left: -.5rem;
+   
    
 }
 /* Doesn't add the line to the last item on the list */
@@ -82,11 +82,11 @@ h2{
    float:left;
    margin-right: 1rem;
    margin-left: 1rem;
-   margin-bottom: 1rem;
-   
+   margin-bottom: 1rem; 
 }
 
 p{
+    font-size:15px;
     margin-left: 1rem;
 }
 /* This is the section of the facts*/
@@ -106,7 +106,6 @@ aside{
     box-sizing: border-box;
     margin-left: 1rem;
     padding-bottom:.3em;
-
 }
 
 footer{
@@ -120,14 +119,13 @@ footer{
 input{
 width:1230px;
 margin-top: 10px;
-
 }
 
 textarea{
     width:1230px;
     height:80px;
     margin-top:10px;
-    
+    font-family: Arial;
 }
 
 h3{
