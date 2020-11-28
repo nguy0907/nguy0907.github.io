@@ -1,6 +1,16 @@
+html{
+  width:100%;
+}
 .site-header{
   display:grid;
 }
- ul{
+ ul li{
     list-style:none;
+    text-align:center;
 }
+
+.container{
+  max-width:1800px;
+  margin: 0 auto;
+}
+
