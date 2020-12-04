@@ -81,13 +81,24 @@ h1,
 h2{
     font-size: 80px;
     margin-bottom: 5rem;
+    margin-top: 2rem;
 }
 
 .main-banner{
-    background: #222;
-    background-image: url("../images/main-banner.jpg");   
+    
+    background: url("../images/main-banner.jpg") no-repeat center center;   
+    background-size: cover;
     color: white;
     height: 500px;
+   
+}
+
+.intro{
+  background: rgba(0,0,0,0.6);
+  max-width: 1200px; 
+  margin-bottom:4rem;
+  margin-top:-2rem;
+  height:400px;
 }
 
 .button{
@@ -103,5 +114,9 @@ h2{
 
 p{
     margin-bottom:1rem;
+}
+
+img{
+    margin-top:2rem;
 }
 
