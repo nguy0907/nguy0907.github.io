@@ -69,16 +69,23 @@ html {
 
 ul li {
     list-style: none;
+    margin-top:2rem;
+    color:white;
 }
 
-h1{
+ul li:nth-child(1){
+    color:black;
+}
+
+h1,
+h2{
     font-size: 80px;
     margin-bottom: 5rem;
 }
 
 .main-banner{
-    background-image: url("../images/main-banner.jpg");
-    background-color: #222;   
+    background: #222;
+    background-image: url("../images/main-banner.jpg");   
     color: white;
     height: 500px;
 }
@@ -94,6 +101,7 @@ h1{
     padding-right:5px;
 }
 
-.h2{
-    
+p{
+    margin-bottom:1rem;
 }
+
