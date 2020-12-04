@@ -53,7 +53,7 @@ html {
     font-family: 'Open Sans', sans-serif;
 }
 
-.container {
+.site-header {
     max-width: 1200px;
     margin: 0 auto;
     background-color: #c78c06;
@@ -84,9 +84,8 @@ h2{
     margin-top: 2rem;
 }
 
-.main-banner{
-    
-    background: url("../images/main-banner.jpg") no-repeat center center;   
+.main-banner{ 
+    background: url("../images/main-banner.jpg");   
     background-size: cover;
     color: white;
     height: 500px;
@@ -114,9 +113,14 @@ h2{
 
 p{
     margin-bottom:1rem;
+    margin-top:-2rem;
 }
 
 img{
     margin-top:2rem;
 }
 
+.aboutus-nav{
+   background-color: #ffe6ac; 
+
+}
