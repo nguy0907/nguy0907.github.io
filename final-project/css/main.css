@@ -74,6 +74,6 @@ h1{
     font-size: 50px;
     
 }
-.main-banner{
- background-image:image("images/main-banner.jpg");   
+.welcome{
+    position: absolute;
 }
