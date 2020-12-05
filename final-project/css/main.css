@@ -153,6 +153,7 @@ a{
     padding-left:1.5em;
     padding-right:1.5em;  
 }
+
 .aboutus-nav{
     background:#ffe6ac;
 }
@@ -175,4 +176,9 @@ a{
 
 .print{
     background:#ffe6ac; 
+}
+
+.Team{
+    margin-left:9.5rem;
+    max-width:1200px;   
 }
