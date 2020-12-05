@@ -81,7 +81,7 @@ nav{
     background:#222;  
     background-size: cover;
     padding-top: 1em;
-    position: top;
+
 }
 ul li{
     margin-top:4rem;
@@ -103,7 +103,8 @@ ul li{
  
 }
 
-button{
+button
+{
     background-color: #c78c06;
     text-decoration:none;
     color: #222;
@@ -129,7 +130,7 @@ h2{
 }
 h3{
     margin-top:3rem;
-    font-size:60px;
+    font-size:40px;
    
 }
 
@@ -141,6 +142,16 @@ img{
     margin-left:9.5rem;
     max-width:1200px;
 
+}
+a{
+    background-color: #222;
+    text-decoration:none;
+    color: white;
+    margin-left:1.5rem;
+    padding-top:1.5em;
+    padding-bottom:1.5em;
+    padding-left:1.5em;
+    padding-right:1.5em;  
 }
 .aboutus-nav{
     background:#ffe6ac;
@@ -156,4 +167,12 @@ img{
 
 .video{
     background:#ffe6ac;
+}
+
+.web{
+    background:#ffe6ac;
+}
+
+.print{
+    background:#ffe6ac; 
 }
