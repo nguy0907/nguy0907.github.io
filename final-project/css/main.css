@@ -139,5 +139,21 @@ img{
 
 .services{
     margin-left:9.5rem;
+    max-width:1200px;
 
+}
+.aboutus-nav{
+    background:#ffe6ac;
+}
+
+.digital{
+    background:#ffe6ac;
+}
+
+.market{
+    background:#ffe6ac;  
+}
+
+.video{
+    background:#ffe6ac;
 }
