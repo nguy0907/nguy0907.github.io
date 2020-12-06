@@ -60,10 +60,6 @@ body {
   line-height: inherit;
 } */
 
-h1{
-    font-size:60px;
-    margin-bottom:3rem;
-}
 
 .container{
     max-width: 1200px;
@@ -131,11 +127,13 @@ p{
 h1,
 h2{  
     margin-bottom: 5rem;
-    margin-top: 2rem;    
+    margin-top: 2rem;   
+    font-weight: bold; 
 }
 
 h1{
     font-size: 60px;
+    margin-bottom:3rem;
 }
 h2,
 h3{
@@ -228,4 +226,23 @@ input{
 textarea{
     width:600px;
     height:200px;
+}
+
+/* This is the schedule section. in the for of a T-chart */
+
+table{
+    border-collapse: collapse;
+}
+
+table th:nth-child(n),
+table td:nth-child(n){
+    border:1px solid #222;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-right: 1em;
+    padding-left: 1em;
+}
+
+table thead:nth-child(1){
+    background:#ffe6ac; 
 }
