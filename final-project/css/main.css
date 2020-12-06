@@ -53,6 +53,13 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
+/* *,
+*::after,
+*::before {
+  box-sizing: inherit;
+  line-height: inherit;
+} */
+
 h1{
     font-size:60px;
     margin-bottom:3rem;
@@ -205,10 +212,20 @@ margin-left:1.5rem;
 .name,
 .email,
 .message{
-    padding: 0.5em;
+    padding: 1em;
 }
 .send{
     background-color: #222;
     color:#c78c06;
-    margin-left:-4rem;
+    margin-left:5.5rem;
+}
+input{
+    max-width:1200px;
+    width:600px;
+    margin-top:10px;
+}
+
+textarea{
+    width:600px;
+    height:200px;
 }
