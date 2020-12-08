@@ -67,9 +67,8 @@ body {
 }
 /* Mobile Layout */
 /* Header Area */
-.site-header,
-footer{
-    background:#c78c06;
+.site-header{
+    background:#222;
     color:#c78c06;
 }
 
@@ -245,4 +244,11 @@ table td:nth-child(n){
 
 table thead:nth-child(1){
     background:#ffe6ac; 
+}
+
+footer{
+    background:#222;
+    color:#c78c06;
+    padding-bottom:1em;
+    padding-top:1em;
 }
