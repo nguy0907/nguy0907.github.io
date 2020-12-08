@@ -63,7 +63,7 @@ body {
 
 .container{
     max-width: 1200px;
-    margin:auto;
+    margin:0 auto;
 }
 /* Mobile Layout */
 /* Header Area */
@@ -76,6 +76,7 @@ header{
     background:#222;  
 }
 
+
 nav{
    
     text-align: center;
@@ -87,6 +88,10 @@ nav{
 }
 ul li{
     margin-top:4rem;
+}
+
+.search{
+    height:5px;
 }
 
 /* Main Banner Area */
@@ -105,8 +110,7 @@ ul li{
  
 }
 
-button
-{
+button{
     background-color: #c78c06;
     text-decoration:none;
     color: #222;
@@ -132,20 +136,25 @@ h2{
 
 h1{
     font-size: 60px;
+    font-weight: bold;
     margin-bottom:3rem;
 }
 h2,
 h3{
     margin-top:3rem;
-    font-size:40px;  
+    font-size:40px;
+    font-weight: bold;  
 }
 
 img{
     margin-top:3rem;
+  max-width:1200px;
+  width:1200px;
 }
 
 .services{
     margin-left:9.5rem;
+    width: 100%;
     max-width:1200px;
 
 }
@@ -199,17 +208,16 @@ a{
     height:400px;
      
 }
-.email{
-margin-left:1.5rem;
-}
-.name{
-    margin-left:-.7rem;
-}
 
 .name,
 .email,
 .message{
-    padding: 1em;
+    margin-bottom: 1rem;
+    margin-bottom: 1rem;
+}
+label{
+    margin-top:-.5em;
+    position: absolute;
 }
 .send{
     background-color: #222;
@@ -219,10 +227,12 @@ margin-left:1.5rem;
 input{
     max-width:1200px;
     width:600px;
-    margin-top:10px;
+    margin-top:1rem;
+    height:15px;
 }
 
 textarea{
+    margin-top:1rem;
     width:600px;
     height:200px;
 }
