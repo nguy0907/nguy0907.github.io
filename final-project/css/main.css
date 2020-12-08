@@ -126,6 +126,7 @@ p{
     margin-top:1rem;
 } 
 
+
 /* Headings */
 h1,
 h2{  
@@ -176,10 +177,12 @@ a{
 /* This is the services section broken down into different services */
 .digital{
     background:#ffe6ac;
+    padding-top:.5em;
 }
 
 .market{
     background:#ffe6ac;  
+    padding-bottom:2em;
 }
 
 .video{
@@ -194,11 +197,7 @@ a{
     background:#ffe6ac; 
 }
 
-.Team{
-    margin-left:9.5rem;
-    max-width:1200px;
-      background:#ffe6ac;   
-}
+
 
 .vision{
     background: url(../images/vision.jpg);
@@ -207,6 +206,28 @@ a{
     width:1250px;
     height:400px;
      
+}
+/* Team Section */
+.Team{
+    margin-left:9.5rem;
+    max-width:1200px;
+      background:#ffe6ac;
+}
+
+/* .JohnDoe,
+.BobRite{
+    margin-top:2rem;
+} */
+
+.who{
+    margin-top:-4rem;
+    font-weight:bold;
+    border-bottom:3px solid #c78c06;
+}
+
+.who>p{
+    margin-top:-1rem;
+    padding-bottom:1em;
 }
 
 .name,
