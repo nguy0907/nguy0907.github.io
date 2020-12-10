@@ -9,7 +9,7 @@
     <!-- Icon font -->
     <link rel="stylesheet" href="https://cdn.iconmonstr.com/1.3.0/css/iconmonstr-iconic-font.min.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/main.css">
     <title>Three Star Media</title>
 </head>
@@ -19,16 +19,17 @@
     <div class="wrapper">
         <header class="site-header">
             <div class="containerheader container">
-                <img class= "logo" src="images/logo.png" alt="Logo">
-
+                <div class="logo-background">
+                    <img class="logo" src="images/logo.png" alt="Logo">
+                </div>
                 <!-- The menu or options in list  -->
                 <nav class="menulist-nav">
                     <ul class="nav-list">
-                        <li>Home</li>
-                        <li>About Us</li>
-                        <li>Services</li>
-                        <li>Team</li>
-                        <li>Contact</li>
+                        <li><a href="index.html" class="current">Home</a></li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">Team</a></li>
+                        <li><a href="#">Contact</a></li>
                     </ul>
                 </nav>
 
@@ -68,70 +69,74 @@
         <!-- The section of services with a nav class for "Services"-->
         <section class="services">
             <h2>Our Services</h2>
-            <img0 src="images/digital.jpg" alt="digital">
+            <img src="images/digital.jpg" alt="digital">
 
-            <!-- Digital Section -->
-            <div class="digital">
-                <h3>Digital Transformation</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias maxime maiores aut dicta beatae
-                    sapiente, eaque veritatis atque facere.
-                    Inventore aspernatur tempore ea nam ut hic architecto aliquid eaque. Veniam.</p>
+                <!-- Digital Section -->
+                <div class="digital">
+                    <h3>Digital Transformation</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias maxime maiores aut dicta
+                        beatae
+                        sapiente, eaque veritatis atque facere.
+                        Inventore aspernatur tempore ea nam ut hic architecto aliquid eaque. Veniam.</p>
 
-                <!-- Digital Plans button with the arrow-like symbol -->
-                <a href="#" class="button">Digital Plans<i class="im im-care-right"></i></a>
-            </div>
+                    <!-- Digital Plans button with the arrow-like symbol -->
+                    <a href="#" class="button">Digital Plans<i class="im im-care-right"></i></a>
+                </div>
 
-            <!-- Marketing Section -->
-            <div class="market">
-                <img src="images/marketing.jpg" alt="marketing">
-                <h3>Marketing</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea eos dicta quae unde aut architecto,
-                    omnis
-                    asperiores possimus fuga, hic sit.
-                    Quibusdam in, deleniti aliquid dolorem nisi beatae praesentium culpa!</p>
+                <!-- Marketing Section -->
+                <div class="market">
+                    <img src="images/marketing.jpg" alt="marketing">
+                    <h3>Marketing</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea eos dicta quae unde aut architecto,
+                        omnis
+                        asperiores possimus fuga, hic sit.
+                        Quibusdam in, deleniti aliquid dolorem nisi beatae praesentium culpa!</p>
 
-                <!-- Buttons with the arrow for the Marketing Plans -->
-                <a href="#" class="button">Marketing Plans <i class="im im-care-right"></i></a>
-            </div>
+                    <!-- Buttons with the arrow for the Marketing Plans -->
+                    <a href="#" class="button">Marketing Plans <i class="im im-care-right"></i></a>
+                </div>
 
-            <!-- Video Production Section -->
-            <div class="video">
-                <img src="images/video.jpg" alt="video">
-                <h3>Video Production</h3>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro quaerat impedit reiciendis! Voluptas
-                    facilis magni facere numquam
-                    exercitationem itaque nam nobis natus quas quod? Beatae voluptas atque laborum ipsa recusandae!</p>
+                <!-- Video Production Section -->
+                <div class="video">
+                    <img src="images/video.jpg" alt="video">
+                    <h3>Video Production</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro quaerat impedit reiciendis!
+                        Voluptas
+                        facilis magni facere numquam
+                        exercitationem itaque nam nobis natus quas quod? Beatae voluptas atque laborum ipsa recusandae!
+                    </p>
 
-                <!-- Video Plans button -->
-                <a href="#" class="button">Video Plans <i class="im im-care-right"></i></a>
-            </div>
+                    <!-- Video Plans button -->
+                    <a href="#" class="button">Video Plans <i class="im im-care-right"></i></a>
+                </div>
 
-            <!-- Web Developement Section -->
-            <div class="web">
-                <img src="images/web.jpg" alt="web">
-                <h3>Web Developement</h3>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde dignissimos veniam perspiciatis
-                    consequatur, quibusdam nisi.
-                    Ipsam sequi iusto vel ex nulla! Nesciunt repellendus quae quod ducimus repudiandae possimus, optio
-                    eum.
-                </p>
+                <!-- Web Developement Section -->
+                <div class="web">
+                    <img src="images/web.jpg" alt="web">
+                    <h3>Web Developement</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde dignissimos veniam perspiciatis
+                        consequatur, quibusdam nisi.
+                        Ipsam sequi iusto vel ex nulla! Nesciunt repellendus quae quod ducimus repudiandae possimus,
+                        optio
+                        eum.
+                    </p>
 
-                <!-- Web Plan button -->
-                <a href="#" class="button">Web Plan <i class="im im-care-right"></i></a>
-            </div>
+                    <!-- Web Plan button -->
+                    <a href="#" class="button">Web Plan <i class="im im-care-right"></i></a>
+                </div>
 
-            <!-- Print Section -->
-            <div class="print">
-                <img src="images/print.jpg" alt="print">
-                <h3>Print</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam natus modi nobis placeat tenetur
-                    libero
-                    excepturi vitae dolorem fugit? Sunt vero
-                    provident facilis et beatae quis quasi dicta? Nisi, quaerat.</p>
+                <!-- Print Section -->
+                <div class="print">
+                    <img src="images/print.jpg" alt="print">
+                    <h3>Print</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam natus modi nobis placeat tenetur
+                        libero
+                        excepturi vitae dolorem fugit? Sunt vero
+                        provident facilis et beatae quis quasi dicta? Nisi, quaerat.</p>
 
-                <!-- Print Plan Button -->
-                <a href="#" class="button">Print Plans <i class="im im-care-right"></i></a>
-            </div>
+                    <!-- Print Plan Button -->
+                    <a href="#" class="button">Print Plans <i class="im im-care-right"></i></a>
+                </div>
         </section>
         <!-- Our Vision Section -->
         <div class="vision">
@@ -223,13 +228,12 @@
             </div>
 
             <!-- You can use google map in the website. How sickkk!!! -->
-            <section class="location">              
-                    <h2>Location</h2>
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2803.962655420181!2d-75.7525349959349!3d45.34956611007805!2m3!1f0!
+            <section class="location">
+                <h2>Location</h2>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2803.962655420181!2d-75.7525349959349!3d45.34956611007805!2m3!1f0!
                     2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce0722395fc63d%3A0x35c46b5ff47a522!2sAlgonquin%20College%2C%201385%20Woodroffe%20Ave%2C%2
                     0Nepean%2C%20ON%20K2G%203G7!5e0!3m2!1sen!2sca!4v1606768374554!5m2!1sen!2sca" width="600"
-                        height="450"  style="border:0;" allowfullscreen="" aria-hidden="false"
-                        tabindex="0"></iframe>
+                    height="450" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
             </section>
         </section>
         <!-- Here is the copyright citing. -->
