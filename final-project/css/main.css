@@ -53,35 +53,31 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
-/* *,
-*::after,
-*::before {
-  box-sizing: inherit;
-  line-height: inherit;
-} */
-
 
 .container{
     max-width: 1200px;
     margin:0 auto;
+    background:#c78c06; 
 }
 /* Mobile Layout */
 /* Header Area */
+
+
 .site-header{
-    background:#222;
-    color:#c78c06;
-}
-
-header{
-    background:#222;  
+    color:#c78c06; 
+    background: #222;    
+    margin:0 auto;  
 }
 
 
-nav{
+.logo{
+    width:10%;
    
+}
+nav{
     text-align: center;
     color:#c78c06;
-    background:#222;  
+    background:#c78c06;  
     background-size: cover;
     padding-top: 1em;
 
@@ -283,4 +279,13 @@ footer{
     color:#c78c06;
     padding-bottom:1em;
     padding-top:1em;
+}
+
+ a > footer{
+    color:#c78c06;
+}
+/* Media Query going to be used for desktop user */
+
+@media screen and (min-width:760px){
+
 }
