@@ -190,7 +190,7 @@ body {
 }
 
 .logo-background{
-    background:#c78c06   
+    background:#c78c06;   
 }
 
 nav {
@@ -431,8 +431,16 @@ a>footer {
 /* Media Query going to be used for desktop user */
 
 @media screen and (min-width:760px) {
+    .container{
+        max-width:1200px;
+    }
+       header{
+        background:#222;
+        height:140px;   
+    }
     .nav-list {
         margin-left: 0.5rem;
+        margin-top:-1rem;
         display: flex;
         float: left;
     }
@@ -441,19 +449,24 @@ a>footer {
         margin-right: 0.5rem;
         
     }
-
     .searchtext {
         display: inline-block;
-        margin-top: 4rem;
+        margin-top: 2.5rem;
         height: 40px;
         width: 200px;
     }
 
     .search{
-        margin-top:4rem;    
+        margin-top:2.5rem;      
     }
 
-    .logo {
+    .logo{
         float: left;
+        width:7%;
+        margin-top:2rem;
     }
+.site-header{
+    margin-top:-1rem;
+}
+ 
 }
