@@ -159,9 +159,10 @@ body {
     /* background-color: #222; */
 }
 
-.current{
-    background:none;
-    color:#222;
+.nav-list .current{
+     color:#222;
+
+   
 }
 .nav-list a{
     color:#c78c06;
@@ -205,9 +206,6 @@ ul li {
     margin-top: 4rem;
 }
 
-ul li:nth-child(1) {
-    color: #222;
-}
 
 
 .search>textarea {
