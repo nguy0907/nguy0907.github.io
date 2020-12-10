@@ -53,20 +53,21 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
-
 .container{
     max-width: 1200px;
     margin:0 auto;
-    background:#c78c06; 
 }
+
 /* Mobile Layout */
 /* Header Area */
-
-
 .site-header{
+    background: #222;
+}
+  .site-header{
+      margin:0 auto;  
     color:#c78c06; 
-    background: #222;    
-    margin:0 auto;  
+
+    
 }
 
 
@@ -77,19 +78,27 @@ body {
 nav{
     text-align: center;
     color:#c78c06;
-    background:#c78c06;  
     background-size: cover;
     padding-top: 1em;
-
+    font-size: 20px;
 }
+
 ul li{
-    margin-top:4rem;
+    margin-top:4rem;  
 }
 
-.search{
-    height:5px;
+ul li:nth-child(1){
+    color:#222;
 }
 
+ textarea{
+    width:500px;
+    height:165px;
+}
+
+.search >textarea{
+  float: right;
+}
 /* Main Banner Area */
 .main-banner{ 
     background: url("../images/main-banner.jpg");   
@@ -287,5 +296,7 @@ footer{
 /* Media Query going to be used for desktop user */
 
 @media screen and (min-width:760px){
-
+.nav-list{
+    display:flex;
+}
 }
