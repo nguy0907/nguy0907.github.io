@@ -140,6 +140,12 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
+*,
+*:after,
+*:before{
+    box-sizing: border-box;
+}
+
 .container {
     margin: 0 auto;
     max-width: 1200px;
@@ -152,94 +158,83 @@ body {
     color: #c78c06;
 }
 
-.containerheader{
+.containerheader {
     background-color: #222;
 }
 
-.nav-list .current{
-     color:#222;  
-   
+.nav-list .current {
+    color: #222;
+
 }
 
-.nav-list a{
-    color:#c78c06;
-    
+.nav-list a {
+    color: #c78c06;
+    padding: 1em;
+    display: block;
 }
- .nav-list a,
- .nav-list a:link
- .nav-list a:visited{
-    background:none;
+
+.nav-list a,
+.nav-list a:link .nav-list a:visited {
+    background: none;
 }
 
 
-.searchtext {
-    float: left;
-    max-width: 1200px;
-    height: 40px;
-    width: 670px;
-    margin-top:2rem;
-}
 
-.search{
-    margin-top:2rem;
-    margin-left:0rem;
-    padding-left: 0.5rem;
-    padding-right:0.5rem;
-}
+
+
 
 .logo {
-    width: 10%;
+    max-width: 100px;
 }
 
-.logo-background{
-    background:#c78c06;  
-    height:200px; 
+.logo-background {
+    background: #c78c06;
 }
 
 nav {
     text-align: center;
     color: #c78c06;
-    padding-top: 1em;
-    margin-top:-9rem;
     font-size: 20px;
 }
 
-ul li {
-    margin-top: 4rem;
+/* ul li {
+
    
+} */
+.searchbar form{
+    display:flex;
+}
+.searchtext{
+    padding:1em;
+    width:100%;
 }
 
-.search>textarea {
-    float: right;
+.search {
+    background-color: #c78c06;
+    text-decoration: none;
+    color: #222;
+
 }
 
-/* Main Banner Area */
+/*------ Main Banner Area---------- */
 .main-banner {
     background: url("../images/main-banner.jpg");
     background-size: cover;
     color: white;
     height: 500px;
-    margin-left: 1rem;
+
+
+    /* margin-left: 1rem; */
+    margin-top: -2rem;
 }
 
 .intro {
     background: rgba(0, 0, 0, 0.6);
     margin-bottom: 4rem;
-    margin-top: 1rem;  
     height: 400px;
-
+    bottom: 1050px;
 }
 
-button {
-    background-color: #c78c06;
-    text-decoration: none;
-    color: #222;
-    margin-left: .5rem;
-    padding-top: .5em;
-    padding-bottom: .5em;
-    padding-left: .5em;
-    padding-right: .5em;
-}
 
 p {
     margin-bottom: 2.2rem;
@@ -252,7 +247,7 @@ p {
 .aboutus-nav {
     background-color: #ffe6ac;
     max-width: 1200px;
-    margin-left: 1rem;
+    /* margin-left: 1rem; */
 }
 
 /* Headings */
@@ -278,8 +273,7 @@ h3 {
 
 img {
     margin-top: 3rem;
-    max-width: 1200px;
-    width: 600px;
+    width: 100%;
     align-items: center;
 }
 
@@ -297,7 +291,6 @@ a {
 
 /* This is the services section, breaking down into different parts */
 .services {
-    margin-left: 2rem;
     width: 100%;
     max-width: 1200px;
 
@@ -307,24 +300,34 @@ a {
 /* This is the services section broken down into different services */
 .digital {
     background: #ffe6ac;
-    padding-top: .5em;
+    height: 250px;
+    padding-top: 1em;
+    padding-bottom: 3em;
 }
 
 .market {
     background: #ffe6ac;
-    padding-bottom: 2em;
+    padding-top: 1em;
+    padding-bottom: 3em;
+
 }
 
 .video {
     background: #ffe6ac;
+    padding-top: 1em;
+    padding-bottom: 3em;
 }
 
 .web {
     background: #ffe6ac;
+    padding-top: 1em;
+    padding-bottom: 3em;
 }
 
 .print {
     background: #ffe6ac;
+    padding-top: 1em;
+    padding-bottom: 3em;
 }
 
 
@@ -334,7 +337,6 @@ a {
     background: url(../images/vision.jpg);
     color: white;
     margin-left: 1rem;
-    width: 1200px;
     height: 400px;
 
 }
@@ -370,30 +372,26 @@ a {
     margin-bottom: 1rem;
 }
 
-label {
-    margin-top: -.5em;
-    margin-left: 0rem;
-    position: absolute;
-}
 
 .send {
     background-color: #222;
     color: #c78c06;
-    margin-left: 0rem;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
 }
 
-input {
+.contact input {
     max-width: 1200px;
-    width: 600px;
     margin-top: 1rem;
-    height: 15px;
-    margin-left: 0rem;
+    padding: 1em;
+    width: 100%;
+    display:block;
 }
 
 textarea {
     margin-top: 1rem;
     margin-left: 0rem;
-    width: 600px;
+    width: 100%;
     height: 200px;
 }
 
@@ -420,12 +418,16 @@ table thead:nth-child(1) {
     background: #ffe6ac;
 }
 
+iframe{
+    width:100%;
+}
+
 footer {
     background: #222;
     color: #c78c06;
     padding-bottom: 1em;
     padding-top: 1em;
-    padding-left:2em;
+    padding-left: 2em;
 }
 
 a>footer {
@@ -435,61 +437,60 @@ a>footer {
 /* Media Query going to be used for desktop user */
 
 @media screen and (min-width:760px) {
-    .container{
-        max-width:1200px;
-    }
+
     /* Desktop Header Section */
-       header{
-        background:#222;
-        height:140px;   
-    }
-    .containerheader{
-        background-color: none;
+    header {
+        background: #222;
+        height: 140px;
     }
 
-    .logo-background{
-        background:none;  
-        height:200px; 
-    }
-    .nav-list {
-        margin-left: 0.5rem;
-        margin-top:-5rem;
+    .containerheader {
         display: flex;
-        float: left;
+        background-color: none;
+        align-items: center;
     }
 
-    .nav-list .current{
-        color:#c78c06;  
-   }
-
-    li {
-        margin-right: 0.5rem;
-        
-    }
-    .searchtext {
-        display: inline-block;
-        margin-top: -1.3rem;
-        height: 40px;
-        width: 200px;
+    .logo-background {
+        background: none;
+        height: 200px;
     }
 
-    .search{
-        margin-top:-2rem; 
-        margin-left:0rem;     
+    .nav-list {
+        display: flex;
+
+   
+
     }
 
-    .logo{
-        float: left;
-        width:7%;
-        margin-top:2rem;
+    .nav-list .current {
+        color: #c78c06;
     }
-.site-header{
-    margin-top:-1rem;
+
+.searchbar{
+    min-width: 150px;
 }
- /* .main-banner{
-     margin:0 auto;
-     margin-top:-14rem;
- } */
 
- /* Desktop about us section */
+
+
+    .main-banner {
+        margin: 0 auto;
+
+    }
+
+    /* Desktop about us section */
+    .aboutus-nav {
+        margin: 0 auto;
+
+    }
+
+    .aboutus-img {
+        float: left;
+        background-color: #ffe6ac;
+    }
+
+    /* Using Grid on the Services system */
+    .digital {
+        width: 400px;
+    }
+
 }
