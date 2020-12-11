@@ -149,22 +149,21 @@ body {
 /* Header Area */
 
 .site-header .containerheader {
-    margin: 0 auto;
     color: #c78c06;
-    /* background-color: #c78c06;   */
 }
 
-.site-header {
-    margin: 0 auto;
-    /* background-color: #222; */
+.containerheader{
+    background-color: #222;
 }
 
 .nav-list .current{
      color:#222;  
+   
 }
 
 .nav-list a{
     color:#c78c06;
+    
 }
  .nav-list a,
  .nav-list a:link
@@ -193,19 +192,21 @@ body {
 }
 
 .logo-background{
-    background:#c78c06;   
+    background:#c78c06;  
+    height:200px; 
 }
 
 nav {
     text-align: center;
     color: #c78c06;
-    background-size: cover;
     padding-top: 1em;
+    margin-top:-9rem;
     font-size: 20px;
 }
 
 ul li {
     margin-top: 4rem;
+   
 }
 
 .search>textarea {
@@ -442,9 +443,17 @@ a>footer {
         background:#222;
         height:140px;   
     }
+    .containerheader{
+        background-color: none;
+    }
+
+    .logo-background{
+        background:none;  
+        height:200px; 
+    }
     .nav-list {
         margin-left: 0.5rem;
-        margin-top:-1rem;
+        margin-top:-5rem;
         display: flex;
         float: left;
     }
@@ -459,13 +468,13 @@ a>footer {
     }
     .searchtext {
         display: inline-block;
-        margin-top: 2.5rem;
+        margin-top: -1.3rem;
         height: 40px;
         width: 200px;
     }
 
     .search{
-        margin-top:2.5rem; 
+        margin-top:-2rem; 
         margin-left:0rem;     
     }
 
