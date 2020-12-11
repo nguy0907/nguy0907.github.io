@@ -160,10 +160,9 @@ body {
 }
 
 .nav-list .current{
-     color:#222;
-
-   
+     color:#222;  
 }
+
 .nav-list a{
     color:#c78c06;
 }
@@ -178,12 +177,15 @@ body {
     float: left;
     max-width: 1200px;
     height: 40px;
-    width: 300px;
+    width: 670px;
     margin-top:2rem;
 }
 
 .search{
     margin-top:2rem;
+    margin-left:0rem;
+    padding-left: 0.5rem;
+    padding-right:0.5rem;
 }
 
 .logo {
@@ -205,8 +207,6 @@ nav {
 ul li {
     margin-top: 4rem;
 }
-
-
 
 .search>textarea {
     float: right;
@@ -432,6 +432,7 @@ a>footer {
     .container{
         max-width:1200px;
     }
+    /* Desktop Header Section */
        header{
         background:#222;
         height:140px;   
@@ -442,6 +443,10 @@ a>footer {
         display: flex;
         float: left;
     }
+
+    .nav-list .current{
+        color:#c78c06;  
+   }
 
     li {
         margin-right: 0.5rem;
@@ -455,7 +460,8 @@ a>footer {
     }
 
     .search{
-        margin-top:2.5rem;      
+        margin-top:2.5rem; 
+        margin-left:0rem;     
     }
 
     .logo{
@@ -466,5 +472,10 @@ a>footer {
 .site-header{
     margin-top:-1rem;
 }
- 
+ .main-banner{
+     margin:0 auto;
+     margin-top:-14rem;
+ }
+
+ /* Desktop about us section */
 }
