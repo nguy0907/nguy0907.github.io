@@ -486,21 +486,16 @@ a>footer {
 
 
     /* Using Grid on the Services system */
-   
-/* display: grid;
+   .services{
+  display: grid;
 grid-template-columns: 1fr 1fr 1fr;
-grid-template-rows: 1fr 1fr; */
+grid-template-rows: 1fr 1fr;     
+column-gap: 1em;
+row-gap: 1em;
+   }
+
     
 /* The digital section and the marketing section are in a column */
 
-  .digital {    
-    float:left;
-    width:45%;
-    }
 
-.market{
-    float:left;
-    margin-left:5%;
-    width:45%;   
-}
 }
