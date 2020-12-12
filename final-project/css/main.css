@@ -142,7 +142,7 @@ body {
 
 *,
 *:after,
-*:before{
+*:before {
     box-sizing: border-box;
 }
 
@@ -178,11 +178,6 @@ body {
     background: none;
 }
 
-
-
-
-
-
 .logo {
     max-width: 100px;
 }
@@ -197,16 +192,13 @@ nav {
     font-size: 20px;
 }
 
-/* ul li {
-
-   
-} */
-.searchbar form{
-    display:flex;
+.searchbar form {
+    display: flex;
 }
-.searchtext{
-    padding:1em;
-    width:100%;
+
+.searchtext {
+    padding: 1em;
+    width: 100%;
 }
 
 .search {
@@ -222,9 +214,6 @@ nav {
     background-size: cover;
     color: white;
     height: 500px;
-
-
-    /* margin-left: 1rem; */
     margin-top: -2rem;
 }
 
@@ -234,7 +223,6 @@ nav {
     height: 400px;
     bottom: 1050px;
 }
-
 
 p {
     margin-bottom: 2.2rem;
@@ -247,7 +235,6 @@ p {
 .aboutus-nav {
     background-color: #ffe6ac;
     max-width: 1200px;
-    /* margin-left: 1rem; */
 }
 
 /* Headings */
@@ -300,7 +287,6 @@ a {
 /* This is the services section broken down into different services */
 .digital {
     background: #ffe6ac;
-    height: 250px;
     padding-top: 1em;
     padding-bottom: 3em;
 }
@@ -338,19 +324,29 @@ a {
     color: white;
     margin-left: 1rem;
     height: 400px;
-
 }
 
+.visionbutton{
+   border: 1px solid #c78c06;
+}
 /* Team Section */
 .Team {
     margin-left: 2rem;
     max-width: 1200px;
-    background: #ffe6ac;
 }
 
 .JohnDoe,
 .BobRite {
+    
     margin-left: 1rem;
+}
+
+.JohnDoe{
+    background: #ffe6ac;
+}
+
+.BobRite{
+    background: #ffe6ac;
 }
 
 .who {
@@ -372,7 +368,6 @@ a {
     margin-bottom: 1rem;
 }
 
-
 .send {
     background-color: #222;
     color: #c78c06;
@@ -385,7 +380,7 @@ a {
     margin-top: 1rem;
     padding: 1em;
     width: 100%;
-    display:block;
+    display: block;
 }
 
 textarea {
@@ -418,8 +413,8 @@ table thead:nth-child(1) {
     background: #ffe6ac;
 }
 
-iframe{
-    width:100%;
+iframe {
+    width: 100%;
 }
 
 footer {
@@ -448,6 +443,7 @@ a>footer {
         display: flex;
         background-color: none;
         align-items: center;
+
     }
 
     .logo-background {
@@ -457,40 +453,37 @@ a>footer {
 
     .nav-list {
         display: flex;
-
-   
-
+        
     }
 
     .nav-list .current {
         color: #c78c06;
     }
 
-.searchbar{
-    min-width: 150px;
-}
-
-
+    .searchbar {     
+        min-width: 150px;
+    }
 
     .main-banner {
         margin: 0 auto;
-
     }
+
 
     /* Desktop about us section */
-    .aboutus-nav {
-        margin: 0 auto;
 
+    /* The image in the about us area is being wrapped. */
+    .aboutus-nav{ 
+        margin: 0 auto; 
     }
+  .aboutuspic{
+      width:50%;
+      float: left;
+  }
 
-    .aboutus-img {
-        float: left;
-        background-color: #ffe6ac;
-    }
 
     /* Using Grid on the Services system */
-    .digital {
-        width: 400px;
-    }
 
+    .digital{
+    width:50%;
+    }
 }
