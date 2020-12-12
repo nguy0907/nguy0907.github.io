@@ -291,10 +291,6 @@ a {
     padding-bottom: 3em;
 }
 
-.imgdigital{
-  
-}
-
 .market {
     background: #ffe6ac;
     padding-top: 1em;
@@ -341,7 +337,6 @@ a {
 
 .JohnDoe,
 .BobRite {
-    
     margin-left: 1rem;
 }
 
@@ -388,10 +383,12 @@ a {
 }
 
 textarea {
+    max-width: 1200px;
     margin-top: 1rem;
     margin-left: 0rem;
     width: 100%;
-    height: 200px;
+    display: block;
+
 }
 
 .contact {
@@ -534,7 +531,7 @@ row-gap: 1em;
     grid-template-areas:
     "title title" 
     "pic1 text1"
-    "pic2 text2";
+    "text2 pic2";
 }
 
 .Team > h1{
@@ -555,5 +552,45 @@ grid-area: title;
 .BobRite{
 grid-aRea:text2;
 }
+
+/* The contact Section using grid to make the location beside the form*/
+.contact{
+    display:grid;
+    grid-template-columns:auto auto;
+    grid-template-rows: auto auto auto;
+    grid-template-areas:
+    "title title"
+    "form location"
+    "schedule schedule"
+    ;
+}
+
+.contact input{
+    width:70%;
+}
+
+textarea{
+    width:70%;
+}
+.location{
+grid-area:location;
+}
+
+.contactform{
+grid-area:form;
+}
+
+
+ iframe{   
+    grid-area:location;
+}
+
+.schedule{
+    width:50%;
+    grid-area:schedule;
+}
+
+ 
+
 
 }
