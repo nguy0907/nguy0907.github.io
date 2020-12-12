@@ -488,14 +488,35 @@ a>footer {
     /* Using Grid on the Services system */
    .services{
   display: grid;
-grid-template-columns: 1fr 1fr 1fr;
-grid-template-rows: 1fr 1fr;     
+grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+grid-template-rows: 1fr 1fr 1fr;     
 column-gap: 1em;
 row-gap: 1em;
+   grid-template-areas: 
+   "title title title title title title"
+   "digital digital digital marketing marketing marketing"
+   "video video web web print print";
+   }
+   /* Every item here is placed to where it is assigned to */
+   .services >h2{
+     grid-area:title;
+   }
+ .digital{
+     grid-area: digital;  
    }
 
-    
-/* The digital section and the marketing section are in a column */
+   .market{
+       grid-area:marketing;
+   }
 
+   .video{
+       grid-area:video;
+   }
 
+   .web{
+       grid-area:web;
+   }
+.print{
+    grid-area:print;
+}
 }
