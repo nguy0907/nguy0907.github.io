@@ -519,4 +519,41 @@ row-gap: 1em;
 .print{
     grid-area:print;
 }
+
+.vision{
+    margin:auto;
+    /* width:100%; */
+}
+
+/* This is our team section which is going to be used as grid */
+
+.Team{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas:
+    "title title" 
+    "pic1 text1"
+    "pic2 text2";
+}
+
+.Team > h1{
+grid-area: title;
+}
+.johndoe-pic{
+  grid-area:pic1;
+
+}
+.JohnDoe{
+   grid-area:text1; 
+
+}
+
+.bobrite-pic{
+   grid-area:pic2;
+}
+.BobRite{
+grid-aRea:text2;
+}
+
 }
