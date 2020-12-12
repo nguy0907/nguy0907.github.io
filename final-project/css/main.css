@@ -291,6 +291,10 @@ a {
     padding-bottom: 3em;
 }
 
+.imgdigital{
+  
+}
+
 .market {
     background: #ffe6ac;
     padding-top: 1em;
@@ -429,7 +433,7 @@ a>footer {
     color: #c78c06;
 }
 
-/* Media Query going to be used for desktop user */
+/* -------Media Query going to be used for desktop user--------- */
 
 @media screen and (min-width:760px) {
 
@@ -441,7 +445,7 @@ a>footer {
 
     .containerheader {
         display: flex;
-        background-color: none;
+        background: none;
         align-items: center;
 
     }
@@ -482,12 +486,21 @@ a>footer {
 
 
     /* Using Grid on the Services system */
+   
+/* display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+grid-template-rows: 1fr 1fr; */
+    
+/* The digital section and the marketing section are in a column */
 
-    .digital{
-    width:50%;
+  .digital {    
+    float:left;
+    width:45%;
     }
 
-    .imgdigital{
-        width:50%;  
-    }
+.market{
+    float:left;
+    margin-left:5%;
+    width:45%;   
+}
 }
