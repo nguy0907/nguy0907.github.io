@@ -569,8 +569,8 @@ row-gap: 1em;
 
 .Team{
     display:grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr ;
+    grid-template-rows: auto 1fr 1fr;
     grid-template-areas:
     "title title" 
     "pic1 text1"
