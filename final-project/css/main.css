@@ -205,28 +205,27 @@ nav {
     padding: 1em;
     width: 100%;
 }
-
+/* The button beside the search bar is decorated */
 .search {
-    background-color: #c78c06;
+    background-color: #222;
     text-decoration: none;
-    color: #222;
+    color: #c78c06;
+    border: 1px solid #c78c06;
 
 }
 
 /*------ Main Banner Area---------- */
 .main-banner {
     background: url("../images/main-banner.jpg");
-    background-size: cover;
     color: white;
     height: 500px;
+    margin:auto;
     margin-top: -2rem;
 }
 
 .intro {
     background: rgba(0, 0, 0, 0.6);
-    margin-bottom: 4rem;
     height: 400px;
-    bottom: 1050px;
 }
 
 p {
@@ -435,8 +434,10 @@ footer {
     padding-left: 2em;
 }
 
-a>footer {
-    color: #c78c06;
+.unsplash {
+background:none;
+color:#c78c06;
+font-style:italic;
 }
 
 /* -------Media Query going to be used for desktop user--------- */
@@ -455,7 +456,9 @@ a>footer {
         align-items: center;
 
     }
-
+.logo{
+    margin-top:1rem;
+}
     .logo-background {
         background: none;
         height: 200px;
@@ -478,19 +481,35 @@ a>footer {
 
     .main-banner {
         margin: 0 auto;
+        margin-top:-2rem;
     }
 
-
+    .welcome{
+        font-size:90px;
+    }
+    a {
+        background-color: #c78c06;
+        text-decoration: none;
+        color: #222;
+        margin-left: 1.5rem;
+        padding-top: 1.5em;
+        padding-bottom: 1.5em;
+        padding-left: 1.5em;
+        padding-right: 1.5em;
+    }
     /* Desktop about us section */
 
     /* The image in the about us area is being wrapped. */
     .aboutus-nav{ 
         margin: 0 auto; 
+      
     }
   .aboutuspic{
       width:50%;
       float: left;
   }
+
+  /* This is the services section on desktop screen */
 
     /* Using Grid on the Services system */
    .services{
@@ -505,13 +524,12 @@ row-gap: 1em;
    "video video web web print print";
    }
    /* Every item here is placed to where it is assigned to */
-   .services >h2{
+ h2{
      grid-area:title;
-   }
+ }
  .digital{
-     grid-area: digital;  
+     grid-area: digital;     
    }
-
    .market{
        grid-area:marketing;
    }
@@ -526,6 +544,20 @@ row-gap: 1em;
 .print{
     grid-area:print;
 }
+
+.button{
+    color:white;
+    background:#222;
+}
+
+.digital > a{
+    /* padding-left:13em;
+    padding-right:13em; */
+}
+
+/* .market > a{
+   margin: auto;
+} */
 
 .vision{
     margin:auto;
