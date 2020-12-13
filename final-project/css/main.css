@@ -228,6 +228,7 @@ nav {
     height: 400px;
 }
 
+
 p {
     margin-bottom: 2.2rem;
     margin-top: 1rem;
@@ -515,7 +516,7 @@ font-style:italic;
    .services{
   display: grid;
 grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-grid-template-rows: 1fr 1fr 1fr;     
+grid-template-rows: auto 1fr 1fr;    
 column-gap: 1em;
 row-gap: 1em;
    grid-template-areas: 
@@ -524,7 +525,7 @@ row-gap: 1em;
    "video video web web print print";
    }
    /* Every item here is placed to where it is assigned to */
- h2{
+.services > h2{
      grid-area:title;
  }
  .digital{
