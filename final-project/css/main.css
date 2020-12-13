@@ -162,6 +162,10 @@ body {
     background-color: #222;
 }
 
+.menulist-nav{
+    margin-top:-4rem;
+  
+}
 .nav-list .current {
     color: #222;
 
@@ -185,6 +189,7 @@ body {
 .logo-background {
     background: #c78c06;
 }
+
 
 nav {
     text-align: center;
@@ -408,8 +413,12 @@ table td:nth-child(n) {
     padding-bottom: 1em;
     padding-right: 8em;
     padding-left: 1em;
+    width:60%;
 }
-
+table th:nth-child(2)
+table td:nth-child(2){
+    width:auto;
+}
 table thead:nth-child(1) {
     background: #ffe6ac;
 }
@@ -461,8 +470,10 @@ a>footer {
         color: #c78c06;
     }
 
-    .searchbar {     
+    .searchbar {
+        margin-top:-2.5rem;     
         min-width: 150px;
+    
     }
 
     .main-banner {
@@ -480,7 +491,6 @@ a>footer {
       width:50%;
       float: left;
   }
-
 
     /* Using Grid on the Services system */
    .services{
