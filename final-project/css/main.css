@@ -519,6 +519,7 @@ grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
 grid-template-rows: auto 1fr 1fr;    
 column-gap: 1em;
 row-gap: 1em;
+margin:auto;
    grid-template-areas: 
    "title title title title title title"
    "digital digital digital marketing marketing marketing"
@@ -571,6 +572,7 @@ row-gap: 1em;
     display:grid;
     grid-template-columns: 1fr 1fr ;
     grid-template-rows: auto 1fr 1fr;
+    margin:auto;
     grid-template-areas:
     "title title" 
     "pic1 text1"
@@ -601,6 +603,7 @@ grid-aRea:text2;
     display:grid;
     grid-template-columns:auto auto;
     grid-template-rows: auto auto auto;
+    margin:auto;
     grid-template-areas:
     "title title"
     "form location"
@@ -614,6 +617,7 @@ grid-aRea:text2;
 
 textarea{
     width:70%;
+    height:120px;
 }
 .location{
 grid-area:location;
