@@ -295,32 +295,27 @@ a {
 /* This is the services section broken down into different services */
 .digital {
     background: #ffe6ac;
-
     padding-bottom: 3em;
 }
 
 .market {
     background: #ffe6ac;
-
     padding-bottom: 3em;
 
 }
 
 .video {
     background: #ffe6ac;
- 
     padding-bottom: 3em;
 }
 
 .web {
     background: #ffe6ac;
- 
     padding-bottom: 3em;
 }
 
 .print {
     background: #ffe6ac;
-
     padding-bottom: 3em;
 }
 
@@ -603,15 +598,20 @@ display: flex;
 
     .JohnDoe {
         grid-area: text1;
-
+        margin-left:-1em;
+        width:100%;
     }
 
     .bobrite-pic {
         grid-area: pic2;
+        margin-left:-1rem;
+        width:100%;
     }
 
     .BobRite {
         grid-aRea: text2;
+      margin-left:0rem;
+      margin-right:1rem;
     }
 
     /* The contact Section using grid to make the location beside the form*/
