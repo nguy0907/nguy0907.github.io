@@ -225,6 +225,11 @@ nav {
     margin-top: -2rem;
 }
 
+.Main-button{
+    background:#c78c06;
+    color:#222;
+
+}
 .intro {
     background: rgba(0, 0, 0, 0.6);
     justify-content: center;
@@ -337,6 +342,8 @@ a {
 
 .visionbutton {
     border: 1px solid #c78c06;
+    background:#222;
+    color: white;
 }
 
 /* Team Section */
@@ -509,6 +516,7 @@ footer {
         padding-right: 1.5em;
     }
 
+    
     /* Desktop about us section */
 
     /* The image in the about us area is being wrapped. */
@@ -562,12 +570,15 @@ display: flex;
         grid-area: print;
     }
 
-    .button {
-        justify-content: center;
-        align-items: center;
-        color: white;
-        background: #222;
-    }
+.button{
+    display:flex;
+   padding-left:14em;
+color: white;
+  background: #222;    
+     
+}
+
+
 
     .digital>a {
         /* padding-left:13em;
