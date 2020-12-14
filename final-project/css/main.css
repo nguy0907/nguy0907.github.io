@@ -151,6 +151,7 @@ body {
     max-width: 1200px;
 }
 
+
 /* Mobile Layout */
 /* Header Area */
 
@@ -336,7 +337,7 @@ a {
 
 
 .vision {
-    max-width: 1200px;
+    width:100%;
     background: url(../images/vision.jpg);
     color: white;
     margin-left: 1rem;
@@ -497,7 +498,7 @@ footer {
     }
 
     .searchbar {
-        margin-top: -2.5rem;
+        margin-top: -4rem;
         min-width: 150px;
 
     }
