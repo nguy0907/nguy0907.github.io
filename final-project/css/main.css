@@ -162,10 +162,11 @@ body {
     background-color: #222;
 }
 
-.menulist-nav{
-    margin-top:-4rem;
-  
+.menulist-nav {
+    margin-top: -4rem;
+
 }
+
 .nav-list .current {
     color: #222;
 
@@ -205,6 +206,7 @@ nav {
     padding: 1em;
     width: 100%;
 }
+
 /* The button beside the search bar is decorated */
 .search {
     background-color: #222;
@@ -219,7 +221,7 @@ nav {
     background: url("../images/main-banner.jpg");
     color: white;
     height: 500px;
-    margin:auto;
+    margin: auto;
     margin-top: -2rem;
 }
 
@@ -238,6 +240,7 @@ p {
 /* About Us section */
 
 .aboutus-nav {
+    margin: auto;
     background-color: #ffe6ac;
     max-width: 1200px;
 }
@@ -245,6 +248,7 @@ p {
 /* Headings */
 h1,
 h2 {
+    margin-left:1rem;
     margin-bottom: 5rem;
     margin-top: 2rem;
     font-weight: bold;
@@ -258,13 +262,11 @@ h1 {
 
 h2,
 h3 {
-    margin-top: 3rem;
     font-size: 40px;
     font-weight: bold;
 }
 
 img {
-    margin-top: 3rem;
     width: 100%;
     align-items: center;
 }
@@ -281,6 +283,7 @@ a {
     padding-right: 1.5em;
 }
 
+
 /* This is the services section, breaking down into different parts */
 .services {
     width: 100%;
@@ -292,32 +295,32 @@ a {
 /* This is the services section broken down into different services */
 .digital {
     background: #ffe6ac;
-    padding-top: 1em;
+
     padding-bottom: 3em;
 }
 
 .market {
     background: #ffe6ac;
-    padding-top: 1em;
+
     padding-bottom: 3em;
 
 }
 
 .video {
     background: #ffe6ac;
-    padding-top: 1em;
+ 
     padding-bottom: 3em;
 }
 
 .web {
     background: #ffe6ac;
-    padding-top: 1em;
+ 
     padding-bottom: 3em;
 }
 
 .print {
     background: #ffe6ac;
-    padding-top: 1em;
+
     padding-bottom: 3em;
 }
 
@@ -331,9 +334,10 @@ a {
     height: 400px;
 }
 
-.visionbutton{
-   border: 1px solid #c78c06;
+.visionbutton {
+    border: 1px solid #c78c06;
 }
+
 /* Team Section */
 .Team {
     margin-left: 2rem;
@@ -345,11 +349,11 @@ a {
     margin-left: 1rem;
 }
 
-.JohnDoe{
+.JohnDoe {
     background: #ffe6ac;
 }
 
-.BobRite{
+.BobRite {
     background: #ffe6ac;
 }
 
@@ -413,12 +417,13 @@ table td:nth-child(n) {
     padding-bottom: 1em;
     padding-right: 8em;
     padding-left: 1em;
-    width:60%;
+    width: 60%;
 }
-table th:nth-child(2)
-table td:nth-child(2){
-    width:auto;
+
+table th:nth-child(2) table td:nth-child(2) {
+    width: auto;
 }
+
 table thead:nth-child(1) {
     background: #ffe6ac;
 }
@@ -436,9 +441,9 @@ footer {
 }
 
 .unsplash {
-background:none;
-color:#c78c06;
-font-style:italic;
+    background: none;
+    color: #c78c06;
+    font-style: italic;
 }
 
 /* -------Media Query going to be used for desktop user--------- */
@@ -457,9 +462,11 @@ font-style:italic;
         align-items: center;
 
     }
-.logo{
-    margin-top:1rem;
-}
+
+    .logo {
+        margin-top: 1rem;
+    }
+
     .logo-background {
         background: none;
         height: 200px;
@@ -467,7 +474,7 @@ font-style:italic;
 
     .nav-list {
         display: flex;
-        
+
     }
 
     .nav-list .current {
@@ -475,19 +482,20 @@ font-style:italic;
     }
 
     .searchbar {
-        margin-top:-2.5rem;     
+        margin-top: -2.5rem;
         min-width: 150px;
-    
+
     }
 
     .main-banner {
         margin: 0 auto;
-        margin-top:-2rem;
+        margin-top: -2rem;
     }
 
-    .welcome{
-        font-size:90px;
+    .welcome {
+        font-size: 90px;
     }
+
     a {
         background-color: #c78c06;
         text-decoration: none;
@@ -498,146 +506,155 @@ font-style:italic;
         padding-left: 1.5em;
         padding-right: 1.5em;
     }
+
     /* Desktop about us section */
 
     /* The image in the about us area is being wrapped. */
-    .aboutus-nav{ 
-        margin: 0 auto; 
-      
+    .aboutus-nav {
+        margin: 0 auto;
+display: flex;
     }
-  .aboutuspic{
-      width:50%;
-      float: left;
-  }
 
-  /* This is the services section on desktop screen */
+    .aboutuspic {
+        width: 50%;
+    }
+
+    /* This is the services section on desktop screen */
 
     /* Using Grid on the Services system */
-   .services{
-  display: grid;
-grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-grid-template-rows: auto 1fr 1fr;    
-column-gap: 1em;
-row-gap: 1em;
-margin:auto;
-   grid-template-areas: 
-   "title title title title title title"
-   "digital digital digital marketing marketing marketing"
-   "video video web web print print";
-   }
-   /* Every item here is placed to where it is assigned to */
-.services > h2{
-     grid-area:title;
- }
- .digital{
-     grid-area: digital;     
-   }
-   .market{
-       grid-area:marketing;
-   }
+    .services {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-rows: auto 1fr 1fr;
+        column-gap: 1em;
+        row-gap: 1em;
+        margin: auto;
+        grid-template-areas:
+            "title title title title title title"
+            "digital digital digital marketing marketing marketing"
+            "video video web web print print";
+    }
 
-   .video{
-       grid-area:video;
-   }
+    /* Every item here is placed to where it is assigned to */
+    .services>h2 {
+        grid-area: title;
+    }
 
-   .web{
-       grid-area:web;
-   }
-.print{
-    grid-area:print;
-}
+    .digital {
+        grid-area: digital;
+    }
 
-.button{
-    color:white;
-    background:#222;
-}
+    .market {
+        grid-area: marketing;
+    }
 
-.digital > a{
-    /* padding-left:13em;
+    .video {
+        grid-area: video;
+    }
+
+    .web {
+        grid-area: web;
+    }
+
+    .print {
+        grid-area: print;
+    }
+
+    .button {
+        color: white;
+        background: #222;
+    }
+
+    .digital>a {
+        /* padding-left:13em;
     padding-right:13em; */
-}
+    }
 
-/* .market > a{
+    /* .market > a{
    margin: auto;
 } */
 
-.vision{
-   margin:auto;
- 
-}
+    .vision {
+        margin: auto;
 
-/* This is our team section which is going to be used as grid */
+    }
 
-.Team{
-    display:grid;
-    grid-template-columns: 1fr 1fr ;
-    grid-template-rows: auto 1fr 1fr;
-    margin:auto;
-    grid-template-areas:
-    "title title" 
-    "pic1 text1"
-    "text2 pic2";
-}
+    /* This is our team section which is going to be used as grid */
 
-.Team > h1{
-grid-area: title;
-}
-.johndoe-pic{
-  grid-area:pic1;
+    .Team {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto 1fr 1fr;
+        margin: auto;
+        grid-template-areas:
+            "title title"
+            "pic1 text1"
+            "text2 pic2";
+    }
 
-}
-.JohnDoe{
-   grid-area:text1; 
+    .Team>h1 {
+        grid-area: title;
+    }
 
-}
+    .johndoe-pic {
+        grid-area: pic1;
 
-.bobrite-pic{
-   grid-area:pic2;
-}
-.BobRite{
-grid-aRea:text2;
-}
+    }
 
-/* The contact Section using grid to make the location beside the form*/
-.contact{
-    display:grid;
-    grid-template-columns:auto auto;
-    grid-template-rows: auto auto auto;
-    margin:auto;
-    grid-template-areas:
-    "title title"
-    "form location"
-    "schedule schedule"
-    ;
-}
+    .JohnDoe {
+        grid-area: text1;
 
-.contact input{
-    width:70%;
-}
+    }
 
-textarea{
-    width:70%;
-    height:120px;
-}
-.location{
-grid-area:location;
-}
+    .bobrite-pic {
+        grid-area: pic2;
+    }
 
-.contactform{
-grid-area:form;
-}
+    .BobRite {
+        grid-aRea: text2;
+    }
+
+    /* The contact Section using grid to make the location beside the form*/
+    .contact {
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-template-rows: auto auto auto;
+        margin: auto;
+        grid-template-areas:
+            "title title"
+            "form location"
+            "schedule schedule"
+        ;
+    }
+
+    .contact input {
+        width: 70%;
+    }
+
+    textarea {
+        width: 70%;
+        height: 120px;
+    }
+
+    .location {
+        grid-area: location;
+    }
+
+    .contactform {
+        grid-area: form;
+    }
 
 
- iframe{   
-    grid-area:location;
-}
+    iframe {
+        grid-area: location;
+    }
 
-.schedule{
-    width:50%;
-    grid-area:schedule;
-}
+    .schedule {
+        width: 50%;
+        grid-area: schedule;
+    }
 
- 
+
 
 
 }
