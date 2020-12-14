@@ -230,10 +230,8 @@ nav {
     color:#222;
 
 }
-.intro {
+.intro { 
     background: rgba(0, 0, 0, 0.6);
-    justify-content: center;
-        align-items: center;
     height: 400px;
 }
 
@@ -307,27 +305,32 @@ a {
 .digital {
     background: #ffe6ac;
     padding-bottom: 3em;
+    margin-bottom:1rem;
 }
 
 .market {
     background: #ffe6ac;
     padding-bottom: 3em;
+    margin-bottom:1rem;
 
 }
 
 .video {
     background: #ffe6ac;
     padding-bottom: 3em;
+    margin-bottom:1rem;
 }
 
 .web {
     background: #ffe6ac;
     padding-bottom: 3em;
+    margin-bottom:1rem;
 }
 
 .print {
     background: #ffe6ac;
     padding-bottom: 3em;
+    margin-bottom:1rem;
 }
 
 
@@ -359,10 +362,14 @@ a {
 
 .JohnDoe {
     background: #ffe6ac;
+    padding-top:1em;
+  margin-left:0rem;
 }
 
 .BobRite {
     background: #ffe6ac;
+    padding-top:1em;
+    margin-left:0rem;
 }
 
 .who {
@@ -537,7 +544,7 @@ display: flex;
         grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
         grid-template-rows: auto 1fr 1fr;
         column-gap: 1em;
-        row-gap: 1em;
+    
         margin: auto;
         grid-template-areas:
             "title title title title title title"
