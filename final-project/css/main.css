@@ -227,6 +227,8 @@ nav {
 
 .intro {
     background: rgba(0, 0, 0, 0.6);
+    justify-content: center;
+        align-items: center;
     height: 400px;
 }
 
@@ -245,6 +247,10 @@ p {
     max-width: 1200px;
 }
 
+.aboutuspic{
+    margin-top:1.5rem;
+    background-color: #ffe6ac; 
+}
 /* Headings */
 h1,
 h2 {
@@ -485,10 +491,11 @@ footer {
     .main-banner {
         margin: 0 auto;
         margin-top: -2rem;
+ 
     }
 
     .welcome {
-        font-size: 90px;
+        font-size: 90px;   
     }
 
     a {
@@ -556,6 +563,8 @@ display: flex;
     }
 
     .button {
+        justify-content: center;
+        align-items: center;
         color: white;
         background: #222;
     }
