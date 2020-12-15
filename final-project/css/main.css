@@ -222,11 +222,13 @@ nav {
 
 /*------ Main Banner Area---------- */
 .main-banner {
+    position: relative;
+     margin: 0 auto;
     background: url("../images/main-banner.jpg");
     color: white;
     height: 500px;
-    margin: 0 auto;
-    margin-top: -2rem;
+  padding-top: 2em;
+    margin-top: 0rem;
 }
 
 .Main-button{
@@ -237,6 +239,8 @@ nav {
 .intro { 
     margin: 0 auto;
     background: rgba(0, 0, 0, 0.6);
+     background-repeat: no-repeat;
+       background-position: 40px 40px;
     height: 400px;
 }
 
@@ -689,8 +693,6 @@ color: white;
      padding-right: 45em;
 
     }
-
-  
 
     .schedule {
         width: 100%;
