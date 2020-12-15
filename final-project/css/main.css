@@ -589,19 +589,33 @@ display: flex;
     }
 /* Using flex for all the buttons in the services section */
 .button{
-    display:flex;
-    flex-basis:auto;
+    display:block;
+    width:90%;
 color: white;
   background: #222;    
      
 }
+.digital >.button {
+    padding-left:12em;
+}
+.market >.button {
+    padding-left:12em;
+}
+.video >.button {
+    padding-left:7em;
+}
 
+.web>.button{
+    padding-left:7em;
+}
+ .web > h3{
+    font-size:38px;
+ }
 
-
-    .digital>a {
-        /* padding-left:13em;
-    padding-right:13em; */
-    }
+ .print>.button{
+     margin-top:3.9rem;
+     padding-left:7em;
+ }
 
     /* .market > a{
    margin: auto;
