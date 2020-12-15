@@ -148,7 +148,7 @@ body {
 
 .container {
     margin: 0 auto;
-    max-width: 1200px;
+    max-width: 1200px; 
 }
 .wrapper{
     margin: 0 auto;
@@ -165,6 +165,7 @@ body {
 
 .containerheader {
     background-color: #222;
+ 
 }
 
 .menulist-nav {
@@ -206,7 +207,6 @@ nav {
 .searchbar form {
     display: flex;
 }
-
 .searchtext {
     padding: 1em;
     width: 100%;
@@ -218,14 +218,13 @@ nav {
     text-decoration: none;
     color: #c78c06;
     border: 1px solid #c78c06;
-
 }
 
 /*------ Main Banner Area---------- */
 .main-banner {
     position: relative;
      margin: 0 auto;
-    background: url("../images/main-banner.jpg");
+    background: #222 url("../images/main-banner.jpg");
     color: white;
     height: 500px;
   padding-top: 2em;
@@ -486,15 +485,17 @@ footer {
         height: 140px;
     }
 
+
     .containerheader {
         display: flex;
+       margin:auto;
         background: none;
         align-items: center;
+        justify-content: center;
 
     }
 
     .logo {
-
        margin-top:1.5rem;
     }
 
@@ -526,7 +527,7 @@ footer {
     }
 
     .welcome {
-        font-size: 90px;   
+        font-size: 97px;   
     }
 
     a {
