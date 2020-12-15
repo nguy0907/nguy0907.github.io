@@ -490,7 +490,8 @@ footer {
     }
 
     .logo {
-        margin-top: 1rem;
+       width:90%;
+       margin-top:0.6rem;
     }
 
     .logo-background {
@@ -500,6 +501,7 @@ footer {
 
     .nav-list {
         display: flex;
+        margin-top:-1rem;
 
     }
 
@@ -508,7 +510,7 @@ footer {
     }
 
     .searchbar {
-        margin-top: -4rem;
+        margin-top: -5rem;
         min-width: 150px;
 
     }
