@@ -460,9 +460,10 @@ footer {
 }
 
 .unsplash {
+    margin-left:-1.3rem;
+    text-decoration: underline;
     background: none;
     color: #c78c06;
-    font-style: italic;
 }
 
 /* -------Media Query going to be used for desktop user--------- */
