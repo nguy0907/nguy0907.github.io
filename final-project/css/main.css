@@ -242,6 +242,7 @@ nav {
 
 
 p {
+    margin-left: 1rem;
     margin-bottom: 2.2rem;
     margin-top: 1rem;
     line-height: 30px;
@@ -276,6 +277,7 @@ h1 {
 
 h2,
 h3 {
+    margin-left:1rem;
     font-size: 40px;
     font-weight: bold;
 }
@@ -681,13 +683,20 @@ color: white;
     iframe {
         grid-area: location;
     }
+    table tr:nth-child(1),
+    table th:nth-child(1){
+        border: 1px solid #222;     
+     padding-right: 45em;
+
+    }
+
+  
 
     .schedule {
-        width: 50%;
+        width: 100%;
         grid-area: schedule;
     }
 
 
-
-
 }
+
