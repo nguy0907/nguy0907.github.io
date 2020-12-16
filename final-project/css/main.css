@@ -148,8 +148,8 @@ body {
 
 .container {
     margin: 0 auto;
-    max-width: 1200px; 
-    
+    max-width: 1200px;
+
 }
 
 
@@ -162,11 +162,13 @@ body {
     margin-left: 1rem;
     margin-right: 1rem;
     padding-bottom: 1em;
-    padding-top:1em;
+    padding-top: 1em;
 }
-.site-header{
+
+.site-header {
     background-color: #222;
 }
+
 .containerheader {
     background-color: #222;
 }
@@ -210,6 +212,7 @@ nav {
 .searchbar form {
     display: flex;
 }
+
 .searchtext {
     padding: 1em;
     width: 100%;
@@ -226,24 +229,24 @@ nav {
 /*------ Main Banner Area---------- */
 .main-banner {
     position: relative;
-     margin: 0 auto;
+    margin: 0 auto;
     background: #222 url("../images/main-banner.jpg");
     color: white;
     height: 500px;
-  padding-top: 2em;
+    padding-top: 2em;
     margin-top: 0rem;
 }
 
-.Main-button{
-    background:#c78c06;
-    color:#222;
+.Main-button {
+    background: #c78c06;
+    color: #222;
 }
 
 
-.intro { 
+.intro {
     margin: 0 auto;
     background: rgba(0, 0, 0, 0.6);
-     background-repeat: no-repeat;    
+    background-repeat: no-repeat;
     height: 400px;
 }
 
@@ -260,17 +263,18 @@ p {
 .aboutus-nav {
     margin: 0 auto;
     background-color: #ffe6ac;
-  
+
 }
 
-.aboutuspic{
-    margin-top:1.5rem;
-    background-color: #ffe6ac; 
+.aboutuspic {
+    margin-top: 1.5rem;
+    background-color: #ffe6ac;
 }
+
 /* Headings */
 h1,
 h2 {
-    margin-left:1rem;
+    margin-left: 1rem;
     margin-bottom: 5rem;
     margin-top: 2rem;
     font-weight: bold;
@@ -284,7 +288,7 @@ h1 {
 
 h2,
 h3 {
-    margin-left:1rem;
+    margin-left: 1rem;
     font-size: 40px;
     font-weight: bold;
 }
@@ -306,6 +310,9 @@ a {
     padding-right: 1.5em;
 }
 
+i {
+    margin-left: 0.5rem;
+}
 
 /* This is the services section, breaking down into different parts */
 .services {
@@ -319,50 +326,51 @@ a {
 .digital {
     background: #ffe6ac;
     padding-bottom: 3em;
-    margin-bottom:1rem;
+    margin-bottom: 1rem;
 }
 
 .market {
     background: #ffe6ac;
     padding-bottom: 3em;
-    margin-bottom:1rem;
+    margin-bottom: 1rem;
 
 }
 
 .video {
     background: #ffe6ac;
     padding-bottom: 3em;
-    margin-bottom:1rem;
+    margin-bottom: 1rem;
 }
 
 .web {
     background: #ffe6ac;
     padding-bottom: 3em;
-    margin-bottom:1rem;
+    margin-bottom: 1rem;
 }
 
 .print {
     background: #ffe6ac;
     padding-bottom: 3em;
-    margin-bottom:1rem;
+    margin-bottom: 1rem;
 }
 
 
 
 .vision {
-    width:100%;
+    width: 100%;
     background: url(../images/vision.jpg);
     color: white;
     height: 400px;
 }
 
-.vision > h2{
-    color:#c78c06;
-    margin-top:6rem;
+.vision>h2 {
+    color: #c78c06;
+    margin-top: 6rem;
 }
+
 .visionbutton {
     border: 1px solid #c78c06;
-    background:#222;
+    background: #222;
     color: white;
 }
 
@@ -379,14 +387,14 @@ a {
 
 .JohnDoe {
     background: #ffe6ac;
-    padding-top:1em;
-  margin-left:0rem;
+    padding-top: 1em;
+    margin-left: 0rem;
 }
 
 .BobRite {
     background: #ffe6ac;
-    padding-top:1em;
-    margin-left:0rem;
+    padding-top: 1em;
+    margin-left: 0rem;
 }
 
 .who {
@@ -423,14 +431,14 @@ a {
     display: block;
 }
 
-textarea { 
+textarea {
     display: block;
     height: 150px;
     max-width: 1200px;
     margin-top: 1rem;
     margin-left: 0rem;
     width: 100%;
-   
+
 
 }
 
@@ -475,14 +483,14 @@ footer {
 }
 
 
-blockquote{
-    margin-top:-1.5rem;
-    margin-left:1rem;
+blockquote {
+    margin-top: -1.5rem;
+    margin-left: 1rem;
 
 }
 
 .unsplash {
-    margin-left:-1.3rem;
+    margin-left: -1.3rem;
     text-decoration: underline;
     background: none;
     color: #c78c06;
@@ -501,7 +509,7 @@ blockquote{
 
     .containerheader {
         display: flex;
-       margin:auto;
+        margin: auto;
         background: none;
         align-items: center;
         justify-content: center;
@@ -509,8 +517,8 @@ blockquote{
     }
 
     .logo {
-       margin-top:0.4rem;
-       margin-left: 6rem;
+        margin-top: 0.4rem;
+        margin-left: 6rem;
     }
 
     .logo-background {
@@ -526,7 +534,7 @@ blockquote{
     }
 
     .nav-list .current {
-        background:#c78c06;
+        background: #c78c06;
         color: #222;
     }
 
@@ -538,13 +546,13 @@ blockquote{
 
     .main-banner {
         margin: 0 auto;
-      padding-left:3em; 
-      padding-right:3em;
- 
+        padding-left: 3em;
+        padding-right: 3em;
+
     }
 
     .welcome {
-        font-size: 97px;   
+        font-size: 97px;
     }
 
     a {
@@ -558,19 +566,20 @@ blockquote{
         padding-right: 1.5em;
     }
 
-    
+
     /* Desktop about us section */
 
     /* The image in the about us area is being wrapped. */
     .aboutus-nav {
         display: flex;
-        margin:auto;
-     margin-left:-2rem;
-     padding-right:4em;
-     padding-left:8em;
-     padding-bottom:2em;
+        margin: auto;
+        margin-left: -2rem;
+        padding-right: 4em;
+        padding-left: 8em;
+        padding-bottom: 2em;
     }
-    .aboutuspic {   
+
+    .aboutuspic {
         width: 50%;
     }
 
@@ -582,7 +591,7 @@ blockquote{
         grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
         grid-template-rows: auto 1fr 1fr;
         column-gap: 1em;
-    
+
         margin: auto;
         grid-template-areas:
             "title title title title title title"
@@ -614,35 +623,40 @@ blockquote{
     .print {
         grid-area: print;
     }
-/* Using flex for all the buttons in the services section */
-.button{
-    display:block;
-    width:90%;
-color: white;
-  background: #222;    
-     
-}
-.digital >.button {
-    padding-left:12em;
-}
-.market >.button {
-    padding-left:12em;
-}
-.video >.button {
-    padding-left:7em;
-}
 
-.web>.button{
-    padding-left:7em;
-}
- .web > h3{
-    font-size:38px;
- }
+    /* Using flex for all the buttons in the services section */
+    .button {
+        display: block;
+        width: 90%;
+        color: white;
+        background: #222;
 
- .print>.button{
-     margin-top:3.9rem;
-     padding-left:7em;
- }
+    }
+
+    .digital>.button {
+        padding-left: 12em;
+    }
+
+    .market>.button {
+        padding-left: 12em;
+    }
+
+    .video>.button {
+        padding-left: 7em;
+    }
+
+    .web>.button {
+        padding-left: 7em;
+    }
+
+    .web>h3 {
+        font-size: 38px;
+    }
+
+    .print>.button {
+        margin-top: 3.9rem;
+        padding-left: 7em;
+    }
 
     /* .market > a{
    margin: auto;
@@ -653,9 +667,7 @@ color: white;
 
     }
 
-    .vision-container{
-   
-    }
+    .vision-container {}
 
     /* This is our team section which is going to be used as grid */
 
@@ -681,20 +693,20 @@ color: white;
 
     .JohnDoe {
         grid-area: text1;
-        margin-left:-1em;
-        width:100%;
+        margin-left: -1em;
+        width: 100%;
     }
 
     .bobrite-pic {
         grid-area: pic2;
-        margin-left:-1rem;
-        width:100%;
+        margin-left: -1rem;
+        width: 100%;
     }
 
     .BobRite {
         grid-aRea: text2;
-      margin-left:0rem;
-      margin-right:1rem;
+        margin-left: 0rem;
+        margin-right: 1rem;
     }
 
     /* The contact Section using grid to make the location beside the form*/
@@ -732,10 +744,11 @@ color: white;
     iframe {
         grid-area: location;
     }
+
     table tr:nth-child(1),
-    table th:nth-child(1){
-        border: 1px solid #222;     
-     padding-right: 45em;
+    table th:nth-child(1) {
+        border: 1px solid #222;
+        padding-right: 45em;
 
     }
 
