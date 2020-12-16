@@ -150,11 +150,7 @@ body {
     margin: 0 auto;
     max-width: 1200px; 
 }
-.wrapper{
-    margin: 0 auto;
-    
-   
-}
+
 
 /* Mobile Layout */
 /* Header Area */
@@ -165,7 +161,6 @@ body {
 
 .containerheader {
     background-color: #222;
- 
 }
 
 .menulist-nav {
@@ -236,9 +231,6 @@ nav {
     color:#222;
 }
 
- .im-care-right > a{
-margin-top:54rem;
-}
 
 .intro { 
     margin: 0 auto;
@@ -356,6 +348,10 @@ a {
     height: 400px;
 }
 
+.vision > h2{
+    color:#c78c06;
+    margin-top:6rem;
+}
 .visionbutton {
     border: 1px solid #c78c06;
     background:#222;
@@ -419,12 +415,14 @@ a {
     display: block;
 }
 
-textarea {
+textarea { 
+    display: block;
+    height: 150px;
     max-width: 1200px;
     margin-top: 1rem;
     margin-left: 0rem;
     width: 100%;
-    display: block;
+   
 
 }
 
@@ -466,6 +464,13 @@ footer {
     padding-bottom: 1em;
     padding-top: 1em;
     padding-left: 2em;
+}
+
+
+blockquote{
+    margin-top:-1.5rem;
+    margin-left:1rem;
+
 }
 
 .unsplash {
@@ -546,12 +551,14 @@ footer {
 
     /* The image in the about us area is being wrapped. */
     .aboutus-nav {
-        max-width: 1200px;
-        margin: auto;
-display: flex;
+        display: flex;
+        margin:auto;
+     margin-left:-2rem;
+     padding-right:4em;
+     padding-left:8em;
+     padding-bottom:2em;
     }
-
-    .aboutuspic {
+    .aboutuspic {   
         width: 50%;
     }
 
@@ -634,6 +641,10 @@ color: white;
 
     }
 
+    .vision-container{
+   
+    }
+
     /* This is our team section which is going to be used as grid */
 
     .Team {
@@ -694,7 +705,7 @@ color: white;
 
     textarea {
         width: 95%;
-        height: 150px;
+
     }
 
     .location {
