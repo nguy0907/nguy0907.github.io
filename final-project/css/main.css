@@ -149,6 +149,7 @@ body {
 .container {
     margin: 0 auto;
     max-width: 1200px; 
+    
 }
 
 
@@ -156,9 +157,16 @@ body {
 /* Header Area */
 
 .site-header .containerheader {
+    background: #222;
     color: #c78c06;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    padding-bottom: 1em;
+    padding-top:1em;
 }
-
+.site-header{
+    background-color: #222;
+}
 .containerheader {
     background-color: #222;
 }
@@ -501,7 +509,7 @@ blockquote{
     }
 
     .logo {
-       margin-top:1.5rem;
+       margin-top:0.4rem;
     }
 
     .logo-background {
@@ -511,6 +519,7 @@ blockquote{
 
     .nav-list {
         display: flex;
+        margin-top: -2rem;
 
     }
 
@@ -520,7 +529,7 @@ blockquote{
     }
 
     .searchbar {
-        margin-top: -3rem;
+        margin-top: -5rem;
         min-width: 150px;
 
     }
