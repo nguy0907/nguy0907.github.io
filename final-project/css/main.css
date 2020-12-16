@@ -443,7 +443,7 @@ table td:nth-child(n) {
     padding-bottom: 1em;
     padding-right: 8em;
     padding-left: 1em;
-    width: 60%;
+    width: 65%;
 }
 
 table th:nth-child(2) table td:nth-child(2) {
@@ -515,7 +515,8 @@ blockquote{
     }
 
     .nav-list .current {
-        color: #c78c06;
+        background:#c78c06;
+        color: #222;
     }
 
     .searchbar {
@@ -734,4 +735,3 @@ color: white;
 
 
 }
-
