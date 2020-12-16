@@ -157,6 +157,7 @@ body {
 /* Header Area */
 
 .site-header .containerheader {
+    max-width: 1200px;
     background: #222;
     color: #c78c06;
     margin-left: 1rem;
@@ -228,6 +229,7 @@ nav {
 
 /*------ Main Banner Area---------- */
 .main-banner {
+    max-width: 1200px;
     position: relative;
     margin: 0 auto;
     background: #222 url("../images/main-banner.jpg");
@@ -240,6 +242,7 @@ nav {
 .Main-button {
     background: #c78c06;
     color: #222;
+    margin-left: 1rem;
 }
 
 
@@ -261,6 +264,7 @@ p {
 /* About Us section */
 
 .aboutus-nav {
+    max-width: 1200px;
     margin: 0 auto;
     background-color: #ffe6ac;
 
@@ -502,6 +506,7 @@ blockquote {
 
     /* Desktop Header Section */
     header {
+        /* max-width: 1200px; */
         background: #222;
         height: 140px;
     }
@@ -528,8 +533,8 @@ blockquote {
 
     .nav-list {
         display: flex;
-        margin-left: 7rem;
-        margin-top: -2rem;
+        margin-left: 4rem;
+        margin-top: -1rem;
 
     }
 
@@ -545,6 +550,7 @@ blockquote {
     }
 
     .main-banner {
+        /* max-width: 1200px; */
         margin: 0 auto;
         padding-left: 3em;
         padding-right: 3em;
@@ -571,6 +577,7 @@ blockquote {
 
     /* The image in the about us area is being wrapped. */
     .aboutus-nav {
+        /* max-width: 1200px; */
         display: flex;
         margin: auto;
         margin-left: -2rem;
@@ -667,7 +674,6 @@ blockquote {
 
     }
 
-    .vision-container {}
 
     /* This is our team section which is going to be used as grid */
 
