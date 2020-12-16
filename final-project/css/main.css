@@ -510,6 +510,7 @@ blockquote{
 
     .logo {
        margin-top:0.4rem;
+       margin-left: 6rem;
     }
 
     .logo-background {
@@ -519,6 +520,7 @@ blockquote{
 
     .nav-list {
         display: flex;
+        margin-left: 7rem;
         margin-top: -2rem;
 
     }
