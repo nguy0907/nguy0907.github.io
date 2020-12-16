@@ -511,7 +511,9 @@ blockquote {
         height: 140px;
     }
 
-
+    .site-header .containerheader{
+        background:none;
+    }
     .containerheader {
         display: flex;
         margin: auto;
