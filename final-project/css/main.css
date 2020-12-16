@@ -157,7 +157,7 @@ body {
 /* Header Area */
 
 .site-header .containerheader {
-    /* max-width: 1200px; */
+    max-width: 1200px;
     background: #222;
     color: #c78c06;
     padding-bottom: 1em;
@@ -199,6 +199,8 @@ body {
 
 .logo-background {
     background: #c78c06;
+    margin-left:1rem;
+    margin-right:1rem;
 }
 
 
@@ -210,6 +212,8 @@ nav {
 
 .searchbar form {
     display: flex;
+    margin-left:1rem;
+    margin-right:1rem;
 }
 
 .searchtext {
