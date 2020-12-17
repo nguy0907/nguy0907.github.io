@@ -492,13 +492,19 @@ table thead:nth-child(1) {
     background: #ffe6ac;
 }
 
+
+/* Location Section */
 iframe {
-    width: 100%;
+    width: 95%;
+    margin-top:-3rem;
 }
+
+/* Footer section */
 
 footer {
     background: #222;
     color: #c78c06;
+    margin-top:1rem;
     padding-bottom: 1em;
     padding-top: 1em;
     padding-left: 2em;
@@ -524,14 +530,8 @@ blockquote {
 
     /* Desktop Header Section */
     header {
-
         background: #222;
         height: 140px;
-    }
-
-    .site-header .containerheader {
-
-        background: none;
     }
 
     .containerheader {
@@ -540,7 +540,7 @@ blockquote {
         margin: auto;
         background: none;
         align-items: center;
-        justify-content: center;
+    
 
     }
 
