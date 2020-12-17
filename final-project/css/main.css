@@ -781,7 +781,8 @@ blockquote {
         padding-right: 1em;
     }
 
-    /* The contact Section using grid to make the location beside the form*/
+    /* The contact Section using grid to make the location beside the form
+    and the table is going to be at the bottom instead*/
     .contact {
         display: grid;
         grid-template-columns: auto auto;
@@ -812,6 +813,9 @@ blockquote {
         grid-area: form;
     }
 
+.send{
+    font-size: 15px;
+}
 
     iframe {
         grid-area: location;
@@ -828,6 +832,5 @@ blockquote {
         width: 100%;
         grid-area: schedule;
     }
-
 
 }
