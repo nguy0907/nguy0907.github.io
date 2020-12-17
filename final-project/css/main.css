@@ -421,8 +421,6 @@ i {
 .name,
 .email,
 .message {
-    margin-left: 0rem;
-    margin-bottom: 1rem;
     margin-bottom: 1rem;
 }
 
@@ -433,6 +431,12 @@ i {
     padding-bottom: 0.5em;
 }
 
+.contact > h1{
+    margin-left:0rem;
+}
+.contactform > h2{
+    margin-left:0rem;
+}
 .contact input {
     max-width: 1200px;
     margin-top: 1rem;
@@ -446,7 +450,6 @@ textarea {
     height: 150px;
     max-width: 1200px;
     margin-top: 1rem;
-    margin-left: 0rem;
     width: 100%;
 
 
