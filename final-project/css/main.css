@@ -214,7 +214,7 @@ nav {
 
 /* The button beside the search bar is decorated */
 .search {
-    padding-right:1em;
+    padding-right: 1em;
     background-color: #222;
     text-decoration: none;
     color: #c78c06;
@@ -266,13 +266,13 @@ p {
     background-color: #ffe6ac;
 }
 
-.aboutus>p{
-padding-bottom:1em;
+.aboutus>p {
+    padding-bottom: 1em;
 }
 
 .aboutuspic {
     width: 95%;
-    margin-left:1.1rem;
+    margin-left: 1.1rem;
     margin-top: 1.5rem;
 
 }
@@ -376,7 +376,7 @@ i {
 
 .vision-container>p {
     margin-top: -2rem;
-    padding-right:0.5em;
+    padding-right: 0.5em;
 
 }
 
@@ -450,7 +450,7 @@ i {
     margin-top: 1rem;
     padding: 1em;
     width: 100%;
-    height:30px;
+    height: 30px;
     display: block;
 }
 
@@ -496,7 +496,7 @@ table thead:nth-child(1) {
 /* Location Section */
 iframe {
     width: 95%;
-    margin-top:-3rem;
+    margin-top: -3rem;
 }
 
 /* Footer section */
@@ -504,7 +504,7 @@ iframe {
 footer {
     background: #222;
     color: #c78c06;
-    margin-top:1rem;
+    margin-top: 1rem;
     padding-bottom: 1em;
     padding-top: 1em;
     padding-left: 2em;
@@ -540,7 +540,7 @@ blockquote {
         margin: auto;
         background: none;
         align-items: center;
-    
+
 
     }
 
@@ -603,23 +603,25 @@ blockquote {
 
     /* The image in the about us area is being wrapped. */
     .aboutus-nav {
-       display: flex;
+        display: flex;
         margin: auto;
-       padding-left: 9em;
-        padding-bottom: 1.5em; 
-       
-    }
-.aboutus{
-    max-width: 1200px;   
-}
+        padding-left: 9em;
+        margin-bottom: -2rem;
 
-.aboutus >p{
-    padding-right:11em;
-}
+    }
+
+    .aboutus {
+        max-width: 1200px;
+    }
+
+    .aboutus>p {
+        padding-right: 11em;
+        margin-top: -1.3rem;
+    }
 
     .aboutuspic {
-        height:340px;
-        width: 40%;
+        height: 340px;
+        width: 45%;
     }
 
     /* This is the services section on desktop screen */
@@ -627,12 +629,11 @@ blockquote {
     /* Using Grid on the Services system */
     .services {
         display: grid;
+        margin: auto;
+        margin-top: 2rem;
         grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
         grid-template-rows: auto 1fr 1fr;
         column-gap: 1em;
-
-
-        margin: auto;
         grid-template-areas:
             "title title title title title title"
             "digital digital digital marketing marketing marketing"
@@ -648,14 +649,26 @@ blockquote {
         grid-area: digital;
     }
 
+    .digital>p {
+        padding-right: 1em;
+    }
+
     .market {
         grid-area: marketing;
+    }
+
+    .market>p {
+        padding-right: 1em;
     }
 
     .video {
         grid-area: video;
         margin-bottom: 5rem;
         padding-bottom: 0em;
+    }
+
+    .video>p {
+        padding-right: 1em;
     }
 
     .web {
@@ -665,13 +678,21 @@ blockquote {
 
     }
 
+    .web>p {
+        padding-right: 1em;
+    }
+
     .print {
         grid-area: print;
         padding-bottom: 0em;
         margin-bottom: 5rem;
     }
 
-    /* Using flex for all the buttons in the services section */
+    .print>p {
+        padding-right: 1em;
+    }
+
+    /* Using block for all the buttons in the services section */
     .button {
         display: block;
         width: 90%;
@@ -705,9 +726,6 @@ blockquote {
         padding-left: 7em;
     }
 
-    /* .market > a{
-   margin: auto;
-} */
 
     .vision {
         margin: auto;
@@ -743,6 +761,10 @@ blockquote {
         width: 100%;
     }
 
+    .JohnDoe>p {
+        padding-right: 1em;
+    }
+
     .bobrite-pic {
         grid-area: pic2;
         margin-left: -1rem;
@@ -753,6 +775,10 @@ blockquote {
         grid-aRea: text2;
         margin-left: 0rem;
         margin-right: 1rem;
+    }
+
+    .BobRite>p {
+        padding-right: 1em;
     }
 
     /* The contact Section using grid to make the location beside the form*/
