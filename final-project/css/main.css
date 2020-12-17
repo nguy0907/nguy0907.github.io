@@ -157,7 +157,7 @@ body {
 /* Header Area */
 
 .site-header .containerheader {
-    /* max-width: 1200px; */
+    max-width: 1200px;
     background: #222;
     color: #c78c06;
     padding-bottom: 1em;
