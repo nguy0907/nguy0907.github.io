@@ -157,7 +157,7 @@ body {
 /* Header Area */
 
 .site-header .containerheader {
-    max-width: 1200px;
+    /* max-width: 1200px; */
     background: #222;
     color: #c78c06;
     padding-bottom: 1em;
@@ -199,9 +199,9 @@ body {
 
 .logo-background {
     background: #c78c06;
-    padding-bottom:4em;
-    margin-left:1rem;
-    margin-right:1rem;
+    padding-bottom: 4em;
+    margin-left: 1rem;
+    margin-right: 1rem;
 }
 
 
@@ -213,8 +213,8 @@ nav {
 
 .searchbar form {
     display: flex;
-    margin-left:1rem;
-    margin-right:1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
 }
 
 .searchtext {
@@ -234,6 +234,7 @@ nav {
 /*------ Main Banner Area---------- */
 .main-banner {
     position: relative;
+
     margin: 0 auto;
     background: #222 url("../images/main-banner.jpg");
     color: white;
@@ -284,11 +285,11 @@ h1,
 h2 {
     margin-left: 1rem;
     margin-bottom: 5rem;
- 
+
     font-weight: bold;
 }
 
-h1 {   
+h1 {
     margin-top: 2rem;
     font-size: 50px;
     font-weight: bold;
@@ -374,10 +375,11 @@ i {
     padding-top: 1em;
 }
 
- .vision-container > p{
-    margin-top:-2rem;
+.vision-container>p {
+    margin-top: -2rem;
 
 }
+
 .visionbutton {
     border: 1px solid #c78c06;
     background: #222;
@@ -431,12 +433,14 @@ i {
     padding-bottom: 0.5em;
 }
 
-.contact > h1{
-    margin-left:0rem;
+.contact>h1 {
+    margin-left: 0rem;
 }
-.contactform > h2{
-    margin-left:0rem;
+
+.contactform>h2 {
+    margin-left: 0rem;
 }
+
 .contact input {
     max-width: 1200px;
     margin-top: 1rem;
@@ -515,14 +519,14 @@ blockquote {
 
     /* Desktop Header Section */
     header {
-        /* max-width: 1200px; */
         background: #222;
         height: 140px;
     }
 
-    .site-header .containerheader{
-        background:none;
+    .site-header .containerheader {
+        background: none;
     }
+
     .containerheader {
         display: flex;
         margin: auto;
@@ -609,6 +613,7 @@ blockquote {
         grid-template-rows: auto 1fr 1fr;
         column-gap: 1em;
 
+
         margin: auto;
         grid-template-areas:
             "title title title title title title"
@@ -631,14 +636,21 @@ blockquote {
 
     .video {
         grid-area: video;
+        margin-bottom: 5rem;
+        padding-bottom: 0em;
     }
 
     .web {
         grid-area: web;
+        padding-bottom: 0em;
+        margin-bottom: 5rem;
+
     }
 
     .print {
         grid-area: print;
+        padding-bottom: 0em;
+        margin-bottom: 5rem;
     }
 
     /* Using flex for all the buttons in the services section */
@@ -681,7 +693,7 @@ blockquote {
 
     .vision {
         margin: auto;
-
+        margin-top: -4rem;
     }
 
 
