@@ -278,6 +278,8 @@ p {
 }
 
 .aboutuspic {
+    width: 95%;
+    margin-left:1rem;
     margin-top: 1.5rem;
     background-color: #ffe6ac;
 }
@@ -598,19 +600,22 @@ blockquote {
 
     /* The image in the about us area is being wrapped. */
     .aboutus-nav {
-        display: flex;
-        /* margin: auto; */
-        margin-left: -2rem;
-        padding-right: 4em;
-        padding-left: 8em;
-        padding-bottom: 1.5em;
+       display: flex;
+        margin: auto;
+       padding-left: 9em;
+        padding-bottom: 1.5em; 
+       
     }
+.aboutus{
+    max-width: 1200px;   
+}
 
-    .aboutus {
-         max-width: 1200px;
-    }
+.aboutus >p{
+    padding-right:11em;
+}
 
     .aboutuspic {
+        height:340px;
         width: 40%;
     }
 
