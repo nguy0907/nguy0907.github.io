@@ -237,8 +237,8 @@ nav {
     margin: 0 auto;
     background: #222 url("../images/main-banner.jpg");
     color: white;
-    height: 500px;
-    padding-top: 2em;
+    height: 590px;
+    padding-top: 4em;
     margin-top: 0rem;
 }
 
@@ -267,11 +267,12 @@ p {
 
 /* About Us section */
 
-.aboutus{
+.aboutus {
+    margin: 0 auto;
     max-width: 1200px;
 }
+
 .aboutus-nav {
-    margin: 0 auto;
     background-color: #ffe6ac;
 
 }
@@ -286,7 +287,6 @@ h1,
 h2 {
     margin-left: 1rem;
     margin-bottom: 5rem;
-
     font-weight: bold;
 }
 
@@ -520,15 +520,18 @@ blockquote {
 
     /* Desktop Header Section */
     header {
+
         background: #222;
         height: 140px;
     }
 
     .site-header .containerheader {
+
         background: none;
     }
 
     .containerheader {
+        max-width: 1200px;
         display: flex;
         margin: auto;
         background: none;
@@ -566,9 +569,13 @@ blockquote {
 
     .main-banner {
         margin: 0 auto;
-        padding-left: 3em;
-        padding-right: 3em;
+        padding-left: 1em;
+        padding-right: .5em;
 
+    }
+
+    .intro {
+        max-width: 1200px;
     }
 
     .welcome {
@@ -591,17 +598,20 @@ blockquote {
 
     /* The image in the about us area is being wrapped. */
     .aboutus-nav {
-
         display: flex;
-        margin: auto;
+        /* margin: auto; */
         margin-left: -2rem;
         padding-right: 4em;
         padding-left: 8em;
-        padding-bottom: 2em;
+        padding-bottom: 1.5em;
+    }
+
+    .aboutus {
+         max-width: 1200px;
     }
 
     .aboutuspic {
-        width: 50%;
+        width: 40%;
     }
 
     /* This is the services section on desktop screen */
