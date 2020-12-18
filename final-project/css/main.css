@@ -423,6 +423,7 @@ padding-bottom:1em;
     margin-top: -4rem;
     font-weight: bold;
     border-bottom: 3px solid #c78c06;
+    padding-right:1em;
 }
 
 .who>p {
@@ -623,25 +624,24 @@ blockquote {
 
     /* The image in the about us area is being wrapped. */
     .aboutus-nav {
-        display: flex;
-        margin: auto;
+        display: flex;  
+         max-width: auto; 
+         margin:auto;
         padding-left: 8.5em;
      
 
     }
 
-    .aboutus {
-        max-width: 1200px;
-    }
 
     .aboutus>p {
         padding-right: 11em;
-        margin-top: -1.3rem;
+        margin-top: -2rem;
     }
 
     .aboutuspic {
         height: 340px;
-        width: 45%;
+        width: auto;
+        width:45%;
     }
 
     /* This is the services section on desktop screen */
