@@ -227,7 +227,7 @@ nav {
     margin: 0 auto;
     background: #222 url("../images/main-banner.jpg");
     color: white;
-    height: 590px;
+    height: 570px;
     padding-top: 4em;
     margin-top: 0rem;
 }
@@ -244,7 +244,7 @@ nav {
     margin: 0 auto;
     background: rgba(0, 0, 0, 0.6);
     background-repeat: no-repeat;
-    height: 400px;
+    height: 380px;
 }
 
 
@@ -268,12 +268,13 @@ p {
 
 .aboutus>p {
     padding-bottom: 1em;
+    margin-top:-2rem;
 }
 
 .aboutuspic {
     width: 95%;
-    margin-left: 1.1rem;
-    margin-top: 1.5rem;
+    margin-left: 1.2rem;
+    margin-top: 1rem;
 
 }
 
@@ -331,7 +332,9 @@ i {
 
 }
 
-
+.servicetitle{
+    margin-bottom:2rem;
+}
 /* This is the services section broken down into different services */
 .digital {
     background: #ffe6ac;
@@ -372,6 +375,7 @@ i {
     color: white;
     height: 370px;
     padding-top: 1em;
+    margin-top:2rem;
 }
 
 .vision-container>p {
@@ -403,6 +407,10 @@ i {
     margin-left: 0rem;
 }
 
+.description{
+margin-top:-1rem;
+padding-bottom:1em;
+}
 .BobRite {
     background: #ffe6ac;
     padding-top: 1em;
@@ -470,6 +478,9 @@ textarea {
 
 /* This is the schedule section. in the for of a T-chart */
 
+.schedule > h2{
+margin-left:0rem;
+}
 table {
     border-collapse: collapse;
 }
@@ -494,6 +505,11 @@ table thead:nth-child(1) {
 
 
 /* Location Section */
+
+.location > h2{
+    margin-left:0rem;
+    }
+
 iframe {
     width: 95%;
     margin-top: -3rem;
