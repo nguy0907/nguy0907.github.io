@@ -660,7 +660,6 @@ blockquote {
             "video video web web print print";
     }
 
-    /* Every item here is placed to where it is assigned to */
     .services>h2 {
         grid-area: title;
     }
