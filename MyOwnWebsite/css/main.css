@@ -37,7 +37,7 @@ a,
 
 a:hover,
  a:focus{
-   color:red;
+   color:skyblue;
 }
 
 .menu-nav a,
@@ -64,6 +64,9 @@ main{
     margin-left:1.5rem;
 }
 
+.laptop{
+    width:50%;
+}
 footer{
     float: right;
 }
