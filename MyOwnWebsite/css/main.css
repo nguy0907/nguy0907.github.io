@@ -15,6 +15,7 @@ p{
     line-height: 30px;
 }
 /* The header of the website */
+/* Home page as well on mobile screen */
 header{
     max-width: 1200px;
 }
@@ -25,6 +26,8 @@ nav ul li{
     font-size:25px;
     display:block;
   text-align: center;   
+  /* border-bottom: 1px solid; */
+
 }
 
 
@@ -53,6 +56,7 @@ ul li{
 
 .logo{
     width:20%;
+    margin-left:2rem;
 }
 /* Main area */
 main{
@@ -65,9 +69,11 @@ main{
 }
 
 .laptop{
-    width:50%;
+    width:30%;
+    margin-left:1rem;
 }
 footer{
-    float: right;
+    max-width: 1200px;
+    text-align: center;
 }
 
