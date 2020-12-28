@@ -51,7 +51,6 @@ a:hover,
  a:focus{
    color:skyblue;
 }
-
 .menu-nav a,
 .menu-nav a:link,
 .menu-nav a:visited{
@@ -62,6 +61,14 @@ a:hover,
 ul li{
    margin-top:3rem;
 }
+
+i{  
+    margin-right:1rem;
+    margin-left:-2rem;
+    color:skyblue;
+ 
+}
+
 
 .logo{
     width:20%;
