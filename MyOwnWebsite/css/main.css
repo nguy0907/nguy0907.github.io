@@ -98,3 +98,27 @@ footer{
 .worktitle{
     background-color: skyblue;
 }
+
+@media screen and (min-width:800px){
+.container{
+    max-width:1200px;
+}
+
+header{
+    max-width:1200px;
+    align-items: center;
+}
+    .im-arrow-right{
+    display:none;
+}    
+.nav-list{
+        display:flex;
+        align-items: center;
+        margin-left:12rem;
+        margin-top:-4rem;
+    }
+
+    li{
+        margin-left:5rem;
+    }
+}
