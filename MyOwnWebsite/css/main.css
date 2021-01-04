@@ -1,8 +1,7 @@
-.container{
+
+/* .container{
     max-width:1200px;
-}
-
-
+} */
 h1,
 h2{
     font-family: 'Russo One', sans-serif;
@@ -24,10 +23,7 @@ p{
 }
 /* The header of the website */
 /* Home page as well on mobile screen */
-header{
-    max-width: 1200px;
-    
-}
+
 
 
 nav ul li{
@@ -76,7 +72,6 @@ i{
 }
 /* Main area */
 main{
-    max-width: 1200px;
     text-align: center;
 }
 
@@ -89,6 +84,8 @@ main{
     width:30%;
     margin-left:1rem;
 }
+
+
 footer{
     max-width: 1200px;
     text-align: center;
@@ -97,20 +94,25 @@ footer{
 /* My work page */
 .worktitle{
     background-color: skyblue;
+    padding-top:3rem;
+    padding-bottom:3rem;
 }
 
 @media screen and (min-width:800px){
-.container{
-    max-width:1200px;
-}
+
 
 header{
-    max-width:1200px;
     align-items: center;
 }
     .im-arrow-right{
     display:none;
 }    
+
+nav ul li{
+    max-width:1200px;
+    margin-left:9rem;
+
+}
 .nav-list{
         display:flex;
         align-items: center;
@@ -119,6 +121,11 @@ header{
     }
 
     li{
-        margin-left:5rem;
+        margin-left:3rem;
+    }
+
+    footer{
+    max-width:1200px;
+    margin-left:9rem;
     }
 }
