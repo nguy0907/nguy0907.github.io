@@ -1,0 +1,156 @@
+/* Richard Nguyen's work
+Orange, lightgray, and darkergray are my main colours. Reminds me of TedTalk or Home Depot. Open Sans
+is the font that I used. The texts are black and white.*/
+
+/* Note that this is a mobile layout if you shrink it. */
+
+/* All the nav link will have a new appearance.The text is white. The header is orange. The navigation options
+are stacked on top of each others instead of being in rows*/
+#nav.nav {
+    max-width: 1140px;
+    border: none;
+    width: auto;
+    background-color: #F15025;
+
+}
+.nav-link {
+    max-width: 1200px;
+    font-family: 'Open Sans', sans-serif;
+    color: #f1f5f2;
+     display:flex;
+     justify-content: center;
+
+}
+
+
+/* Here is where I play around with all the texts itself, like the headings and the paragraphs */
+h1 {
+    margin-top: -5rem;
+}
+
+h1,
+h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bolder;
+    color: #191919;
+    margin-top: -5rem;
+}
+
+/* The line height of the paragraphs is set to 30px. There should be whitespace between every line of sentences. */
+p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: lighter;
+    margin-top: 3rem;
+    line-height: 30px;
+}
+
+
+#main.main {
+    background: #E6E8E6;
+}
+
+
+/* The home section of the page is decorated with very simple design */
+#home.home {
+    color: #191919;
+    background: #E6E8E6;
+    font-size: 17px;
+}
+
+/* This is the about section where you have an image of the business man. The color is inverted
+from the home section and the contact section. */
+
+.about>h2 {
+    color: #191919;
+}
+
+#about.about {
+    background: #FFFCF7;
+    font-size: 17px;
+}
+
+.about>p {
+    color: #191919;
+    margin-top: 2.3rem;
+    margin-left: 2rem;
+    margin-right: 3rem;
+}
+
+img {
+    margin-top: 2.3rem;
+}
+
+/* This is the contact section. Contains texts, and a form to fill out. */
+#contact.contact {
+    background: #E6E8E6;
+    max-width: 1200px;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    font-size: 17px;
+}
+
+#contact .contact-form {
+    width: auto;
+    margin: auto;
+    background: #E6E8E6;
+    padding-right: 2.6em;
+}
+
+.contact>p {
+    color: #191919;
+    margin-left: 2rem;
+    margin-right: 1.5rem;
+}
+
+label {
+    font-family: 'Open Sans', sans-serif;
+    color: #191919;
+}
+
+.contact-form-label {
+    font-size: 18px;
+}
+
+.contact-form-input {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    width: 10%;
+}
+
+/* Customized button, with a background that blends the contact section*/
+button { 
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    background: #E6E8E6;
+    color: #191919;
+    font-size: 13px;
+    margin-top: 0.5rem;
+    padding: 0.5em;
+}
+
+/* Footer uses an orange colour like the header. */
+footer {
+    max-width: 1200px;
+    width: auto;
+    margin: auto;
+    background: #F15025;
+    color: #f1f5f2;
+    margin-top: -5rem;
+}
+
+footer>p {
+    margin-left: 2rem;
+    margin-top: 4rem;
+    margin-bottom: -5rem;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+/* This is the desktop version, the header will be displayed in rows instead of columns */
+@media screen and (min-width:957px){
+    .nav-link {
+       display:inline-flex;
+      flex-wrap: wrap;
+
+    }
+}
