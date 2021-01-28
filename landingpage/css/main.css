@@ -1,9 +1,23 @@
 /* Mobile Version */
-img{
+.logo{
     width:20%;
 }
 
 h1{
     font-family: 'Montserrat', sans-serif;
     font-size:90px;
+}
+h2{
+    font-family: 'Montserrat', sans-serif;    
+}
+p{
+    font-family: 'Montserrat', sans-serif;   
+}
+.about{
+    font-family: 'Montserrat', sans-serif;
+    font-size:36px;    
+}
+
+.scooter{
+    width:50%:
 }
