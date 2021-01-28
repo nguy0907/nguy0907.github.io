@@ -18,10 +18,10 @@
 <p>Start today and make up to $30/hr driving your own vehicle with Dash!</p>
             </section>
             <img src="images/scooter.svg" alt="scooter">
-            <section class="form">
+            <section class="signupform">
                 <h2>Apply Now</h2>
                 <p>Enter your info below.</p>
-                <form action="thanks.html" method="get">
+                <form class="application" action="thanks.html" method="get">
                     <div class="firstname">
                         <label for="firstname"></label>
                         <input type="text" id="firstname" name="firstname" placeholder="First Name">
@@ -41,8 +41,25 @@
                         <input type="checkbox" id="check" name="check">
                         <label for="check">I agree with dash terms</label>
                     </div>
+                    <button class="drivewithus">Drive With Us</button>
+                    <p>Already applied?</p>
+                    <p>Check your application status here</p>
                 </form>
-
+            </section>
+            <section class="Calculation">
+                <p>See how much you can earn with Dash.</p>
+                <p>how many hours do you want to drive with us this week?</p>
+                <form action="calculating.html">
+                    <div class="hours">
+                        <label for="hours"></label>
+                        <input type="text" id="hours" name="hours" placeholder="Hours">
+                    </div>
+                    <div class="City">
+                        <label for="City"></label>
+                        <input type="text" id="City" name="City" placeholder="City">
+                    </div>
+                    <button class="calculate">Calculate</button>
+                </form>
             </section>
         </main>
         <footer>
