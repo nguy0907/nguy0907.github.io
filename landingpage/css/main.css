@@ -1,4 +1,8 @@
 /* Mobile Version */
+.wrapper{
+    max-width: 1200px;
+    margin:auto;
+}
 .logo{
     width:20%;
 }
@@ -9,6 +13,8 @@ h1{
 }
 h2{
     font-family: 'Montserrat', sans-serif;    
+    font-size:40px;
+    text-align: center;
 }
 p{
     font-family: 'Montserrat', sans-serif;   
@@ -19,5 +25,59 @@ p{
 }
 
 .scooter{
-    width:50%:
+    width:100%;
+}
+
+.info-below{
+    text-align: center;
+    margin-left:-3.2rem;
+}
+
+.signupform{
+    text-align: center;   
+}
+.firstname,
+.lastname,
+.phonenumber,
+.emailaddress,
+.agreement{
+    margin-left:-3.2rem;   
+}
+
+input{
+    margin-bottom: 1rem;
+}
+.drivewithus{
+  margin-left:-3rem;
+  font-size: 20px;
+  font-weight: bold;
+  background-color: #57EEAB;
+  padding:0.5em;
+}
+
+.orangetext{
+color: #FF8480;
+}
+
+.Calculation{
+    text-align: center;
+    
+}
+.Calculation,
+.socialmedia{
+    background:#FFFD8C;
+}
+
+.calculation-p1{
+    font-weight: bold;
+}
+
+.calculate{
+    font-size: 24px;
+    font-weight: bold;
+    background-color: #FF8480;
+    color:white;
+}
+.socialmedia{
+    text-align: center;
 }
