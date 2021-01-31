@@ -1,8 +1,11 @@
 /* Mobile Version */
 .wrapper{
     max-width: 1200px;
+    width: auto;
     margin:auto;
 }
+
+
 .logo{
     width:20%;
 }
@@ -34,6 +37,9 @@ p{
 }
 
 .signupform{
+    max-width: 1200px;
+    width: auto;
+    margin:auto;   
     text-align: center;   
 }
 .firstname,
@@ -45,7 +51,15 @@ p{
 }
 
 input{
+    font-family: 'Montserrat', sans-serif;
     margin-bottom: 1rem;
+    padding-top: 0.5em;
+    padding-bottom:0.5em;
+    font-size: 16px;
+}
+
+.agreement{
+    font-family: 'Montserrat', sans-serif;  
 }
 .drivewithus{
   margin-left:-3rem;
@@ -55,10 +69,13 @@ input{
   padding:0.5em;
 }
 
-.orangetext{
-color: #FF8480;
+.orangetext{ 
+color: #FF8480; 
 }
-
+.orangetext,
+.applied{
+    font-size:24px;
+}
 .Calculation{
     text-align: center;
     
@@ -72,12 +89,28 @@ color: #FF8480;
     font-weight: bold;
 }
 
+.hours>input{
+    display: flex;
+    float: left;
+    width:10%;
+    margin-left: 7.5rem;
+}
+.City>input{
+    margin-left:-7rem;
+}
+
 .calculate{
     font-size: 24px;
     font-weight: bold;
     background-color: #FF8480;
     color:white;
+    margin-bottom: 1rem;
+    padding-left:3em;
+    padding-right:3em;
 }
 .socialmedia{
     text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+
 }
