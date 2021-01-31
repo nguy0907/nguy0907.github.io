@@ -114,3 +114,14 @@ color: #FF8480;
     justify-content: space-evenly;
 
 }
+
+/* Tablet Layout */
+
+@media screen and (min-width:768px){
+    .firstname,
+    .lastname,
+    .phonenumber,
+    .emailaddress{
+        width:50%;
+    }
+}
