@@ -10,6 +10,7 @@
     width:20%;
 }
 
+/* All the texts and headers will have a Montserrat Font */
 h1{
     font-family: 'Montserrat', sans-serif;
     font-size:90px;
@@ -22,6 +23,11 @@ h2{
 p{
     font-family: 'Montserrat', sans-serif;   
 }
+
+.main{
+    background-color: #F7F7FF;
+}
+/* This is the about section, but nothing much will be added */
 .about{
     font-family: 'Montserrat', sans-serif;
     font-size:36px;    
@@ -31,16 +37,18 @@ p{
     width:100%;
 }
 
+/* This is where we are about to see the form */
 .info-below{
     text-align: center;
     margin-left:-3.2rem;
 }
-
+/* The form has the first name, last name, phone number, and email address input. There is also a checkbox.*/
 .signupform{
     max-width: 1200px;
     width: auto;
     margin:auto;   
     text-align: center;   
+    border:1px solid black;
 }
 .firstname,
 .lastname,
@@ -61,12 +69,15 @@ input{
 .agreement{
     font-family: 'Montserrat', sans-serif;  
 }
+/* This is the drive with us button which is going to been a Greenish colour */
 .drivewithus{
   margin-left:-3rem;
   font-size: 20px;
   font-weight: bold;
   background-color: #57EEAB;
   padding:0.5em;
+  padding-left:1.5em;
+  padding-right:1.5em;
 }
 
 .orangetext{ 
@@ -74,6 +85,7 @@ color: #FF8480;
 }
 .orangetext,
 .applied{
+    text-align: center;
     font-size:24px;
 }
 .Calculation{
@@ -105,6 +117,7 @@ color: #FF8480;
     background-color: #FF8480;
     color:white;
     margin-bottom: 1rem;
+    padding:0.2em;
     padding-left:3em;
     padding-right:3em;
 }
@@ -118,10 +131,24 @@ color: #FF8480;
 /* Tablet Layout */
 
 @media screen and (min-width:768px){
+    .wrapper{
+        max-width: 1200px;
+        width: auto;
+        margin:auto;
+    }
     .firstname,
     .lastname,
     .phonenumber,
     .emailaddress{
         width:50%;
+    }
+    .City>input{
+        display: block;
+        float: left;
+       margin-left:1.5rem;
+    
+    }
+    .calculate{
+        display: inline-block;
     }
 }
