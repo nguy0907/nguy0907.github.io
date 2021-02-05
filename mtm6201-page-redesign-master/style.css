@@ -1,3 +1,6 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cinzel&family=Lexend+Mega&family=Russo+One&display=swap');
+
 /* Richard Nguyen's work
 Orange, lightgray, and darkergray are my main colours. Reminds me of TedTalk or Home Depot. Open Sans
 is the font that I used. The texts are black and white.*/
@@ -6,6 +9,7 @@ is the font that I used. The texts are black and white.*/
 
 /* All the nav link will have a new appearance.The text is white. The header is orange. The navigation options
 are stacked on top of each others instead of being in rows*/
+
 #nav.nav {
     max-width: 1140px;
     border: none;
@@ -15,7 +19,7 @@ are stacked on top of each others instead of being in rows*/
 }
 .nav-link {
     max-width: 1200px;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Lexend Mega', sans-serif;
     color: #f1f5f2;
      display:flex;
      justify-content: center;
@@ -30,7 +34,7 @@ h1 {
 
 h1,
 h2 {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Lexend Mega', sans-serif;
     font-weight: bolder;
     color: #191919;
     margin-top: -5rem;
@@ -38,7 +42,7 @@ h2 {
 
 /* The line height of the paragraphs is set to 30px. There should be whitespace between every line of sentences. */
 p {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Lexend Mega', sans-serif;
     font-weight: lighter;
     margin-top: 3rem;
     line-height: 30px;
