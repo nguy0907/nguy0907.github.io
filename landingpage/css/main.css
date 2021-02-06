@@ -1,142 +1,191 @@
 /* Mobile Version */
-.wrapper{
+.wrapper {
     width: auto;
-    margin:auto;
-    background: #F7F7FF;
+    margin: auto;
 }
 
-.logo{
-    width:20%;
+html {
+    width: auto;
+    margin: auto;
+    background-color: #F7F7FF;
+}
+
+.logo {
+    width: 20%;
 }
 
 /* All the texts and headers will have a Montserrat Font */
-h1{
+h1 {
     font-family: 'Montserrat', sans-serif;
-    font-size:60px;
+    font-size: 60px;
 }
-h2{
-    font-family: 'Montserrat', sans-serif;    
-    font-size:40px;
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
     text-align: center;
 }
-p{
-    font-family: 'Montserrat', sans-serif;   
+
+p {
+    font-family: 'Montserrat', sans-serif;
 }
 
 /* This is the about section, but nothing much will be added */
 
-.about{
+.about {
     font-family: 'Montserrat', sans-serif;
-    font-size:24px;    
-    
+    font-size: 24px;
+
 }
 
 
 /* This is where we are about to see the form */
-.info-below{
+.info-below {
     text-align: center;
-    margin-left:-3.2rem;
+    margin-left: -3.2rem;
 }
+
 /* The form has the first name, last name, phone number, and email address input. There is also a checkbox.*/
-.signupform{
-    width: auto;
-    text-align: center;   
+.signupform {
+    width: 80%;
+    text-align: center;
     box-shadow: 0px 1px 1px 1px #707070;
     border-radius: 10px;
     border: none;
     background-color: white;
     padding-bottom: 1em;
+    margin-left: 2.5rem;
 }
+
 .firstname,
 .lastname,
 .phonenumber,
-.emailaddress{
-    margin-left:-1.0rem;   
+.emailaddress {
+    margin-left: -1.0rem;
     background-color: #F4F4F5;
 }
 
-input{
+input {
     font-family: 'Montserrat', sans-serif;
     margin-bottom: 1rem;
     padding-top: 0.5em;
-    padding-bottom:0.5em;
+    padding-bottom: 0.5em;
     font-size: 16px;
     border-radius: 10px;
     border: none;
 }
 
-.agreement{
-    font-family: 'Montserrat', sans-serif;  
-  
+.agreement {
+    font-family: 'Montserrat', sans-serif;
+
 }
+
 /* This is the drive with us button which is going to been a Greenish colour */
-.drivewithus{
-  margin-left:-1rem;
-  font-size: 20px;
-  font-weight: bold;
-  background-color: #57EEAB;
-  padding:0.5em;
-  border-radius: 10px;
-  border: none;
+.drivewithus {
+    width: 70%;
+    margin-left: -1rem;
+    font-size: 13px;
+    font-weight: bold;
+    background-color: #57EEAB;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    border-radius: 10px;
+    border: none;
 
 }
 
 /* The text right hear will have an orange colour */
-.orangetext{ 
-color: #FF8480; 
+.orangetext {
+    color: #FF8480;
 }
+
 .orangetext,
-.applied{
+.applied {
     text-align: center;
-    font-size:14px;
+    margin-left: 0.5rem;
+    font-size: 17px;
 }
 
 /* This is the section where you do a calculation. Type the number and City, then click Calculate. */
-.Calculation{
+.Calculation {
     text-align: center;
-    
-}
-.Calculation,
-.socialmedia{
-    background:#FFFD8C;
+
+
 }
 
-.calculation-p1{
+.Calculation,
+.socialmedia {
+    background: #FFFD8C;
+}
+
+.calculation-p1 {
     font-weight: bold;
 }
 
-.hours>input{
+.hours>input {
     display: flex;
     float: left;
-    width:23%;
-    margin-left:1rem;
+    width: 23%;
+    margin-left: 1rem;
 
 }
-.City>input{
+
+.City>input {
     width: 60%;
 }
-.Calculation{
+
+.Calculation {
     padding-top: 0.5em;
-    margin-top:3rem;
+    margin-top: 3rem;
 }
-.calculatebutton{
+
+.calculatebutton {
+    display: inline-block;
     font-size: 24px;
     font-weight: bold;
     background-color: #FF8480;
-    color:white;
+    color: white;
     margin-bottom: 1rem;
-    padding:0.2em;
-    padding-left:2.3em;
-    padding-right:2.4em;
+    padding-left: 5em;
+    padding-right: 5em;
     border-radius: 10px;
     border: none;
 }
-.socialmedia{
+
+.socialmedia {
     width: auto;
     margin: auto;
-   /* max-width: 304px; */
-    display: flex;
-    justify-content: space-evenly;
+
+}
+
+.socialmedia>.facebook {
+
+    margin-left: 5rem;
+    padding-bottom: 1em;
+    background: #FFFD8C;
+
+}
+
+.socialmedia>.instagram {
+
+    margin-left: 3rem;
+
+    padding-bottom: 1em;
+    background: #FFFD8C;
+
+}
+
+.socialmedia>.twitter {
+
+    margin-left: 3rem;
+
+    padding-bottom: 1em;
+    background: #FFFD8C;
+
+}
+
+.socialmedia>.linkedin {
+    margin-left: 3rem;
     padding-bottom: 1em;
     background: #FFFD8C;
 
@@ -147,78 +196,88 @@ color: #FF8480;
 .twitter,
 .linkedin{
     max-width: 304px;
-   display: flex;
+    margin: auto;
+    margin-left:200rem;
    background: #FFFD8C;
 } */
 
 /* Tablet Layout */
 
-@media screen and (min-width:375px){
-    .signupform{
-    max-width:472px;
-}
-    
+@media screen and (min-width:375px) {
+    .signupform {
+        margin: auto;
+        max-width: 550px;
+
+    }
+
     .firstname,
     .lastname,
     .phonenumber,
-    .emailaddress{
-        width:60%;
-    }   
-     .drivewithus{
-        text-align: center;
-        padding-left:6em;
-        padding-right:6em;
+    .emailaddress {
+        width: 70%;
     }
 
-.calculation-p1{
-    margin-left:-8rem;
-}
+    .drivewithus {
+        text-align: center;
+        padding-left: 6em;
+        padding-right: 6em;
+    }
 
-    .hours>input{
+    .calculation-p1 {
+        margin-left: -8rem;
+    }
+
+    .hours>input {
         display: flex;
         float: left;
-        width:10%;
+        width: 10%;
         margin-left: 3rem;
     }
-    .City>input{
+
+    .City>input {
         display: block;
         float: left;
-       margin-left:1rem;
-       width:50%;
+        margin-left: 1rem;
+        width: 50%;
     }
-    .calculatebutton{
+
+    .calculatebutton {
         max-width: 900px;
-        margin-left:1rem;
-        padding-left:1em;
-        padding-right:1em;
+        margin-left: 1rem;
+        padding-left: 1em;
+        padding-right: 1em;
     }
+
     .facebook,
     .instagram,
     .twitter,
-    .linkedin{
+    .linkedin {
         margin: auto;
         width: auto;
         display: inline;
     }
-    .socialmedia{
+
+    .socialmedia {
         margin: auto;
         width: auto;
     }
 }
-/* This is the desktop layout where everything is going to be rearranged */
-@media screen and (min-width:1000px){
-    h1>.about{
-        max-width: 680px;
-    }
-.scooter{
-    display: none;
-}
-main{
 
-}
-    /* html{
+/* This is the desktop layout where everything is going to be rearranged */
+@media screen and (min-width:1000px) {
+
+    h1{
+        max-width: 400px;
+    }
+    .about{
+        max-width: 500px;
+    }
+    .scooter {
+        display: none;
+    }
+
+    html{
         display: grid;
-        margin: auto;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr 1fr 1fr;
         grid-template-areas: 
@@ -234,38 +293,44 @@ main{
     .signupform{
         grid-area: form;
         margin-right:20rem;
-    } */
-
-.signupform{
-    margin: auto;
-    width: auto;
-}
-    .logo{
-        width:8%;
     }
-    .calculatebutton{
+
+    
+
+    .signupform {
+        margin: auto;
+        width: auto;
+
+    }
+
+    .logo {
+        width: 8%;
+    }
+
+    .calculatebutton {
         max-width: 1250px;
     }
+
     .calculation-p1,
-    .calculation-p2{
+    .calculation-p2 {
         margin-left: -60rem;
     }
-.calculation-p1{
-    margin-left: -68rem;
-}
-.City>input{
-    display: block;
-   width:15%;
-}
-.calculatebutton{
- width:auto;
- max-width:1000px;
- margin-left: -48rem;
-}
-.Calculation,
-.socialmedia{
-    
-}
+
+    .calculation-p1 {
+        margin-left: -68rem;
+    }
+
+    .City>input {
+        display: block;
+        width: 15%;
+    }
+
+    .calculatebutton {
+        width: auto;
+        max-width: 1000px;
+        margin-left: -48rem;
+    }
+
 
 
 }
