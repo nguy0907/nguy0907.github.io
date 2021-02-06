@@ -276,8 +276,10 @@ input {
         display: none;
     }
 
-    html{
+    .main{
         display: grid;
+        width: auto;
+        margin: auto;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr 1fr 1fr;
         grid-template-areas: 
@@ -295,7 +297,10 @@ input {
         margin-right:20rem;
     }
 
-    
+    .Calculation{
+        grid-area: footer;
+      
+    }
 
     .signupform {
         margin: auto;
@@ -307,30 +312,6 @@ input {
         width: 8%;
     }
 
-    .calculatebutton {
-        max-width: 1250px;
-    }
-
-    .calculation-p1,
-    .calculation-p2 {
-        margin-left: -60rem;
-    }
-
-    .calculation-p1 {
-        margin-left: -68rem;
-    }
-
-    .City>input {
-        display: block;
-        width: 15%;
-    }
-
-    .calculatebutton {
-        width: auto;
-        max-width: 1000px;
-        margin-left: -48rem;
-    }
-
-
+   
 
 }
