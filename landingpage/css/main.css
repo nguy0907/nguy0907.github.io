@@ -108,9 +108,9 @@ input {
 
 /* This is the section where you do a calculation. Type the number and City, then click Calculate. */
 .Calculation {
+    margin: auto;
+    width: auto;
     text-align: center;
-
-
 }
 
 .Calculation,
@@ -125,13 +125,23 @@ input {
 .hours>input {
     display: flex;
     float: left;
-    width: 23%;
-    margin-left: 1rem;
+    width: 60px;
+    margin-left: 5.5rem;
+    padding-right: 1em;
+    padding-left: 0.3em;
+
 
 }
 
 .City>input {
-    width: 60%;
+    width: 200px;
+    padding-left: 0.3em;
+    margin-left:-4.5rem;
+
+}
+
+.City {
+    margin-left: 1rem;
 }
 
 .Calculation {
@@ -140,16 +150,20 @@ input {
 }
 
 .calculatebutton {
-    display: inline-block;
     font-size: 24px;
     font-weight: bold;
     background-color: #FF8480;
     color: white;
     margin-bottom: 1rem;
-    padding-left: 5em;
-    padding-right: 5em;
+    padding: 0.2em;
     border-radius: 10px;
     border: none;
+
+}
+
+form>.calculatebutton{
+padding-left: 5em;
+padding-right: 5em;
 }
 
 .socialmedia {
@@ -159,8 +173,6 @@ input {
 }
 
 .socialmedia>.facebook {
-
-    margin-left: 5rem;
     padding-bottom: 1em;
     background: #FFFD8C;
 
@@ -169,7 +181,6 @@ input {
 .socialmedia>.instagram {
 
     margin-left: 3rem;
-
     padding-bottom: 1em;
     background: #FFFD8C;
 
@@ -231,19 +242,15 @@ input {
         display: flex;
         float: left;
         width: 10%;
-        margin-left: 3rem;
+        padding-right: 1em;
+        padding-left: 0.3em;
+
     }
 
-    .City>input {
-        display: block;
-        float: left;
-        margin-left: 1rem;
-        width: 50%;
-    }
 
-    .calculatebutton {
-        max-width: 900px;
-        margin-left: 1rem;
+    form>.calculatebutton {
+       width: 200px;
+        margin-left: -10rem;
         padding-left: 1em;
         padding-right: 1em;
     }
@@ -264,47 +271,63 @@ input {
 }
 
 /* This is the desktop layout where everything is going to be rearranged */
-@media screen and (min-width:1000px) {
+@media screen and (min-width:1200px) {
+    .wrapper {
+        width: auto;
+        margin: auto;
+        background-image: url(/landingpage/images/scooter.svg);
+        background-position: 40% 30%;
+        background-repeat: no-repeat;
+        background-size: 50%;
 
-    h1{
+    }
+
+    h1 {
         max-width: 400px;
     }
-    .about{
+
+    .about {
         max-width: 500px;
     }
+
     .scooter {
         display: none;
     }
 
-    .main{
+    .main {
         display: grid;
-        width: auto;
         margin: auto;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr 1fr 1fr;
-        grid-template-areas: 
-        "logo" "logo"
-        "headerabout" "form"
-        "footer" "footer";
+        width: auto;
+        grid-template-columns: auto auto auto;
+        grid-template-rows: auto auto auto;
+        grid-template-areas:
+            "logo""form""form"
+            "headerabout""form""form"
+            "footer""footer""footer";
     }
+
     header,
-    .about{
+    .about {
         grid-area: headerabout;
     }
 
-    .signupform{
+    .signupform {
         grid-area: form;
-        margin-right:20rem;
+        margin: auto;
+        width: auto;
+        margin-right: -50rem;
     }
 
-    .Calculation{
+    .Calculation {
         grid-area: footer;
-      
+
     }
 
     .signupform {
         margin: auto;
         width: auto;
+        margin-right: 50px;
+        margin-top:-20rem;
 
     }
 
@@ -312,6 +335,25 @@ input {
         width: 8%;
     }
 
-   
+    .hours>input {
+        display: flex;
+        float: left;
+        width: 7%;
+        margin-left: 3rem;
+    }
+
+    .City>input {
+        display: block;
+        float: left;
+        margin-left: 1rem;
+        width: 27%;
+    }
+
+    .calculatebutton {
+        width:200px;
+        margin-right: 5rem;
+        
+    }
+
 
 }
