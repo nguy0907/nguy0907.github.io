@@ -11,7 +11,7 @@ html {
 }
 
 .logo {
-    width: 20%;
+   max-width:120px;
 }
 
 /* All the texts and headers will have a Montserrat Font */
@@ -83,9 +83,9 @@ input {
 
 /* This is the drive with us button which is going to been a Greenish colour */
 .drivewithus {
-    width: 70%;
+    width: 80%;
     margin-left: -1rem;
-    font-size: 13px;
+    font-size: 14px;
     font-weight: bold;
     background-color: #57EEAB;
     padding-top: 1em;
@@ -97,6 +97,7 @@ input {
 
 /* The text right hear will have an orange colour */
 .orangetext {
+    max-width: 100px;
     color: #FF8480;
 }
 
@@ -112,6 +113,7 @@ input {
     margin: auto;
     width: auto;
     text-align: center;
+     background: #FFFD8C;
 }
 
 .Calculation,
@@ -120,13 +122,24 @@ input {
 }
 
 .calculation-p1 {
+    max-width: 490px;
+     text-align: center;
     font-weight: bold;
+    margin-left: 2rem;
+   
 }
-
+.calculation-p2{
+    max-width: 470px;
+    margin: auto;
+    width: auto;
+margin-left: 6rem;
+margin-right: 7rem;
+margin-bottom: 1rem;
+}
 .hours>input {
+    max-width: 50px;
     display: flex;
-   margin: auto;
-    width: 60px;
+    width: 68px;
     margin-left: 5.8rem;
     padding-right: 1.6em;
     padding-left: 0.3em;
@@ -134,7 +147,6 @@ input {
 
 .City>input {
     display: flex;
-   margin: auto;
    margin-bottom:1rem;
     width: 200px;
     padding-left: 0.3em;
@@ -169,7 +181,6 @@ form >.calculatebutton {
 .socialmedia {
     width: auto;
     margin: auto;
-
 }
 
 .socialmedia>.facebook {
@@ -187,9 +198,7 @@ form >.calculatebutton {
 }
 
 .socialmedia>.twitter {
-
     margin-left: 3rem;
-
     padding-bottom: 1em;
     background: #FFFD8C;
 
@@ -214,7 +223,7 @@ form >.calculatebutton {
 
 /* Tablet Layout */
 
-@media screen and (min-width:375px) {
+@media screen and (min-width:475px) {
     .signupform {
         margin: auto;
         max-width: 550px;
@@ -234,10 +243,6 @@ form >.calculatebutton {
         padding-right: 6em;
     }
 
-    .calculation-p1 {
-        margin-left: -8rem;
-    }
-
     .hours>input {
         display: flex;
         float: left;
@@ -248,11 +253,11 @@ form >.calculatebutton {
     }
 
     .City>input{
-        width: auto;
+        display: flex;
     }
 
-    form>.calculatebutton {
-
+.calculatebutton {
+    width: 5rem;
         margin-left: -10rem;
         padding-left: 1em;
         padding-right: 1em;
@@ -323,7 +328,7 @@ form >.calculatebutton {
 
     .Calculation {
         grid-area: footer;
-
+        background-color: #FFFD8C;
     }
 
     .signupform {
@@ -342,20 +347,25 @@ form >.calculatebutton {
         display: flex;
         float: left;
         width: 7%;
-        margin-left: 3rem;
+       
     }
 
     .City>input {
         display: block;
         float: left;
         margin-left: 1rem;
-        width: 340px;
+        width: 200px;
     }
 
     .calculatebutton {
-        margin-right: 30rem;
+      display: inline-block;
+        margin-left: -60rem;
+        width: 7rem;
         
     }
-
+.socialmedia{
+    background-color: #FFFD8C;
+    margin-left:60rem;   
+}
   
 }
