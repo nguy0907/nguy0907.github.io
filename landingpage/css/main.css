@@ -57,6 +57,7 @@ p {
     margin-left: 2.5rem;
 }
 
+
 .firstname,
 .lastname,
 .phonenumber,
@@ -124,19 +125,20 @@ input {
 
 .hours>input {
     display: flex;
-    float: left;
+   margin: auto;
     width: 60px;
-    margin-left: 5.5rem;
-    padding-right: 1em;
+    margin-left: 5.8rem;
+    padding-right: 1.6em;
     padding-left: 0.3em;
-
-
 }
 
 .City>input {
+    display: flex;
+   margin: auto;
+   margin-bottom:1rem;
     width: 200px;
     padding-left: 0.3em;
-    margin-left:-4.5rem;
+    margin-left:10rem;
 
 }
 
@@ -149,22 +151,20 @@ input {
     margin-top: 3rem;
 }
 
-.calculatebutton {
+form >.calculatebutton {
+    width: 18rem;
     font-size: 24px;
     font-weight: bold;
     background-color: #FF8480;
     color: white;
     margin-bottom: 1rem;
-    padding: 0.2em;
+    margin-right:-11rem;
+   padding: 0.2em;
     border-radius: 10px;
     border: none;
 
 }
 
-form>.calculatebutton{
-padding-left: 5em;
-padding-right: 5em;
-}
 
 .socialmedia {
     width: auto;
@@ -247,9 +247,12 @@ padding-right: 5em;
 
     }
 
+    .City>input{
+        width: auto;
+    }
 
     form>.calculatebutton {
-       width: 200px;
+
         margin-left: -10rem;
         padding-left: 1em;
         padding-right: 1em;
@@ -346,14 +349,13 @@ padding-right: 5em;
         display: block;
         float: left;
         margin-left: 1rem;
-        width: 27%;
+        width: 340px;
     }
 
     .calculatebutton {
-        width:200px;
-        margin-right: 5rem;
+        margin-right: 30rem;
         
     }
 
-
+  
 }
