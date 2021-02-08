@@ -322,13 +322,14 @@ form >.calculatebutton {
     .Calculation {
         grid-area: footer;
         background-color: #FFFD8C;
+        padding-bottom:5em ;
     }
 
     .signupform {
         margin: auto;
         width: auto;
         margin-right: 50px;
-        margin-top:-20rem;
+        margin-top:-15rem;
 
     }
 
@@ -359,7 +360,8 @@ form >.calculatebutton {
 } */
 
 .socialmedia{
-    margin-left:70rem;   
+    margin-left:70rem;  
+    margin-top:-5rem; 
 }
   
 }
