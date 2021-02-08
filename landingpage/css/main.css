@@ -10,14 +10,15 @@ html {
     background-color: #F7F7FF;
 }
 
-.logo {
-   max-width:120px;
+.logo {  
+   width:100px;
 }
 
 /* All the texts and headers will have a Montserrat Font */
 h1 {
     font-family: 'Montserrat', sans-serif;
     font-size: 60px;
+    max-width: 400px;
 }
 
 h2 {
@@ -35,9 +36,14 @@ p {
 .about {
     font-family: 'Montserrat', sans-serif;
     font-size: 24px;
-
 }
 
+.scooter{
+    display: flex;
+    width: auto;
+margin: auto;
+
+}
 
 /* This is where we are about to see the form */
 .info-below {
@@ -179,51 +185,20 @@ form >.calculatebutton {
 
 
 .socialmedia {
-    width: auto;
-    margin: auto;
+    max-width: 350px;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-bottom:1em;
 }
-
-.socialmedia>.facebook {
-    padding-bottom: 1em;
-    background: #FFFD8C;
-
-}
-
-.socialmedia>.instagram {
-
-    margin-left: 3rem;
-    padding-bottom: 1em;
-    background: #FFFD8C;
-
-}
-
-.socialmedia>.twitter {
-    margin-left: 3rem;
-    padding-bottom: 1em;
-    background: #FFFD8C;
-
-}
-
-.socialmedia>.linkedin {
-    margin-left: 3rem;
-    padding-bottom: 1em;
-    background: #FFFD8C;
-
-}
-
-/* .facebook,
-.instagram,
-.twitter,
-.linkedin{
-    max-width: 304px;
-    margin: auto;
-    margin-left:200rem;
-   background: #FFFD8C;
-} */
 
 /* Tablet Layout */
 
-@media screen and (min-width:475px) {
+@media screen and (min-width:500px) {
+   .scooter{
+       margin: auto;
+       max-width: 450px;
+   }
     .signupform {
         margin: auto;
         max-width: 550px;
@@ -254,9 +229,11 @@ form >.calculatebutton {
 
     .City>input{
         display: flex;
+        flex-wrap: wrap;
     }
 
 .calculatebutton {
+    display: inline-block;
     width: 5rem;
         margin-left: -10rem;
         padding-left: 1em;
@@ -357,15 +334,14 @@ form >.calculatebutton {
         width: 200px;
     }
 
-    .calculatebutton {
-      display: inline-block;
+    .calculatebutton {  
         margin-left: -60rem;
         width: 7rem;
         
     }
 .socialmedia{
-    background-color: #FFFD8C;
-    margin-left:60rem;   
+
+    margin-left:70rem;   
 }
   
 }
