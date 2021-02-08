@@ -126,23 +126,25 @@ input {
 .socialmedia {
     background: #FFFD8C;
 }
-
+/* For the text in the calculation area, I tried to make the paragraph aligned as pecfect as possible */
 .calculation-p1 {
     max-width: 490px;
-     text-align: center;
+     /* text-align: center; */
     font-weight: bold;
     margin-left: 2rem;
    
 }
 .calculation-p2{
     max-width: 470px;
-    margin: auto;
-    width: auto;
+    /* margin: auto;
+    width: auto; */
 margin-left: 6rem;
 margin-right: 7rem;
 margin-bottom: 1rem;
 }
 .hours>input {
+    margin: auto;
+    width: auto;
     max-width: 50px;
     display: flex;
     width: 68px;
@@ -152,6 +154,8 @@ margin-bottom: 1rem;
 }
 
 .City>input {
+    margin: auto;
+    width: auto;
     display: flex;
    margin-bottom:1rem;
     width: 200px;
@@ -220,6 +224,7 @@ form >.calculatebutton {
 
     .hours>input {
         display: flex;
+        
         float: left;
         width: 10%;
         padding-right: 1em;
@@ -233,8 +238,6 @@ form >.calculatebutton {
     }
 
 .calculatebutton {
-    display: inline-block;
-    width: 5rem;
         margin-left: -10rem;
         padding-left: 1em;
         padding-right: 1em;
@@ -254,7 +257,20 @@ form >.calculatebutton {
         width: auto;
     }
 }
+@media screen and (min-width:600px) {
+.calculatebutton{
+    max-width: 180px;
+    display: inline-block;
+    margin-left: -15rem;
+}
+.City>input {
+    display: block;
+    float: left;
+    margin-left: 1rem;
+    width: 200px;
+}
 
+}
 /* This is the desktop layout where everything is going to be rearranged */
 @media screen and (min-width:1200px) {
     .wrapper {
@@ -327,20 +343,20 @@ form >.calculatebutton {
        
     }
 
-    .City>input {
+    /* .City>input {
         display: block;
         float: left;
         margin-left: 1rem;
         width: 200px;
-    }
+    } */
+.calculatebutton{
+    margin: auto;
+   text-align: center;
+   max-width: 180px;
 
-    .calculatebutton {  
-        margin-left: -60rem;
-        width: 7rem;
-        
-    }
+}
+
 .socialmedia{
-
     margin-left:70rem;   
 }
   
