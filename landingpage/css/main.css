@@ -258,10 +258,10 @@ form >.calculatebutton {
     }
 }
 @media screen and (min-width:600px) {
-.calculatebutton{
+.calculatebutton{ 
+    display: block;
+   margin-left: 25rem;
     max-width: 180px;
-    display: inline-block;
-    margin-left: -15rem;
 }
 .City>input {
     display: block;
@@ -343,18 +343,20 @@ form >.calculatebutton {
        
     }
 
-    /* .City>input {
-        display: block;
+    .City>input {
+        display: flex;
         float: left;
         margin-left: 1rem;
         width: 200px;
-    } */
-.calculatebutton{
+    }
+/* .calculatebutton{
+    width: auto;
+    display: inline-block;
     margin: auto;
    text-align: center;
    max-width: 180px;
 
-}
+} */
 
 .socialmedia{
     margin-left:70rem;   
