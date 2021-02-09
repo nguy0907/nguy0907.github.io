@@ -1,4 +1,6 @@
 /* Mobile Version */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
 .wrapper {
     width: auto;
     margin: auto;
@@ -18,7 +20,7 @@ html {
 h1 {
     font-family: 'Montserrat', sans-serif;
     font-size: 60px;
-    max-width: 400px;
+    max-width: 300px;
 }
 
 h2 {
@@ -53,17 +55,18 @@ margin: auto;
 
 /* The form has the first name, last name, phone number, and email address input. There is also a checkbox.*/
 .signupform {
-    width: 80%;
+    width: 90%;
     text-align: center;
-    box-shadow: 0px 1px 1px 1px #707070;
-    border-radius: 10px;
+    box-shadow: 3px 3px 0px 0px #707070;
+    border-radius: 26px;
     border: none;
     background-color: white;
     padding-bottom: 1em;
+    padding-top:1em;
     margin-left: 2.5rem;
 }
 
-
+/* The input itself is going to have a different colour to the form so it would be easier to see */
 .firstname,
 .lastname,
 .phonenumber,
@@ -73,6 +76,7 @@ margin: auto;
 }
 
 input {
+
     font-family: 'Montserrat', sans-serif;
     margin-bottom: 1rem;
     padding-top: 0.5em;
@@ -88,16 +92,20 @@ input {
 }
 
 /* This is the drive with us button which is going to been a Greenish colour */
-.drivewithus {
-    width: 80%;
-    margin-left: -1rem;
-    font-size: 14px;
+.drivewithus { 
+    width:70%;
+   font-size: 24px;
     font-weight: bold;
     background-color: #57EEAB;
-    padding-top: 1em;
-    padding-bottom: 1em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
     border-radius: 10px;
     border: none;
+
+}
+
+form>.drivewithus{
+    margin-left: -1rem;
 
 }
 
@@ -115,10 +123,12 @@ input {
 }
 
 /* This is the section where you do a calculation. Type the number and City, then click Calculate. */
-.Calculation {
+.Calculation {  
     margin: auto;
     width: auto;
     text-align: center;
+    padding-top: 0.5em;
+    margin-top: 3rem;
      background: #FFFD8C;
 }
 
@@ -128,20 +138,20 @@ input {
 }
 /* For the text in the calculation area, I tried to make the paragraph aligned as pecfect as possible */
 .calculation-p1 {
-    max-width: 490px;
-     /* text-align: center; */
+max-width: 430px;
+    margin-left: 4rem;
     font-weight: bold;
-    margin-left: 2rem;
    
 }
 .calculation-p2{
     max-width: 470px;
-    /* margin: auto;
-    width: auto; */
-margin-left: 6rem;
+    text-align: center;
+margin-left: 5rem;
 margin-right: 7rem;
 margin-bottom: 1rem;
 }
+/* Here are the inputs in the calculation section. You have the hours, city, and a button that does the 
+calculation. I used flex to make things align */
 .hours>input {
     margin: auto;
     width: auto;
@@ -168,12 +178,8 @@ margin-bottom: 1rem;
     margin-left: 1rem;
 }
 
-.Calculation {
-    padding-top: 0.5em;
-    margin-top: 3rem;
-}
-
-form >.calculatebutton {
+/* The button is going to be positioned right under the 2 inputs */
+form >.calculatebutton {  
     width: 18rem;
     font-size: 24px;
     font-weight: bold;
@@ -187,7 +193,7 @@ form >.calculatebutton {
 
 }
 
-
+/* The social media icon should have equal spacing and aligned properly */
 .socialmedia {
     max-width: 350px;
     display:flex;
@@ -199,10 +205,11 @@ form >.calculatebutton {
 /* Tablet Layout */
 
 @media screen and (min-width:500px) {
-   .scooter{
+    .scooter{
        margin: auto;
        max-width: 450px;
    }
+   /* The form is only going to expand. The layout and everything else will stay the same. */
     .signupform {
         margin: auto;
         max-width: 550px;
@@ -218,10 +225,16 @@ form >.calculatebutton {
 
     .drivewithus {
         text-align: center;
-        padding-left: 6em;
-        padding-right: 6em;
     }
 
+    .calculation-p1 {
+        width: auto;
+        font-weight: bold;
+       
+    }
+    .calculation-p2{
+        margin-left: 5.5rem;   
+    }
     .hours>input {
         display: flex;
         
@@ -257,7 +270,12 @@ form >.calculatebutton {
         width: auto;
     }
 }
-@media screen and (min-width:600px) {
+/* This is still the tablet screen. Had to add another media query to make sure 
+the calculation button will be aligned with the hours and city input. */
+@media screen and (min-width:620px) {
+    h1{
+        max-width: 400px;
+    }
 .calculatebutton{ 
     display: block;
    margin-left: 25rem;
@@ -350,18 +368,10 @@ form >.calculatebutton {
         margin-left: 1rem;
         width: 200px;
     }
-/* .calculatebutton{
-    width: auto;
-    display: inline-block;
-    margin: auto;
-   text-align: center;
-   max-width: 180px;
-
-} */
 
 .socialmedia{
     margin-left:70rem;  
-    margin-top:-5rem; 
+    margin-top:-3.5rem; 
 }
   
 }
