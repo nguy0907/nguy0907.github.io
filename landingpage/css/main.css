@@ -37,9 +37,9 @@ h2 {
 
 .about {
     width: auto;
-    width: 320px;
     font-size: 24px;
     margin-left: 2rem;
+    margin-right:8rem;
     margin-bottom: 12em;
 
 }
@@ -233,8 +233,8 @@ form>.calculatebutton {
 
 @media screen and (min-width:500px) {
     .about {
-        margin-top: -1rem;
-     max-width:540px;
+   width: auto;
+   max-width: 550px;
     }
 
     /* The form is only going to expand. The layout and everything else will stay the same. */
@@ -293,7 +293,6 @@ form>.calculatebutton {
 
 /* This is still going to be a tablet screen */
 @media screen and (min-width:620px) {
-
     h1 {
         font-size: 80px;
         max-width: 500px;
@@ -302,6 +301,10 @@ form>.calculatebutton {
     .about {
         width: auto;
     } 
+
+    .applied{
+        text-align: center;
+    }
      .City>input {
         display: block;
         float: left;
@@ -323,6 +326,10 @@ form>.calculatebutton {
         background-image: url(/landingpage/images/scooter.svg);
         background-size: 50%;
         background-position: 46% 49%;
+    }
+
+    .about{
+        margin-top:-3rem;
     }
 
     .logo {
