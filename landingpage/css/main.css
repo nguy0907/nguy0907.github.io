@@ -405,8 +405,8 @@ form>.calculatebutton {
         order: 1;
     }
 
-    /* Removed the round facebook and now it is a square */
+    /* Removed the round facebook icon and now it is a square */
     .facebook {
-        border-radius: unset;
+        border-radius: 5px;
     }
 }
