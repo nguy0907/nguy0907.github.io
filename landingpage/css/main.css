@@ -1,4 +1,3 @@
-
 /* It is a mobile version because of the default size on my laptop */
 /* I added the import part to make sure the font is actually there */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
@@ -39,7 +38,7 @@ h2 {
     width: auto;
     font-size: 24px;
     margin-left: 2rem;
-    margin-right:8rem;
+    margin-right: 8rem;
     margin-bottom: 12em;
 
 }
@@ -91,11 +90,12 @@ input {
     border-radius: 10px;
     border: none;
 }
+
 /* The agreement has nothing but a statement and a checkbox */
 .agreement {
     font-family: 'Montserrat', sans-serif;
     max-width: 525px;
-    margin-left:-5.5rem;
+    margin-left: -5.5rem;
 }
 
 /* This is the drive with us button which is going to been a Greenish colour */
@@ -153,7 +153,7 @@ I used margin to also make sure every space is filled in and more bleeding backg
 .calculation-p1 {
     text-align: left;
     max-width: 400px;
-    margin-right:7rem;
+    margin-right: 7rem;
     margin-left: 6rem;
     font-weight: bold;
 
@@ -162,7 +162,7 @@ I used margin to also make sure every space is filled in and more bleeding backg
 .calculation-p2 {
     text-align: left;
     max-width: 500px;
-    margin-left:6rem;
+    margin-left: 6rem;
     margin-right: 7rem;
     margin-bottom: 1rem;
 }
@@ -233,8 +233,8 @@ form>.calculatebutton {
 
 @media screen and (min-width:500px) {
     .about {
-   width: auto;
-   max-width: 550px;
+        width: auto;
+        max-width: 550px;
     }
 
     /* The form is only going to expand. The layout and everything else will stay the same. */
@@ -300,27 +300,30 @@ form>.calculatebutton {
 
     .about {
         width: auto;
-    } 
+    }
 
-    .applied{
+    .applied {
         text-align: center;
     }
-     .City>input {
+
+    .City>input {
         display: block;
         float: left;
         margin-left: 1rem;
         width: 200px;
     }
-/* The calculate button is now floating beside the city button */
+
+    /* The calculate button is now floating beside the city button */
     .calculatebutton {
         display: block;
         margin-left: 25rem;
-        max-width: 180px;  
-    } 
+        max-width: 180px;
+    }
 }
 
 /* This is now the desktop version of the website which is 1200px */
 @media screen and (min-width:1200px) {
+
     /* The image background is going to be as closest as possible to the background */
     html {
         background-image: url(/landingpage/images/scooter.svg);
@@ -328,19 +331,19 @@ form>.calculatebutton {
         background-position: 46% 49%;
     }
 
-    .about{
-        margin-top:-3rem;
+    .about {
+        margin-top: -3rem;
     }
 
     .logo {
         width: 8%;
     }
 
-    h1{
-        margin-bottom:6rem;
+    h1 {
+        margin-bottom: 6rem;
     }
 
-/* Using margin and width, the signup form is on the right and kind of in the middle of the page without grid */
+    /* Using margin and width, the signup form is on the right and kind of in the middle of the page without grid */
     .signupform {
         margin: auto;
         width: auto;
@@ -349,11 +352,12 @@ form>.calculatebutton {
         margin-top: -44rem;
     }
 
-    .applied{
+    .applied {
         text-align: center;
     }
-    .drivewithus{
-   width: 70%;
+
+    .drivewithus {
+        width: 70%;
     }
 
     .firstname,
@@ -367,13 +371,14 @@ form>.calculatebutton {
         background-color: #FFFD8C;
         margin-top: 9rem;
         padding-bottom: 5em;
-        padding-top:2em;
+        padding-top: 2em;
     }
 
-    .calculation-p1{
-        margin-left:6rem;
+    .calculation-p1 {
+        margin-left: 6rem;
     }
-    .calculation-p2{
+
+    .calculation-p2 {
         margin-left: 6rem;
     }
 
