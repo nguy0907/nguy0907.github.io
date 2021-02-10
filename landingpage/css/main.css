@@ -1,49 +1,45 @@
 /* Mobile Version */
+/* It is a mobile version because of the default size on my laptop */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
-.wrapper {
-    width: auto;
-    margin: auto;
-}
 
 html {
+    font-family: 'Montserrat', sans-serif;
     width: auto;
     margin: auto;
     background-color: #F7F7FF;
 }
 
-.logo {  
-   width:100px;
+.logo {
+    width: 100px;
 }
 
 /* All the texts and headers will have a Montserrat Font */
 h1 {
-    font-family: 'Montserrat', sans-serif;
     font-size: 60px;
     max-width: 300px;
 }
 
 h2 {
-    font-family: 'Montserrat', sans-serif;
+
     font-size: 40px;
     text-align: center;
 }
 
-p {
-    font-family: 'Montserrat', sans-serif;
-}
 
 /* This is the about section, but nothing much will be added */
 
 .about {
-    font-family: 'Montserrat', sans-serif;
+    width: auto;
+    width: 320px;
     font-size: 24px;
+
 }
 
-.scooter{
+.scooter {
     display: flex;
     width: auto;
-margin: auto;
+    margin: auto;
 
 }
 
@@ -57,12 +53,12 @@ margin: auto;
 .signupform {
     width: 90%;
     text-align: center;
-    box-shadow: 3px 3px 0px 0px #707070;
+    box-shadow: 1px 1px 5px 1px #707070;
     border-radius: 26px;
     border: none;
     background-color: white;
     padding-bottom: 1em;
-    padding-top:1em;
+    padding-top: 1em;
     margin-left: 2.5rem;
 }
 
@@ -92,9 +88,9 @@ input {
 }
 
 /* This is the drive with us button which is going to been a Greenish colour */
-.drivewithus { 
-    width:70%;
-   font-size: 24px;
+.drivewithus {
+    width: 70%;
+    font-size: 24px;
     font-weight: bold;
     background-color: #57EEAB;
     padding-top: 0.5em;
@@ -104,7 +100,7 @@ input {
 
 }
 
-form>.drivewithus{
+form>.drivewithus {
     margin-left: -1rem;
 
 }
@@ -123,33 +119,36 @@ form>.drivewithus{
 }
 
 /* This is the section where you do a calculation. Type the number and City, then click Calculate. */
-.Calculation {  
+.Calculation {
     margin: auto;
     width: auto;
     text-align: center;
     padding-top: 0.5em;
     margin-top: 3rem;
-     background: #FFFD8C;
+    background: #FFFD8C;
 }
 
 .Calculation,
 .socialmedia {
     background: #FFFD8C;
 }
+
 /* For the text in the calculation area, I tried to make the paragraph aligned as pecfect as possible */
 .calculation-p1 {
-max-width: 430px;
-    margin-left: 4rem;
+    max-width: 400px;
+    margin-left: 3.5rem;
     font-weight: bold;
-   
+
 }
-.calculation-p2{
+
+.calculation-p2 {
     max-width: 470px;
     text-align: center;
-margin-left: 5rem;
-margin-right: 7rem;
-margin-bottom: 1rem;
+    margin-left: 5rem;
+    margin-right: 7rem;
+    margin-bottom: 1rem;
 }
+
 /* Here are the inputs in the calculation section. You have the hours, city, and a button that does the 
 calculation. I used flex to make things align */
 .hours>input {
@@ -167,10 +166,10 @@ calculation. I used flex to make things align */
     margin: auto;
     width: auto;
     display: flex;
-   margin-bottom:1rem;
+    margin-bottom: 1rem;
     width: 200px;
     padding-left: 0.3em;
-    margin-left:10rem;
+    margin-left: 10rem;
 
 }
 
@@ -179,15 +178,15 @@ calculation. I used flex to make things align */
 }
 
 /* The button is going to be positioned right under the 2 inputs */
-form >.calculatebutton {  
+form>.calculatebutton {
     width: 18rem;
     font-size: 24px;
     font-weight: bold;
     background-color: #FF8480;
     color: white;
     margin-bottom: 1rem;
-    margin-right:-11rem;
-   padding: 0.2em;
+    margin-right: -11rem;
+    padding: 0.2em;
     border-radius: 10px;
     border: none;
 
@@ -196,20 +195,34 @@ form >.calculatebutton {
 /* The social media icon should have equal spacing and aligned properly */
 .socialmedia {
     max-width: 350px;
-    display:flex;
+    display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    padding-bottom:1em;
+    padding-bottom: 1em;
+}
+/* The facebook logo is going to be a circle instead of the square */
+.facebook {
+    border-radius: 50px;
+}
+.linkedin{
+    border-radius: 5px;
 }
 
 /* Tablet Layout */
 
 @media screen and (min-width:500px) {
-    .scooter{
-       margin: auto;
-       max-width: 450px;
-   }
-   /* The form is only going to expand. The layout and everything else will stay the same. */
+
+    .about {
+        max-width: 600px;
+    }
+
+    /* The size of the scooter should not grow, instead slide to the right like the form */
+    .scooter {
+        margin: auto;
+        max-width: 450px;
+    }
+
+    /* The form is only going to expand. The layout and everything else will stay the same. */
     .signupform {
         margin: auto;
         max-width: 550px;
@@ -223,21 +236,19 @@ form >.calculatebutton {
         width: 70%;
     }
 
-    .drivewithus {
-        text-align: center;
-    }
-
     .calculation-p1 {
         width: auto;
         font-weight: bold;
-       
+
     }
-    .calculation-p2{
-        margin-left: 5.5rem;   
+
+    .calculation-p2 {
+        margin-left: 5.5rem;
     }
+
     .hours>input {
         display: flex;
-        
+
         float: left;
         width: 10%;
         padding-right: 1em;
@@ -245,12 +256,12 @@ form >.calculatebutton {
 
     }
 
-    .City>input{
+    .City>input {
         display: flex;
         flex-wrap: wrap;
     }
 
-.calculatebutton {
+    .calculatebutton {
         margin-left: -10rem;
         padding-left: 1em;
         padding-right: 1em;
@@ -270,25 +281,35 @@ form >.calculatebutton {
         width: auto;
     }
 }
+
 /* This is still the tablet screen. Had to add another media query to make sure 
 the calculation button will be aligned with the hours and city input. */
 @media screen and (min-width:620px) {
-    h1{
-        max-width: 400px;
+
+    h1 {
+        font-size: 80px;
+        max-width: 500px;
     }
-.calculatebutton{ 
-    display: block;
-   margin-left: 25rem;
-    max-width: 180px;
-}
-.City>input {
-    display: block;
-    float: left;
-    margin-left: 1rem;
-    width: 200px;
-}
+
+    .about {
+        width: auto;
+    }
+
+    .calculatebutton {
+        display: block;
+        margin-left: 25rem;
+        max-width: 180px;
+    }
+
+    .City>input {
+        display: block;
+        float: left;
+        margin-left: 1rem;
+        width: 200px;
+    }
 
 }
+
 /* This is the desktop layout where everything is going to be rearranged */
 @media screen and (min-width:1200px) {
     .wrapper {
@@ -301,18 +322,12 @@ the calculation button will be aligned with the hours and city input. */
 
     }
 
-    h1 {
-        max-width: 400px;
-    }
-
-    .about {
-        max-width: 500px;
-    }
 
     .scooter {
         display: none;
     }
-
+/* I used the grid for the desktop layout to put the heading and a quick paragraph on the left side, I placed the 
+form on the right side and the calculation form will stay at the bottom */
     .main {
         display: grid;
         margin: auto;
@@ -340,14 +355,14 @@ the calculation button will be aligned with the hours and city input. */
     .Calculation {
         grid-area: footer;
         background-color: #FFFD8C;
-        padding-bottom:5em ;
+        padding-bottom: 5em;
     }
 
     .signupform {
         margin: auto;
         width: auto;
         margin-right: 50px;
-        margin-top:-15rem;
+        margin-top: -20rem;
 
     }
 
@@ -359,7 +374,7 @@ the calculation button will be aligned with the hours and city input. */
         display: flex;
         float: left;
         width: 7%;
-       
+
     }
 
     .City>input {
@@ -369,9 +384,27 @@ the calculation button will be aligned with the hours and city input. */
         width: 200px;
     }
 
-.socialmedia{
-    margin-left:70rem;  
-    margin-top:-3.5rem; 
-}
-  
+    .socialmedia {
+        margin-left: 70rem;
+        margin-top: -3.5rem;
+        
+    }
+/* This is where I swaped the order of the social media icons */
+    .socialmedia>.instagram{
+        display: flex;
+        order: -1;
+    }
+    .socialmedia>.facebook{
+        display: flex;
+        order:1;
+    }
+    .socialmedia>.linkedin{
+        display: flex;
+        order:1;
+    }
+
+    /* Removed the round facebook and now it is a square */
+    .facebook {
+        border-radius: unset;
+    }
 }
