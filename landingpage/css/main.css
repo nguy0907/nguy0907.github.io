@@ -1,8 +1,10 @@
 
 /* It is a mobile version because of the default size on my laptop */
+/* I added the import part to make sure the font is actually there */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
 
+/* This is where I have the background, and the background image */
 html {
     font-family: 'Montserrat', sans-serif;
     background-color: #F7F7FF;
@@ -40,13 +42,6 @@ h2 {
     margin-left: 2rem;
     margin-bottom: 12em;
 
-}
-
-/*  The scooter is used as an image instead of a background */
-.scooter {
-    display: flex;
-    width: auto;
-    margin: auto;
 }
 
 /* This is where we are about to see the form */
@@ -96,10 +91,12 @@ input {
     border-radius: 10px;
     border: none;
 }
-
+/* The agreement has nothing but a statement and a checkbox */
 .agreement {
     font-family: 'Montserrat', sans-serif;
-
+    max-width: 525px;
+    margin-left:-5.5rem;
+  
 }
 
 /* This is the drive with us button which is going to been a Greenish colour */
@@ -128,12 +125,13 @@ form>.drivewithus {
 
 .orangetext,
 .applied {
-    text-align: center;
+    text-align: left;
     margin-left: 0.5rem;
     font-size: 16px;
 }
 
-/* This is the section where you do a calculation. Type the number and City, then click Calculate. */
+/* This is the section where you do a calculation. Type the number and City, then click Calculate.
+I used margin to also make sure every space is filled in and more bleeding background */
 .Calculation {
     margin: auto;
     width: auto;
@@ -155,16 +153,18 @@ form>.drivewithus {
 
 /* For the text in the calculation area, I tried to make the paragraph aligned as pecfect as possible */
 .calculation-p1 {
+    text-align: left;
     max-width: 400px;
-    margin-left: 3.5rem;
+    margin-right:7rem;
+    margin-left: 6rem;
     font-weight: bold;
 
 }
 
 .calculation-p2 {
-    max-width: 470px;
-    text-align: center;
-    margin-left: 5rem;
+    text-align: left;
+    max-width: 500px;
+    margin-left:6rem;
     margin-right: 7rem;
     margin-bottom: 1rem;
 }
@@ -238,13 +238,6 @@ form>.calculatebutton {
         margin-top: -1rem;
      max-width:540px;
     }
-    /* The size of the scooter should  grow a bit, and slide to the right like the form */
-    .scooter {
-        margin: auto;
-        width: auto;
-        max-width: 289.23px;
-        margin-bottom: 1rem;
-    }
 
     /* The form is only going to expand. The layout and everything else will stay the same. */
     .signupform {
@@ -266,13 +259,8 @@ form>.calculatebutton {
 
     }
 
-    .calculation-p2 {
-        margin-left: 5.5rem;
-    }
-
     .hours>input {
         display: flex;
-
         float: left;
         width: 10%;
         padding-right: 1em;
@@ -306,7 +294,7 @@ form>.calculatebutton {
     }
 }
 
-/* Tablet screen */
+/* This is still going to be a tablet screen */
 @media screen and (min-width:620px) {
 
     h1 {
@@ -316,22 +304,19 @@ form>.calculatebutton {
 
     .about {
         width: auto;
-    }
-
-    .calculatebutton {
-        display: block;
-        margin-left: 25rem;
-        max-width: 180px;
-        
-    }
-
-    .City>input {
+    } 
+     .City>input {
         display: block;
         float: left;
         margin-left: 1rem;
         width: 200px;
     }
-
+/* The calculate button is now floating beside the city button */
+    .calculatebutton {
+        display: block;
+        margin-left: 25rem;
+        max-width: 180px;  
+    } 
 }
 
 /* This is now the desktop version of the website which is 1200px */
@@ -339,32 +324,31 @@ form>.calculatebutton {
     /* The image background is going to be as closest as possible to the background */
     html {
         background-image: url(/landingpage/images/scooter.svg);
-        background-size: 40%;
-        background-position: 40% 49%;
+        background-size: 50%;
+        background-position: 46% 49%;
     }
 
     .logo {
         width: 8%;
     }
 
-  
-    .scooter {
-        display: none;
+    h1{
+        margin-bottom:6rem;
     }
 
 /* Using margin and width, the signup form is on the right and kind of in the middle of the page without grid */
     .signupform {
         margin: auto;
         width: auto;
-        width: 35%;
+        width: 33%;
         margin-right: 50px;
-        margin-top: -39rem;
+        margin-top: -44rem;
+        
 
     }
 
     .drivewithus{
    width: 70%;
-
     }
 
     .firstname,
@@ -374,7 +358,6 @@ form>.calculatebutton {
         width: 70%;
     }
 
-
     .Calculation {
         background-color: #FFFD8C;
         margin-top: 9rem;
@@ -382,11 +365,17 @@ form>.calculatebutton {
         padding-top:2em;
     }
 
+    .calculation-p1{
+        margin-left:4rem;
+    }
+    .calculation-p2{
+        margin-left: 4.7rem;
+    }
+
     .hours>input {
         display: flex;
         float: left;
         width: 7%;
-
     }
 
     .City>input {
