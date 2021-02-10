@@ -343,7 +343,7 @@ form>.calculatebutton {
     }
 
     .applied{
-        text-align: center;
+       margin-left:2rem;
     }
     .drivewithus{
    width: 70%;
