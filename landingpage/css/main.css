@@ -96,7 +96,6 @@ input {
     font-family: 'Montserrat', sans-serif;
     max-width: 525px;
     margin-left:-5.5rem;
-  
 }
 
 /* This is the drive with us button which is going to been a Greenish colour */
@@ -142,7 +141,6 @@ I used margin to also make sure every space is filled in and more bleeding backg
     margin-bottom: -2rem;
     margin-right: -0.5rem;
     background: #FFFD8C;
-
 }
 
 .Calculation,
@@ -243,7 +241,6 @@ form>.calculatebutton {
     .signupform {
         margin: auto;
         max-width: 550px;
-
     }
 
     .firstname,
@@ -343,10 +340,11 @@ form>.calculatebutton {
         width: 33%;
         margin-right: 50px;
         margin-top: -44rem;
-        
-
     }
 
+    .applied{
+        text-align: center;
+    }
     .drivewithus{
    width: 70%;
     }
