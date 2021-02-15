@@ -10,10 +10,7 @@ img{
     width:20%;
 }
 
-h1{
-font-size: 40px;
-font-weight: bolder;
-}
+
 /* The nav link will have no underlines and no other decoration The colour is white since the background is dark */
 a{
     color:white;
@@ -28,10 +25,65 @@ header{
     text-align: center;
     
 }
+
 nav{
     margin-left:-2rem;
 }
 ul li{
     margin-bottom:1rem;
     list-style: none;
+}
+h1{
+    margin: auto;
+    width: auto;
+font-size: 40px;
+font-weight: bolder;
+margin-left:4rem;
+margin-right:3rem;
+margin-top:3rem;
+margin-bottom:2rem;
+}
+
+p{
+ margin-left:4rem;
+margin-right:10rem;
+line-height: 35px;
+}
+
+.activities{
+    color:#26A682;
+}
+.bowling{
+margin-top:5rem;
+}
+.rockclimbing{
+    float: right;
+    margin-top:-3.1rem;
+    margin-right:4rem;
+}
+.fitness{
+    margin-top:3rem;
+}
+.court{
+    float:right;
+    margin-top:-3.1rem;
+    margin-right:5rem;
+}
+/* This is the well customized button that is rounded and has a green colour.
+There is also a shadow at the bottom at the button */
+.start{
+    display: flex;
+    font-family: 'Raleway', sans-serif;
+    font-size: 32px;  
+    font-weight: bold;
+    padding-left:2em;
+    padding-right:2em;
+    padding-top:0.2em;
+    padding-bottom:0.2em;
+    justify-content: center;
+    margin-left:4rem;
+    border-radius: 40px;
+    background-color: #26A682;
+    color: #F2F2F2;
+    box-shadow: -1px 4px 10px 0px black;
 }
