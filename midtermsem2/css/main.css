@@ -1,0 +1,37 @@
+/* This is the css section for the main page. Mobile layout goes first.The font is being used is Ralway,
+ which is the main font of this website */
+
+html{
+     font-family: 'Raleway', sans-serif;
+    margin: auto;
+    width: auto;
+}
+img{
+    width:20%;
+}
+
+h1{
+font-size: 40px;
+font-weight: bolder;
+}
+/* The nav link will have no underlines and no other decoration The colour is white since the background is dark */
+a{
+    color:white;
+    text-decoration: none;
+}
+/* The header will have a black background and every element is centered */
+header{
+    background-color: #3C3B3A;
+    padding-bottom: 2em;
+    font-size: 18px;
+    font-weight:normal;
+    text-align: center;
+    
+}
+nav{
+    margin-left:-2rem;
+}
+ul li{
+    margin-bottom:1rem;
+    list-style: none;
+}
