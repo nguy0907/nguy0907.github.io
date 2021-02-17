@@ -5,6 +5,7 @@ html{
      font-family: 'Raleway', sans-serif;
     margin: auto;
     width: auto;
+    line-height: 35px;
 }
 img{
     width:20%;
@@ -42,14 +43,23 @@ margin-left:4rem;
 margin-right:3rem;
 margin-top:3rem;
 margin-bottom:2rem;
+line-height: 47px;
 }
 
-p{
- margin-left:4rem;
-margin-right:10rem;
-line-height: 35px;
+h2{
+    font-size: 34px;
+    font-style: italic;
 }
 
+h3{
+    font-size:24px;
+    font-weight: lighter;
+    color: #26A682;
+}
+.ARC-p{
+    margin-left:4rem;
+    margin-right:10rem;
+}
 .activities{
     color:#26A682;
 }
@@ -74,16 +84,63 @@ There is also a shadow at the bottom at the button */
 .start{
     display: flex;
     font-family: 'Raleway', sans-serif;
+    width:300px;
     font-size: 32px;  
     font-weight: bold;
-    padding-left:2em;
-    padding-right:2em;
-    padding-top:0.2em;
-    padding-bottom:0.2em;
     justify-content: center;
+    padding-top:0.5rem;
+    padding-bottom:0.5rem;
     margin-left:4rem;
+    margin-bottom:2rem;
     border-radius: 40px;
     background-color: #26A682;
     color: #F2F2F2;
     box-shadow: -1px 4px 10px 0px black;
+}
+.discoverimg{
+    width:100%;
+}
+.school{
+    display: block;
+width: 375px;
+height:200px;
+}
+
+.discoveralgonquin{
+margin-left:2rem;
+}
+.discoveralgonquin> p{
+    margin-right:2rem;
+}
+
+.learnmore{ 
+ margin-left:14.5rem;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    width:146px;
+  border-radius: 40px;
+  background-color: #26A682;
+  box-shadow: -1px 4px 10px 0px black;
+  color: #F2F2F2;
+  padding-top:0.5em;
+  padding-bottom:0.5em;
+    margin-bottom:2rem;
+    margin-right:4rem;
+}
+.simon{
+    margin: auto;
+    width: auto;
+    background-color: #3C3B3A;
+    color: #F2F2F2;
+}
+h3{
+    color:#F2F2F2;
+}
+.simonpic{
+     width:40%;
+margin-left:8.5rem;
+
+border-radius: 100px;
+    
 }
