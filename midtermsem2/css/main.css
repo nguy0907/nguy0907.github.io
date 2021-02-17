@@ -1,146 +1,220 @@
 /* This is the css section for the main page. Mobile layout goes first.The font is being used is Ralway,
  which is the main font of this website */
 
-html{
-     font-family: 'Raleway', sans-serif;
-    margin: auto;
-    width: auto;
+html {
+    font-family: 'Raleway', sans-serif;
     line-height: 35px;
 }
-img{
-    width:20%;
+
+/* The images will be responsive */
+img {
+    height: auto;
+    max-width: 100%;
 }
 
 
 /* The nav link will have no underlines and no other decoration The colour is white since the background is dark */
-a{
-    color:white;
+a {
+    color: white;
     text-decoration: none;
 }
+
 /* The header will have a black background and every element is centered */
-header{
+header {
     background-color: #3C3B3A;
     padding-bottom: 2em;
     font-size: 18px;
-    font-weight:normal;
+    font-weight: normal;
     text-align: center;
-    
+
 }
 
-nav{
-    margin-left:-2rem;
+.logo {
+    justify-content: center;
+    width: 25%;
 }
-ul li{
-    margin-bottom:1rem;
+
+nav {
+    margin-left: -2rem;
+}
+
+/* The list will no longer have underline and there is some space between every item */
+ul li {
+    margin-bottom: 1rem;
     list-style: none;
 }
-h1{
+
+/* This is the area where these header will have different characteristic */
+h1 {
     margin: auto;
     width: auto;
-font-size: 40px;
-font-weight: bolder;
-margin-left:4rem;
-margin-right:3rem;
-margin-top:3rem;
-margin-bottom:2rem;
-line-height: 47px;
+    font-size: 40px;
+    font-weight: bolder;
+    margin-left: 4rem;
+    margin-right: 3rem;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    line-height: 47px;
 }
 
-h2{
+h2 {
     font-size: 34px;
     font-style: italic;
 }
 
-h3{
-    font-size:24px;
+h3 {
+    font-size: 24px;
     font-weight: lighter;
     color: #26A682;
 }
-.ARC-p{
-    margin-left:4rem;
-    margin-right:10rem;
+
+/* This is the section where there are 4 activities you can choose from. There is images will labels under it. */
+.ARC-p {
+    margin-left: 4rem;
+    margin-right: 10rem;
 }
-.activities{
-    color:#26A682;
+
+.activities {
+    color: #26A682;
+    margin-left: 4rem;
 }
-.bowling{
-margin-top:5rem;
+
+.activities>img {
+    width: 10%;
 }
-.rockclimbing{
+
+.bowling {
+    margin-top: 1rem;
+}
+
+.bowlingpic {
+    margin-top: 2rem;
+}
+
+.rockclimbing {
     float: right;
-    margin-top:-3.1rem;
-    margin-right:4rem;
+    margin-top: -3.1rem;
+    margin-right: 4rem;
 }
-.fitness{
-    margin-top:3rem;
+
+.fitness {
+    margin-top: 4rem;
 }
-.court{
-    float:right;
-    margin-top:-3.1rem;
-    margin-right:5rem;
+
+.court {
+    float: right;
+    margin-top: -3.1rem;
+    margin-right: 5rem;
 }
+
+.bballpic {
+    float: right;
+    margin-right: -4.5rem;
+}
+
+
 /* This is the well customized button that is rounded and has a green colour.
 There is also a shadow at the bottom at the button */
-.start{
+.start {
     display: flex;
     font-family: 'Raleway', sans-serif;
-    width:300px;
-    font-size: 32px;  
+    width: 300px;
+    font-size: 32px;
     font-weight: bold;
     justify-content: center;
-    padding-top:0.5rem;
-    padding-bottom:0.5rem;
-    margin-left:4rem;
-    margin-bottom:2rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    margin-left: 4rem;
+    margin-bottom: 2rem;
     border-radius: 40px;
     background-color: #26A682;
     color: #F2F2F2;
     box-shadow: -1px 4px 10px 0px black;
 }
-.discoverimg{
-    width:100%;
-}
-.school{
-    display: block;
-width: 375px;
-height:200px;
+
+.discovering {
+    width: 100%;
 }
 
-.discoveralgonquin{
-margin-left:2rem;
-}
-.discoveralgonquin> p{
-    margin-right:2rem;
+.discoveralgonquin {
+    margin-left: 2rem;
 }
 
-.learnmore{ 
- margin-left:14.5rem;
+.discoveralgonquin>p {
+    margin-right: 2rem;
+}
+
+.learnmore {
+    margin-left: 14.5rem;
     font-family: 'Raleway', sans-serif;
     font-weight: bold;
     font-size: 20px;
-    width:146px;
-  border-radius: 40px;
-  background-color: #26A682;
-  box-shadow: -1px 4px 10px 0px black;
-  color: #F2F2F2;
-  padding-top:0.5em;
-  padding-bottom:0.5em;
-    margin-bottom:2rem;
-    margin-right:4rem;
+    width: 146px;
+    border-radius: 40px;
+    background-color: #26A682;
+    box-shadow: -1px 4px 10px 0px black;
+    color: #F2F2F2;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    margin-bottom: 2rem;
+    margin-right: 4rem;
 }
-.simon{
+
+.simon {
     margin: auto;
     width: auto;
     background-color: #3C3B3A;
+    padding-top: 1em;
+    padding-right: 1em;
     color: #F2F2F2;
 }
-h3{
-    color:#F2F2F2;
-}
-.simonpic{
-     width:40%;
-margin-left:8.5rem;
 
-border-radius: 100px;
-    
+.simon>h3 {
+    color: #F2F2F2;
+}
+
+.simonpic {
+    width: 40%;
+    margin-left: 8.5rem;
+    border-radius: 100px;
+}
+
+.entertainment>.learnmore {
+    margin-left: 12.5em;
+}
+
+/* This section is the footer It has the social media icons in the middle and a back to top navigation */
+.social {
+    background-color: #3C3B3A;
+    color: white;
+    padding-bottom: 6em;
+    margin-bottom: -3rem;
+}
+
+.social>h2{
+    display: flex;
+    justify-content: center;
+    font-style: unset;
+    padding-top:1em;
+}
+
+.mediaicons{
+    max-width: 300px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top:3rem;   
+    margin-left: 5rem;
+}
+
+.arrow {
+    float: right;
+    width:7%;
+    margin-top: -9rem;
+    margin-right: 3.3rem;
+}
+
+.backtotop {
+    float: right;
+    margin-top: -7rem;
+    margin-right: 2rem;
 }

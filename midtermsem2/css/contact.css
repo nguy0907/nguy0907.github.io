@@ -1,0 +1,21 @@
+html{
+    font-family: 'Raleway', sans-serif;
+   margin: auto;
+   width: auto;
+   line-height: 35px;
+}
+img{
+   width:20%;
+}
+a{
+    color:white;
+    text-decoration: none;
+}
+header{
+    background-color: #3C3B3A;
+    padding-bottom: 2em;
+    font-size: 18px;
+    font-weight:normal;
+    text-align: center;
+    
+}

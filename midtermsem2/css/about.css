@@ -1,0 +1,48 @@
+html {
+    font-family: 'Raleway', sans-serif;
+    line-height: 35px;
+}
+
+/* The images will be responsive */
+img {
+    height: auto;
+    max-width: 100%;
+}
+
+
+/* The nav link will have no underlines and no other decoration The colour is white since the background is dark */
+a {
+    color: white;
+    text-decoration: none;
+}
+
+/* The header will have a black background and every element is centered */
+header {
+    background-color: #3C3B3A;
+    padding-bottom: 2em;
+    font-size: 18px;
+    font-weight: normal;
+    text-align: center;
+
+}
+
+.logo {
+    justify-content: center;
+    width: 25%;
+}
+
+nav {
+    margin-left: -2rem;
+}
+
+/* The list will no longer have underline and there is some space between every item */
+ul li {
+    margin-bottom: 1rem;
+    list-style: none;
+}
+
+
+h1{
+    font-size: 40px;
+    line-height: 47px;
+}
