@@ -13,12 +13,6 @@ img {
 }
 
 
-/* The nav link will have no underlines and no other decoration The colour is white since the background is dark */
-a {
-    color: white;
-    text-decoration: none;
-}
-
 /* The header will have a black background and every element is centered */
 header {
     background-color: #3C3B3A;
@@ -34,6 +28,12 @@ header {
     width: 25%;
 }
 
+/* The nav link will have no underlines and no other decoration The colour is white since the background is dark */
+a {
+    color: white;
+    text-decoration: none;
+}
+
 nav {
     margin-left: -2rem;
 }
@@ -43,6 +43,7 @@ ul li {
     margin-bottom: 1rem;
     list-style: none;
 }
+
 
 /* This is the area where these header will have different characteristic */
 h1 {
@@ -187,7 +188,7 @@ There is also a shadow at the bottom at the button */
 .social {
     background-color: #3C3B3A;
     color: white;
-    padding-bottom: 6em;
+    padding-bottom: 2em;
     margin-bottom: -3rem;
 }
 
@@ -199,22 +200,23 @@ There is also a shadow at the bottom at the button */
 }
 
 .mediaicons{
-    max-width: 300px;
+    max-width: 250px;
     display: flex;
     justify-content: space-evenly;
-    margin-top:3rem;   
-    margin-left: 5rem;
+    margin-top:1rem;   
+    margin-left: 6.5rem;
 }
 
+/* The arrow and back to top will take you to back to the top of the website. */
 .arrow {
     float: right;
     width:7%;
-    margin-top: -9rem;
+    margin-top: -4rem;
     margin-right: 3.3rem;
 }
 
 .backtotop {
     float: right;
-    margin-top: -7rem;
-    margin-right: 2rem;
+    margin-top: -2rem;
+    margin-right: 1.8rem;
 }
