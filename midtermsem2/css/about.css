@@ -1,7 +1,9 @@
+/* This is the css for the about page */
 html {
     font-family: 'Raleway', sans-serif;
     line-height: 35px;
 }
+
 
 /* The images will be responsive */
 img {
@@ -26,11 +28,17 @@ header {
 
 }
 
+.currentpage{
+    font-weight: bold;
+}
+
 .logo {
     justify-content: center;
     width: 25%;
 }
-
+p{
+    font-size: 20px;
+}
 nav {
     margin-left: -2rem;
 }
@@ -42,7 +50,27 @@ ul li {
 }
 
 
-h1{
+h1 {
     font-size: 40px;
+    font-weight: bolder;  
+    margin-top: 3rem;
+    margin-bottom: 2rem;
     line-height: 47px;
+}
+
+/* This is the construction section, little code because there is not a lot of content */
+.construction{
+    margin: auto;
+
+    margin-left: 2rem;
+margin-right: 10rem;
+}
+
+.about{
+    margin-left: 2rem;
+    margin-right: 3rem;
+}
+
+.aboutbanner{
+    text-align: center;
 }
