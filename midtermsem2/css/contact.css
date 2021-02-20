@@ -5,9 +5,6 @@ html {
     line-height: 35px;
 }
 
-img {
-    width: 20%;
-}
 
 header {
     background-color: #3C3B3A;
@@ -49,6 +46,10 @@ h1 {
     line-height: 59px;
     margin-left: 3rem;
     margin-right: 6rem;
+}
+
+h2{
+    font-size: 40px;
 }
 
 .contactparagraph {
@@ -120,14 +121,58 @@ label{
   .submit{
     font-family: 'Raleway', sans-serif;
     font-weight: bolder;
+    color: white;
+    background-color: #3C3B3A;
     border-radius: 40px;
     width:300px;
-    padding:0.1em;
+    padding-top:0.2em;
+    padding-bottom:0.2em;
       font-size: 32px;
       margin-bottom: 2rem;
       margin-left:1rem;
       border: none;
   }
+  .location{
+    margin-left: 3rem;
+  }
 .map {
+    margin-top: 2rem;
     width: 100%;
+}
+
+.social {
+    background-color: #3C3B3A;
+    color: white;
+    padding-bottom: 2em;
+    margin-bottom: -3rem;
+}
+
+.social>h2{
+    display: flex;
+    justify-content: center;
+    font-style: unset;
+    padding-top:1em;
+}
+
+.mediaicons{
+    max-width: 250px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top:1rem;   
+    margin-left: 6.5rem;
+}
+
+/* The arrow and back to top will take you to back to the top of the website. */
+.arrow {
+    float: right;
+    width:7%;
+    margin-top: -4rem;
+    margin-right: 3.3rem;
+}
+
+.backtotop {
+    float: right;
+font-size: 12px;
+    margin-top: -2rem;
+    margin-right: 2.5rem;
 }
