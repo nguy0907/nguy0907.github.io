@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/contact.css">
     <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap" rel="stylesheet">
     <title>Contact</title>
 </head>
 <body>
@@ -19,7 +20,7 @@
             <ul class="menu-list">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="about.html">About</a></li>
-                <li><a href="contact.html">Contact</a></li>
+                <li class="currentpage"><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
     </header>
@@ -27,29 +28,29 @@
         <!-- This section is not going to be as detailed. It has a header, text, and an image -->
         <section>
             <h1>We Want to Hear From You</h1>
-            <p>If you have an idea for an activity that you think you and your fellow students would love to 
+            <p class="contactparagraph">If you have an idea for an activity that you think you and your fellow students would love to 
                 participate in that we are not already offering, we want to know about it!</p>
-                <img src="images/contact-img.svg" alt="contact">
+                <img class="contacting" src="images/contact-img.svg" alt="contact">
         </section>
         <!-- This section is going to be a sign up form. With inputs and a text area. -->
         <section class="signup">
             <h2>Contact us.</h2>
             <form action="thanks.html" method="get">
-                <div class="name">
-                    <label for="firstname">Full Name</label>
-                    <input  type="text" id="firstname" name="firstname" placeholder="Full Name">
+                <div class="namebox">
+                    <label class="label1" for="firstname">Full Name</label>
+                    <input class="firstname" type="text" id="firstname" name="firstname" placeholder="Full Name">
                 </div>
-                <div class="studentnumber">
-                    <label for="studentnumber">Student Number</label>
-                    <input type="text" id="studentnumber" name="studentnumber" placeholder="Student Number">
+                <div class="studentnumberbox">
+                    <label class="label2" for="studentnumber">Student Number</label>
+                    <input class="studentnumber" type="text" id="studentnumber" name="studentnumber" placeholder="Student Number">
                 </div>
-                <div class="email">
-                    <label for="email">Email</label>
-                    <input type="text" id="email" name="email" placeholder="Email">
+                <div class="emailbox">
+                    <label class="label3" for="email">Email</label>
+                    <input class="emailbox" type="text" id="email" name="email" placeholder="Email">
                 </div>
-                <div class="message">
-                    <label for="message">Message</label>
-                    <textarea name="message" id="message" placeholder="Message" cols="30" rows="10"></textarea>
+                <div class="messagebox">
+                    <label class="label4" for="message">Message</label>
+                    <textarea class="message" name="message" id="message" placeholder="Message" cols="30" rows="10"></textarea>
                 </div>             
             </form>  
             <button class="submit">Submit</button>
@@ -63,8 +64,7 @@
             <p>Ottawa, Ontario</p>
             <p>K2G 1V8</p>
             <p>(613) 727-4723 x7711</p>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1453.507336004765!2d-75.756258456331
-            04!3d45.350048829393565!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce0722395fc63d%3A0x35c46b5ff47a522!2sAlgonquin%20College%2C%201385%20Woodroffe%20Ave%2C%20Nepean%2C%20ON%20K2G%203G7!5e0!3m2!1sen!2sca!4v1613282015385!5m2!1sen!2sca" 
+            <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1453.507336004765!2d-75.75625845633104!3d45.350048829393565!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce0722395fc63d%3A0x35c46b5ff47a522!2sAlgonquin%20College%2C%201385%20Woodroffe%20Ave%2C%20Nepean%2C%20ON%20K2G%203G7!5e0!3m2!1sen!2sca!4v1613282015385!5m2!1sen!2sca" 
             width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
         </section>
         <!-- This is the footer, with the social media icon with the back to top button -->
