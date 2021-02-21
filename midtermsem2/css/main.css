@@ -57,6 +57,7 @@ ul li {
 /* This is the area where these header will have different characteristic */
 h1 {
     font-size: 40px;
+    max-width: 260px;
     font-weight: bolder;
     margin-left: 3rem;
     margin-right: 4rem;
@@ -92,7 +93,7 @@ h3 {
     width: 10%;
 }
 
-.bowling {
+.bowling>p {
     margin-top: -0.1rem;
     margin-left: 1.5rem;
 }
@@ -112,7 +113,7 @@ h3 {
     margin-top:-7rem;
     margin-right: 4.5rem;
 }
-.rockclimbing {
+.rockclimbing>p {
     float: right;
     margin-top: -3.1rem;
     margin-right: 2.5rem;
@@ -122,14 +123,14 @@ h3 {
     width: auto;
     max-width: 40px;
     margin-left: 2rem;
+    margin-top:-2rem;
     margin-bottom:-1.5rem;
 }
-.fitness {
+.fitness >p {
     margin-top: 1rem;
-  
 }
 
-.court {
+.indoorcourt>p {
     float: right;
     margin-top: -3.1rem;
     margin-right: 3rem;
@@ -274,7 +275,7 @@ font-size: 12px;
     float: left;
     margin-left:2rem;
 }
-/* The navigation is displayed in colums */
+/* The navigation is displayed in rows */
 ul li{
     display: inline-block;
     margin-left:3rem;
@@ -283,5 +284,30 @@ ul li{
 nav{
     margin-left:10rem;
      padding-top: 1em;
+}
+h1{
+    max-width: 600px;
+    font-size: 72px;
+    line-height: 85px;
+}
+.ARC-p {
+    max-width: 850px;
+    font-size: 24px;
+    margin-left: 3rem;
+    margin-right: 11rem;
+}
+.activities{
+    display: flex;
+}
+.rockclimbing{
+    margin-top:7.4rem;
+}
+.fitness{
+    margin-top:1.3rem;
+    margin-left:3rem; 
+}
+.indoorcourt{
+    margin-top:7.4rem;
+
 }
 }
