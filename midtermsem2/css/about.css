@@ -18,6 +18,11 @@ a {
     text-decoration: none;
 }
 
+/* Here are the characteristics of the headings */
+
+h2{
+    font-size: 32px;
+}
 /* The header will have a black background and every element is centered */
 header {
     background-color: #3C3B3A;
@@ -57,7 +62,11 @@ h1 {
     margin-bottom: 2rem;
     line-height: 47px;
 }
-
+h3{
+    font-size: 24px;
+    color:#26A682;
+    font-style: italic;
+}
 /* This is the construction section, little code because there is not a lot of content */
 .construction >p{
     font-size: 20px;
@@ -73,6 +82,36 @@ margin-right: 7rem;
 .aboutbanner{
     text-align: center;
     background: green url(../images/about.jpg);
+}
+
+.servicesbanner{
+    background: green url(../images/services.jpg);
+}
+.competitive{
+    background-color: #F2F2F2;
+}
+.subscribe{
+    background-color: #3C3B3A;
+    color:white;
+    padding-bottom: 2em;
+}
+
+.subscribe>p{
+    text-align: center;
+}
+.buttonsubscribe{
+    font-family: 'Raleway', sans-serif;
+text-align: center;
+    width: 35%;
+font-size:20px;
+    font-weight: bold;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    margin-left: 9rem;
+    border-radius: 40px;
+    background-color: #26A682;
+    color: #F2F2F2;
+
 }
 
 .social {

@@ -149,12 +149,10 @@ h3 {
 /* This is the well customized button that is rounded and has a green colour.
 There is also a shadow at the bottom at the button */
 .start {
-    display: flex;
     font-family: 'Raleway', sans-serif;
-    width: 350px;
+    width: 75%;
     font-size: 32px;
     font-weight: bold;
-    justify-content: center;
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
     margin-left: 3.5rem;
@@ -291,13 +289,15 @@ h1{
     line-height: 85px;
 }
 .ARC-p {
-    max-width: 850px;
     font-size: 24px;
     margin-left: 3rem;
     margin-right: 11rem;
 }
 .activities{
+    margin: auto;
+    width: auto;
     display: flex;
+    justify-content: center;
 }
 .rockclimbing{
     margin-top:7.4rem;
@@ -308,6 +308,17 @@ h1{
 }
 .indoorcourt{
     margin-top:7.4rem;
-
+}
+.start{
+    margin: auto;
+    width: auto;
+    justify-content: center;
+    margin-bottom:3rem;
+    width:300px;
+    margin-left:13rem;
+}
+.discovering{
+   margin-left:6rem;
+    width:500px;
 }
 }
