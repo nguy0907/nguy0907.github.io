@@ -114,6 +114,23 @@ font-size:20px;
 
 }
 
+/* This section is where all the size of the brand decrease because it is too big */
+.SABrand{
+    width:440px;
+}
+.ACLogo{
+margin-left:6rem;
+    width:250px;
+}
+.pcllogo{
+    margin-left:4rem;
+    width:330px;
+}
+.cibc{
+    margin-left:8.5rem;
+    width:40%;
+}
+
 .social {
     background-color: #3C3B3A;
     color: white;
