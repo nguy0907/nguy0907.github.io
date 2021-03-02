@@ -162,7 +162,10 @@ There is also a shadow at the bottom at the button */
     color: #F2F2F2;
     box-shadow: -1px 4px 10px 0px black;
 }
-
+/* There is no scroll to the bottom on mobile size. Therefore it should not appear. */
+.scroll{
+display: none;
+}
 .discovering {
     width: 100%;
 }
@@ -200,8 +203,9 @@ There is also a shadow at the bottom at the button */
 
 .simon>h3 {
     text-align: center;
-    margin-left: 7rem;
-    margin-right: 8rem;
+    max-width: 200px;
+    margin-left: 8rem;
+    margin-right: 1rem;
   font-weight: bold;
     color: #F2F2F2;
 }
@@ -211,6 +215,7 @@ There is also a shadow at the bottom at the button */
        margin-right: 4.6rem;
 }
 .simonpic {
+    max-width: 200px;
     width: 40%;
     margin-left: 8.5rem;
     border-radius: 100px;
@@ -266,6 +271,7 @@ font-size: 12px;
 /* This will be the start of the tablet screen for the home screen */
 
 @media screen and (min-width:768px){
+
     header{
         height:70px;
     }
@@ -321,4 +327,41 @@ h1{
    margin-left:6rem;
     width:500px;
 }
+.school{
+   width:100%;
+   height:200px;
+}
+.learnmore{
+    margin: auto;
+    width: 280px;
+    margin-left: 21rem;
+    margin-bottom:3rem;
+    font-size: 24px;
+  
+}
+
+.simonpic{
+    float: left;
+     display: flex;
+     flex-wrap: wrap;
+    margin-left:2rem; 
+}
+.simon>h3{
+float: left;
+margin-top:14rem;
+    margin-left:-13rem;   
+}
+
+
+.simon>p{ 
+    font-size: 24px;
+    margin: auto;
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left:20rem;
+    margin-right:1rem;
+  
+}
+
 }

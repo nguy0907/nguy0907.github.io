@@ -65,7 +65,7 @@ h1 {
 h3{
     font-size: 24px;
     color:#26A682;
-    font-style: italic;
+font-weight: lighter;
 }
 /* This is the construction section, little code because there is not a lot of content */
 .construction >p{
@@ -114,6 +114,13 @@ font-size:20px;
 
 }
 
+.Thankyou{
+    text-align:center;
+    margin-left:4rem;
+    margin-right:5rem;
+font-size: 56px;
+line-height: 66px;
+}
 /* This section is where all the size of the brand decrease because it is too big */
 .SABrand{
     width:440px;
