@@ -547,7 +547,7 @@ blockquote {
 
 @media screen and (min-width:760px) {
 
-    /* Desktop Header Section */
+    /* Tablet Header Section */
     header {
         background: #222;
         height: 140px;
@@ -580,7 +580,6 @@ blockquote {
     }
 
     .nav-list .current {
-        background: #c78c06;
         color: #222;
         padding-left:2em;
         padding-right:2em;

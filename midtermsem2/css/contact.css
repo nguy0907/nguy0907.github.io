@@ -21,7 +21,7 @@ header {
 
 .logo {
     justify-content: center;
-    width: 25%;
+    max-width: 100px;
 }
 
 
@@ -59,7 +59,8 @@ h2{
 }
 
 .contacting {
-    width: 100%;
+  margin-left:3rem;
+    width: 80%;
 }
 
 /* This is te form area where the background is green with rounded corners. Everything is rounded. You have the 
@@ -67,6 +68,7 @@ full name, student number, email and message textbox */
 .signup {
     margin: auto;
     height: auto;
+    max-width: 540px;
     box-shadow: 0.5px 2px 14px 1px #707070;
     color: white;
     width: 85%;
@@ -83,12 +85,14 @@ full name, student number, email and message textbox */
 /* All the inputs and textarea will be rounded with no border */
 input{
     font-family: 'Raleway', sans-serif;
+    margin: auto;
+    max-width: 540px;
     display: flex;
     border: none;
     margin-bottom: 1rem;
-    margin-left:4rem;
+    margin-left:3rem;
     border-radius: 72px;
-    width:275px;
+    width:75%;
     height: 20px;
     padding:0.5em;
     border-radius: 72px;
@@ -97,17 +101,20 @@ textarea{
     font-family: 'Raleway', sans-serif;
     display: flex;
     border: none;
-   margin-left:4rem;
+    max-width: 550px;
+   margin-left:3rem;
    margin-bottom: 2rem;
-    width:285px;
+   width:77%;
     height:100px;
     border-radius: 10px;
 }
 /* The label must be aligned on the edge of the input/text area */
 label{
-   margin-left:-12rem;
+   margin-left:-14rem;
+
 }
 .label2{
+
   margin-right:-3rem;
 }
 .label3{
@@ -134,11 +141,13 @@ label{
   }
   .location{
     margin-left: 3rem;
+  
   }
 .map {
     margin-top: 2rem;
     width: 100%;
-}
+     margin-bottom:-2.7rem;
+} 
 
 .social {
     background-color: #3C3B3A;
@@ -165,7 +174,7 @@ label{
 /* The arrow and back to top will take you to back to the top of the website. */
 .arrow {
     float: right;
-    width:7%;
+    max-width:30px;
     margin-top: -4rem;
     margin-right: 3.3rem;
 }
@@ -175,4 +184,61 @@ label{
 font-size: 12px;
     margin-top: -2rem;
     margin-right: 2.5rem;
+}
+
+@media screen and (min-width:760px){
+    header{
+        height:70px;
+    }
+    
+.logo{
+    float: left;
+    margin-left:2rem;
+}
+/* The navigation is displayed in rows */
+ul li{
+    display: inline-block;
+    margin-left:3rem;
+}
+
+nav{
+    margin-left:10rem;
+     padding-top: 1em;
+}
+h1 {
+    font-size: 72px;
+    font-weight: bolder;  
+    margin-left: 3rem;
+    margin-right: 7rem;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    line-height: 85px;
+}
+label{
+    margin-left:-22rem;
+ }
+ .label2{
+ 
+   margin-right:-3rem;
+ }
+ .label3{
+     margin-right:2rem;
+   }
+   .label4{
+     margin-right:1rem;
+   }
+ .submit{
+     width: 160px;
+     margin-left:15rem;
+ }
+ .locationtitle{
+     font-size: 72px;
+ }
+ .ACSAsubtitle{
+     font-size: 40px;
+ }
+ .mediaicons{
+    margin-left: 15rem;
+      
+    }
 }

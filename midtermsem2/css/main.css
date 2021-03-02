@@ -175,6 +175,12 @@ display: none;
     margin-left: 3rem;
     margin-right:3rem;
 }
+.school { 
+    max-width: 500px;
+height: 200px;
+width:490px;
+ margin-left:-1rem;
+  }
 
 .learnmore {
     margin-left: 14.5rem;
@@ -229,6 +235,10 @@ display: none;
 .entertainment>.learnmore {
     margin-left: 14rem;
 }
+.entertainmentpic{
+    height: 200px;
+    width:470px;   
+}
 
 /* This section is the footer It has the social media icons in the middle and a back to top navigation */
 .social {
@@ -245,9 +255,12 @@ display: none;
     padding-top:1em;
 }
 
-.mediaicons{
-    max-width: 250px;
-    display: flex;
+.mediaicons{ 
+    width: auto;
+    margin: auto;
+     max-width: 250px;
+ display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
     margin-top:1rem;   
     margin-left: 6.5rem;
@@ -256,7 +269,7 @@ display: none;
 /* The arrow and back to top will take you to back to the top of the website. */
 .arrow {
     float: right;
-    width:7%;
+    max-width:30px;
     margin-top: -4rem;
     margin-right: 3.3rem;
 }
@@ -363,5 +376,12 @@ margin-top:14rem;
     margin-right:1rem;
   
 }
-
+.entertainmentpic{
+    width:100%;
+    height:200px;
+ }
+.mediaicons{
+margin-left: 15rem;
+  
+}
 }

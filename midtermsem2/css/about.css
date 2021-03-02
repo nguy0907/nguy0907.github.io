@@ -39,7 +39,7 @@ header {
 
 .logo {
     justify-content: center;
-    width: 25%;
+    max-width: 100px;
 }
 
 nav {
@@ -80,12 +80,40 @@ margin-right: 7rem;
 }
 
 .aboutbanner{
+    margin: auto;
+width:100%;
     text-align: center;
     background: green url(../images/about.jpg);
+    background-color: green;
+    opacity: 0.3;
+    padding:1.5em;
+    margin-left:-2.5rem;
+ color:white;
+}
+
+.italic{
+    font-style: italic;
 }
 
 .servicesbanner{
+    text-align: center;
+    width: 100%;
+    padding-top:1.5em;
+    padding-bottom:1.5em;
+    padding-left:0.5em;
+margin-left:-0.5rem;
     background: green url(../images/services.jpg);
+    opacity: 0.3;
+    color:white;
+   
+}
+.banner1,
+.banner2{
+    background: rgb(38, 166, 130); 
+    color:white;
+}
+.banner1{
+    width:100%;
 }
 .competitive{
     background-color: #F2F2F2;
@@ -175,3 +203,35 @@ font-size: 12px;
     margin-right: 2.5rem;
 }
 
+@media screen and (min-width:768px){
+    header{
+        height:70px;
+    }
+    
+.logo{
+    float: left;
+    margin-left:2rem;
+}
+/* The navigation is displayed in rows */
+ul li{
+    display: inline-block;
+    margin-left:3rem;
+}
+
+nav{
+    margin-left:10rem;
+     padding-top: 1em;
+}
+h1{
+    font-size: 72px;
+    line-height: 85px;
+}
+
+/* Here is the subscribe section for the tablet screen*/
+.subscribe>p{
+float: left;
+}
+.buttonsubscribe{
+    width: 140px;
+}
+}
