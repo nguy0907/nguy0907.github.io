@@ -82,7 +82,7 @@ h3 {
 .ARC-p {
     font-size: 20px;
     margin-left: 3rem;
-    margin-right: 11rem;
+    margin-right: 9rem;
 }
 
 .activities {
@@ -325,14 +325,15 @@ There is also a shadow at the bottom at the button */
     }
 
     .ARC-p {
+        max-width: 600px;
         font-size: 24px;
         margin-left: 3rem;
-        margin-right: 11rem;
+        margin-right: 6rem;
     }
 
     .activities {
-        margin: auto;
-        width: auto;
+        max-width: 700px;
+        margin: 0.4rem;
         display: flex;
         justify-content: center;
     }
@@ -424,4 +425,38 @@ There is also a shadow at the bottom at the button */
         margin-right: 5rem;
     }
 
+    .ARC-p {
+        max-width: 560px;
+    }
+    .start{
+        margin-left:3rem;
+    }
+    .discovering{
+        float: right;
+        width:50%;
+        margin-top:-36rem;
+        margin-bottom: 20rem;
+    }
+    /* .discoveralgonquin,
+    .school{
+        background-color:#F2F2F2;
+    } */
+    .school{
+        display: block;
+        width: 600px;
+        height: 337px;
+        margin-left: 3rem;
+        padding-bottom:2rem;
+    }
+
+    .discoveralgonquin{    
+        display: block;
+        max-width: 660px;
+        margin-top:-0.8rem;
+        padding-top:2rem;
+    }
+    .discovertext{
+        display:block;
+        
+    }
 }
