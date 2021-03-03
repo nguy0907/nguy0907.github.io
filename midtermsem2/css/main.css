@@ -262,6 +262,7 @@ There is also a shadow at the bottom at the button */
 }
 
 .social>h2 {
+    font-weight: lighter;
     display: flex;
     justify-content: center;
     font-style: unset;

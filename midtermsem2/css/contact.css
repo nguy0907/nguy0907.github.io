@@ -160,6 +160,9 @@ label{
     padding-bottom: 2em;
     margin-bottom: -3rem;
 }
+.social>h2{
+    font-weight: lighter;
+}
 
 .social>h2{
     display: flex;
@@ -264,11 +267,11 @@ label{
         float: right;
         margin-right: 5rem;
     }
-    h1{
+    /* h1{
        width: 800px;
     }
     .contactparagraph{
-        width: 900px;  
+        max-width: 900px;  
     }
 
     .contacting{
@@ -278,24 +281,28 @@ label{
         max-width: 700px;
       
     }
-
-    .signup{ 
-        margin-left: 11rem;
+  
+ 
+ */  
+   .ACSAsubtitle{
+        max-width:780px;
+        font-size: 40px;
     }
-
-    .ACSAsubtitle{
-        width:750px;
-    }
-    .location{
+  .location{
         margin-top:7rem;
+        margin-left: 4rem;
     }
-
-    .map{
-        margin-top:10rem;  
-        width:600px; 
-        margin-left:4.5rem;
+ .signup{ 
+         margin: auto;
+         max-width: 500px;
+     
     }
+ .map{
+    margin: auto;
+    margin-top:10rem;  
+   max-width:600px; 
 
+}
     /* Grids are being used which has 2 columns and 2 rows */
     main{
         display: grid;
@@ -303,4 +310,18 @@ label{
         grid-template-rows:  1fr 1fr;
     }
 
+    /* The footer section that is for desktop */
+    .mediaicons{
+        max-width: 180px;
+       margin-left: 41rem;
+    }
+    .arrow{
+        max-width:220px;
+    }
+    .backtotop {
+        font-size: 12px;
+        margin-top: -1rem;
+        margin-right: 2.7rem;
+    }
+    
 }

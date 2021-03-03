@@ -95,15 +95,21 @@ h3 {
 }
 
 .about {
-    margin-left: 2rem;
-    margin-right: 3rem;
+    background-color: #F2F2F2;
+    padding-left: 2rem;
+    padding-right: 3rem;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    margin-top: -2rem;
+    margin-bottom: -2rem;
 }
-.aboutbanner{
+
+.aboutbanner {
     /* object-fit: cover; */
     padding-top: 3em;
     width: 100%;
     height: 130px;
-    background-image: url(../images/about.jpg); 
+    background-image: url(../images/about.jpg);
     background-position: 55% 55%;
     filter: contrast(1.5);
     background-size: cover;
@@ -112,23 +118,24 @@ h3 {
 
 }
 
-.banner{
-   color: rgb(255, 255, 255);
+.banner {
+    color: rgb(255, 255, 255);
 }
-.banner1{ 
+
+.banner1 {
     background: rgb(38, 166, 130);
-   
+
 }
 
 .italic {
     font-style: italic;
 }
 
-.servicesbanner{
+.servicesbanner {
     padding-top: 3em;
     width: 100%;
     height: 130px;
-    background-image: url(../images/services.jpg); 
+    background-image: url(../images/services.jpg);
     background-position: 55% 55%;
     filter: contrast(1.5);
     background-size: cover;
@@ -137,9 +144,9 @@ h3 {
 
 }
 
-.banner2{ 
+.banner2 {
     background: rgb(38, 166, 130);
-   
+
 }
 
 
@@ -156,7 +163,8 @@ h3 {
 
 .competitive {
     background-color: #F2F2F2;
-    padding-bottom: 2em;
+    padding-bottom: 3em;
+    margin-bottom: -1rem;
 }
 
 .competitive>p {
@@ -169,8 +177,6 @@ h3 {
     margin-left: 2rem;
     margin-right: 2rem;
 }
-
-
 
 .subscribe {
     background-color: #3C3B3A;
@@ -208,17 +214,19 @@ h3 {
     margin-right: 2rem;
 }
 
-.climbing>p {
-    max-width: 700px;
-    margin-left: 2rem;
-    margin-right: 2rem;
+.climbing {
+    background-color: #F2F2F2;
+    padding-left: 2rem;
+    padding-right: 3rem;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    margin-top: -2rem;
+    margin-bottom: -2rem;
 }
 
-.climbing>h2 {
-    margin-left: 2rem;
-    margin-right: 2rem;
+.climbing>h3 {
+    margin-left: 0rem;
 }
-
 
 .Thankyou {
     text-align: center;
@@ -230,7 +238,8 @@ h3 {
 
 /* This section is where all the size of the brand decrease because it is too big */
 .SABrand {
-    width: 440px;
+    width: 340px;
+    margin-left: 3rem;
 }
 
 .ACLogo {
@@ -240,12 +249,12 @@ h3 {
 
 .pcllogo {
     margin-left: 4rem;
-    width: 330px;
+    width: 320px;
 }
 
 .cibc {
     margin-left: 8.5rem;
-    width: 40%;
+    width: 200px;
 }
 
 .social {
@@ -256,6 +265,7 @@ h3 {
 }
 
 .social>h2 {
+    font-weight: lighter;
     display: flex;
     justify-content: center;
     font-style: unset;
@@ -273,7 +283,7 @@ h3 {
 /* The arrow and back to top will take you to back to the top of the website. */
 .arrow {
     float: right;
-    max-width:30px;
+    max-width: 30px;
     margin-top: -4rem;
     margin-right: 3.3rem;
 }
@@ -311,7 +321,7 @@ h3 {
         line-height: 85px;
     }
 
-    
+
     .barpic {
         float: left;
         object-fit: cover;
@@ -328,20 +338,24 @@ h3 {
         margin-left: 2rem;
     }
 
-        /* Here is the subscribe section for the tablet screen*/
-        .subscribe {
-            margin-top: 10rem;
-        }
-    
-        .subscribe>p {
-            margin-top: 1.5rem;
-            float: left;
-        }
-    
-        .buttonsubscribe {
-            margin-top: 1.5rem;
-            width: 140px;
-        }
+    /* Here is the subscribe section for the tablet screen*/
+    .subscribe {
+        margin-top: 10rem;
+    }
+
+    .subscribe>p {
+        display: block;
+        margin-top: 1.5rem;
+        margin-left: 15rem;
+        float: left;
+        font-size: 20px;
+    }
+
+    .buttonsubscribe {
+        margin-top: 1.5rem;
+        margin-left: 1rem;
+        width: 140px;
+    }
 
     .fitnesspic {
         float: left;
@@ -355,6 +369,7 @@ h3 {
         float: right;
         object-fit: cover;
         margin-left: 2rem;
+        margin-top: 9rem;
         width: 218px;
         height: 374.51px;
     }
@@ -367,34 +382,171 @@ h3 {
 
     }
 
-    .climbing{
-        margin-top:10rem;
+    .climbing {
+        margin-top: 10rem;
+        max-width: 560px;
     }
+
     .competitive {
         margin-top: 10rem;
     }
 
     .SABrand {
         margin-left: 6rem;
-    width: 500px;
-}
+        width: 500px;
+    }
 
-.ACLogo {
-    margin-left: 14rem;
-    max-width: 250px;
-}
+    .ACLogo {
+        margin-left: 14rem;
+    }
 
-.pcllogo {
-    margin-left: 11rem;
-    max-width: 330px;
-}
+    .pcllogo {
+        margin-left: 11rem;
 
-.cibc {
-    margin-left: 12rem;
-    max-width: 40%;
-}
-.mediaicons{
-    margin-left: 15rem;
-      
+    }
+
+    .cibc {
+        margin-left: 12rem;
+
+    }
+
+    .mediaicons {
+        margin-left: 15rem;
+
+    }
+
+    @media screen and (min-width:900px) {
+        .logo {
+            margin-left: 4rem;
+        }
+
+        nav {
+            float: right;
+            margin-right: 5rem;
+        }
+
+        h1 {
+            max-width: 780px;
+        }
+
+        .construction>p {
+            max-width: 670px;
+        }
+
+        .construction {
+            float: left;
+        }
+
+        .constructionpic {
+            max-width: 640px;
+            margin-left: -11rem;
+            margin-top: 6rem;
+            margin-bottom: 6rem;
+        }
+
+        .about {
+            display: flex;
+            margin-top: 10rem;
+            margin-bottom: 10rem;
+        }
+
+        .who>p {
+            max-width: 560px;
+            margin-right: 4rem;
+        }
+
+        .what>p {
+            max-width: 550px;
+
+            margin-right: 4rem;
+        }
+
+        .where>p {
+            max-width: 570px;
+        }
+
+        .barpic {
+            width: 700px;
+            margin-left: 2.0rem;
+        }
+
+        .bar>p {
+            display: flex;
+        }
+
+        .bowlingpic {
+            width: 700px;
+            margin-right: 2.0rem;
+        }
+
+        .subscribe>p {
+            margin-top: 1.5rem;
+            margin-left: 35rem;
+            float: left;
+            font-size: 20px;
+        }
+
+        .buttonsubscribe {
+            margin-top: 1.5rem;
+            margin-left: 3rem;
+        }
+
+        .competitive {
+            padding-bottom: 8.6em;
+        }
+
+        .fitnesspic {
+            width: 700px;
+            margin-left: 2.0rem;
+        }
+
+        .fitness>p {
+            display: flex;
+        }
+
+        .climbingpic {
+            width: 700px;
+            margin-right: 2.0rem;
+            margin-top: 2rem;
+        }
+
+        .climbing {
+            padding-right: 15em;
+        }
+
+        .SABrand {
+            width: 340px;
+            margin-left: 3rem;
+            margin-bottom:4rem;
+        }
+
+        .ACLogo {
+            margin-left: 6rem;
+            width: 250px;
+        }
+        
+        .pcllogo {
+            margin-left: 4rem;
+            width: 320px;
+        }
+        
+        .cibc {
+            margin-left: 8.5rem;
+            width: 200px;
+        }
+
+         /* The footer section that is for desktop */
+    .mediaicons{
+        max-width: 180px;
+       margin-left: 41rem;
+    }
+        .arrow{
+            max-width:220px;
+        }
+        .backtotop {
+            font-size: 12px;
+            margin-top: -1rem;
+            margin-right: 2.7rem;
+        }
     }
 }
