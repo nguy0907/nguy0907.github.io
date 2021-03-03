@@ -20,11 +20,12 @@ header {
     font-size: 18px;
     font-weight: normal;
     text-align: center;
-    margin-top:-1rem;
-    margin-left:-1rem;
+    margin-top: -1rem;
+    margin-left: -1rem;
 
 }
-.currentpage{
+
+.currentpage {
     font-weight: bold;
 }
 
@@ -105,28 +106,32 @@ h3 {
     margin-left: 2rem;
     margin-top: 1rem;
 }
-.rockclimbingicon{
+
+.rockclimbingicon {
     margin: auto;
     width: auto;
     max-width: 40px;
     float: right;
-    margin-top:-7rem;
+    margin-top: -7rem;
     margin-right: 4.5rem;
 }
+
 .rockclimbing>p {
     float: right;
     margin-top: -3.1rem;
     margin-right: 2.5rem;
 }
-.dumbbell{
+
+.dumbbell {
     margin: auto;
     width: auto;
     max-width: 40px;
     margin-left: 2rem;
-    margin-top:-2rem;
-    margin-bottom:-1.5rem;
+    margin-top: -2rem;
+    margin-bottom: -1.5rem;
 }
-.fitness >p {
+
+.fitness>p {
     margin-top: 1rem;
 }
 
@@ -135,14 +140,14 @@ h3 {
     margin-top: -3.1rem;
     margin-right: 3rem;
 }
+
 .bballpic {
     margin: auto;
     width: auto;
     max-width: 40px;
     float: right;
     margin-top: -6rem;
-    margin-right:4.5rem
- 
+    margin-right: 4.5rem
 }
 
 
@@ -162,10 +167,12 @@ There is also a shadow at the bottom at the button */
     color: #F2F2F2;
     box-shadow: -1px 4px 10px 0px black;
 }
+
 /* There is no scroll to the bottom on mobile size. Therefore it should not appear. */
-.scroll{
-display: none;
+.scroll {
+    display: none;
 }
+
 .discovering {
     width: 100%;
 }
@@ -173,14 +180,14 @@ display: none;
 .discoveralgonquin {
     font-size: 16px;
     margin-left: 3rem;
-    margin-right:3rem;
+    margin-right: 3rem;
 }
-.school { 
-    max-width: 500px;
-height: 200px;
-width:490px;
- margin-left:-1rem;
-  }
+
+.school {
+    object-fit: cover;
+    height: 200px;
+    width: 100%;
+}
 
 .learnmore {
     margin-left: 14.5rem;
@@ -203,7 +210,7 @@ width:490px;
     background-color: #3C3B3A;
     padding-top: 1em;
     padding-right: 1em;
-    padding-bottom:1em;  
+    padding-bottom: 1em;
     color: #F2F2F2;
 }
 
@@ -212,14 +219,16 @@ width:490px;
     max-width: 200px;
     margin-left: 8rem;
     margin-right: 1rem;
-  font-weight: bold;
+    font-weight: bold;
     color: #F2F2F2;
 }
-.simon>p{
+
+.simon>p {
     justify-content: center;
     margin-left: 3rem;
-       margin-right: 4.6rem;
+    margin-right: 4.6rem;
 }
+
 .simonpic {
     max-width: 200px;
     width: 40%;
@@ -227,17 +236,21 @@ width:490px;
     border-radius: 100px;
     border: 5px solid white;
 }
-.entertainment{
+
+.entertainment {
     margin-left: 3rem;
-    margin-right:4rem;
+    margin-right: 4rem;
 
 }
+
 .entertainment>.learnmore {
     margin-left: 14rem;
 }
-.entertainmentpic{
+
+.entertainmentpic {
+    object-fit: cover;
     height: 200px;
-    width:470px;   
+    width: 100%;
 }
 
 /* This section is the footer It has the social media icons in the middle and a back to top navigation */
@@ -248,140 +261,167 @@ width:490px;
     margin-bottom: -3rem;
 }
 
-.social>h2{
+.social>h2 {
     display: flex;
     justify-content: center;
     font-style: unset;
-    padding-top:1em;
+    padding-top: 1em;
 }
 
-.mediaicons{ 
+.mediaicons {
     width: auto;
     margin: auto;
-     max-width: 250px;
- display: flex;
+    max-width: 250px;
+    display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    margin-top:1rem;   
+    margin-top: 1rem;
     margin-left: 6.5rem;
 }
 
 /* The arrow and back to top will take you to back to the top of the website. */
 .arrow {
     float: right;
-    max-width:30px;
+    max-width: 30px;
     margin-top: -4rem;
     margin-right: 3.3rem;
 }
 
 .backtotop {
     float: right;
-font-size: 12px;
+    font-size: 12px;
     margin-top: -2rem;
     margin-right: 2.5rem;
 }
 
 /* This will be the start of the tablet screen for the home screen */
 
-@media screen and (min-width:768px){
+@media screen and (min-width:768px) {
 
-    header{
-        height:70px;
+    header {
+        height: 70px;
     }
-.logo{
-    float: left;
-    margin-left:2rem;
-}
-/* The navigation is displayed in rows */
-ul li{
-    display: inline-block;
-    margin-left:3rem;
+
+    .logo {
+        float: left;
+        margin-left: 2rem;
+    }
+
+    /* The navigation is displayed in rows */
+    ul li {
+        display: inline-block;
+        margin-left: 3rem;
+    }
+
+    nav {
+        margin-left: 10rem;
+        padding-top: 1em;
+    }
+
+    h1 {
+        max-width: 600px;
+        font-size: 72px;
+        line-height: 85px;
+    }
+
+    .ARC-p {
+        font-size: 24px;
+        margin-left: 3rem;
+        margin-right: 11rem;
+    }
+
+    .activities {
+        margin: auto;
+        width: auto;
+        display: flex;
+        justify-content: center;
+    }
+
+    .rockclimbing {
+        margin-top: 7.4rem;
+    }
+
+    .fitness {
+        margin-top: 1.3rem;
+        margin-left: 3rem;
+    }
+
+    .indoorcourt {
+        margin-top: 7.4rem;
+    }
+
+    .start {
+        margin: auto;
+        width: auto;
+        justify-content: center;
+        margin-bottom: 3rem;
+        width: 300px;
+        margin-left: 13rem;
+    }
+
+    .discovering {
+        margin-left: 6rem;
+        width: 500px;
+    }
+
+    .school {
+        width: 100%;
+        height: 200px;
+    }
+
+    .learnmore {
+        margin: auto;
+        width: 280px;
+        margin-left: 21rem;
+        margin-bottom: 3rem;
+        font-size: 24px;
+
+    }
+
+    .simonpic {
+        float: left;
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 2rem;
+    }
+
+    .simon>h3 {
+        float: left;
+        margin-top: 14rem;
+        margin-left: -13rem;
+    }
+
+
+    .simon>p {
+        font-size: 24px;
+        margin: auto;
+        width: auto;
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 20rem;
+        margin-right: 1rem;
+
+    }
+
+    .entertainmentpic {
+        width: 100%;
+        height: 200px;
+    }
+
+    .mediaicons {
+        margin-left: 15rem;
+    }
 }
 
-nav{
-    margin-left:10rem;
-     padding-top: 1em;
-}
-h1{
-    max-width: 600px;
-    font-size: 72px;
-    line-height: 85px;
-}
-.ARC-p {
-    font-size: 24px;
-    margin-left: 3rem;
-    margin-right: 11rem;
-}
-.activities{
-    margin: auto;
-    width: auto;
-    display: flex;
-    justify-content: center;
-}
-.rockclimbing{
-    margin-top:7.4rem;
-}
-.fitness{
-    margin-top:1.3rem;
-    margin-left:3rem; 
-}
-.indoorcourt{
-    margin-top:7.4rem;
-}
-.start{
-    margin: auto;
-    width: auto;
-    justify-content: center;
-    margin-bottom:3rem;
-    width:300px;
-    margin-left:13rem;
-}
-.discovering{
-   margin-left:6rem;
-    width:500px;
-}
-.school{
-   width:100%;
-   height:200px;
-}
-.learnmore{
-    margin: auto;
-    width: 280px;
-    margin-left: 21rem;
-    margin-bottom:3rem;
-    font-size: 24px;
-  
-}
+/* Desktop screen for the Home page */
+@media screen and (min-width:900px) {
+    .logo {
+        margin-left: 4rem;
+    }
 
-.simonpic{
-    float: left;
-     display: flex;
-     flex-wrap: wrap;
-    margin-left:2rem; 
-}
-.simon>h3{
-float: left;
-margin-top:14rem;
-    margin-left:-13rem;   
-}
+    nav {
+        float: right;
+        margin-right: 5rem;
+    }
 
-
-.simon>p{ 
-    font-size: 24px;
-    margin: auto;
-    width: auto;
-    display: flex;
-    flex-wrap: wrap;
-    margin-left:20rem;
-    margin-right:1rem;
-  
-}
-.entertainmentpic{
-    width:100%;
-    height:200px;
- }
-.mediaicons{
-margin-left: 15rem;
-  
-}
 }

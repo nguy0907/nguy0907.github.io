@@ -11,6 +11,22 @@ img {
     max-width: 100%;
 }
 
+/* Some of the images will not appear on mobile screen */
+.barpic {
+    width: 0px;
+}
+
+.bowlingpic {
+    width: 0px;
+}
+
+.fitnesspic {
+    width: 0px;
+}
+
+.climbingpic {
+    width: 0px;
+}
 
 /* The nav link will have no underlines and no other decoration The colour is white since the background is dark */
 a {
@@ -20,9 +36,10 @@ a {
 
 /* Here are the characteristics of the headings */
 
-h2{
+h2 {
     font-size: 32px;
 }
+
 /* The header will have a black background and every element is centered */
 header {
     background-color: #3C3B3A;
@@ -33,7 +50,7 @@ header {
 
 }
 
-.currentpage{
+.currentpage {
     font-weight: bold;
 }
 
@@ -55,83 +72,121 @@ ul li {
 
 h1 {
     font-size: 40px;
-    font-weight: bolder;  
+    font-weight: bolder;
     margin-left: 3rem;
     margin-right: 7rem;
     margin-top: 3rem;
     margin-bottom: 2rem;
     line-height: 47px;
 }
-h3{
+
+h3 {
     font-size: 24px;
-    color:#26A682;
-font-weight: lighter;
-}
-/* This is the construction section, little code because there is not a lot of content */
-.construction >p{
-    font-size: 20px;
-    margin-left: 3rem;
-margin-right: 7rem;
+    margin-left: 2rem;
+    color: #26A682;
+    font-weight: lighter;
 }
 
-.about{
+/* This is the construction section, little code because there is not a lot of content */
+.construction>p {
+    font-size: 20px;
+    margin-left: 3rem;
+    margin-right: 7rem;
+}
+
+.about {
     margin-left: 2rem;
     margin-right: 3rem;
 }
-
 .aboutbanner{
-    margin: auto;
-width:100%;
+    /* object-fit: cover; */
+    padding-top: 3em;
+    width: 100%;
+    height: 130px;
+    background-image: url(../images/about.jpg); 
+    background-position: 55% 55%;
+    filter: contrast(1.5);
+    background-size: cover;
     text-align: center;
-    background: green url(../images/about.jpg);
-    background-color: green;
-    opacity: 0.3;
-    padding:1.5em;
-    margin-left:-2.5rem;
- color:white;
+    opacity: 0.6;
+
 }
 
-.italic{
+.banner{
+   color: rgb(255, 255, 255);
+}
+.banner1{ 
+    background: rgb(38, 166, 130);
+   
+}
+
+.italic {
     font-style: italic;
 }
 
 .servicesbanner{
-    text-align: center;
+    padding-top: 3em;
     width: 100%;
-    padding-top:1.5em;
-    padding-bottom:1.5em;
-    padding-left:0.5em;
-margin-left:-0.5rem;
-    background: green url(../images/services.jpg);
-    opacity: 0.3;
-    color:white;
+    height: 130px;
+    background-image: url(../images/services.jpg); 
+    background-position: 55% 55%;
+    filter: contrast(1.5);
+    background-size: cover;
+    text-align: center;
+    opacity: 0.4;
+
+}
+
+.banner2{ 
+    background: rgb(38, 166, 130);
    
 }
-.banner1,
-.banner2{
-    background: rgb(38, 166, 130); 
-    color:white;
+
+
+.bar>p {
+    max-width: 700px;
+    margin-left: 2rem;
+    margin-right: 2rem;
 }
-.banner1{
-    width:100%;
+
+.bar>h2 {
+    margin-left: 2rem;
+    margin-right: 2rem;
 }
-.competitive{
+
+.competitive {
     background-color: #F2F2F2;
-}
-.subscribe{
-    background-color: #3C3B3A;
-    color:white;
     padding-bottom: 2em;
 }
 
-.subscribe>p{
+.competitive>p {
+    max-width: 700px;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.competitive>h2 {
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+
+
+.subscribe {
+    background-color: #3C3B3A;
+    color: white;
+    padding-bottom: 2em;
+}
+
+.subscribe>p {
     text-align: center;
 }
-.buttonsubscribe{
+
+.buttonsubscribe {
     font-family: 'Raleway', sans-serif;
-text-align: center;
+    text-align: center;
     width: 35%;
-font-size:20px;
+    font-size: 20px;
     font-weight: bold;
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
@@ -142,28 +197,55 @@ font-size:20px;
 
 }
 
-.Thankyou{
-    text-align:center;
-    margin-left:4rem;
-    margin-right:5rem;
-font-size: 56px;
-line-height: 66px;
+.fitness>p {
+    max-width: 700px;
+    margin-left: 2rem;
+    margin-right: 2rem;
 }
+
+.fitness>h2 {
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.climbing>p {
+    max-width: 700px;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.climbing>h2 {
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+
+.Thankyou {
+    text-align: center;
+    margin-left: 4rem;
+    margin-right: 5rem;
+    font-size: 56px;
+    line-height: 66px;
+}
+
 /* This section is where all the size of the brand decrease because it is too big */
-.SABrand{
-    width:440px;
+.SABrand {
+    width: 440px;
 }
-.ACLogo{
-margin-left:6rem;
-    width:250px;
+
+.ACLogo {
+    margin-left: 6rem;
+    width: 250px;
 }
-.pcllogo{
-    margin-left:4rem;
-    width:330px;
+
+.pcllogo {
+    margin-left: 4rem;
+    width: 330px;
 }
-.cibc{
-    margin-left:8.5rem;
-    width:40%;
+
+.cibc {
+    margin-left: 8.5rem;
+    width: 40%;
 }
 
 .social {
@@ -173,65 +255,146 @@ margin-left:6rem;
     margin-bottom: -3rem;
 }
 
-.social>h2{
+.social>h2 {
     display: flex;
     justify-content: center;
     font-style: unset;
-    padding-top:1em;
+    padding-top: 1em;
 }
 
-.mediaicons{
+.mediaicons {
     max-width: 250px;
     display: flex;
     justify-content: space-evenly;
-    margin-top:1rem;   
+    margin-top: 1rem;
     margin-left: 6.5rem;
 }
 
 /* The arrow and back to top will take you to back to the top of the website. */
 .arrow {
     float: right;
-    width:7%;
+    max-width:30px;
     margin-top: -4rem;
     margin-right: 3.3rem;
 }
 
 .backtotop {
     float: right;
-font-size: 12px;
+    font-size: 12px;
     margin-top: -2rem;
     margin-right: 2.5rem;
 }
 
-@media screen and (min-width:768px){
-    header{
-        height:70px;
+@media screen and (min-width:768px) {
+    header {
+        height: 70px;
     }
+
+    .logo {
+        float: left;
+        margin-left: 2rem;
+    }
+
+    /* The navigation is displayed in rows */
+    ul li {
+        display: inline-block;
+        margin-left: 3rem;
+    }
+
+    nav {
+        margin-left: 10rem;
+        padding-top: 1em;
+    }
+
+    h1 {
+        font-size: 72px;
+        line-height: 85px;
+    }
+
     
-.logo{
-    float: left;
-    margin-left:2rem;
-}
-/* The navigation is displayed in rows */
-ul li{
-    display: inline-block;
-    margin-left:3rem;
+    .barpic {
+        float: left;
+        object-fit: cover;
+        width: 218px;
+        height: 374.51px;
+        margin-right: 2rem;
+    }
+
+    .bowlingpic {
+        float: right;
+        object-fit: cover;
+        width: 218px;
+        height: 374.51px;
+        margin-left: 2rem;
+    }
+
+        /* Here is the subscribe section for the tablet screen*/
+        .subscribe {
+            margin-top: 10rem;
+        }
+    
+        .subscribe>p {
+            margin-top: 1.5rem;
+            float: left;
+        }
+    
+        .buttonsubscribe {
+            margin-top: 1.5rem;
+            width: 140px;
+        }
+
+    .fitnesspic {
+        float: left;
+        object-fit: cover;
+        margin-right: 2rem;
+        width: 218px;
+        height: 374.51px;
+    }
+
+    .climbingpic {
+        float: right;
+        object-fit: cover;
+        margin-left: 2rem;
+        width: 218px;
+        height: 374.51px;
+    }
+
+    .bowling {
+        float: left;
+        margin-left: 2rem;
+        width: 218px;
+        height: 374.51px;
+
+    }
+
+    .climbing{
+        margin-top:10rem;
+    }
+    .competitive {
+        margin-top: 10rem;
+    }
+
+    .SABrand {
+        margin-left: 6rem;
+    width: 500px;
 }
 
-nav{
-    margin-left:10rem;
-     padding-top: 1em;
-}
-h1{
-    font-size: 72px;
-    line-height: 85px;
+.ACLogo {
+    margin-left: 14rem;
+    max-width: 250px;
 }
 
-/* Here is the subscribe section for the tablet screen*/
-.subscribe>p{
-float: left;
+.pcllogo {
+    margin-left: 11rem;
+    max-width: 330px;
 }
-.buttonsubscribe{
-    width: 140px;
+
+.cibc {
+    margin-left: 12rem;
+    max-width: 40%;
 }
+.mediaicons{
+    margin-left: 15rem;
+      
+    }
 }
