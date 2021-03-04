@@ -189,7 +189,9 @@ There is also a shadow at the bottom at the button */
     width: 100%;
 }
 
-.learnmore {
+/* Here are the 2 learn more buttons that are used */
+.learnmore1,
+.learnmore2 {
     margin-left: 14.5rem;
     font-family: 'Raleway', sans-serif;
     font-weight: bold;
@@ -371,7 +373,8 @@ There is also a shadow at the bottom at the button */
         height: 200px;
     }
 
-    .learnmore {
+    .learnmore1,
+    .learnmore2 {
         margin: auto;
         width: 280px;
         margin-left: 21rem;
@@ -380,8 +383,8 @@ There is also a shadow at the bottom at the button */
 
     }
 
-    .simon{
-        padding-bottom:3em;
+    .simon {
+        padding-bottom: 3em;
     }
 
     .simonpic {
@@ -420,7 +423,7 @@ There is also a shadow at the bottom at the button */
 }
 
 /* Desktop screen for the Home page */
-@media screen and (min-width:900px) {
+@media screen and (min-width:1200px) {
     .logo {
         margin-left: 4rem;
     }
@@ -433,78 +436,91 @@ There is also a shadow at the bottom at the button */
     .ARC-p {
         max-width: 560px;
     }
-    .start{
-        margin-left:3rem;
+
+    .start {
+        margin-left: 3rem;
     }
-    .discovering{
+
+    .discovering {
         float: right;
-        width:50%;
-        margin-top:-36rem;
+        width: 50%;
+        margin-top: -36rem;
         margin-bottom: 20rem;
     }
+
     /* .discoveralgonquin,
     .school{
         background-color:#F2F2F2;
     } */
-    .school{
+    .school {
         max-width: 600px;
         height: 337px;
         margin-top: 20rem;
         margin-left: 3rem;
-        padding-bottom:2rem;
+        padding-bottom: 2rem;
     }
 
-    .discoveralgonquin{    
-margin-left:50rem;
-        max-width: 660px;
-        margin-top:-28rem;
-        padding-top:2rem;
+    .discoveralgonquin {
+        margin-left: 44rem;
+        margin-right: 5rem;
+        margin-top: -28rem;
+        margin-bottom:10rem;
+        padding-top: 2rem;
     }
 
-    .learnmore{
-       max-width:230px;
-       width: 40%;
+    .learnmore1{
+        float: right;
+       margin-bottom:3rem;
     }
-.simon{
-    padding-bottom:5em;
-}
-.simonpic{
-    float:left;
-    margin-top:1rem;
-}
-.simon>h3{
-margin-left:0rem;
-margin-top:5rem;
-}
-.simon>p{
-   margin-left: 30rem;
-   margin-top:3rem;
 
-}
-.entertainmentpic{
-    margin-right:3rem;
-    display: flex;
-    float:right;
-    max-width: 600px;
-    height: 337px;
-    margin-top: 5rem;
+    .simon {
+        padding-bottom: 5em;
+    }
 
-}
-.entertainment{    
-    width: 660px;
-    margin-top: 5rem;
-}
-         /* The footer section that is for desktop */
-         .mediaicons{
-            max-width: 180px;
-           margin-left: 41rem;
-        }
-            .arrow{
-                max-width:220px;
-            }
-            .backtotop {
-                font-size: 12px;
-                margin-top: -1rem;
-                margin-right: 2.7rem;
-            }
+    .simonpic {
+        float: left;
+        margin-top: 1rem;
+    }
+
+    .simon>h3 {
+        margin-left: 0rem;
+        margin-top: 5rem;
+    }
+
+    .simon>p {
+        margin-left: 30rem;
+        margin-top: 3rem;
+
+    }
+
+    .entertainmentpic {
+        margin-right: 3rem;
+        display: flex;
+        float: right;
+        max-width: 600px;
+        height: 337px;
+        margin-top: 5rem;
+
+    }
+
+    .entertainment {
+        width: 660px;
+        margin-top: 5rem;
+    }
+
+    /* The footer section that is for desktop */
+    .mediaicons {
+        max-width: 180px;
+        margin-left: 41rem;
+    }
+
+    .arrow {
+        max-width: 220px;
+    }
+
+    .backtotop {
+        font-size: 12px;
+        margin-top: -1rem;
+        margin-right: 2.7rem;
+    }
 }
