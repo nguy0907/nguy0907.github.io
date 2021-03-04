@@ -380,6 +380,10 @@ There is also a shadow at the bottom at the button */
 
     }
 
+    .simon{
+        padding-bottom:3em;
+    }
+
     .simonpic {
         float: left;
         display: flex;
@@ -443,21 +447,35 @@ There is also a shadow at the bottom at the button */
         background-color:#F2F2F2;
     } */
     .school{
-        display: block;
-        width: 600px;
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 600px;
         height: 337px;
+        margin-top: 20rem;
         margin-left: 3rem;
         padding-bottom:2rem;
     }
 
     .discoveralgonquin{    
-        display: block;
-        max-width: 660px;
+        width: 660px;
         margin-top:-0.8rem;
         padding-top:2rem;
     }
-    .discovertext{
-        display:block;
-        
-    }
+.simon{
+    padding-bottom:5em;
+}
+.simonpic{
+    float:left;
+    margin-top:1rem;
+}
+.simon>h3{
+margin-left:0rem;
+margin-top:5rem;
+}
+.simon>p{
+   margin-left: 30rem;
+   margin-top:3rem;
+
+}
+
 }
