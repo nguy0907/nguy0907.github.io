@@ -17,6 +17,7 @@ img {
 header {
     background-color: #3C3B3A;
     padding-bottom: 2em;
+   margin-right:-0.5rem;
     font-size: 18px;
     font-weight: normal;
     text-align: center;
@@ -47,6 +48,24 @@ a {
 nav {
     margin-left: -2rem;
 }
+
+/* Adding some animation to the nav section */
+
+ul a:hover{
+     font-weight: bold;
+     animation-duration: 0.2s;
+     font-size:30px;
+     font-weight:bold;
+     transition:0.4s;
+       transform: scale(1) rotate(-360deg);
+}
+
+ul a:active{
+transition: transform 4s;
+  transform: scale(1) rotate(-360deg);    
+}
+
+
 
 /* The list will no longer have underline and there is some space between every item */
 ul li {
