@@ -452,25 +452,43 @@ There is also a shadow at the bottom at the button */
     .school{
         background-color:#F2F2F2;
     } */
+
+
     .school {
+         background-color: #F2F2F2;
         max-width: 600px;
         height: 337px;
-        margin-top: 20rem;
-        margin-left: 3rem;
-        padding-bottom: 2rem;
+        margin-top: -5rem;
+        padding-top: 4.2em;
+        padding-bottom: 6em;
+        padding-right: 4em;
+        padding-left: 4em;
     }
 
     .discoveralgonquin {
-        margin-left: 44rem;
-        margin-right: 5rem;
+        background-color: #F2F2F2;
+        margin-left:8rem;
         margin-top: -28rem;
-        margin-bottom:10rem;
+        margin-bottom: 10rem;
         padding-top: 2rem;
+        padding-bottom: 4rem;
+     
     }
 
-    .learnmore1{
+    .discovertext {
+        max-width: 800px;
+        background-color: #F2F2F2;
+        padding-right: 1.6em;
+        margin-left: 36rem;
+        margin-top: -6rem;
+        padding-bottom: 6.5em;
+        padding-top: 4em;
+        padding-right: 7em;
+    }
+
+    .learnmore1 {
         float: right;
-       margin-bottom:3rem;
+        margin-bottom: 3rem;
     }
 
     .simon {
