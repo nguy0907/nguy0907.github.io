@@ -447,8 +447,6 @@ There is also a shadow at the bottom at the button */
         background-color:#F2F2F2;
     } */
     .school{
-        display: flex;
-        flex-wrap: wrap;
         max-width: 600px;
         height: 337px;
         margin-top: 20rem;
@@ -457,9 +455,15 @@ There is also a shadow at the bottom at the button */
     }
 
     .discoveralgonquin{    
-        width: 660px;
-        margin-top:-0.8rem;
+margin-left:50rem;
+        max-width: 660px;
+        margin-top:-28rem;
         padding-top:2rem;
+    }
+
+    .learnmore{
+       max-width:230px;
+       width: 40%;
     }
 .simon{
     padding-bottom:5em;
@@ -477,5 +481,30 @@ margin-top:5rem;
    margin-top:3rem;
 
 }
+.entertainmentpic{
+    margin-right:3rem;
+    display: flex;
+    float:right;
+    max-width: 600px;
+    height: 337px;
+    margin-top: 5rem;
 
+}
+.entertainment{    
+    width: 660px;
+    margin-top: 5rem;
+}
+         /* The footer section that is for desktop */
+         .mediaicons{
+            max-width: 180px;
+           margin-left: 41rem;
+        }
+            .arrow{
+                max-width:220px;
+            }
+            .backtotop {
+                font-size: 12px;
+                margin-top: -1rem;
+                margin-right: 2.7rem;
+            }
 }
