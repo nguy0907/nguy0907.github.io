@@ -355,6 +355,7 @@ h3 {
         width: 218px;
         height: 374.51px;
         margin-left: 2rem;
+        margin-top:2rem;
     }
 
     /* Here is the subscribe section for the tablet screen*/
@@ -375,6 +376,7 @@ h3 {
         margin-left: 1rem;
         width: 140px;
     }
+    
 
     .fitnesspic {
         float: left;
@@ -388,7 +390,7 @@ h3 {
         float: right;
         object-fit: cover;
         margin-left: 2rem;
-        margin-top: 9rem;
+        margin-top: 13rem;
         width: 218px;
         height: 374.51px;
     }
@@ -403,13 +405,19 @@ h3 {
 
     .climbing {
         margin-top: 10rem;
+        padding-bottom:8em;
+        padding-right: 21em;
         max-width: 560px;
     }
 
     .competitive {
-        margin-top: 10rem;
+        margin-top: 6rem;
+        padding-top:2em;
+        padding-bottom:8em;
     }
-
+.Thankyou{
+    margin-top:15rem;
+}
     .SABrand {
         margin-left: 6rem;
         width: 500px;
@@ -511,7 +519,8 @@ h3 {
         }
 
         .competitive {
-            padding-bottom: 8.6em;
+            margin-top:14rem;
+            padding-bottom: 13em;
         }
 
         .fitnesspic {
