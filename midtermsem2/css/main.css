@@ -54,15 +54,15 @@ nav {
 ul a:hover{
      font-weight: bold;
      animation-duration: 0.2s;
-     font-size:30px;
-     font-weight:bold;
+     /* font-size:30px;
+     font-weight:bold; */
      transition:0.4s;
-       transform: scale(1) rotate(-360deg);
+     
 }
 
 ul a:active{
 transition: transform 4s;
-  transform: scale(1) rotate(-360deg);    
+
 }
 
 

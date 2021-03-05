@@ -33,28 +33,30 @@ header {
 
 /* The nav link will have no underlines and no other decoration The colour is white since the background is dark */
 
-nav {
-    margin-left: -2rem;
-}
-
 a {
     color: white;
     text-decoration: none;
 }
 
+nav {
+    margin-left: -2rem;
+}
+ul li {
+    margin-bottom: 1rem;
+    list-style: none;
+}
+
 ul a:hover{
     font-weight: bold;
     animation-duration: 0.2s;
-    font-size:30px;
-    font-weight:bold;
     transition:0.4s;
-      transform: scale(1) rotate(-360deg);
 }
 
 ul a:active{
 transition: transform 4s;
- transform: scale(1) rotate(-360deg);    
 }
+
+
 
 
 h1 {
@@ -310,7 +312,7 @@ label{
     }
  .signup{ 
          margin: auto;
-         max-width: 500px;
+        width: 500px;
      
     }
  .map{
