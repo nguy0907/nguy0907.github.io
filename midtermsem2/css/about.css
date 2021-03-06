@@ -13,19 +13,19 @@ img {
 
 /* Some of the images will not appear on mobile screen */
 .barpic {
-    width: 0px;
+   display: none;
 }
 
 .bowlingpic {
-    width: 0px;
+    display: none;
 }
 
 .fitnesspic {
-    width: 0px;
+    display: none;
 }
 
 .climbingpic {
-    width: 0px;
+    display: none;
 }
 
 /* The nav link will have no underlines and no other decoration The colour is white since the background is dark */
@@ -182,6 +182,7 @@ h3 {
 
 .competitive {
     background-color: #F2F2F2;
+    padding-top:1em;
     padding-bottom: 3em;
     margin-bottom: -1rem;
 }
@@ -342,6 +343,7 @@ h3 {
 
 
     .barpic {
+        display: block;
         float: left;
         object-fit: cover;
         width: 218px;
@@ -350,6 +352,7 @@ h3 {
     }
 
     .bowlingpic {
+        display: block;
         float: right;
         object-fit: cover;
         width: 218px;
@@ -379,6 +382,7 @@ h3 {
     
 
     .fitnesspic {
+        display: block;
         float: left;
         object-fit: cover;
         margin-right: 2rem;
@@ -387,6 +391,7 @@ h3 {
     }
 
     .climbingpic {
+        display: block;
         float: right;
         object-fit: cover;
         margin-left: 2rem;
