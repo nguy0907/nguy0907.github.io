@@ -34,20 +34,11 @@ a {
     text-decoration: none;
 }
 
-
 ul a:hover{
     font-weight: bold;
-    animation-duration: 0.2s;
-    transition:0.4s;  
+    animation-duration: 1s;
+    transition:1s;  
 }
-
-ul a:active{
-transition: transform 4s;
-
-}
-
-
-
 
 /* The header will have a black background and every element is centered */
 header {
@@ -314,6 +305,12 @@ h3 {
     margin-top: -2rem;
     margin-right: 2.5rem;
 }
+.backtotop:hover{
+    font-weight: bold;
+    animation-duration: 1s;
+    transition:1s;  
+}
+
 
 @media screen and (min-width:768px) {
     header {
@@ -585,7 +582,8 @@ h3 {
         .backtotop {
             font-size: 12px;
             margin-top: -1rem;
-            margin-right: 2.7rem;
+            margin-right: 2.8rem;
+
         }
     }
 }
