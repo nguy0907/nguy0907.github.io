@@ -7,10 +7,6 @@ html {
 }
 
 /* The images will be responsive */
-img {
-    height: auto;
-    max-width: 100%;
-}
 
 
 /* The header will have a black background and every element is centered */
@@ -195,9 +191,12 @@ There is also a shadow at the bottom at the button */
 }
 
 .school {
+    margin: 0px;
     object-fit: cover;
     height: 200px;
-    width: 100%;
+  width: 103%;
+    margin-left:-1rem;
+
 }
 
 /* Here are the 2 learn more buttons that are used */
@@ -218,11 +217,10 @@ There is also a shadow at the bottom at the button */
 }
 
 .simon {
-    margin: auto;
-    width: auto;
     background-color: #3C3B3A;
     padding-top: 1em;
-    padding-right: 1em;
+    margin-right:-0.5rem;
+    margin-left:-1rem;
     padding-bottom: 1em;
     color: #F2F2F2;
 }
@@ -262,8 +260,9 @@ There is also a shadow at the bottom at the button */
 
 .entertainmentpic {
     object-fit: cover;
+    margin-left:-0.5rem;
     height: 200px;
-    width: 100%;
+    width: 102%;
 }
 
 /* This section is the footer It has the social media icons in the middle and a back to top navigation */
@@ -386,8 +385,6 @@ There is also a shadow at the bottom at the button */
 .scroll{
     display: block;
     text-align: center;
-    animation-duration: 2s;
-    animation-iteration-count: infinite;
 }
 .arrowdown{
     margin-top:-0.5rem;
@@ -396,8 +393,8 @@ There is also a shadow at the bottom at the button */
     transition:1s;  
 
 }
+
 .arrowdown:hover{
-    font-weight: bold;
     animation-duration: 1s;
     font-size:30px;
     transition:1s;  
@@ -425,7 +422,8 @@ transition: transform 4s;
     }
 
     .simon {
-        padding-bottom: 3em;
+        padding-top:3em;
+        padding-bottom: 5em;
     }
 
     .simonpic {
@@ -445,16 +443,15 @@ transition: transform 4s;
     .simon>p {
         font-size: 24px;
         margin: auto;
-        width: auto;
         display: flex;
         flex-wrap: wrap;
         margin-left: 20rem;
-        margin-right: 1rem;
+        margin-right: 5rem;
 
     }
 
     .entertainmentpic {
-        width: 100%;
+        width: 101%;
         height: 200px;
     }
 
@@ -472,6 +469,10 @@ transition: transform 4s;
     nav {
         float: right;
         margin-right: 5rem;
+    }
+
+    h1{
+        margin-top: 5rem;
     }
 
     .ARC-p {
@@ -512,29 +513,32 @@ margin-top:4rem;
     }
 
     .discoveralgonquin {
+      width: auto;
+      margin: auto;
         background-color: #F2F2F2;
         margin-left:8rem;
         margin-top: -28rem;
         margin-bottom: 10rem;
         padding-top: 2rem;
         padding-bottom: 4rem;
+
      
     }
 
     .discovertext {
-        max-width: 800px;
         background-color: #F2F2F2;
         padding-right: 1.6em;
         margin-left: 36rem;
         margin-top: -6rem;
         padding-bottom: 6.5em;
         padding-top: 4em;
-        padding-right: 7em;
+        padding-right: 3em;
     }
 
     .learnmore1 {
         float: right;
         margin-bottom: 3rem;
+        margin-right:10rem;
     }
 
     .simon {
@@ -586,6 +590,6 @@ margin-top:4rem;
         font-size: 12px;
         margin-top: -1rem;
         margin-right: 2.8rem;
-
     }
+  
 }
