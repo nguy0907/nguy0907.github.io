@@ -367,6 +367,7 @@ h3 {
         width: 218px;
         height: 374.51px;
         margin-right: 2rem;
+        margin-left:2rem;
     }
 
     .bowlingpic {
@@ -375,14 +376,11 @@ h3 {
         object-fit: cover;
         width: 218px;
         height: 374.51px;
-        margin-left: 2rem;
+        margin-right:2rem;
         margin-top:2rem;
     }
 
     /* Here is the subscribe section for the tablet screen*/
-    .subscribe {
-        margin-top: 10rem;
-    }
 
     .subscribe>p {
         display: block;
@@ -404,16 +402,21 @@ h3 {
         float: left;
         object-fit: cover;
         margin-right: 2rem;
+        margin-left:2rem;
         width: 218px;
         height: 374.51px;
+    }
+
+    .fitness{
+        margin-top:5rem;
     }
 
     .climbingpic {
         display: block;
         float: right;
         object-fit: cover;
-        margin-left: 2rem;
-        margin-top: 13rem;
+     margin-right:2rem;
+        margin-top: 11rem;
         width: 218px;
         height: 374.51px;
     }
@@ -430,13 +433,12 @@ h3 {
         margin-top: 10rem;
         padding-bottom:8em;
         padding-right: 21em;
-        max-width: 560px;
     }
 
     .competitive {
         margin-top: 6rem;
         padding-top:2em;
-        padding-bottom:8em;
+        padding-bottom:13em;
     }
 .Thankyou{
     margin-top:15rem;
@@ -556,6 +558,7 @@ h3 {
         }
 
         .climbingpic {
+            
             width: 700px;
             margin-right: 2.0rem;
             margin-top: 16rem;
@@ -566,7 +569,7 @@ h3 {
             max-width:1400px;
             padding-right: 14em;
             margin-top:20rem;
-            padding-bottom:10em;
+            padding-bottom:12em;
             padding-top:2em;
             margin-bottom:4rem;
         }
