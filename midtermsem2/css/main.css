@@ -13,7 +13,7 @@ html {
 header {
     background-color: #3C3B3A;
     padding-bottom: 2em;
-   margin-right:-0.5rem;
+    margin-right: -0.5rem;
     font-size: 18px;
     font-weight: normal;
     text-align: center;
@@ -47,10 +47,10 @@ nav {
 
 /* Adding some animation to the nav section */
 
-ul a:hover{
-     font-weight: bold;
-     animation-duration: 1s;
-     transition:1s;  
+ul a:hover {
+    font-weight: bold;
+    animation-duration: 1s;
+    transition: 1s;
 }
 
 
@@ -194,8 +194,8 @@ There is also a shadow at the bottom at the button */
     margin: 0px;
     object-fit: cover;
     height: 200px;
-  width: 103%;
-    margin-left:-1rem;
+    width: 103%;
+    margin-left: -1rem;
 
 }
 
@@ -219,8 +219,8 @@ There is also a shadow at the bottom at the button */
 .simon {
     background-color: #3C3B3A;
     padding-top: 1em;
-    margin-right:-0.5rem;
-    margin-left:-1rem;
+    margin-right: -0.5rem;
+    margin-left: -1rem;
     padding-bottom: 1em;
     color: #F2F2F2;
 }
@@ -260,7 +260,7 @@ There is also a shadow at the bottom at the button */
 
 .entertainmentpic {
     object-fit: cover;
-    margin-left:-0.5rem;
+    margin-left: -0.5rem;
     height: 200px;
     width: 102%;
 }
@@ -271,6 +271,8 @@ There is also a shadow at the bottom at the button */
     color: white;
     padding-bottom: 2em;
     margin-bottom: -3rem;
+    margin-right: -0.5rem;
+    margin-left: -1rem;
 }
 
 .social>h2 {
@@ -282,14 +284,11 @@ There is also a shadow at the bottom at the button */
 }
 
 .mediaicons {
-    width: auto;
-    margin: auto;
-    max-width: 250px;
+    max-width: 240px;
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-evenly;
     margin-top: 1rem;
-    margin-left: 6.5rem;
+    margin-left: 7.5rem;
 }
 
 /* The arrow and back to top will take you to back to the top of the website. */
@@ -306,11 +305,13 @@ There is also a shadow at the bottom at the button */
     margin-top: -2rem;
     margin-right: 2.5rem;
 }
-.backtotop:hover{
+
+.backtotop:hover {
     font-weight: bold;
     animation-duration: 1s;
-    transition:1s;  
+    transition: 1s;
 }
+
 /* This will be the start of the tablet screen for the home screen */
 
 @media screen and (min-width:768px) {
@@ -381,31 +382,34 @@ There is also a shadow at the bottom at the button */
         margin-left: 6rem;
         width: 500px;
     }
-/* Scroll navigation will appear here */
-.scroll{
-    display: block;
-    text-align: center;
-}
-.arrowdown{
-    margin-top:-0.5rem;
-    margin-bottom:4rem;
-    animation-duration: 1s;
-    transition:1s;  
 
-}
+    /* Scroll navigation will appear here */
+    .scroll {
+        display: block;
+        text-align: center;
+    }
 
-.arrowdown:hover{
-    animation-duration: 1s;
-    font-size:30px;
-    transition:1s;  
-    transition-timing-function: ease-out;
-     transform: scale(1) rotate(-180deg);
-}
+    .arrowdown {
+        margin-top: -0.5rem;
+        margin-bottom: 4rem;
+        animation-duration: 1s;
+        transition: 1s;
 
-.arrowdown:active{
-transition: transform 4s;
+    }
 
-}
+    .arrowdown:hover {
+        animation-duration: 1s;
+        font-size: 30px;
+        transition: 1s;
+        transition-timing-function: ease-out;
+        transform: scale(1) rotate(-180deg);
+    }
+
+    .arrowdown:active {
+        transition: transform 4s;
+
+    }
+
     .school {
         width: 100%;
         height: 200px;
@@ -422,7 +426,7 @@ transition: transform 4s;
     }
 
     .simon {
-        padding-top:3em;
+        padding-top: 3em;
         padding-bottom: 5em;
     }
 
@@ -456,7 +460,8 @@ transition: transform 4s;
     }
 
     .mediaicons {
-        margin-left: 15rem;
+        margin-left: 16rem;
+
     }
 }
 
@@ -471,7 +476,7 @@ transition: transform 4s;
         margin-right: 5rem;
     }
 
-    h1{
+    h1 {
         margin-top: 5rem;
     }
 
@@ -488,21 +493,22 @@ transition: transform 4s;
         width: 45%;
         margin-top: -36rem;
         margin-bottom: 4rem;
-        margin-right:4rem;
-    }
-    .scroll{
-margin-top:4rem;
-        margin-left:23rem;
-        margin-bottom:3rem;
+        margin-right: 4rem;
     }
 
-    .scroll>p{
-        margin-top:2rem;
+    .scroll {
+        margin-top: 4rem;
+        margin-left: 23rem;
+        margin-bottom: 3rem;
+    }
+
+    .scroll>p {
+        margin-top: 2rem;
     }
 
 
     .school {
-         background-color: #F2F2F2;
+        background-color: #F2F2F2;
         max-width: 600px;
         height: 337px;
         margin-top: -5rem;
@@ -513,16 +519,17 @@ margin-top:4rem;
     }
 
     .discoveralgonquin {
-      width: auto;
-      margin: auto;
+        width: auto;
+        margin: auto;
         background-color: #F2F2F2;
-        margin-left:8rem;
+        margin-left: 8rem;
+        margin-right:-0.5rem;
         margin-top: -28rem;
         margin-bottom: 10rem;
         padding-top: 2rem;
         padding-bottom: 4rem;
 
-     
+
     }
 
     .discovertext {
@@ -538,7 +545,7 @@ margin-top:4rem;
     .learnmore1 {
         float: right;
         margin-bottom: 3rem;
-        margin-right:10rem;
+        margin-right: 10rem;
     }
 
     .simon {
@@ -548,7 +555,7 @@ margin-top:4rem;
     .simonpic {
         float: left;
         margin-top: 1rem;
-        margin-right:1rem;
+        margin-right: 1rem;
     }
 
     .simon>h3 {
@@ -580,7 +587,7 @@ margin-top:4rem;
     /* The footer section that is for desktop */
     .mediaicons {
         max-width: 180px;
-        margin-left: 41rem;
+        margin-left: 42rem;
     }
 
     .arrow {
@@ -592,5 +599,5 @@ margin-top:4rem;
         margin-top: -1rem;
         margin-right: 2.8rem;
     }
-  
+
 }

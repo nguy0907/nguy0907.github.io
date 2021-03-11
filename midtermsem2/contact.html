@@ -39,22 +39,23 @@
             <form action="thanks.html" method="get">
                 <div class="namebox">
                     <label class="label1" for="firstname">Full Name</label>
-                    <input class="firstname" type="text" id="firstname" name="firstname" placeholder="Full Name">
+                    <input class="firstname" type="text" id="firstname" name="firstname" placeholder="Full Name" required>
                 </div>
                 <div class="studentnumberbox">
                     <label class="label2" for="studentnumber">Student Number</label>
-                    <input class="studentnumber" type="text" id="studentnumber" name="studentnumber" placeholder="Student Number">
+                    <input class="studentnumber" type="text" id="studentnumber" name="studentnumber" placeholder="Student Number" required>
                 </div>
                 <div class="emailbox">
                     <label class="label3" for="email">Email</label>
-                    <input class="emailbox" type="text" id="email" name="email" placeholder="Email">
+                    <input class="emailbox" type="text" id="email" name="email" placeholder="Email" required>
                 </div>
                 <div class="messagebox">
                     <label class="label4" for="message">Message</label>
                     <textarea class="message" name="message" id="message" placeholder="Message" cols="30" rows="10"></textarea>
-                </div>             
+                </div>   
+                    <button class="submit" type="submit">Submit</button>        
             </form>  
-            <button class="submit">Submit</button>
+          
         </section>
         <!-- This section is the location section, it is going to include a map that is embedded form Google Map -->
         <section class="location">
