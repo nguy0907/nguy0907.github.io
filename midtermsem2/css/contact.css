@@ -163,7 +163,7 @@ and the button will stretch weirdly. */
 .submit:active{
     color:black;
     background:red;
-    transform: skew(7deg, 7deg) scale(2, 2);
+    transform: skew(2deg, 2deg) scale(1, 1);
 }
 
   .ACSAsubtitle{
@@ -178,8 +178,10 @@ and the button will stretch weirdly. */
   }
 .map {
     margin-top: 2rem;
-    width: 100%;
+    width: 101%;
+    margin-left:-0.4rem;
      margin-bottom:-2.7rem;
+
 } 
 
 .social {
@@ -259,6 +261,22 @@ h1 {
     margin-bottom: 2rem;
     line-height: 85px;
 }
+/* When you hover on the button, it will turn bigger in a slower transition */
+.submit:hover{
+    animation-duration: 1s;
+    transition:0.1s;  
+    transition-timing-function: ease-out;
+     transform: scale(1.3);
+  }
+
+/* When you click the button, it will turn red, the text will be black,
+and the button will stretch weirdly. */
+
+.submit:active{
+    color:black;
+    background:red;
+    transform: skew(7deg, 7deg) scale(3, 3);
+}
 .signup{
     max-width: 500px;
 }
@@ -279,8 +297,9 @@ label{
    }
  .submit{
      width: 160px;
-     margin: left 13.5em;
+    
  }
+
  .locationtitle{
      font-size: 72px;
  }

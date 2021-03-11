@@ -191,11 +191,10 @@ There is also a shadow at the bottom at the button */
 }
 
 .school {
-    margin: 0px;
     object-fit: cover;
     height: 200px;
-    width: 103%;
-    margin-left: -1rem;
+    width: 102.2%;
+    margin-left:-0.5rem;  
 
 }
 
@@ -262,7 +261,8 @@ There is also a shadow at the bottom at the button */
     object-fit: cover;
     margin-left: -0.5rem;
     height: 200px;
-    width: 102%;
+    width:102%;
+
 }
 
 /* This section is the footer It has the social media icons in the middle and a back to top navigation */
@@ -411,7 +411,7 @@ There is also a shadow at the bottom at the button */
     }
 
     .school {
-        width: 100%;
+        width: 101.3%;
         height: 200px;
     }
 

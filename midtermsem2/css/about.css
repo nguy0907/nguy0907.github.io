@@ -131,7 +131,6 @@ margin-right:-0.5rem;
     height: 130px;
     background-image: url(../images/about.jpg);
     background-position: 55% 55%;
-
     filter: contrast(1.5);
     background-size: cover;
     text-align: center;
@@ -555,6 +554,10 @@ margin-right:-0.5rem;
         .competitive {
             margin-top:14rem;
             padding-bottom: 13em;
+        }
+
+        .competitive>p{
+margin-right:40rem;
         }
 
         .fitnesspic {
