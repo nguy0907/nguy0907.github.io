@@ -100,13 +100,14 @@ h3 {
     font-weight: lighter;
 }
 
-/* This is the construction section, little code because there is not a lot of content */
+/* This is the construction section, little amount code because there is not a lot of content */
 .construction>p {
     font-size: 20px;
     margin-left: 3rem;
     margin-right: 7rem;
 }
 
+/* This is the about section which is heading and text. */
 .about {
     margin: 0 auto;
     background-color: #F2F2F2;
@@ -147,6 +148,7 @@ margin-right:-0.5rem;
 .italic {
     font-style: italic;
 }
+
 /* This section is the services banner with a green above the image with white text */
 .servicesbanner {
     padding-top: 3em;
@@ -168,7 +170,6 @@ margin-right:-0.5rem;
     padding-top: 3em;
     padding-bottom: 2.7em;
     margin-top:-3rem;
-
 }
 
 
@@ -205,6 +206,7 @@ margin-right:-0.5rem;
     margin-right: 2rem;
 }
 
+/* This is the subscribe section where the background is very dark gray, text, and a subscribe button */
 .subscribe {
     background-color: #3C3B3A;
     color: white;
@@ -277,6 +279,7 @@ margin-right:-0.5rem;
 }
 
 /* This section is where all the size of the brand decrease because it is too big */
+/* All the brands will also line in straight columns */
 .SABrand {
     width: 340px;
     margin-left: 3rem;
@@ -342,7 +345,7 @@ margin-right:-0.5rem;
     transition:1s;  
 }
 
-
+/* This is the mobile version of the about page. */
 @media screen and (min-width:768px) {
     header {
         height: 70px;
@@ -369,7 +372,11 @@ margin-right:-0.5rem;
         line-height: 85px;
     }
 
+/* The services system will have images floating on texts. */
 
+
+/* Some of the images like the bar picture will appear by using display block
+The width is much smaller than the height, but still responsive. */
     .barpic {
         display: block;
         float: left;
@@ -380,6 +387,14 @@ margin-right:-0.5rem;
         margin-left:2rem;
     }
 
+  
+    /*The competitive part will have a gray background with an image that did not exist in mobile version  */
+
+    .competitive {
+        margin-top: 5rem;
+        padding-top:2em;
+        padding-bottom:11em;
+    }  
     .bowlingpic {
         display: block;
         float: right;
@@ -389,13 +404,9 @@ margin-right:-0.5rem;
         margin-right:2rem;
         margin-top:2rem;
     }
-   .competitive {
-        margin-top: 9rem;
-        padding-top:2em;
-        padding-bottom:13em;
-    }
         
-    /* Here is the subscribe section for the tablet screen*/
+    /* Here is the subscribe section for the tablet screen. The button is display as block, so it is
+    in a row beside the text*/
 
     .subscribe>p {
         display: block;
@@ -406,7 +417,7 @@ margin-right:-0.5rem;
     }
 
     .buttonsubscribe {
-        margin-top: 1.5rem;
+        margin-top: 1.2rem;
         margin-left: 1rem;
         width: 140px;
     }
@@ -444,10 +455,12 @@ margin-right:-0.5rem;
         padding-right: 21em;
     }
 
+    /* Here is the thank you section for tablet version. */
  
 .Thankyou{
     margin: auto;
     margin-top:10rem;
+    margin-bottom:6rem;
     max-width: 60%;
 }
     .SABrand {
@@ -456,16 +469,16 @@ margin-right:-0.5rem;
     }
 
     .ACLogo {
-        margin-left: 14rem;
+        margin-left: 15rem;
     }
 
     .pcllogo {
-        margin-left: 11rem;
+        margin-left: 14rem;
 
     }
 
     .cibc {
-        margin-left: 15rem;
+        margin-left: 17rem;
 
     }
 
@@ -473,7 +486,7 @@ margin-right:-0.5rem;
         margin-left: 16rem;
           
         }
-
+/* This is the desktop version of the about page */
     @media screen and (min-width:1200px) {
         .logo {
             margin-left: 4rem;
@@ -489,6 +502,7 @@ margin-right:-0.5rem;
             margin-top:5rem;
         }
 
+
         .construction>p {
             max-width: 670px;
         }
@@ -496,21 +510,20 @@ margin-right:-0.5rem;
         .construction {
             float: left;
         }
-
+/* The construction pages is floating to the right side of text in the construction section */
         .constructionpic {
             max-width: 640px;
             margin-left: -11rem;
             margin-top: 6rem;
             margin-bottom: 6rem;
         }
-
+/* The who, what and where paragraphs will be in a row by using flex*/
         .about {
             display: flex;
             padding-top:10em;
             padding-bottom:10em;
 
         }
-
         .who>p {
             max-width: 560px;
             margin-right: 4rem;
@@ -525,6 +538,8 @@ margin-right:-0.5rem;
         .where>p {
             max-width: 570px;
         }
+
+/* This is the services section where the images will be bigger. Pretty much it... */
 
         .barpic {
             width: 700px;
@@ -588,6 +603,7 @@ margin-right:40rem;
          
         }
 
+        /* The brands will display in a row. */
         .brand{
             margin-top:5rem;
             margin-bottom:5rem;
