@@ -1,4 +1,4 @@
-/* This is the css section for the main page. Mobile layout goes first.The font is being used is Ralway,
+/* This is the css section for the main page. Mobile layout goes first.The font is being used is Raleway,
  which is the main font of this website */
 
 html {
@@ -21,7 +21,7 @@ header {
     margin-left: -1rem;
 
 }
-
+/* The page you are on has a bold, which tells you what page are you on */
 .currentpage {
     font-weight: bold;
 }
@@ -85,7 +85,8 @@ h3 {
     color: #26A682;
 }
 
-/* This is the section where there are 4 activities you can choose from. There is images will labels under it. */
+/* This is the section where there are 4 activities you can choose from. There is icons with labels under it.
+There is 2 columns of activities. Since there was no icons I cannot find, I took one that is close to the mockup */
 .ARC-p {
     font-size: 20px;
     margin-left: 3rem;
@@ -184,12 +185,14 @@ There is also a shadow at the bottom at the button */
     width: 100%;
 }
 
+/* This is the discover Algonquin College */
 .discoveralgonquin {
     font-size: 16px;
     margin-left: 3rem;
     margin-right: 3rem;
 }
 
+/* The image is also responsive and in a good quality */
 .school {
     object-fit: cover;
     height: 200px;
@@ -198,7 +201,7 @@ There is also a shadow at the bottom at the button */
 
 }
 
-/* Here are the 2 learn more buttons that are used */
+/* Here are the 2 learn more buttons that are decorated. There is a bit of shadow effects. */
 .learnmore1,
 .learnmore2 {
     margin-left: 14.5rem;
@@ -215,6 +218,7 @@ There is also a shadow at the bottom at the button */
     margin-bottom: 2rem;
 }
 
+/* This is the Simon section witha grey background with white text */
 .simon {
     background-color: #3C3B3A;
     padding-top: 1em;
@@ -224,6 +228,7 @@ There is also a shadow at the bottom at the button */
     color: #F2F2F2;
 }
 
+/* The h3 is basically who she is. */
 .simon>h3 {
     text-align: center;
     max-width: 200px;
@@ -239,6 +244,7 @@ There is also a shadow at the bottom at the button */
     margin-right: 4.6rem;
 }
 
+/* The picture of Simon is rounded with a white border. */
 .simonpic {
     max-width: 200px;
     width: 40%;
@@ -246,7 +252,7 @@ There is also a shadow at the bottom at the button */
     border-radius: 100px;
     border: 5px solid white;
 }
-
+/* This section is the entertainment section */
 .entertainment {
     margin-left: 3rem;
     margin-right: 4rem;
@@ -256,7 +262,7 @@ There is also a shadow at the bottom at the button */
 .entertainment>.learnmore {
     margin-left: 14rem;
 }
-
+/* The image is also responsive and in a good quality */
 .entertainmentpic {
     object-fit: cover;
     margin-left: -0.5rem;
@@ -306,7 +312,7 @@ There is also a shadow at the bottom at the button */
     margin-right: 2.5rem;
 }
 
-.backtotop:hover {
+.backtotop-div:hover {
     font-weight: bold;
     animation-duration: 1s;
     transition: 1s;
@@ -349,6 +355,7 @@ There is also a shadow at the bottom at the button */
         margin-right: 6rem;
     }
 
+    /* The activity section is displayed in a row*/
     .activities {
         max-width: 700px;
         margin: 0.4rem;
@@ -369,6 +376,7 @@ There is also a shadow at the bottom at the button */
         margin-top: 7.4rem;
     }
 
+    /* The button is placed in the middle of the page */
     .start {
         margin: auto;
         width: auto;
@@ -383,33 +391,21 @@ There is also a shadow at the bottom at the button */
         width: 500px;
     }
 
-    /* Scroll navigation will appear here */
+    /* Scroll navigation will appear here, and it will be displayed upside down */
     .scroll {
         display: block;
         text-align: center;
     }
-
+/* The transform part will show that the arrow is on a -180 degree angle */
     .arrowdown {
         margin-top: -0.5rem;
         margin-bottom: 4rem;
         animation-duration: 1s;
         transition: 1s;
-
+        transform: scale(1) rotate(-180deg)
     }
 
-    .arrowdown:hover {
-        animation-duration: 1s;
-        font-size: 30px;
-        transition: 1s;
-        transition-timing-function: ease-out;
-        transform: scale(1) rotate(-180deg);
-    }
-
-    .arrowdown:active {
-        transition: transform 4s;
-
-    }
-
+/* Some part of the image is cut out, but still responsive */
     .school {
         width: 101.3%;
         height: 200px;
@@ -425,6 +421,7 @@ There is also a shadow at the bottom at the button */
 
     }
 
+    /*The only big difference about the simon section is the text is beside the image and the h3. */
     .simon {
         padding-top: 3em;
         padding-bottom: 5em;
@@ -453,7 +450,7 @@ There is also a shadow at the bottom at the button */
         margin-right: 5rem;
 
     }
-
+/* The part of the image is cut off, but still in good quality. */
     .entertainmentpic {
         width: 101%;
         height: 200px;
@@ -470,7 +467,7 @@ There is also a shadow at the bottom at the button */
     .logo {
         margin-left: 4rem;
     }
-
+/* The nav with be moved all the way to the right */
     nav {
         float: right;
         margin-right: 5rem;
@@ -488,6 +485,7 @@ There is also a shadow at the bottom at the button */
         margin-left: 3rem;
     }
 
+    /* The discovering image will float to the right where it is beside with the different activities... */
     .discovering {
         float: right;
         width: 45%;
@@ -507,6 +505,7 @@ There is also a shadow at the bottom at the button */
     }
 
 
+    /* The discover Algonquin College will have a grey like background and take the whole screen. */
     .school {
         background-color: #F2F2F2;
         max-width: 600px;
@@ -517,7 +516,7 @@ There is also a shadow at the bottom at the button */
         padding-right: 4em;
         padding-left: 4em;
     }
-
+/* The text and all the other content will be right beside the image on the right side. */
     .discoveralgonquin {
         width: auto;
         margin: auto;
@@ -548,6 +547,7 @@ There is also a shadow at the bottom at the button */
         margin-right: 10rem;
     }
 
+    /* This is the desktop version of the Simon section where everything will float beside the picture of Simon */
     .simon {
         padding-bottom: 5em;
     }
@@ -568,7 +568,8 @@ There is also a shadow at the bottom at the button */
         margin-top: 3rem;
 
     }
-
+    /* The entertainment picture will be floated to the right side an all the other content
+    will be displayed on the left side instead. */
     .entertainmentpic {
         margin-right: 3rem;
         display: flex;
