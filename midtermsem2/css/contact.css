@@ -45,12 +45,14 @@ ul li {
     margin-bottom: 1rem;
     list-style: none;
 }
-
-ul a:hover{
+/* Adding some animation to the nav section, when you hover it,the text is bold */
+ul a:hover {
     font-weight: bold;
-    animation-duration: 1s;
-    transition:1s;  
+    animation-duration: 0.6s;
+    transition: 0.6s;
+    border-bottom: 3px white solid;
 }
+
 
 h1 {
     font-size: 50px;
@@ -103,7 +105,7 @@ input{
     margin-left:3rem;
     border-radius: 72px;
     width:75%;
-    height: 20px;
+    height: 25px;
     padding:0.5em;
     border-radius: 72px;
 }
@@ -115,7 +117,7 @@ textarea{
    margin-left:3rem;
    margin-bottom: 2rem;
    width:77%;
-    height:100px;
+    height:110px;
     border-radius: 10px;
 }
 /* The label must be aligned on the edge of the input/text area */
@@ -165,7 +167,7 @@ and the button will stretch weirdly. */
     background:red;
     transform: skew(2deg, 2deg) scale(1, 1);
 }
-
+/* This is the location section but it is all in columns. Not much work needed here */
   .ACSAsubtitle{
       line-height: 50px;
   }
@@ -183,7 +185,7 @@ and the button will stretch weirdly. */
      margin-bottom:-2.7rem;
 
 } 
-
+/* This section is the footer It has the social media icons in the middle and a back to top navigation */
 .social {
     background-color: #3C3B3A;
     color: white;
@@ -223,7 +225,7 @@ and the button will stretch weirdly. */
     float: right;
 font-size: 12px;
     margin-top: -2rem;
-    margin-right: 2.5rem;
+    margin-right: 2.4rem;
 }
 
 .backtotop:hover{
@@ -232,8 +234,8 @@ font-size: 12px;
     transition:1s;  
 }
 
-
-@media screen and (min-width:760px){
+/* This is the tablet version for the contact page */
+@media screen and (min-width:768px){
     header{
         height:70px;
     }
@@ -282,6 +284,9 @@ and the button will stretch weirdly. */
 }
 .signup>h2{
     margin-right:8rem;  
+}
+.input{
+    height: 40px;
 }
 label{
     margin-left:-20rem;
@@ -338,9 +343,9 @@ label{
  .signup{ 
          margin: auto;
         width: 500px;
-        margin-left:9rem;
-     
+        margin-left:10rem;   
     }
+
  .map{
     margin: auto;
     margin-top:10rem; 
@@ -349,6 +354,7 @@ label{
 
 }
     /* Grids are being used which has 2 columns and 2 rows */
+    /* The map is place bottom right and the form is place top right. */
     main{
         display: grid;
         grid-template-columns: 1fr 1fr;

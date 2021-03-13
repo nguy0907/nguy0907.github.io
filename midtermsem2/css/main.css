@@ -49,10 +49,10 @@ nav {
 
 ul a:hover {
     font-weight: bold;
-    animation-duration: 1s;
-    transition: 1s;
+    animation-duration: 0.6s;
+    transition: 0.6s;
+    border-bottom: 3px white solid;
 }
-
 
 
 /* The list will no longer have underline and there is some space between every item */
@@ -309,14 +309,15 @@ There is also a shadow at the bottom at the button */
     float: right;
     font-size: 12px;
     margin-top: -2rem;
-    margin-right: 2.5rem;
+    margin-right: 2.4rem;
 }
 
-.backtotop-div:hover {
+.backtotop:hover {
     font-weight: bold;
     animation-duration: 1s;
     transition: 1s;
 }
+
 
 /* This will be the start of the tablet screen for the home screen */
 
@@ -375,7 +376,9 @@ There is also a shadow at the bottom at the button */
     .indoorcourt {
         margin-top: 7.4rem;
     }
-
+    .indoorcourt>p{
+    margin-top: -2.9rem;
+}
     /* The button is placed in the middle of the page */
     .start {
         margin: auto;
