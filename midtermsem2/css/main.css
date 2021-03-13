@@ -221,10 +221,10 @@ There is also a shadow at the bottom at the button */
 /* This is the Simon section witha grey background with white text */
 .simon {
     background-color: #3C3B3A;
-    padding-top: 1em;
+    padding-top: 2em;
     margin-right: -0.5rem;
     margin-left: -1rem;
-    padding-bottom: 1em;
+    padding-bottom: 3em;
     color: #F2F2F2;
 }
 
@@ -246,6 +246,7 @@ There is also a shadow at the bottom at the button */
 
 /* The picture of Simon is rounded with a white border. */
 .simonpic {
+    
     max-width: 200px;
     width: 40%;
     margin-left: 8.5rem;
@@ -457,9 +458,11 @@ There is also a shadow at the bottom at the button */
         font-size: 24px;
         margin: auto;
         display: flex;
+        max-width: 100%;
         flex-wrap: wrap;
         margin-left: 20rem;
         margin-right: 5rem;
+        margin-bottom:3rem;
 
     }
 /* The part of the image is cut off, but still in good quality. */
@@ -562,7 +565,8 @@ There is also a shadow at the bottom at the button */
 
     /* This is the desktop version of the Simon section where everything will float beside the picture of Simon */
     .simon {
-        padding-bottom: 5em;
+        padding-bottom: 1em;
+        padding-top:1em;
     }
 
     .simonpic {
