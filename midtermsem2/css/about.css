@@ -333,8 +333,14 @@ margin-right:-0.5rem;
     max-width: 30px;
     margin-top: -4rem;
     margin-right: 3.3rem;
+    animation-name: arrow;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+  
 }
-
+@keyframes arrow {
+    50% { transform: translate(0, -10px); }
+  }
 .backtotop {
     float: right;
     font-size: 12px;

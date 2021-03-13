@@ -303,7 +303,14 @@ There is also a shadow at the bottom at the button */
     max-width: 30px;
     margin-top: -4rem;
     margin-right: 3.3rem;
+    animation-name: arrow;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+  
 }
+@keyframes arrow {
+    50% { transform: translate(0, -10px); }
+  }
 
 .backtotop {
     float: right;
@@ -403,10 +410,12 @@ There is also a shadow at the bottom at the button */
     .arrowdown {
         margin-top: -0.5rem;
         margin-bottom: 4rem;
+        animation-name: arrowdown;
         animation-duration: 1s;
-        transition: 1s;
+            transition: 1s;
         transform: scale(1) rotate(-180deg)
     }
+    
 
 /* Some part of the image is cut out, but still responsive */
     .school {
@@ -502,6 +511,7 @@ There is also a shadow at the bottom at the button */
         margin-left: 23rem;
         margin-bottom: 3rem;
     }
+    
 
     .scroll>p {
         margin-top: 2rem;

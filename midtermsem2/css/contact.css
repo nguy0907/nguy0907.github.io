@@ -216,10 +216,18 @@ and the button will stretch weirdly. */
 /* The arrow and back to top will take you to back to the top of the website. */
 .arrow {
     float: right;
-    max-width:30px;
+    max-width: 30px;
     margin-top: -4rem;
     margin-right: 3.3rem;
+    animation-name: arrow;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+  
 }
+@keyframes arrow {
+    50% { transform: translate(0, -10px); }
+  }
+
 
 .backtotop {
     float: right;
