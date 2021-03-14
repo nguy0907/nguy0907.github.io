@@ -236,9 +236,25 @@ margin-right:-0.5rem;
     padding-bottom: 0.5rem;
     margin-left: 9rem;
     border-radius: 40px;
+    border:none;
     background-color: #26A682;
     color: #F2F2F2;
 
+}
+
+/* The button will have a hover effect, because you would want to subscribe to them */
+.buttonsubscribe:hover{
+      animation-name: buttonsubscribe;
+    animation-duration: 2s;
+    transition:1s; 
+    transform: scale(1.4); 
+    box-shadow: 1px 1px 10px 0px white;
+}
+.buttonsubscribe:active{
+    transition:0.5s;  
+    transition-timing-function: ease-out;
+    background-color: gold;
+     transform: scale(1.4) rotate(-360deg);
 }
 
 .fitness>p {
@@ -521,7 +537,7 @@ The width is much smaller than the height, but still responsive. */
 /* The construction pages is floating to the right side of text in the construction section */
         .constructionpic {
             max-width: 640px;
-            margin-left: -11rem;
+            margin-left: -8rem;
             margin-top: 6rem;
             margin-bottom: 6rem;
         }
