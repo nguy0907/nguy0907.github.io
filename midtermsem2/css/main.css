@@ -21,6 +21,7 @@ header {
     margin-left: -1rem;
 
 }
+
 /* The page you are on has a bold, which tells you what page are you on */
 .currentpage {
     font-weight: bold;
@@ -163,12 +164,12 @@ There is 2 columns of activities. Since there was no icons I cannot find, I took
 There is also a shadow at the bottom at the button */
 .start {
     font-family: 'Raleway', sans-serif;
-    width: 75%;
+    width: 300px;
     font-size: 32px;
     font-weight: bold;
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
-    margin-left: 3.5rem;
+    margin-left: 5rem;
     margin-bottom: 2rem;
     border-radius: 40px;
     background-color: #26A682;
@@ -197,7 +198,7 @@ There is also a shadow at the bottom at the button */
     object-fit: cover;
     height: 200px;
     width: 102.2%;
-    margin-left:-0.5rem;  
+    margin-left: -0.5rem;
 
 }
 
@@ -246,13 +247,14 @@ There is also a shadow at the bottom at the button */
 
 /* The picture of Simon is rounded with a white border. */
 .simonpic {
-    
+
     max-width: 200px;
     width: 40%;
     margin-left: 8.5rem;
     border-radius: 100px;
     border: 5px solid white;
 }
+
 /* This section is the entertainment section */
 .entertainment {
     margin-left: 3rem;
@@ -263,12 +265,13 @@ There is also a shadow at the bottom at the button */
 .entertainment>.learnmore {
     margin-left: 14rem;
 }
+
 /* The image is also responsive and in a good quality */
 .entertainmentpic {
     object-fit: cover;
     margin-left: -0.5rem;
     height: 200px;
-    width:102%;
+    width: 102%;
 
 }
 
@@ -307,11 +310,14 @@ There is also a shadow at the bottom at the button */
     animation-name: arrow;
     animation-duration: 2s;
     animation-iteration-count: infinite;
-  
+
 }
+
 @keyframes arrow {
-    50% { transform: translate(0, -10px); }
-  }
+    50% {
+        transform: translate(0, -10px);
+    }
+}
 
 .backtotop {
     float: right;
@@ -384,18 +390,27 @@ There is also a shadow at the bottom at the button */
     .indoorcourt {
         margin-top: 7.4rem;
     }
-    .indoorcourt>p{
-    margin-top: -2.9rem;
-}
+
+    .indoorcourt>p {
+        margin-top: -2.9rem;
+    }
+
     /* The button is placed in the middle of the page */
     .start {
         margin: auto;
-        width: auto;
         justify-content: center;
         margin-bottom: 3rem;
-        width: 300px;
         margin-left: 13rem;
+        animation-name: start;
+        animation-duration: 1s;
     }
+
+    @keyframes start {
+        50% {
+            transform: translate(20px, 0);
+        }
+    }
+
 
     .discovering {
         margin-left: 6rem;
@@ -407,18 +422,19 @@ There is also a shadow at the bottom at the button */
         display: block;
         text-align: center;
     }
-/* The transform part will show that the arrow is on a -180 degree angle */
+
+    /* The transform part will show that the arrow is on a -180 degree angle */
     .arrowdown {
         margin-top: -0.5rem;
         margin-bottom: 4rem;
         animation-name: arrowdown;
         animation-duration: 1s;
-            transition: 1s;
+        transition: 1s;
         transform: scale(1) rotate(-180deg)
     }
-    
 
-/* Some part of the image is cut out, but still responsive */
+
+    /* Some part of the image is cut out, but still responsive */
     .school {
         width: 101.3%;
         height: 200px;
@@ -462,10 +478,11 @@ There is also a shadow at the bottom at the button */
         flex-wrap: wrap;
         margin-left: 20rem;
         margin-right: 5rem;
-        margin-bottom:3rem;
+        margin-bottom: 3rem;
 
     }
-/* The part of the image is cut off, but still in good quality. */
+
+    /* The part of the image is cut off, but still in good quality. */
     .entertainmentpic {
         width: 101%;
         height: 200px;
@@ -482,7 +499,8 @@ There is also a shadow at the bottom at the button */
     .logo {
         margin-left: 4rem;
     }
-/* The nav with be moved all the way to the right */
+
+    /* The nav with be moved all the way to the right */
     nav {
         float: right;
         margin-right: 5rem;
@@ -498,7 +516,17 @@ There is also a shadow at the bottom at the button */
 
     .start {
         margin-left: 3rem;
+        animation-name: start;
+        animation-duration: 2s;
     }
+
+    @keyframes start {
+        50% {
+            transform: translate(40px, 0);
+        }
+    }
+
+
 
     /* The discovering image will float to the right where it is beside with the different activities... */
     .discovering {
@@ -514,7 +542,7 @@ There is also a shadow at the bottom at the button */
         margin-left: 23rem;
         margin-bottom: 3rem;
     }
-    
+
 
     .scroll>p {
         margin-top: 2rem;
@@ -532,13 +560,14 @@ There is also a shadow at the bottom at the button */
         padding-right: 4em;
         padding-left: 4em;
     }
-/* The text and all the other content will be right beside the image on the right side. */
+
+    /* The text and all the other content will be right beside the image on the right side. */
     .discoveralgonquin {
         width: auto;
         margin: auto;
         background-color: #F2F2F2;
         margin-left: 8rem;
-        margin-right:-0.5rem;
+        margin-right: -0.5rem;
         margin-top: -28rem;
         margin-bottom: 10rem;
         padding-top: 2rem;
@@ -566,7 +595,7 @@ There is also a shadow at the bottom at the button */
     /* This is the desktop version of the Simon section where everything will float beside the picture of Simon */
     .simon {
         padding-bottom: 1em;
-        padding-top:1em;
+        padding-top: 1em;
     }
 
     .simonpic {
@@ -585,6 +614,7 @@ There is also a shadow at the bottom at the button */
         margin-top: 3rem;
 
     }
+
     /* The entertainment picture will be floated to the right side an all the other content
     will be displayed on the left side instead. */
     .entertainmentpic {
