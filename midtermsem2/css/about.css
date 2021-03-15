@@ -245,7 +245,7 @@ margin-right:-0.5rem;
 /* The button will have a hover effect, because you would want to subscribe to them */
 .buttonsubscribe:hover{
       animation-name: buttonsubscribe;
-    animation-duration: 2s;
+    animation-duration: 1s;
     transition:1s; 
     transform: scale(1.4); 
     box-shadow: 1px 1px 10px 0px white;
