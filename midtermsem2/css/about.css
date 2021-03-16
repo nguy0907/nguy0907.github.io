@@ -242,7 +242,8 @@ margin-right:-0.5rem;
 
 }
 
-/* The button will have a hover effect, because you would want to subscribe to them */
+/* The button will have a hover effect, because you would want to subscribe to them 
+I made my subscribe button bigger, when you click on it is will turn gold, which means you subscribed*/
 .buttonsubscribe:hover{
       animation-name: buttonsubscribe;
     animation-duration: 1s;

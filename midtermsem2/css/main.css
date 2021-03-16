@@ -176,7 +176,12 @@ There is also a shadow at the bottom at the button */
     color: #F2F2F2;
     box-shadow: -1px 4px 10px 0px black;
 }
-
+.start:hover{
+    animation-name: start;
+    animation-duration: 1s;
+    transition:1s; 
+    transform: scale(1.1); 
+}
 /* There is no scroll to the bottom on mobile size. Therefore it should not appear. */
 .scroll {
     display: none;
@@ -205,7 +210,7 @@ There is also a shadow at the bottom at the button */
 /* Here are the 2 learn more buttons that are decorated. There is a bit of shadow effects. */
 .learnmore1,
 .learnmore2 {
-    margin-left: 14.5rem;
+
     font-family: 'Raleway', sans-serif;
     font-weight: bold;
     font-size: 20px;
@@ -215,10 +220,24 @@ There is also a shadow at the bottom at the button */
     box-shadow: -1px 4px 10px 0px black;
     color: #F2F2F2;
     padding-top: 0.5em;
-    padding-bottom: 0.5em;
+    padding-bottom: 0.5em;  
+      margin-left: 14.5rem;
     margin-bottom: 2rem;
+    
+}
+.learnmore1:hover{
+    animation-name: learnmore1;
+    animation-duration: 1s;
+    transition:1s; 
+    transform: scale(1.1); 
 }
 
+.learnmore2:hover{
+    animation-name: learnmore2;
+    animation-duration: 1s;
+    transition:1s; 
+    transform: scale(1.1); 
+}
 /* This is the Simon section witha grey background with white text */
 .simon {
     background-color: #3C3B3A;
