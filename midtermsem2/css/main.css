@@ -5,7 +5,10 @@ html {
     font-family: 'Raleway', sans-serif;
     line-height: 35px;
 }
-
+body{
+    width: auto;
+    margin: auto;
+}
 /* The images will be responsive */
 
 
@@ -13,12 +16,10 @@ html {
 header {
     background-color: #3C3B3A;
     padding-bottom: 2em;
-    margin-right: -0.5rem;
     font-size: 18px;
     font-weight: normal;
     text-align: center;
     margin-top: -1rem;
-    margin-left: -1rem;
 
 }
 
@@ -202,8 +203,7 @@ There is also a shadow at the bottom at the button */
 .school {
     object-fit: cover;
     height: 200px;
-    width: 102.2%;
-    margin-left: -0.5rem;
+    width: 100%;
 
 }
 
@@ -242,8 +242,6 @@ There is also a shadow at the bottom at the button */
 .simon {
     background-color: #3C3B3A;
     padding-top: 2em;
-    margin-right: -0.5rem;
-    margin-left: -1rem;
     padding-bottom: 3em;
     color: #F2F2F2;
 }
@@ -266,7 +264,6 @@ There is also a shadow at the bottom at the button */
 
 /* The picture of Simon is rounded with a white border. */
 .simonpic {
-
     max-width: 200px;
     width: 40%;
     margin-left: 8.5rem;
@@ -275,22 +272,21 @@ There is also a shadow at the bottom at the button */
 }
 
 /* This section is the entertainment section */
-.entertainment {
-    margin-left: 3rem;
-    margin-right: 4rem;
 
-}
 
 .entertainment>.learnmore {
     margin-left: 14rem;
 }
-
+.entertainment{
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
 /* The image is also responsive and in a good quality */
 .entertainmentpic {
     object-fit: cover;
-    margin-left: -0.5rem;
     height: 200px;
-    width: 102%;
+   width:100%;
+
 
 }
 
@@ -300,8 +296,6 @@ There is also a shadow at the bottom at the button */
     color: white;
     padding-bottom: 2em;
     margin-bottom: -3rem;
-    margin-right: -0.5rem;
-    margin-left: -1rem;
 }
 
 .social>h2 {
@@ -455,7 +449,6 @@ There is also a shadow at the bottom at the button */
 
     /* Some part of the image is cut out, but still responsive */
     .school {
-        width: 101.3%;
         height: 200px;
     }
 
@@ -503,7 +496,7 @@ There is also a shadow at the bottom at the button */
 
     /* The part of the image is cut off, but still in good quality. */
     .entertainmentpic {
-        width: 101%;
+        /* width: 101.4%; */
         height: 200px;
     }
 
@@ -586,7 +579,6 @@ There is also a shadow at the bottom at the button */
         margin: auto;
         background-color: #F2F2F2;
         margin-left: 8rem;
-        margin-right: -0.5rem;
         margin-top: -28rem;
         margin-bottom: 10rem;
         padding-top: 2rem;
@@ -654,7 +646,7 @@ There is also a shadow at the bottom at the button */
     /* The footer section that is for desktop */
     .mediaicons {
         max-width: 180px;
-        margin-left: 42rem;
+        margin-left: 41.8rem;
     }
 
     .arrow {

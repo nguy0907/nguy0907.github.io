@@ -5,17 +5,17 @@ html {
     line-height: 35px;
 }
 
+body{
+    margin:auto;
+}
 
 header {
     background-color: #3C3B3A;
     padding-bottom: 2em;
-   margin-right:-0.5rem;
     font-size: 18px;
     font-weight: normal;
     text-align: center;
     margin-top: -1rem;
-    margin-left: -1rem;
-
 }
 
 .currentpage {
@@ -178,9 +178,8 @@ and the button will stretch weirdly. */
       margin-top:-1rem;
   }
 .map {
+ width: 100%;
     margin-top: 2rem;
-    width: 101%;
-    margin-left:-0.4rem;
      margin-bottom:-2.7rem;
 
 } 
@@ -190,8 +189,6 @@ and the button will stretch weirdly. */
     color: white;
     padding-bottom: 2em;
     margin-bottom: -3rem;
-    margin-right:-0.5rem;
-    margin-left:-1rem;
 }
 .social>h2{
     font-weight: lighter;
@@ -226,7 +223,6 @@ and the button will stretch weirdly. */
 @keyframes arrow {
     50% { transform: translate(0, -10px); }
   }
-
 
 .backtotop {
     float: right;
@@ -308,10 +304,8 @@ label{
      margin-right:1rem;
    }
  .submit{
-     width: 160px;
-    
+     width: 160px; 
  }
-
  .locationtitle{
      font-size: 72px;
  }
@@ -376,7 +370,7 @@ label{
     }
     .mediaicons{
         max-width: 180px;
-       margin-left: 42rem;
+        margin-left: 41.8rem;
     }
     .arrow{
         max-width:220px;
