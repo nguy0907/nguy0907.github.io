@@ -397,6 +397,10 @@ I made my subscribe button bigger, when you click on it is will turn gold, which
         line-height: 85px;
     }
 
+    .constructionpic{
+        max-width: 640px;
+    }
+
 /* The services system will have images floating on texts. */
 
 
@@ -529,7 +533,7 @@ The width is much smaller than the height, but still responsive. */
 
 
         .construction>p {
-            max-width: 670px;
+            max-width: 590px;
         }
 
         .construction {
@@ -537,7 +541,7 @@ The width is much smaller than the height, but still responsive. */
         }
 /* The construction pages is floating to the right side of text in the construction section */
         .constructionpic {
-            max-width: 640px;
+            width: 600px;  
             margin-left: -8rem;
             margin-top: 6rem;
             margin-bottom: 6rem;
