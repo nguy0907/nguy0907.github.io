@@ -74,7 +74,7 @@ h2{
 .contactparagraph {
     font-size: 20px;
     margin-left: 3rem;
-    margin-right: 7.5rem;
+    margin-right: 8rem;
 }
 
 .contacting {
@@ -175,13 +175,15 @@ and the button will stretch weirdly. */
 }
 /* This is the location section but it is all in columns. Not much work needed here */
   .ACSAsubtitle{
-      line-height: 50px;
+      font-size:24px;
+      margin-right:10rem;
   }
   .location{
     margin-left: 3rem;
     transition: 0.4s; 
   
   }
+
   .location>p{
       margin-top:-1rem;
   }
@@ -278,6 +280,10 @@ h1 {
     margin-bottom: 2rem;
     line-height: 85px;
 }
+
+.contactparagraph{
+    margin-right:1rem;
+}
 /* When you hover on the button, it will turn bigger in a slower transition */
 .submit:hover{
     animation-duration: 1s;
@@ -323,6 +329,7 @@ label{
  }
  .ACSAsubtitle{
      font-size: 40px;
+     line-height: 50px;
  }
  .mediaicons{
     margin-left: 16rem;
@@ -341,8 +348,12 @@ label{
         float: right;
         margin-right: 5rem;
     }
+    .contactparagraph{
+        margin-right:-5rem;
+    }
     .mainsection>h1{
        margin-top:5rem;
+       margin-right:-5rem;
     }
  .locationtitle{
      line-height: 80px;

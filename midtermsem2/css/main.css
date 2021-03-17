@@ -74,7 +74,7 @@ h1 {
     font-size: 40px;
     max-width: 260px;
     font-weight: bolder;
-    margin-left: 3rem;
+    margin-left: 6rem;
     margin-right: 4rem;
     margin-top: 3rem;
     margin-bottom: 2rem;
@@ -96,8 +96,8 @@ h3 {
 There is 2 columns of activities. Since there was no icons I cannot find, I took one that is close to the mockup */
 .ARC-p {
     font-size: 20px;
-    margin-left: 3rem;
-    margin-right: 9rem;
+    margin-left: 6rem;
+    margin-right: 7rem;
 }
 
 .activities {
@@ -121,6 +121,9 @@ There is 2 columns of activities. Since there was no icons I cannot find, I took
     margin-left: 2rem;
     margin-top: 1rem;
 }
+.bowling{
+    margin-left:2rem;
+}
 
 .rockclimbingicon {
     margin: auto;
@@ -137,6 +140,9 @@ There is 2 columns of activities. Since there was no icons I cannot find, I took
     margin-right: 2.5rem;
 }
 
+.rockclimbing{
+    margin-right:2rem;
+}
 .dumbbell {
     margin: auto;
     width: auto;
@@ -148,6 +154,9 @@ There is 2 columns of activities. Since there was no icons I cannot find, I took
 
 .fitness>p {
     margin-top: 1rem;
+}
+.fitness{
+    margin-left:2rem;
 }
 
 .indoorcourt>p {
@@ -165,17 +174,21 @@ There is 2 columns of activities. Since there was no icons I cannot find, I took
     margin-right: 4.5rem
 }
 
+.indoorcourt{
+    margin-right:2rem;
+}
+
 
 /* This is the well customized button that is rounded and has a green colour.
 There is also a shadow at the bottom at the button */
 .start {
     font-family: 'Raleway', sans-serif;
-    width: 390px;
+    width: 300px;
     font-size: 32px;
     font-weight: bold;
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
-    margin-left: 3rem;
+    margin-left: 6rem;
     margin-bottom: 2rem;
     border-radius: 40px;
     border:none;
@@ -205,8 +218,8 @@ There is also a shadow at the bottom at the button */
 /* This is the discover Algonquin College */
 .discoveralgonquin {
     font-size: 16px;
-    margin-left: 3rem;
-    margin-right: 3rem;
+    margin-left: 6rem;
+    margin-right: 5rem;
 }
 
 /* The image is also responsive and in a good quality */
@@ -231,7 +244,8 @@ There is also a shadow at the bottom at the button */
     color: #F2F2F2;
     padding-top: 0.5em;
     padding-bottom: 0.5em;  
-      margin-left: 14.5rem;
+      margin-left: 9rem;
+      margin-top:3rem;
     margin-bottom: 2rem; 
     transition: 0.4s;
     
@@ -269,8 +283,8 @@ There is also a shadow at the bottom at the button */
 
 .simon>p {
     justify-content: center;
-    margin-left: 3rem;
-    margin-right: 4.9rem;
+    margin-left: 6rem;
+    margin-right: 5.2rem;
 }
 
 /* The picture of Simon is rounded with a white border. */
@@ -290,8 +304,8 @@ There is also a shadow at the bottom at the button */
     margin-left: 14rem;
 }
 .entertainment{
-    margin-left: 3rem;
-    margin-right: 3rem;
+    margin-left: 6rem;
+    margin-right: 5rem;
 }
 /* The image is also responsive and in a good quality */
 .entertainmentpic {
@@ -395,7 +409,6 @@ There is also a shadow at the bottom at the button */
     .ARC-p {
         max-width: 600px;
         font-size: 24px;
-        margin-left: 3rem;
         margin-right: 6rem;
     }
 
@@ -405,19 +418,22 @@ There is also a shadow at the bottom at the button */
         margin: 0.4rem;
         display: flex;
         justify-content: center;
+        margin-left:1rem;
     }
 
     .rockclimbing {
         margin-top: 7.4rem;
+        margin-left: -1rem;
     }
 
     .fitness {
         margin-top: 1.3rem;
-        margin-left: 3rem;
+        margin-left: -1rem;
     }
 
     .indoorcourt {
         margin-top: 7.4rem;
+        margin-left: -1rem;
     }
 
     .indoorcourt>p {
@@ -443,6 +459,7 @@ There is also a shadow at the bottom at the button */
 
     .discovering {
         margin-left: 7rem;
+        margin-bottom:1rem;
         width: 500px;
     }
 
@@ -506,7 +523,7 @@ There is also a shadow at the bottom at the button */
         max-width: 100%;
         flex-wrap: wrap;
         margin-left: 20rem;
-        margin-right: 5rem;
+        margin-right: 6.5rem;
         margin-bottom: 3rem;
 
     }
@@ -515,7 +532,9 @@ There is also a shadow at the bottom at the button */
     .entertainmentpic {
         height: 200px;
     }
-
+.entertainment>p{
+    margin-right:2.5rem;
+}
     .mediaicons {
         margin-left: 16rem;
 
@@ -543,7 +562,7 @@ There is also a shadow at the bottom at the button */
     }
 
     .start {
-        margin-left: 3rem;
+        margin-left: 4.7rem;
         animation-name: start;
         animation-duration: 2s;
     }
@@ -636,7 +655,9 @@ There is also a shadow at the bottom at the button */
     }
 
     .simon>p {
-        margin-left: 30rem;
+        font-size:21px;
+        margin-left: 31rem;
+        margin-right:4.5rem;
         margin-top: 3rem;
 
     }
@@ -656,6 +677,10 @@ There is also a shadow at the bottom at the button */
     .entertainment {
         width: 660px;
         margin-top: 5rem;
+    }
+
+    .entertainment>p{
+        margin-right:-3rem;
     }
 
     /* The footer section that is for desktop */
