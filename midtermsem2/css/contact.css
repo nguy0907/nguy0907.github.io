@@ -1,3 +1,6 @@
+/* A lot of animations are going to be used on this website so it will appear to be less choppy. 
+Transition is the main property that I used to make everything smoother*/
+
 /* This will be the css for the contact page */
 /* The header will look the same for every page */
 html {
@@ -11,7 +14,7 @@ body{
 
 header {
     background-color: #3C3B3A;
-    padding-bottom: 2em;
+    padding-bottom: 1em;
     font-size: 18px;
     font-weight: normal;
     text-align: center;
@@ -29,7 +32,7 @@ header {
     max-width: 100px;
     margin-top:2rem;
     margin-bottom:-2rem;
-    transition: 1s;
+    transition: 0.4s;
 
 }
 
@@ -52,7 +55,7 @@ ul li {
 ul a:hover {
     font-weight: bold;
     animation-duration: 0.6s;
-    transition: 0.6s;
+    transition: 0.4s;
     border-bottom: 3px white solid;
 }
 
@@ -176,7 +179,7 @@ and the button will stretch weirdly. */
   }
   .location{
     margin-left: 3rem;
-    transition:1s; 
+    transition: 0.4s; 
   
   }
   .location>p{
@@ -213,6 +216,7 @@ and the button will stretch weirdly. */
     justify-content: space-evenly;
     margin-top:1rem;   
     margin-left: 7.5rem;
+    transition: 0.4s;
 }
 
 /* The arrow and back to top will take you to back to the top of the website. */
@@ -240,13 +244,14 @@ font-size: 12px;
 .backtotop:hover{
     font-weight: bold;
     animation-duration: 1s;
-    transition:1s;  
+    transition: 0.4s;
 }
 
 /* This is the tablet version for the contact page */
 @media screen and (min-width:768px){
     header{
         height:70px;
+        padding-bottom: 2em;
     }
     
 .logo{
