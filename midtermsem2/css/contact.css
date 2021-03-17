@@ -27,6 +27,9 @@ header {
     margin: auto;
     width: auto;
     max-width: 100px;
+    margin-top:2rem;
+    margin-bottom:-2rem;
+    transition: 1s;
 
 }
 
@@ -87,6 +90,7 @@ full name, student number, email and message textbox */
     text-align: center;
     background-color: #26A682;
     border-radius: 25px;
+    
 }
 
 .signup>h2{
@@ -172,6 +176,7 @@ and the button will stretch weirdly. */
   }
   .location{
     margin-left: 3rem;
+    transition:1s; 
   
   }
   .location>p{
@@ -192,6 +197,7 @@ and the button will stretch weirdly. */
 }
 .social>h2{
     font-weight: lighter;
+    margin-bottom:1rem;
 }
 
 .social>h2{
@@ -245,7 +251,8 @@ font-size: 12px;
     
 .logo{
     float: left;
-    margin-left:2rem;
+    margin-left:2rem;  
+    margin-top:0.5rem;
 }
 /* The navigation is displayed in rows */
 ul li{
@@ -255,7 +262,7 @@ ul li{
 
 nav{
     margin-left:10rem;
-     padding-top: 1em;
+     padding-top: 1.5em;
 }
 h1 {
     font-size: 72px;
@@ -362,8 +369,25 @@ label{
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-template-rows:  1fr 1fr;
+        margin-top:1rem;
+        grid-template-areas:
+        "titletext form"
+        "location map"
+       ;
+    }
+    .mainsection{
+        grid-area: titletext;
+    } 
+     .signup{
+        grid-area: form;
+    }
+    .location{
+        grid-area: location;
     }
 
+  .map{
+      grid-area: map;
+  }
     /* The footer section that is for desktop */
     .social{
         margin-top:-7rem;

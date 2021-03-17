@@ -2,11 +2,30 @@
 html {
     font-family: 'Raleway', sans-serif;
     line-height: 35px;
-    
+
 }
 
-body{
+body {
     margin: auto;
+}
+/* The header will have a black background and every element is centered */
+header {
+    background-color: #3C3B3A;
+    padding-bottom: 2em;
+    font-size: 18px;
+    font-weight: normal;
+    text-align: center;
+    margin-top: -1rem;
+
+}
+.logo {
+    justify-content: center;
+    margin: auto;
+    width: auto;
+    max-width: 100px;
+    margin-top:2rem;
+    margin-bottom:-2rem;  
+transition: 1s;
 }
 
 /* The images will be responsive */
@@ -17,7 +36,7 @@ img {
 
 /* Some of the images will not appear on mobile screen */
 .barpic {
-   display: none;
+    display: none;
 }
 
 .bowlingpic {
@@ -45,29 +64,8 @@ ul a:hover {
     border-bottom: 3px white solid;
 }
 
-
-/* The header will have a black background and every element is centered */
-header {
-    background-color: #3C3B3A;
-    padding-bottom: 2em;
-    font-size: 18px;
-    font-weight: normal;
-    text-align: center;
-    margin-top: -1rem;
-
-}
-
-
 .currentpage {
     font-weight: bold;
-}
-
-.logo {
-    justify-content: center;
-    margin: auto;
-    width: auto;
-    max-width: 100px;
-
 }
 
 nav {
@@ -79,11 +77,8 @@ ul li {
     margin-bottom: 1rem;
     list-style: none;
 }
-/* Here are the characteristics of the headings */
 
-h2 {
-    font-size: 32px;
-}
+/* Here are the characteristics of the headings */
 
 h1 {
     font-size: 40px;
@@ -95,6 +90,9 @@ h1 {
     line-height: 47px;
 }
 
+h2 {
+    font-size: 32px;
+}
 h3 {
     font-size: 24px;
     margin-left: 2rem;
@@ -109,6 +107,12 @@ h3 {
     margin-right: 7rem;
 }
 
+.constructionpic{
+ margin-left:3rem;
+    width:80%;
+    transition:0.2s; 
+}
+
 /* This is the about section which is heading and text. */
 .about {
     margin: 0 auto;
@@ -119,6 +123,7 @@ h3 {
     padding-bottom: 2em;
     margin-top: -2rem;
     margin-bottom: -2rem;
+    
 }
 
 
@@ -134,14 +139,15 @@ h3 {
     background-size: cover;
     text-align: center;
 
-} 
- .banner1 {
-    margin-top:-3rem;
+}
+
+.banner1 {
+    margin-top: -3rem;
     padding-top: 3em;
     padding-bottom: 2.6em;
-   background: linear-gradient(#074e3080, #074e3080);
- color: rgb(255, 255, 255);
-} 
+    background: linear-gradient(#074e3080, #074e3080);
+    color: rgb(255, 255, 255);
+}
 
 .italic {
     font-style: italic;
@@ -150,14 +156,14 @@ h3 {
 /* This section is the services banner with a green above the image with white text */
 .servicesbanner {
     padding-top: 3em;
-        width: auto;
+    width: auto;
     height: 130px;
     background-image: url(../images/services.jpg);
     background-position: 55% 55%;
     filter: contrast(1.5);
     background-size: cover;
     text-align: center;
-    margin-bottom:5rem;
+    margin-bottom: 5rem;
 }
 
 .banner2 {
@@ -165,7 +171,7 @@ h3 {
     background: linear-gradient(#01472a80, #01472a80);
     padding-top: 3em;
     padding-bottom: 2.7em;
-    margin-top:-3rem;
+    margin-top: -3rem;
 }
 
 
@@ -182,10 +188,10 @@ h3 {
 
 .competitive {
     background-color: #F2F2F2;
-    padding-top:1em;
+    padding-top: 1em;
     padding-bottom: 3em;
-    padding-left:1em;
-    padding-right:1em;
+    padding-left: 1em;
+    padding-right: 1em;
     margin-bottom: -1rem;
 }
 
@@ -205,15 +211,16 @@ h3 {
     background-color: #3C3B3A;
     color: white;
     padding-bottom: 1.5em;
-    padding-right:1em;
-    padding-top:0.5em;
-    padding-left:1em;
-    margin-top:1rem;
+    padding-right: 1em;
+    padding-top: 0.5em;
+    padding-left: 1em;
+    margin-top: 1rem;
+    
 }
 
 .subscribe>p {
     text-align: center;
-    margin-top:0.5rem;
+    margin-top: 0.5rem;
 }
 
 .buttonsubscribe {
@@ -226,7 +233,7 @@ h3 {
     padding-bottom: 0.5rem;
     margin-left: 9rem;
     border-radius: 40px;
-    border:none;
+    border: none;
     background-color: #26A682;
     color: #F2F2F2;
 
@@ -234,18 +241,19 @@ h3 {
 
 /* The button will have a hover effect, because you would want to subscribe to them 
 I made my subscribe button bigger, when you click on it is will turn gold, which means you subscribed*/
-.buttonsubscribe:hover{
-      animation-name: buttonsubscribe;
+.buttonsubscribe:hover {
+    animation-name: buttonsubscribe;
     animation-duration: 1s;
-    transition:1s; 
-    transform: scale(1.4); 
+    transition: 1s;
+    transform: scale(1.4);
     box-shadow: 1px 1px 10px 0px white;
 }
-.buttonsubscribe:active{
-    transition:0.5s;  
+
+.buttonsubscribe:active {
+    transition: 0.5s;
     transition-timing-function: ease-out;
     background-color: gold;
-     transform: scale(1.4) rotate(-360deg);
+    transform: scale(1.4) rotate(-360deg);
 }
 
 .fitness>p {
@@ -259,8 +267,8 @@ I made my subscribe button bigger, when you click on it is will turn gold, which
     margin-right: 2rem;
 }
 
-.fitness{
-    margin-bottom:3rem;
+.fitness {
+    margin-bottom: 3rem;
 }
 
 .climbing {
@@ -319,14 +327,15 @@ I made my subscribe button bigger, when you click on it is will turn gold, which
     display: flex;
     justify-content: center;
     font-style: unset;
+    margin-bottom: 1rem;
     padding-top: 1em;
 }
 
-.mediaicons{
+.mediaicons {
     max-width: 240px;
     display: flex;
     justify-content: space-evenly;
-    margin-top:1rem;   
+    margin-top: 1rem;
     margin-left: 7.5rem;
 }
 
@@ -339,32 +348,39 @@ I made my subscribe button bigger, when you click on it is will turn gold, which
     animation-name: arrow;
     animation-duration: 2s;
     animation-iteration-count: infinite;
-  
+
 }
+
 @keyframes arrow {
-    50% { transform: translate(0, -10px); }
-  }
+    50% {
+        transform: translate(0, -10px);
+    }
+}
+
 .backtotop {
     float: right;
     font-size: 12px;
     margin-top: -2rem;
     margin-right: 2.4rem;
 }
-.backtotop:hover{
+
+.backtotop:hover {
     font-weight: bold;
     animation-duration: 1s;
-    transition:1s;  
+    transition: 1s;
 }
 
 /* This is the mobile version of the about page. */
 @media screen and (min-width:768px) {
     header {
         height: 70px;
+        margin-bottom:5rem;
     }
 
     .logo {
         float: left;
         margin-left: 2rem;
+        margin-top:0.5rem;
     }
 
     /* The navigation is displayed in rows */
@@ -375,7 +391,7 @@ I made my subscribe button bigger, when you click on it is will turn gold, which
 
     nav {
         margin-left: 10rem;
-        padding-top: 1em;
+        padding-top: 1.5em;
     }
 
     h1 {
@@ -383,14 +399,14 @@ I made my subscribe button bigger, when you click on it is will turn gold, which
         line-height: 85px;
     }
 
-    .constructionpic{
+    .constructionpic {
         max-width: 640px;
     }
 
-/* The services system will have images floating on texts. */
+    /* The services system will have images floating on texts. */
 
 
-/* Some of the images like the bar picture will appear by using display block
+    /* Some of the images like the bar picture will appear by using display block
 The width is much smaller than the height, but still responsive. */
     .barpic {
         display: block;
@@ -399,32 +415,33 @@ The width is much smaller than the height, but still responsive. */
         width: 218px;
         height: 374.51px;
         margin-right: 2rem;
-        margin-left:2rem;
+        margin-left: 2rem;
     }
 
-  
+
     /*The competitive part will have a gray background with an image that did not exist in mobile version  */
 
     .competitive {
         margin-top: 5rem;
-        padding-top:2em;
-        padding-bottom:11em;
-    }  
+        padding-top: 2em;
+        padding-bottom: 11em;
+    }
+
     .bowlingpic {
         display: block;
         float: right;
         object-fit: cover;
         width: 218px;
         height: 374.51px;
-        margin-right:2rem;
-        margin-top:2rem;
+        margin-right: 2rem;
+        margin-top: 2rem;
     }
-        
+
     /* Here is the subscribe section for the tablet screen. The button is display as block, so it is
     in a row beside the text*/
 
     .subscribe>p {
-        display: block;
+
         margin-top: 1.5rem;
         margin-left: 7rem;
         float: left;
@@ -435,30 +452,31 @@ The width is much smaller than the height, but still responsive. */
         margin-top: 1.2rem;
         margin-left: 1rem;
         width: 140px;
+        transition:0.2s; 
     }
-    
+
 
     .fitnesspic {
         display: block;
         float: left;
         object-fit: cover;
         margin-right: 2rem;
-        margin-left:2rem;
-        
+        margin-left: 2rem;
+
         width: 218px;
         height: 374.51px;
     }
 
-    .fitness{
-        margin-top:5rem;
+    .fitness {
+        margin-top: 5rem;
     }
 
     .climbingpic {
         display: block;
         float: right;
         object-fit: cover;
-     margin-right:2rem;
-     margin-top:15em;
+        margin-right: 2rem;
+        margin-top: 15em;
         width: 218px;
         height: 374.51px;
     }
@@ -466,18 +484,19 @@ The width is much smaller than the height, but still responsive. */
 
     .climbing {
         margin-top: 14rem;
-        padding-bottom:8em;
+        padding-bottom: 8em;
         padding-right: 21em;
     }
 
     /* Here is the thank you section for tablet version. */
- 
-.Thankyou{
-    margin: auto;
-    margin-top:10rem;
-    margin-bottom:6rem;
-    max-width: 60%;
-}
+
+    .Thankyou {
+        margin: auto;
+        margin-top: 10rem;
+        margin-bottom: 6rem;
+        max-width: 60%;
+    }
+
     .SABrand {
         margin-left: 6rem;
         width: 500px;
@@ -497,11 +516,12 @@ The width is much smaller than the height, but still responsive. */
 
     }
 
-    .mediaicons{
+    .mediaicons {
         margin-left: 16rem;
-          
-        }
-/* This is the desktop version of the about page */
+
+    }
+
+    /* This is the desktop version of the about page */
     @media screen and (min-width:1200px) {
         .logo {
             margin-left: 4rem;
@@ -514,7 +534,7 @@ The width is much smaller than the height, but still responsive. */
 
         h1 {
             max-width: 780px;
-            margin-top:5rem;
+            margin-top: 1rem;
         }
 
 
@@ -525,19 +545,22 @@ The width is much smaller than the height, but still responsive. */
         .construction {
             float: left;
         }
-/* The construction pages is floating to the right side of text in the construction section */
+
+        /* The construction pages is floating to the right side of text in the construction section */
         .constructionpic {
-            width: 620px;  
-            margin-top: 6rem;
+            width: 800px;
+            margin-top: 3rem;
             margin-bottom: 6rem;
         }
-/* The who, what and where paragraphs will be in a row by using flex*/
+
+        /* The who, what and where paragraphs will be in a row by using flex*/
         .about {
             display: flex;
-            padding-top:10em;
-            padding-bottom:10em;
+            padding-top: 10em;
+            padding-bottom: 10em;
 
         }
+
         .who>p {
             max-width: 560px;
             margin-right: 4rem;
@@ -545,7 +568,6 @@ The width is much smaller than the height, but still responsive. */
 
         .what>p {
             max-width: 550px;
-
             margin-right: 4rem;
         }
 
@@ -553,11 +575,11 @@ The width is much smaller than the height, but still responsive. */
             max-width: 570px;
         }
 
-/* This is the services section where the images will be bigger. Pretty much it... */
+        /* This is the services section where the images will be bigger. Pretty much it... */
 
         .barpic {
             width: 700px;
-            margin-left: 2.0rem;
+            margin-left: 3rem;
         }
 
         .bar>p {
@@ -566,7 +588,7 @@ The width is much smaller than the height, but still responsive. */
 
         .bowlingpic {
             width: 700px;
-            margin-right:3rem;
+            margin-right: 3rem;
         }
 
         .subscribe>p {
@@ -581,78 +603,80 @@ The width is much smaller than the height, but still responsive. */
         }
 
         .competitive {
-            margin-top:14rem;
+            margin-top: 14rem;
             padding-bottom: 13em;
         }
 
-        .competitive>p{
-margin-right:40rem;
+        .competitive>p {
+            margin-right: 40rem;
         }
 
         .fitnesspic {
             width: 700px;
-            margin-left: 2.0rem;
+            margin-left: 3rem;
         }
 
         .fitness>p {
             display: flex;
         }
 
-        .climbingpic {   
+        .climbingpic {
             width: 700px;
-            margin-right:4rem;
-            margin-top:10em;
-            
+            margin-right: 4rem;
+            margin-top: 10em;
+
         }
 
-        .climbing>p{
-            margin-right:40rem;
+        .climbing>p {
+            margin-right: 40rem;
         }
 
         .climbing {
-            max-width:1400px;
+            max-width: 1400px;
             padding-right: 14em;
-            padding-top:2em;
-            padding-bottom:10em;
-         
+            padding-top: 2em;
+            padding-bottom: 10em;
+
         }
 
         /* The brands will display in a row. */
-        .brand{
-            margin-top:5rem;
-            margin-bottom:5rem;
+        .brand {
+            margin-top: 5rem;
+            margin-bottom: 5rem;
         }
 
         .SABrand {
             width: 340px;
             margin-left: 3rem;
-            margin-bottom:4rem;
+            margin-bottom: 4rem;
         }
 
         .ACLogo {
             margin-left: 6rem;
             width: 250px;
         }
-        
+
         .pcllogo {
             margin-left: 4rem;
             width: 320px;
         }
-        
+
         .cibc {
             margin-left: 7rem;
-            margin-bottom:1rem;
+            margin-bottom: 1rem;
             width: 200px;
         }
 
-         /* The footer section that is for desktop */
-         .mediaicons{
+        /* The footer section that is for desktop */
+        .mediaicons {
             max-width: 180px;
-           margin-left: 41.8rem;
+            margin-left: 41.8rem;
         }
-        .arrow{
-            max-width:220px;
+
+        .arrow {
+            max-width: 220px;
         }
+
         .backtotop {
             font-size: 12px;
             margin-top: -1rem;
@@ -663,7 +687,7 @@ margin-right:40rem;
         /* I had to add another media query for the construction image since it was
         cutting the image on the left side.  */
         @media screen and (min-width:1450px) {
-            .constructionpic {         
+            .constructionpic {
                 margin-left: -8rem;
 
             }

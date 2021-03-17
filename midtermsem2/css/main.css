@@ -6,7 +6,6 @@ html {
     line-height: 35px;
 }
 body{
-    width: auto;
     margin: auto;
 }
 /* The images will be responsive */
@@ -33,7 +32,9 @@ header {
     margin: auto;
     width: auto;
     max-width: 100px;
-
+    margin-top:2rem;
+    margin-bottom:-2rem;  
+transition: 1s;
 }
 
 
@@ -45,6 +46,7 @@ a {
 
 nav {
     margin-left: -2rem;
+    transition: 1s;
 }
 
 /* Adding some animation to the nav section */
@@ -165,17 +167,19 @@ There is 2 columns of activities. Since there was no icons I cannot find, I took
 There is also a shadow at the bottom at the button */
 .start {
     font-family: 'Raleway', sans-serif;
-    width: 300px;
+    width: 390px;
     font-size: 32px;
     font-weight: bold;
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
-    margin-left: 5rem;
+    margin-left: 3rem;
     margin-bottom: 2rem;
     border-radius: 40px;
+    border:none;
     background-color: #26A682;
     color: #F2F2F2;
     box-shadow: -1px 4px 10px 0px black;
+    transition: 1s;
 }
 .start:hover{
     animation-name: start;
@@ -185,11 +189,13 @@ There is also a shadow at the bottom at the button */
 }
 /* There is no scroll to the bottom on mobile size. Therefore it should not appear. */
 .scroll {
-    display: none;
+    opacity:0;
 }
 
 .discovering {
-    width: 100%;
+    width: 80%;
+    margin-left:3rem;
+    
 }
 
 /* This is the discover Algonquin College */
@@ -210,19 +216,20 @@ There is also a shadow at the bottom at the button */
 /* Here are the 2 learn more buttons that are decorated. There is a bit of shadow effects. */
 .learnmore1,
 .learnmore2 {
-
     font-family: 'Raleway', sans-serif;
     font-weight: bold;
     font-size: 20px;
     width: 146px;
     border-radius: 40px;
+    border:none;
     background-color: #26A682;
     box-shadow: -1px 4px 10px 0px black;
     color: #F2F2F2;
     padding-top: 0.5em;
     padding-bottom: 0.5em;  
       margin-left: 14.5rem;
-    margin-bottom: 2rem;
+    margin-bottom: 2rem; 
+    transition: 0.2s;
     
 }
 .learnmore1:hover{
@@ -304,13 +311,13 @@ There is also a shadow at the bottom at the button */
     justify-content: center;
     font-style: unset;
     padding-top: 1em;
+    margin-bottom:1rem;
 }
 
 .mediaicons {
     max-width: 240px;
     display: flex;
     justify-content: space-evenly;
-    margin-top: 1rem;
     margin-left: 7.5rem;
 }
 
@@ -357,6 +364,7 @@ There is also a shadow at the bottom at the button */
     .logo {
         float: left;
         margin-left: 2rem;
+        margin-top:0.5rem;
     }
 
     /* The navigation is displayed in rows */
@@ -367,7 +375,7 @@ There is also a shadow at the bottom at the button */
 
     nav {
         margin-left: 10rem;
-        padding-top: 1em;
+        padding-top: 1.5em;
     }
 
     h1 {
@@ -413,7 +421,7 @@ There is also a shadow at the bottom at the button */
         margin: auto;
         justify-content: center;
         margin-bottom: 3rem;
-        margin-left: 13rem;
+        margin-left: 11rem;
         animation-name: start;
         animation-duration: 1s;
     }
@@ -426,13 +434,14 @@ There is also a shadow at the bottom at the button */
 
 
     .discovering {
-        margin-left: 6rem;
+        margin-left: 7rem;
         width: 500px;
     }
 
     /* Scroll navigation will appear here, and it will be displayed upside down */
     .scroll {
-        display: block;
+       opacity:1;
+        transition: 1s;
         text-align: center;
     }
 
@@ -496,7 +505,6 @@ There is also a shadow at the bottom at the button */
 
     /* The part of the image is cut off, but still in good quality. */
     .entertainmentpic {
-        /* width: 101.4%; */
         height: 200px;
     }
 
@@ -519,7 +527,7 @@ There is also a shadow at the bottom at the button */
     }
 
     h1 {
-        margin-top: 5rem;
+        margin-top: 80px;
     }
 
     .ARC-p {
@@ -577,7 +585,6 @@ There is also a shadow at the bottom at the button */
     .discoveralgonquin {
         width: auto;
         margin: auto;
-        background-color: #F2F2F2;
         margin-left: 8rem;
         margin-top: -28rem;
         margin-bottom: 10rem;
@@ -592,7 +599,7 @@ There is also a shadow at the bottom at the button */
         padding-right: 1.6em;
         margin-left: 36rem;
         margin-top: -6rem;
-        padding-bottom: 6.5em;
+        padding-bottom: 10.5em;
         padding-top: 4em;
         padding-right: 3em;
     }
@@ -611,7 +618,7 @@ There is also a shadow at the bottom at the button */
 
     .simonpic {
         float: left;
-        margin-top: 1rem;
+        margin-top: 0.6rem;
         margin-right: 1rem;
     }
 
