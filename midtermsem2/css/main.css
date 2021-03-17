@@ -181,7 +181,7 @@ There is also a shadow at the bottom at the button */
     border:none;
     background-color: #26A682;
     color: #F2F2F2;
-    box-shadow: -1px 4px 10px 0px black;
+    box-shadow: -1px 4px 10px 0px #707070;
     transition: 0.4s;
 }
 .start:hover{
@@ -198,7 +198,7 @@ There is also a shadow at the bottom at the button */
 .discovering {
     width: 80%;
     margin-left:3rem;
-    margin-bottom:-3rem;
+    margin-bottom:-6rem;
     
 }
 
@@ -227,7 +227,7 @@ There is also a shadow at the bottom at the button */
     border-radius: 40px;
     border:none;
     background-color: #26A682;
-    box-shadow: -1px 4px 10px 0px black;
+    box-shadow: -1px 4px 10px 0px #707070;
     color: #F2F2F2;
     padding-top: 0.5em;
     padding-bottom: 0.5em;  
@@ -270,7 +270,7 @@ There is also a shadow at the bottom at the button */
 .simon>p {
     justify-content: center;
     margin-left: 3rem;
-    margin-right: 4.6rem;
+    margin-right: 4.9rem;
 }
 
 /* The picture of Simon is rounded with a white border. */
@@ -366,7 +366,7 @@ There is also a shadow at the bottom at the button */
 
     header {
         height: 70px;
-        padding-bottom: em;
+        padding-bottom: 2em;
     }
 
     .logo {
