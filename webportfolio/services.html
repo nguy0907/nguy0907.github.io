@@ -11,31 +11,43 @@
 
 <body>
       <!-- This is the header where there are different navs displayed in columns. -->
-    <header>
-        <img src="images/RichRealDealLogo.png" class="img-fluid" alt="Logo">
+      <header>  
         <div class="card text-center">
-            <div class="card-header">
-                <ul class="nav nav-tabs card-header-tabs nav flex-column">
+          <div class="card-header">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+              <div class="container-fluid">
+                <a class="navbar-brand" href="index.html"><img src="images/RichRealDealLogo.png" class="img-fluid" alt="Logo"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarText">
+                  <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link text-uppercase" aria-current="true" href="#">About</a>
+                      <a class="nav-link active" aria-current="page" href="about.html">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-uppercase" href="#">Services</a>
+                      <a class="nav-link" href="services.html">Services</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-uppercase" href="#">Portfolio</a>
+                      <a class="nav-link" href="#">Portfolio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-uppercase" href="#">Contact</a>
+                      <a class="nav-link" href="#">Contact</a>
                     </li>
-                </ul>
-            </div>
-
+                  </ul>
+              
+                </div>
+              </div>
+            </nav>
+            </ul>
+          </div>
+    
         </div>
+        <!-- This is the main main banner with a background image and my name in the background. -->
         <div class="banner">
-            <h1 class="h1 text-center">Services</h1>
+          <h1 class="h1 text-center">Welcome to the RichRealDeal Company Site</h1>
         </div>
-    </header>
+      </header>
 <!-- Here is the content for the services I offer. I will be displayed in a card. Box with image, heading, and text -->
 <div class="card" style="width: 18rem;">
     <img src="images/coding.png" class="card-img-top" alt="...">
