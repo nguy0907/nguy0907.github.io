@@ -6,10 +6,10 @@
   <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-
   <!-- Bootstrap CSS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+
 
   <title>Contact</title>
 </head>
@@ -57,15 +57,34 @@
       <p>Let me know if you have any questions or comments. I am happy to hear from you, even if you want to say hi. 
           I want to get to meet you all. Please fill this form below and send me a message. </p>
   </div>
-<!-- Image of the tablet will have text and icons on it -->
-<div class="card bg-dark text-white">
+<!-- Image of the tablet that has icon and text to it -->
     <img src="images/tablet.png" class="card-img" alt="keyboard">
-    <div class="card-img-overlay">
-      <p class="card-text">If you do like my content and would like to see more of it, please consider
-        subscribing to my website and turn on your notification for more updates. Thank you for dropping by!</p>
-      <button class="btn btn-primary" type="submit">Button</button>
+
+<!-- Here is the form to of the contact page -->
+<form>
+    <div class="mb-3">
+      <label for="exampleInputEmail1" class="form-label">First Name:</label>
+      <input type="email" class="form-control" id="Firstname" aria-describedby="emailHelp">
     </div>
-  </div>
+    <div class="mb-3">
+        <label for="exampleInputEmail1" class="form-label">Last Name:</label>
+        <input type="email" class="form-control" id="Lastname" aria-describedby="emailHelp">
+      </div>
+      <div class="mb-3">
+        <label for="exampleInputEmail1" class="form-label">Phone Number:</label>
+        <input type="email" class="form-control" id="Phonenumber" aria-describedby="emailHelp">
+      </div>
+      <div class="mb-3">
+        <label for="exampleInputEmail1" class="form-label">Email address</label>
+        <input type="email" class="form-control" id="Email" aria-describedby="emailHelp">
+      </div>
+      <div class="messagebox">
+        <label class="label4" for="message">Comments/Questions:</label>
+        <textarea class="message" name="message" id="message" placeholder="Type something…" cols="30" rows="10"></textarea>
+    </div>   
+
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
   <!-- This is a mini slide show where you have another image with text on the background with a subsribe button
   There will be the two side bars on each end -->
 
@@ -77,10 +96,10 @@
   </script>
 
   <!-- Option 2: Separate Popper and Bootstrap JS -->
-  <!--
+  
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js" integrity="sha384-KsvD1yqQ1/1+IA7gi3P0tyJcT3vR+NdBTt13hSJ2lnve8agRGXTTyNaBYmCR/Nwi" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js" integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG" crossorigin="anonymous"></script>
-    -->
+   
 
     <!-- The copyright footer so no one will steal my website -->
   <footer>

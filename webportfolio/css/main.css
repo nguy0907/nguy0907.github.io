@@ -1,14 +1,32 @@
+/* This is the css for the homepage on mobile of the RichRealDeal Website */
 
+/* This is the header of the website */
+.logo{
+    width:50%;
+    margin-left:-8rem;
+}
 
+.navbar-toggler{
+    margin-top:-3rem;
+margin-left:23rem;
+}
 
-@import "../node_modules/bootstrap/scss/functions";
-@import "../node_modules/bootstrap/scss/variables";
-@import "../node_modules/bootstrap/scss/mixins";
+/* This section is a mini slide show in css */
 
-
-@import "../node_modules/bootstrap/scss/root";
-@import "../node_modules/bootstrap/scss/reboot";
-@import "../node_modules/bootstrap/scss/type";
-@import "../node_modules/bootstrap/scss/images";
-@import "../node_modules/bootstrap/scss/containers";
-@import "../node_modules/bootstrap/scss/grid";
+.card-text{
+    width:75%; 
+    text-align: center;
+    margin-left:3rem;  
+}
+.subscribe{
+margin-left:12rem;
+margin-top:5rem;
+}
+.welcome-p{
+    margin-top: 1rem;
+    width:74%;
+    margin-left:3rem;  
+}
+footer{
+    margin-left:2rem;
+}
