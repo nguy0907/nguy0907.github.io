@@ -9,7 +9,8 @@
       <!-- Bootstrap CSS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
   integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
-    <title>Services</title>
+  <link rel="stylesheet" href="css/services.css">  
+  <title>Services</title>
 </head>
 
 <body>
@@ -19,8 +20,8 @@
           <div class="card-header">
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
               <div class="container-fluid">
-                <a class="navbar-brand" href="index.html"><img src="images/RichRealDealLogo.png" class="img-fluid" alt="Logo"></a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <a class="navbar-brand" href="index.html"><img src="images/RichRealDealLogo.png" class="logo img-fluid" alt="Logo"></a>
+                <button class=" navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
                   <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarText">
@@ -42,39 +43,50 @@
                 </div>
               </div>
             </nav>
+      
           </div>
-    
-        </div>
         <!-- This is the main main banner with a background image and my name in the background. -->
         <div class="banner">
-          <h1 class="h1 text-center">Services</h1>
+          <h1 class="h1 text-center">About</h1>
         </div>
       </header>
 <!-- Here is the content for the services I offer. I will be displayed in a card. Box with image, heading, and text -->
-<div class="card" style="width: 18rem;">
-    <img src="images/coding.png" class="card-img-top" alt="Code">
-    <div class="card-body">
-      <h5 class="card-title">Coding Work</h5>
-      <p class="card-text">I code websites by using HTML and CSS. The website I create must be responsive 
-          on different platforms. There is a lot more to learn.</p>
+<div class="container d-grid gap-3 ">
+  <div class="row gap-3">
+    <div class="col">
+      <div class="card" style="width: 18rem;">
+        <img src="images/coding.png" class="card-img-top " alt="Richard Nguyen">
+        <div class="card-body">
+          <h5 class="card-title">Coding Work</h5>
+          <p class="card-text">I code websites by using HTML and CSS. The website I create must be responsive on 
+            different platforms. There is a lot more to learn.</p>
+        </div>
+      </div>
     </div>
-  </div>
-  <div class="card" style="width: 18rem;">
-    <img src="images/websitedesign.png" class="card-img-top" alt="Website layout">
-    <div class="card-body">
-      <h5 class="card-title">Website Design</h5>
-      <p class="card-text">I use other ways to create websites using Adobe XD, WordPress, and I am about to 
-          learn how to use Drupal and Shopify.</p>
 
+    <!-- Here is the 2 cards, one of them is facts about me and the other one is my goals -->
+    <div class="col">
+      <div class="card" style="width: 18rem;">
+        <img src="images/websitedesign.png" class="card-img-top" alt="Richard Nguyen">
+        <div class="card-body">
+          <h5 class="card-title">Website Design</h5>
+          <p class="card-text">I use other ways to create websites using Adobe XD, WordPress, and I am about to 
+            learn how to use Drupal and Shopify. </p>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card" style="width: 18rem;">
+        <img src="images/graphicwork.png" class="card-img-top" alt="Richard Nguyen">
+        <div class="card-body">
+          <h5 class="card-title">Graphic Work</h5>
+          <p class="card-text">I use Adobe Photoshop and Adobe Illustrator to create art pieces and all the cool
+             stuff you love to see. </p>
+        </div>
+      </div>
     </div>
   </div>
-  <div class="card" style="width: 18rem;">
-    <img src="images/graphicwork.png" class="card-img-top" alt="computer with graphic">
-    <div class="card-body">
-      <h5 class="card-title">Graphic Work</h5>
-      <p class="card-text">I use Adobe Photoshop and Adobe Illustrator to create art pieces and all the cool stuff you love to see.</p>
-    </div>
-  </div>
+</div>
 
 
     <!-- Optional JavaScript; choose one of the two! -->
