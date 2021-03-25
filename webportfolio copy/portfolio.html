@@ -7,24 +7,25 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
       <!-- Bootstrap CSS -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
-  integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+
     <title>Portfolio</title>
 </head>
 
 <body>
       <!-- This is the header where there are different navs displayed in columns. -->
-      <header>  
+      <header>
         <div class="card text-center">
           <div class="card-header">
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
               <div class="container-fluid">
-                <a class="navbar-brand" href="index.html"><img src="images/RichRealDealLogo.png" class="img-fluid" alt="Logo"></a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <a class="navbar-brand" href="index.html"><img src="images/RichRealDealLogo.png" class="logo img-fluid"
+                    style="width:50%;" alt="Logo"></a>
+                <button class=" navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+                  aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
                   <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarText">
-                  <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <ul class="navbar-nav me-auto mb-2 mb-lg-0" style=" list-style: none; text-align: center;">
                     <li class="nav-item">
                       <a class="nav-link active" aria-current="page" href="about.html">About</a>
                     </li>
@@ -38,97 +39,61 @@
                       <a class="nav-link" href="contact.html">Contact</a>
                     </li>
                   </ul>
-              
+    
                 </div>
               </div>
             </nav>
-        
           </div>
-    
-        </div>
-        <!-- This is the main main banner with a background image and my name in the background. -->
-        <div class="banner">
-          <h1 class="h1 text-center">Portfolio</h1>
-        </div>
+          </div>
+          <!-- This is the main main banner with a background image and my name in the background. -->
+          <div class="banner">
+            <h1 style="text-align: center;">Services</h1>
+          </div>
       </header>
-
       <!-- This is the filter section with the checkbox to select items you want or don't want to see -->
 <section>
-    <div class="checkbox1">
-        <input type="checkbox" id="code" name="check">
-        <label for="code">Coding Art</label>
-    </div>
-    <div class="checkbox2">
-        <input type="checkbox" id="website" name="check">
-        <label for="website">Website Art</label>
-    </div>
-    <div class="checkbox3">
-        <input type="checkbox" id="graphic" name="check">
-        <label for="graphic">Graphic Art</label>
-    </div>
-</section>
-
-<section>
-  <div class="container d-grid gap-3">
-    <div class="row gap-3">
-      <div class="col">
-        <div class="card" style="width: 18rem;">
-          <img src="images/RRDLogo2.png" class="card-img-top" alt="logo">
-          <div class="card-body">
-            <h5 class="card-title">Landing Page</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          </div>
-        </div>
-      </div>
-      <div class="col">
-        <div class="card" style="width: 18rem;">
-          <img src="images/RRDLogo2.png" class="card-img-top" alt="logo">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          </div>
-        </div>
-      </div>
-      <div class="col">
-        <div class="card" style="width: 18rem;">
-          <img src="images/RRDLogo2.png" class="card-img-top" alt="logo">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="row gap-3">
-      <div class="col">
-        <div class="card" style="width: 18rem;">
-          <img src="images/RRDLogo2.png" class="card-img-top" alt="logo">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          </div>
-        </div>
-      </div>
-      <div class="col">
-        <div class="card" style="width: 18rem;">
-          <img src="images/RRDLogo2.png" class="card-img-top" alt="logo">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          </div>
-        </div>
-      </div>
-      <div class="col">
-        <div class="card" style="width: 18rem;">
-          <img src="images/RRDLogo2.png" class="card-img-top" alt="logo">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          </div>
-        </div>
-      </div>
-    </div>
+  <div class="container">
+    <img style="width:400px; margin-left:2rem;" src="images/landingpage.png" class="card-img-top" alt="Richard Nguyen">
+      <h2 class="card-title"style="text-align:center;">Landing Page</h2>
+      <p class="card-text" style="margin-left:2rem; margin-right:2rem;">A Dash landing page that is responsive on all platforms. It 
+        runs on a mobile, tablet, and desktop pretty smoothly. This landing page includes a form, a calculation 
+        section, and a beautiful scooter background. This landing page is done by coding in Visual Studio Code 
+        using HTML and CSS. </p>
   </div>
+  
+        <div class="container">
+    <img style="width:400px; margin-left:2rem;" src="images/arcmockup.png" class="card-img-top" alt="Richard Nguyen">
+      <h2 class="card-title" style="text-align:center;" >ARC Mockup Webpage</h2>
+      <p class="card-text" style="margin-left:2rem; margin-right:2rem;">Here is my mid-term assignment, which is a mockup assignment
+         on the ARC website. Code on Visual Studio Code using HTML and CSS.  It is responsive on a mobile, tablet,
+          desktop, and another platform. This webpage has three pages, the home, about, and contact page.</p>
+</div>
+<div class="container">
+  <img style="width:400px; margin-left:2rem;" src="images/avatarpic2.png" class="card-img-top" alt="Richard Nguyen">
+    <h2 class="card-title"style="text-align:center;">Small and Medium Animal Icon</h2>
+    <p class="card-text" style="margin-left:2rem; margin-right:2rem;">Here is the small and medium animal icon for apple. The tiny icon 
+      is a black and white paw, and the medium icon is just the bear's head.</p>
+</div>
+
+      <div class="container">
+  <img style="width:400px; margin-left:2rem;" src="images/avatarpic.png" class="card-img-top" alt="Richard Nguyen">
+    <h2 class="card-title" style="text-align:center;" >Large Animal Icon</h2>
+    <p class="card-text" style="margin-left:2rem; margin-right:2rem;">Here is the large animal icon. Here is where all the wildness 
+      happens. There is a full bear, with some gradients used and other natural elements to this icon. </p>
+</div>
+<div class="container">
+  <img style="width:400px; margin-left:2rem;" src="images/sciifii.png" class="card-img-top" alt="Richard Nguyen">
+    <h2 class="card-title"style="text-align:center;">Sci-Fii Poster</h2>
+    <p class="card-text" style="margin-left:2rem; margin-right:2rem;">Here is my Sci-Fii poster, which has two versions, the purple 
+      and the blue version. </p>
+</div>
+
+      <div class="container">
+  <img style="width:400px; margin-left:2rem;" src="images/branding.png" class="card-img-top" alt="Richard Nguyen">
+    <h2 class="card-title" style="text-align:center;" >Black Rhino Branding Guide</h2>
+    <p class="card-text" style="margin-left:2rem;">Here is my branding assignment that has the colours, logo
+       variation, and much more. This assignment is dedicated to the Black Rhino, an art retreat company.</p>
+</div>
 </section>
 <button class="btn btn-primary" type="submit">More</button>
 <!-- This section is going to be more picture heading text -->
