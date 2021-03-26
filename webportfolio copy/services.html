@@ -6,11 +6,28 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-      <!-- Bootstrap CSS -->
-  <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
-  integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
-  <link rel="stylesheet" href="css/services.css">   -->
+
   <title>Services</title>
+
+  <style>   
+    @import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Gochi+Hand&display=swap');
+      html {
+        font-family: 'Fjalla One', sans-serif;
+      }
+  
+      h1,h2{
+        font-family: 'Gochi Hand', cursive;
+      }
+  
+      @media screen and (min-width: 550px){
+  
+        .imgcard{
+          display: flex;
+          margin-left:30rem;
+        }
+      }
+      </style>
 </head>
 
 <body>
@@ -28,16 +45,16 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarText">
                   <ul class="navbar-nav me-auto mb-2 mb-lg-0" style=" list-style: none; text-align: center;">
-                    <li class="nav-item">
+                    <li class="nav-item" style="margin-left:-1rem;">
                       <a class="nav-link active" aria-current="page" href="about.html">About</a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item" style="margin-left:-1rem;">
                       <a class="nav-link" href="services.html">Services</a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item" style="margin-left:-1rem;">
                       <a class="nav-link" href="portfolio.html">Portfolio</a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item" style="margin-left:-1rem;">
                       <a class="nav-link" href="contact.html">Contact</a>
                     </li>
                   </ul>
@@ -52,28 +69,33 @@
             <h1 style="text-align: center;">Services</h1>
           </div>
       </header>
-      <div class="container">
-        <img style="width:400px; margin-left:2rem;" src="images/coding.png" class="card-img-top " alt="Richard Nguyen">   
-          <h2 class="card-title" style="text-align:center;">Coding Work</h2>
-       <p style="margin-left:2rem;">I code websites by using HTML and CSS. The website I create must be responsive on different platforms. There is a lot more to learn.</p>
-  
+      <div class="container" style="margin-bottom:2rem; ">
+        <img style="width:340px; margin-left:2.3rem;" src="images/coding.png" class="imgcard " alt="Richard Nguyen">   
+         <div class="cardtext" style="border: 1px solid; margin-left:2.3rem; margin-top:-0.3rem; width: 337px;">
+        <h2 class="card-title" style="text-align:center;">Coding Work</h2>
+       <p style="margin-left:2.5rem;  text-align:center; width:240px;">I code websites by using HTML and CSS. The website I create must be responsive on different platforms. There is a lot more to learn.</p>
+  </div>
 </div>
 
     <!-- Here is the 2 cards, one of them is facts about me and the other one is my goals -->
-    <div class="container">
-        <img style="width:400px; margin-left:2rem;" src="images/websitedesign.png" class="card-img-top" alt="Richard Nguyen">
-          <h2 class="card-title"style="text-align:center;">Website Design</h2>
-          <p class="card-text" style="margin-left:2rem;">I use other ways to create websites using Adobe XD, WordPress, and I am about to 
+    <div class="container" style="margin-bottom:2rem;">
+        <img style="width:340px; margin-left:2.3rem;" src="images/websitedesign.png" class="imgcard" alt="Richard Nguyen">
+        <div class="cardtext" style="border: 1px solid; margin-left:2.3rem; margin-top:-0.3rem; width: 337px;">
+        <h2 class="card-title" style="text-align:center;">Website Design</h2>
+          <p style="margin-left:2.5rem;  margin-right:4rem; width:240px;">I use other ways to create websites using Adobe XD, WordPress, and I am about to 
             learn how to use Drupal and Shopify. </p>
+          </div> 
       </div>
       
-            <div class="container">
-        <img style="width:400px; margin-left:2rem;" src="images/graphicwork.png" class="card-img-top" alt="Richard Nguyen">
-          <h2 class="card-title" style="text-align:center;" >Graphic Work</h2>
-          <p class="card-text" style="margin-left:2rem;">Here is my mid-term assignment, which is a mockup 
+            <div class="container" style="margin-bottom:2rem;" >
+        <img style="width:340px; margin-left:2.3rem;" src="images/graphicwork.png" class="imgcard" alt="Richard Nguyen">
+        <div class="cardtext" style="border: 1px solid; margin-left:2.3rem; margin-top:-0.3rem; width: 337px;" >
+        <h2 class="card-title" style="text-align:center;" >Graphic Work</h2>
+          <p style="margin-left:2.5rem; margin-right:4rem; width:240px;">Here is my mid-term assignment, which is a mockup 
             assignment on the ARC website. Code on Visual Studio Code using HTML and CSS.  It is responsive on a
              mobile, tablet, desktop, and another platform. This webpage has three pages, the home, about, and
               contact page.</p>
+            </div> 
     </div>
   
 
@@ -90,13 +112,14 @@
    
      <!-- The copyright footer so no one will steal my website -->
      <footer>
-      <div style=" margin-left:2em; float:left;" class="card-footer bg-transparent border-success">@Copyright RichRealDeal Website 2021</div>
+      <div style=" margin-left:2em;margin-right:1rem; float:left; margin-top:0.3rem;" class="card-footer bg-transparent border-success">@Copyright RichRealDeal Website 2021</div>
       <div class="mediaicon">
-    <img src="images/iconmonstr-instagram-11-240.png" alt="instagram" style="margin-right:0.5rem; width: 6%;">
-    <img src="images/iconmonstr-twitter-1-240.png" alt="Twitter" style="width: 6%;">
-    <img src="images/iconmonstr-facebook-1-240.png" alt="facebook" style="width: 6%;">
+    <img src="images/iconmonstr-instagram-11-240.png" alt="instagram" style="margin-right:0.5rem; width: 30px;">
+    <img src="images/iconmonstr-twitter-1-240.png" alt="Twitter" style="width: 30px;">
+    <img src="images/iconmonstr-facebook-1-240.png" alt="facebook" style="width: 30px;">
     </div>
     </footer>
+  
 </body>
-
 </html>
+  
