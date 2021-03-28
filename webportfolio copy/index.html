@@ -10,78 +10,114 @@
   <!-- Bootstrap CSS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdn.iconmonstr.com/1.3.0/css/iconmonstr-iconic-font.min.css">
-<link rel="stylesheet" href="css/main.css">
   <title>The RichRealDeal Company</title>
+<style>
+   @import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Gochi+Hand&display=swap');
+  
+      h1,h2{
+        font-family: 'Gochi Hand', cursive;
+      }
+.subscribe{
+  font-family: 'Fjalla One', sans-serif; 
+  background-color:black; 
+  color:#FFED65; 
+  border-radius: 24px;
+  display: flex;
+margin-left:10rem;
+margin-top:3rem;
+padding:0.4em;
+padding-left:2em;
+padding-right:2em;
+border:none;
+}
+/* This is just the circle right below the subscribe banner. In the future, I will make it a slideshow */
+  .darkcircle,
+  .whitecircle{
+    border-radius: 100px; 
+    width:30px; 
+    height:30px;
+    margin-left:15rem;
+    margin-bottom:3rem;
+  }    
+.darkcircle{
+  background:black;
+  margin-left:5rem;
+}
+  .whitecircle{
+    background: none;
+  }  
+</style>
 </head>
 
 <!-- CSS Styles -->
 
 <body>
-  <!-- This is the header where there are different navs displayed in columns. -->
-  <header>  
-    <div class="card text-center">
-      <div class="card-header">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-          <div class="container-fluid">
-            <a class="navbar-brand" href="index.html"><img style="width: 50%;" src="images/RichRealDealLogo.png" class="logo img-fluid" alt="Logo"></a>
-            <button class=" navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarText">
-              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="about.html">About</a>
+  <header>
+
+      <div>
+        <nav>
+          <div>
+            <a  href="index.html"><img src="images/RichRealDealLogo.png" class="logo img-fluid"
+                style="width:50%;" alt="Logo"></a>
+                <button style="width:40px; height:40px; margin-left:10rem; background:none; border:none;">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M24 6h-24v-4h24v4zm0 4h-24v4h24v-4zm0 8h-24v4h24v-4z"/></svg>
+                </button>
+            
+              <ul style="list-style: none; text-align: center; font-family: 'Fjalla One', sans-serif;">
+                <li class="nav-item" style="margin-left:-1rem;">
+                  <a style="color:black;" class="nav-link"  href="about.html">About</a>
                 </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="services.html">Services</a>
+                <li class="nav-item" style="margin-left:-1rem;">
+                  <a  style="color:black;" class="nav-link" href="services.html">Services</a>
                 </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="portfolio.html">Portfolio</a>
+                <li class="nav-item" style="margin-left:-1rem;">
+                  <a style="color:black;" class="nav-link" href="portfolio.html">Portfolio</a>
                 </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="contact.html">Contact</a>
+                <li class="nav-item" style="margin-left:-1rem;">
+                  <a style="color:black;"  class="nav-link" href="contact.html">Contact</a>
                 </li>
               </ul>
-          
-            </div>
+
           </div>
         </nav>
-  
       </div>
-
-    </div>
+    
     <!-- This is the main main banner with a background image and my name in the background. -->
     <div class="banner">
-      <h1 class="h1 text-center">Welcome to the RichRealDeal Company Site</h1>
+      <h1 style="text-align: center; margin-left:4rem; margin-right:4rem;">Welcome to the RichRealDeal Company Site</h1>
     </div>
-  </header>
+  </header>>
   <!-- This is a mini slide show where you have another image with text on the background with a subsribe button
   There will be the two side bars on each end -->
   <div class="card bg-dark text-white" style="margin-bottom:1rem;">
-    <img style="height:260px;" src="images/keyboardglow.png" class="card-img" alt="keyboard">
+    <img style="height:260px; opacity: 0.76; object-fit: cover;" src="images/keyboardglow.png" class="card-img" alt="keyboard">
     <div class="card-img-overlay">
-      <p class="card-text">If you do like my content and would like to see more of it, please consider
-        subscribing to my website and turn on your notification for more updates. Thank you for dropping by!</p>
-      <button class="subscribe btn btn-primary" type="submit">Button</button>
+      <p class="card-text" style="font-family: 'Fjalla One', sans-serif; color:#FFED65; text-align: center; margin-left:4rem; margin-right:5rem;">
+        If you do like my content and would like to see more of it, please consider subscribing to my website and turn on your
+         notification for more updates. Thank you for dropping by!</p>
+      <button class="subscribe" type="submit">Subscribe</button>
     </div>
   </div>
-  <p class="welcome-p" style="width:75%; margin-left:3rem;">Hello everyone, you have reached The RichRealDeal Company website. Thank you so much for visiting my website.
+  <!-- These are the circles, I used them as button, because I can just use border radius and so on... -->
+  <button class="darkcircle"></button>
+  <button class="whitecircle"></button>
+  <p class="welcome-p" style="font-family: 'Fjalla One', sans-serif; width:75%; margin-left:3rem;">Hello everyone, you have reached The RichRealDeal Company website. Thank you so much for visiting my website.
     Please feel free to look around to know a little bit about me, my company, my work, and more.</p>
   <!-- Optional JavaScript; choose one of the two! -->
 
   <!-- Option 1: Bootstrap Bundle with Popper -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous">
-  </script>
 
-<footer>
-  <div style=" margin-left:2em; float:left;" class="card-footer bg-transparent border-success">@Copyright RichRealDeal Website 2021</div>
-  <div class="mediaicon">
-<img src="images/iconmonstr-instagram-11-240.png" alt="instagram" style="margin-right:0.5rem; width: 6%;">
-<img src="images/iconmonstr-twitter-1-240.png" alt="Twitter" style="width: 6%;">
-<img src="images/iconmonstr-facebook-1-240.png" alt="facebook" style="width: 6%;">
+
+<footer><div class="mediaicon" style="margin-left:11rem; margin-bottom:1rem;">
+  <img src="images/iconmonstr-instagram-11-240.png" alt="instagram" style="margin-right:0.5rem; width: 30px;">
+<img src="images/iconmonstr-twitter-1-240.png" alt="Twitter" style="width: 30px;">
+<img src="images/iconmonstr-facebook-1-240.png" alt="facebook" style="width: 30px;">
 </div>
+  <div style="font-family: 'Fjalla One', sans-serif; margin-left:6em; margin-bottom:2rem;">@Copyright RichRealDeal Website 2021</div>
+  
+
+
 </footer>
  
 </body>  
