@@ -6,83 +6,136 @@
   <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <!-- Bootstrap CSS -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
-
 
   <title>Contact</title>
+  
+  <style>
+   @import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Gochi+Hand&display=swap');
+  
+    html,
+    textarea,
+    .submit {
+        font-family: 'Fjalla One', sans-serif;
+      }
+  
+      h1,h2{
+        font-family: 'Gochi Hand', cursive;
+      }
+
+      input,
+      textarea{
+        padding:1em;
+        width:301px;
+        border: 2px solid #FFED65;
+        border-radius: 25px; 
+      }
+
+      textarea{
+        display: flex;
+         margin-top: 0.5rem;
+          margin-bottom:2rem;
+           height: 293px;
+      }
+      .submit {
+      color: #FFED65;
+      background-color: black;
+      padding: 0.8em;
+      padding-left: 2em;
+      padding-right: 2em;
+          border-radius: 24px;
+          margin-top:-1rem;
+         margin-right:4rem;
+    }
+    @media screen and (min-width: 550px){
+      .contact-p{
+        margin-bottom:2rem;
+      }
+   .tablet{
+     float:right;
+
+   }
+   textarea{
+    height:100px;
+   }
+   .submit{
+     float:right;
+     margin-right:1.4rem;
+     margin-top:-7rem;
+   }
+    }
+    
+  </style>
 </head>
 
 <body>
   <!-- This is the header where there are different navs displayed in columns. -->
-  <header>  
-    <div class="card text-center">
-      <div class="card-header">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-          <div class="container-fluid">
-            <a class="navbar-brand" href="index.html"><img src="images/RichRealDealLogo.png" class="img-fluid" alt="Logo"></a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarText">
-              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="about.html">About</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="services.html">Services</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="portfolio.html">Portfolio</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="contact.html">Contact</a>
-                </li>
-              </ul>
-          
-            </div>
-          </div>
-        </nav>
-  
-      </div>
+  <header>
 
+    <div class="card-header">
+      <nav>
+        <div>
+          <a  href="index.html"><img src="images/RichRealDealLogo.png" class="logo img-fluid"
+              style="width:50%;" alt="Logo"></a>
+              <button class=" navbar-toggler" style="width:40px; height:40px;">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M24 6h-24v-4h24v4zm0 4h-24v4h24v-4zm0 8h-24v4h24v-4z"/></svg>
+              </button>
+          
+            <ul style=" list-style: none; text-align: center;">
+              <li class="nav-item" style="margin-left:-1rem;">
+                <a class="nav-link"  href="about.html">About</a>
+              </li>
+              <li class="nav-item" style="margin-left:-1rem;">
+                <a class="nav-link" href="services.html">Services</a>
+              </li>
+              <li class="nav-item" style="margin-left:-1rem;">
+                <a class="nav-link" href="portfolio.html">Portfolio</a>
+              </li>
+              <li class="nav-item" style="margin-left:-1rem;">
+                <a class="nav-link" href="contact.html">Contact</a>
+              </li>
+            </ul>
+
+        </div>
+      </nav>
     </div>
+  
     <!-- This is the main main banner with a background image and my name in the background. -->
     <div class="banner">
-      <h1 class="h1 text-center">Contact</h1>
+      <h1 style="text-align: center;">Contact</h1>
     </div>
   </header>
-  <div>
+  <div class="contact-p" style="margin-left:5rem;  margin-right:9rem;">
       <p>Let me know if you have any questions or comments. I am happy to hear from you, even if you want to say hi. 
           I want to get to meet you all. Please fill this form below and send me a message. </p>
   </div>
 <!-- Image of the tablet that has icon and text to it -->
-    <img src="images/tablet.png" class="card-img" alt="keyboard">
+    <img style="margin-bottom:2rem; margin-left:3rem; width: 370px;" src="images/tablet.png" class="tablet" alt="keyboard">
 
 <!-- Here is the form to of the contact page -->
-<form>
-    <div class="mb-3">
-      <label for="exampleInputEmail1" class="form-label">First Name:</label>
-      <input type="email" class="form-control" id="Firstname" aria-describedby="emailHelp">
+<form style="margin-left:4rem;">
+    <div class="firstname">
+      <label for="Firstname" class="form-label">First Name:</label>
+      <input style="margin-bottom:2rem; margin-top: 0.5rem; display: flex;" type="email" class="form-control" id="Firstname">
     </div>
-    <div class="mb-3">
-        <label for="exampleInputEmail1" class="form-label">Last Name:</label>
-        <input type="email" class="form-control" id="Lastname" aria-describedby="emailHelp">
+    <div class="lastname">
+        <label for="Lastname" class="form-label">Last Name:</label>
+        <input style="margin-bottom:2rem; margin-top: 0.5rem; display: flex;" type="email" class="form-control" id="Lastname">
       </div>
-      <div class="mb-3">
-        <label for="exampleInputEmail1" class="form-label">Phone Number:</label>
-        <input type="email" class="form-control" id="Phonenumber" aria-describedby="emailHelp">
+      <div class="phonemumber">
+        <label for="Phonenumber" class="form-label">Phone Number:</label>
+        <input style="margin-bottom:2rem; margin-top: 0.5rem; display: flex;" type="email" class="form-control" id="Phonenumber">
       </div>
-      <div class="mb-3">
-        <label for="exampleInputEmail1" class="form-label">Email address</label>
-        <input type="email" class="form-control" id="Email" aria-describedby="emailHelp">
+      <div class="emailaddress">
+        <label for="Email" class="form-label">Email address:</label>
+        <input style="margin-bottom:2rem; margin-top: 0.5rem; display: flex;" type="email" class="form-control" id="Email">
       </div>
       <div class="messagebox">
         <label class="label4" for="message">Comments/Questions:</label>
         <textarea class="message" name="message" id="message" placeholder="Type something…" cols="30" rows="10"></textarea>
     </div>   
 
-    <button type="submit" class="btn btn-primary">Submit</button>
+    <button class="submit" type="submit" style=" margin-left:8rem;">Submit</button>
   </form>
   <!-- This is a mini slide show where you have another image with text on the background with a subsribe button
   There will be the two side bars on each end -->
@@ -101,9 +154,16 @@
    
 
     <!-- The copyright footer so no one will steal my website -->
-  <footer>
-    <div class="card-footer bg-transparent border-success">@Copyright RichRealDeal Website 2021</div>
-  </footer>
+    <footer style="margin-top:3rem;">
+      <div style=" margin-left:2em;margin-right:1rem; float:left; margin-top:0.3rem;" class="copyrightmediaicon">@Copyright RichRealDeal Website 2021</div>
+      <div class="mediaicon">
+    <img src="images/iconmonstr-instagram-11-240.png" alt="instagram" style="margin-right:0.5rem; width: 30px;">
+    <img src="images/iconmonstr-twitter-1-240.png" alt="Twitter" style="width: 30px;">
+    <img src="images/iconmonstr-facebook-1-240.png" alt="facebook" style="width: 30px;">
+    </div>
+    </footer>
 </body>
 
 </html>
+
+  
