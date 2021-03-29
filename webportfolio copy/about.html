@@ -11,101 +11,117 @@
   integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous"> -->
   <title>About</title>
 
-    <!-- Here are the css portion in the html, thankfully it does not require any stylesheet, except I used 1 stylesheet
+  <!-- Here are the css portion in the html, thankfully it does not require any stylesheet, except I used 1 stylesheet
   on the home page only :) -->
-  <style>   
+  <style>
     @import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
     @import url('https://fonts.googleapis.com/css2?family=Gochi+Hand&display=swap');
-      html {
-        font-family: 'Fjalla One', sans-serif;
+
+    html {
+      font-family: 'Fjalla One', sans-serif;
+    }
+
+    h1,
+    h2 {
+      font-family: 'Gochi Hand', cursive;
+    }
+
+    /* This is the media query use for the tablet version of the about page */
+    @media screen and (min-width: 550px) {
+
+      /* The paragraph will float to the left so the image will be right beside it */
+      .intro-paragraph {
+        float: left;
       }
-  
-      h1,h2{
-        font-family: 'Gochi Hand', cursive;
+
+      /* The goal will float to the right so it will be beside the facts part */
+      .goal {
+        float: right;
+        margin-top: -15.5rem;
       }
-    
-      /* This is the media query use for the tablet version of the about page */
-      @media screen and (min-width: 550px) {
-    /* The paragraph will float to the left so the image will be right beside it */
-   .intro-paragraph{
-    float:left;
-   }
-  /* The goal will float to the right so it will be beside the facts part */
-  .goal{
-  float:right;
-  margin-top:-15.5rem;
-  }
-   .RichN{
-    max-width:340px;
-        margin-left:27rem;
+
+      .RichN {
+        max-width: 340px;
+        margin-left: 27rem;
       }
-  
-      footer{
-        margin-top:4rem;
+
+      .copyright {
+        margin-top: -2rem;
+        float: left;
       }
+
+      .mediaicon {
+        margin-right: 17rem;
+        float: right;
       }
-  
-      @media screen and (min-width:1100px){
-   .mepic{
-     float:left;
-   }
-        .goal{
-        margin-right:10rem;
-        }
+    }
+
+    @media screen and (min-width:1100px) {
+      .mepic {
+        float: left;
       }
-      </style>
+
+      .goal {
+        margin-right: 10rem;
+      }
+
+    }
+  </style>
 </head>
 
 <body>
   <!-- This is the header where there are different navs displayed in columns. -->
   <header>
- 
-    
+
+
     <div class="card-header">
       <nav>
         <div>
-          <a  href="index.html"><img src="images/RichRealDealLogo.png" class="logo img-fluid"
-              style="width:50%;" alt="Logo"></a>
-              <button class=" navbar-toggler" style="width:40px; height:40px;">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M24 6h-24v-4h24v4zm0 4h-24v4h24v-4zm0 8h-24v4h24v-4z"/></svg>
-              </button>
-          
-            <ul style=" list-style: none; text-align: center;">
-              <li class="nav-item" style="margin-left:-1rem;">
-                <a class="nav-link"  href="about.html">About</a>
-              </li>
-              <li class="nav-item" style="margin-left:-1rem;">
-                <a class="nav-link" href="services.html">Services</a>
-              </li>
-              <li class="nav-item" style="margin-left:-1rem;">
-                <a class="nav-link" href="portfolio.html">Portfolio</a>
-              </li>
-              <li class="nav-item" style="margin-left:-1rem;">
-                <a class="nav-link" href="contact.html">Contact</a>
-              </li>
-            </ul>
+          <a href="index.html"><img src="images/RichRealDealLogo.png" class="logo img-fluid" style="width:50%;"
+              alt="Logo"></a>
+          <button class=" navbar-toggler" style="width:40px; height:40px;">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+              <path d="M24 6h-24v-4h24v4zm0 4h-24v4h24v-4zm0 8h-24v4h24v-4z" /></svg>
+          </button>
+
+          <ul style=" list-style: none; text-align: center;">
+            <li class="nav-item" style="margin-left:-1rem;">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item" style="margin-left:-1rem;">
+              <a class="nav-link" href="services.html">Services</a>
+            </li>
+            <li class="nav-item" style="margin-left:-1rem;">
+              <a class="nav-link" href="portfolio.html">Portfolio</a>
+            </li>
+            <li class="nav-item" style="margin-left:-1rem;">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
 
         </div>
       </nav>
     </div>
-  
-      <!-- This is the main main banner with a background image and my name in the background. -->
-      <div class="banner">
-        <h1 style="text-align: center;">About</h1>
-      </div>
+
+    <!-- This is the main main banner with a background image and my name in the background. -->
+    <div class="banner">
+      <h1 style="text-align: center;">About</h1>
+    </div>
   </header>
-  <section class="aboutme"> 
-    <p class="intro-paragraph" style="margin-left:4rem; max-width:300px;">Hello everyone who is visited my website. My name is Richard Nguyen, and this is The RichRealDeal Company.
+  <section class="aboutme">
+    <p class="intro-paragraph" style="margin-left:4rem; max-width:300px;">Hello everyone who is visited my website. My
+      name is Richard Nguyen, and this is The RichRealDeal Company.
       I am a current student that is attending college to go into Interactive Media Design. I am currently 18
       years
       old who is in the second semester of the first year of this program. </p>
 
     <!-- This is a card that has a picture of me and my name -->
     <div class="me">
-    <img src="images/me.jpeg" style="max-width:340px; margin-left:4rem; max-width:340px;" class="mepic" alt="Richard Nguyen">
-    <h2 class="RichN" style="text-align: center;" >Richard Nguyen</h2>
+      <img src="images/me.jpeg" style="max-width:340px; margin-left:4rem; max-width:340px;" class="mepic"
+        alt="Richard Nguyen">
+      <h2 class="RichN" style="text-align: center;">Richard Nguyen</h2>
 
-</div>
+    </div>
 
 
 
@@ -119,14 +135,16 @@
       </div>
     </div>
 
-<div class="goal" style="width:340px; margin-left:3.8rem; margin-bottom:3rem; border: 1px solid;">
-    <h2 class="card-title" style="text-align: center;">My Goals</h2>
-    <div class="goal-p" style="margin-left:1rem;">
-    <p class="card-text" style="margin-right:4rem;">- To become a freelancer </p>
-    <p class="card-text" style="margin-right:4rem;">- Enjoy my moment in college, have fun and learn something new. </p>
-    <p class="card-text" style="margin-right:4rem;">- Live the best life I can ever live. Every moment should be enjoyable. </p>
-</div>
-</div>
+    <div class="goal" style="width:340px; margin-left:3.8rem; margin-bottom:3rem; border: 1px solid;">
+      <h2 class="card-title" style="text-align: center;">My Goals</h2>
+      <div class="goal-p" style="margin-left:1rem;">
+        <p class="card-text" style="margin-right:4rem;">- To become a freelancer </p>
+        <p class="card-text" style="margin-right:4rem;">- Enjoy my moment in college, have fun and learn something new.
+        </p>
+        <p class="card-text" style="margin-right:4rem;">- Live the best life I can ever live. Every moment should be
+          enjoyable. </p>
+      </div>
+    </div>
   </section>
 
 
@@ -146,13 +164,14 @@
 
   <!-- The copyright footer so no one will steal my website -->
   <footer>
-    <div style=" margin-left:2em;margin-right:1rem; float:left; margin-top:0.3rem;" class="card-footer bg-transparent border-success">@Copyright RichRealDeal Website 2021</div>
-    <div class="mediaicon">
-  <img src="images/iconmonstr-instagram-11-240.png" alt="instagram" style="margin-right:0.5rem; width: 30px;">
+    <div class="mediaicon" style="margin-left:11rem; margin-bottom:0.5rem;">
+    <img src="images/iconmonstr-instagram-11-240.png" alt="instagram" style="margin-right:0.5rem; width: 30px;">
   <img src="images/iconmonstr-twitter-1-240.png" alt="Twitter" style="width: 30px;">
   <img src="images/iconmonstr-facebook-1-240.png" alt="facebook" style="width: 30px;">
   </div>
+    <div class="copyright" style="font-family: 'Fjalla One', sans-serif; margin-left:6em; margin-bottom:1rem;">@Copyright RichRealDeal Website 2021</div>
   </footer>
- 
+
 </body>
+
 </html>
