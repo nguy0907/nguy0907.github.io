@@ -8,134 +8,223 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <title>Contact</title>
-  
+
   <style>
-   @import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
     @import url('https://fonts.googleapis.com/css2?family=Gochi+Hand&display=swap');
-  
+
+    body {
+      margin: auto;
+    }
+
     html,
     textarea,
     .submit {
-        font-family: 'Fjalla One', sans-serif;
-      }
-  
-      h1,h2{
-        font-family: 'Gochi Hand', cursive;
-      }
+      font-family: 'Fjalla One', sans-serif;
+    }
 
-      input,
-      textarea{
-        padding:1em;
-        width:301px;
-        border: 2px solid #FFED65;
-        border-radius: 25px; 
-      }
+    h1,
+    h2 {
+      font-family: 'Gochi Hand', cursive;
+    }
 
-      textarea{
-        display: flex;
-         margin-top: 0.5rem;
-          margin-bottom:2rem;
-           height: 293px;
-      }
-      .submit {
+    h1 {
+      font-size: 30px;
+    }
+
+    h2 {
+      background-color: black;
+      color: #FFED65;
+    }
+
+    p {
+      line-height: 32px;
+      font-size: 17px;
+    }
+
+    .logo {
+      width: 250px;
+      margin-top: 1rem;
+      margin-bottom: -1rem;
+      margin-left: 2rem;
+    }
+
+    ul li {
+      margin-top: 1.2rem;
+    }
+
+    a {
+      text-decoration: none;
+    }
+
+    .banner {
+      background-image: url(../webportfolio/images/lightcity.jpg);
+      object-fit: cover;
+      background-position: 55% 53%;
+      padding-top: 4em;
+      padding-bottom: 4em;
+      margin-bottom: 3rem;
+    }
+
+
+    input,
+    textarea {
+      padding: 1em;
+      width: 301px;
+      border: 2px solid #FFED65;
+      border-radius: 25px;
+    }
+
+    textarea {
+      display: flex;
+      margin-top: 0.5rem;
+      margin-bottom: 2rem;
+      height: 293px;
+    }
+
+    .submit {
       color: #FFED65;
       background-color: black;
       padding: 0.8em;
       padding-left: 2em;
       padding-right: 2em;
-          border-radius: 24px;
-          margin-top:-1rem;
-         margin-right:4rem;
+      border-radius: 24px;
+      margin-top: -1rem;
+      margin-right: 4rem;
     }
-    @media screen and (min-width: 550px){
-      .contact-p{
-        margin-bottom:2rem;
-      }
-   .tablet{
-     float:right;
 
-   }
-   textarea{
-    height:100px;
-   }
-   .submit{
-     float:right;
-     margin-right:1.4rem;
-     margin-top:-7rem;
-   }
+    @media screen and (min-width: 768px) {
+
+      h1 {
+        font-size: 50px;
+      }
+
+      .dropdownbutton {
+        display: none;
+
+      }
+
+      ul {
+        display: flex;
+        float: right;
+        margin-right: 2rem;
+        margin-top: 0.5rem;
+      }
+
+      a {
+        margin-left: 2rem;
+      }
+
+
+      .contact-p {
+        margin-bottom: 2rem;
+      }
+
+      .tablet {
+        float: right;
+
+      }
+
+      textarea {
+        height: 120px;
+        width:70%;
+      }
+
+      .submit {
+        float: right;
+        margin-right: 1.4rem;
+        margin-top: -7rem;
+      }
+
+      .copyright {
+        margin-top: -2rem;
+        float: left;
+      }
+
+      .mediaicon {
+        margin-right: 19rem;
+        float: right;
+      }
     }
-    
   </style>
 </head>
 
 <body>
   <!-- This is the header where there are different navs displayed in columns. -->
-  <header>
-
-    <div class="card-header">
+  <header style="background-color: black;">
+    <div>
       <nav>
         <div>
-          <a  href="index.html"><img src="images/RichRealDealLogo.png" class="logo img-fluid"
-              style="width:50%;" alt="Logo"></a>
-              <button class=" navbar-toggler" style="width:40px; height:40px;">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M24 6h-24v-4h24v4zm0 4h-24v4h24v-4zm0 8h-24v4h24v-4z"/></svg>
-              </button>
-          
-            <ul style=" list-style: none; text-align: center;">
-              <li class="nav-item" style="margin-left:-1rem;">
-                <a class="nav-link"  href="about.html">About</a>
-              </li>
-              <li class="nav-item" style="margin-left:-1rem;">
-                <a class="nav-link" href="services.html">Services</a>
-              </li>
-              <li class="nav-item" style="margin-left:-1rem;">
-                <a class="nav-link" href="portfolio.html">Portfolio</a>
-              </li>
-              <li class="nav-item" style="margin-left:-1rem;">
-                <a class="nav-link" href="contact.html">Contact</a>
-              </li>
-            </ul>
+          <a href="index.html"><img src="images/RichRealDealLogo.png" class="logo" alt="Logo"></a>
+          <button class="dropdownbutton"
+            style="width:40px; height:40px; margin-left:9rem; background:none; border:none;">
+            <svg style="background-color:#FFED65;" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+              viewBox="0 0 24 24">
+              <path d="M24 6h-24v-4h24v4zm0 4h-24v4h24v-4zm0 8h-24v4h24v-4z" /></svg>
+          </button>
+
+          <ul style="list-style: none; text-align: center; font-family: 'Fjalla One', sans-serif;">
+            <li class="nav-item" style="margin-left:-1rem;">
+              <a style="color:#FFED65;" class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item" style="margin-left:-1rem;">
+              <a style="color:#FFED65;" class="nav-link" href="services.html">Services</a>
+            </li>
+            <li class="nav-item" style="margin-left:-1rem;">
+              <a style="color:#FFED65;" class="nav-link" href="portfolio.html">Portfolio</a>
+            </li>
+            <li class="nav-item" style="margin-left:-1rem;">
+              <a style="color:#FFED65;" class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
 
         </div>
       </nav>
     </div>
-  
+
     <!-- This is the main main banner with a background image and my name in the background. -->
     <div class="banner">
-      <h1 style="text-align: center;">Contact</h1>
+      <h1 style="text-align: center; margin-left:4rem; margin-right:4rem; color:#FFED65;">
+        Contact</h1>
     </div>
   </header>
   <div class="contact-p" style="margin-left:5rem;  margin-right:9rem;">
-      <p>Let me know if you have any questions or comments. I am happy to hear from you, even if you want to say hi. 
-          I want to get to meet you all. Please fill this form below and send me a message. </p>
+    <p>Let me know if you have any questions or comments. I am happy to hear from you, even if you want to say hi.
+      I want to get to meet you all. Please fill this form below and send me a message. </p>
   </div>
-<!-- Image of the tablet that has icon and text to it -->
-    <img style="margin-bottom:2rem; margin-left:3rem; width: 370px;" src="images/tablet.png" class="tablet" alt="keyboard">
+  <!-- Image of the tablet that has icon and text to it -->
+  <img style="margin-bottom:2rem; margin-left:3rem; width: 370px;" src="images/tablet.png" class="tablet"
+    alt="keyboard">
 
-<!-- Here is the form to of the contact page -->
-<form style="margin-left:4rem;">
+  <!-- Here is the form to of the contact page -->
+  <form style="margin-left:4rem;">
     <div class="firstname">
       <label for="Firstname" class="form-label">First Name:</label>
-      <input style="margin-bottom:2rem; margin-top: 0.5rem; display: flex;" type="email" class="form-control" id="Firstname">
+      <input style="margin-bottom:2rem; margin-top: 0.5rem; display: flex;" type="email" class="form-control"
+        id="Firstname">
     </div>
     <div class="lastname">
-        <label for="Lastname" class="form-label">Last Name:</label>
-        <input style="margin-bottom:2rem; margin-top: 0.5rem; display: flex;" type="email" class="form-control" id="Lastname">
-      </div>
-      <div class="phonemumber">
-        <label for="Phonenumber" class="form-label">Phone Number:</label>
-        <input style="margin-bottom:2rem; margin-top: 0.5rem; display: flex;" type="email" class="form-control" id="Phonenumber">
-      </div>
-      <div class="emailaddress">
-        <label for="Email" class="form-label">Email address:</label>
-        <input style="margin-bottom:2rem; margin-top: 0.5rem; display: flex;" type="email" class="form-control" id="Email">
-      </div>
-      <div class="messagebox">
-        <label class="label4" for="message">Comments/Questions:</label>
-        <textarea class="message" name="message" id="message" placeholder="Type something…" cols="30" rows="10"></textarea>
-    </div>   
+      <label for="Lastname" class="form-label">Last Name:</label>
+      <input style="margin-bottom:2rem; margin-top: 0.5rem; display: flex;" type="email" class="form-control"
+        id="Lastname">
+    </div>
+    <div class="phonemumber">
+      <label for="Phonenumber" class="form-label">Phone Number:</label>
+      <input style="margin-bottom:2rem; margin-top: 0.5rem; display: flex;" type="email" class="form-control"
+        id="Phonenumber">
+    </div>
+    <div class="emailaddress">
+      <label for="Email" class="form-label">Email address:</label>
+      <input style="margin-bottom:2rem; margin-top: 0.5rem; display: flex;" type="email" class="form-control"
+        id="Email">
+    </div>
+    <div class="messagebox">
+      <label class="label4" for="message">Comments/Questions:</label>
+      <textarea class="message" name="message" id="message" placeholder="Type something…" cols="30"
+        rows="10"></textarea>
+    </div>
 
-    <button class="submit" type="submit" style=" margin-left:8rem;">Submit</button>
+    <button class="submit" type="submit" style=" margin-left:7.5rem; margin-bottom:2rem;">Submit</button>
   </form>
   <!-- This is a mini slide show where you have another image with text on the background with a subsribe button
   There will be the two side bars on each end -->
@@ -148,22 +237,25 @@
   </script>
 
   <!-- Option 2: Separate Popper and Bootstrap JS -->
-  
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js" integrity="sha384-KsvD1yqQ1/1+IA7gi3P0tyJcT3vR+NdBTt13hSJ2lnve8agRGXTTyNaBYmCR/Nwi" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js" integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG" crossorigin="anonymous"></script>
-   
 
-    <!-- The copyright footer so no one will steal my website -->
-    <footer style="margin-top:3rem;">
-      <div style=" margin-left:2em;margin-right:1rem; float:left; margin-top:0.3rem;" class="copyrightmediaicon">@Copyright RichRealDeal Website 2021</div>
-      <div class="mediaicon">
-    <img src="images/iconmonstr-instagram-11-240.png" alt="instagram" style="margin-right:0.5rem; width: 30px;">
-    <img src="images/iconmonstr-twitter-1-240.png" alt="Twitter" style="width: 30px;">
-    <img src="images/iconmonstr-facebook-1-240.png" alt="facebook" style="width: 30px;">
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js"
+    integrity="sha384-KsvD1yqQ1/1+IA7gi3P0tyJcT3vR+NdBTt13hSJ2lnve8agRGXTTyNaBYmCR/Nwi" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js"
+    integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG" crossorigin="anonymous">
+  </script>
+
+
+  <!-- The copyright footer so no one will steal my website -->
+  <footer>
+    <div class="mediaicon" style="margin-left:11rem; margin-bottom:0.5rem;">
+      <img src="images/iconmonstr-instagram-11-240.png" alt="instagram" style="margin-right:0.5rem; width: 30px;">
+      <img src="images/iconmonstr-twitter-1-240.png" alt="Twitter" style="width: 30px;">
+      <img src="images/iconmonstr-facebook-1-240.png" alt="facebook" style="width: 30px;">
     </div>
-    </footer>
+    <div class="copyright" style="font-family: 'Fjalla One', sans-serif; margin-left:6em; margin-bottom:1rem;">
+      @Copyright RichRealDeal Website 2021</div>
+  </footer>
 </body>
 
 </html>
-
-  

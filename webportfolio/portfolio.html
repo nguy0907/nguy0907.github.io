@@ -14,6 +14,9 @@
     @import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
     @import url('https://fonts.googleapis.com/css2?family=Gochi+Hand&display=swap');
 
+    body{
+  margin: auto;  
+}
     html,
     .more {
       font-family: 'Fjalla One', sans-serif;
@@ -22,6 +25,42 @@
     h1,
     h2 {
       font-family: 'Gochi Hand', cursive;
+    }
+    h1{
+      font-size:30px;
+    }
+    h2{
+      background-color: black;
+      color: #FFED65;
+    }
+
+    p{
+       line-height: 32px;
+      font-size:17px;
+    }
+
+      .logo {
+      width: 250px;
+      margin-top: 1rem;
+      margin-bottom: -1rem;
+      margin-left: 2rem;
+    }
+
+    ul li {
+      margin-top: 1.2rem;
+    }
+
+    a {
+      text-decoration: none;
+    }
+
+    .banner {
+      background-image: url(../webportfolio/images/lightcity.jpg);
+      object-fit: cover;
+      background-position: 55% 53%;
+      padding-top: 4em;
+      padding-bottom: 4em;
+      margin-bottom: 3rem;
     }
 
     .more {
@@ -37,15 +76,46 @@
     }
 
     /* This is the media query use for the tablet version of the about page */
-    @media screen and (min-width: 550px) {
+    @media screen and (min-width: 768px) {
+      h1{
+        font-size: 50px;
+      }
+
+        .dropdownbutton{
+        display: none;
+     
+      }
+      ul{
+       display: flex;
+       float: right;
+       margin-right:2rem;
+       margin-top:0.5rem;
+      }
+    a{
+        margin-left:2rem;
+      }
+
+/* This is the tablet version of where some of the artwork will float beside each other */
+
+
+.card3{
+  margin-bottom:-4.2rem;
+}
 .artwork4{
  float: right;
+ margin-right:4rem;
 margin-top:-29.8rem;
 }
+.card5{
+  margin-bottom:-4rem;
+}
+
 .artwork6{
   float:right;
   margin-top:-29.8rem;
+  margin-right:4rem;
 }
+
 .more{
   margin-top:4rem;
   margin-bottom:3rem;
@@ -67,39 +137,41 @@ margin-top:-29.8rem;
 
 <body>
   <!-- This is the header where there are different navs displayed in columns. -->
-  <header>
-    
-    <div class="card-header">
+  <header style="background-color: black;">
+    <div>
       <nav>
         <div>
-          <a  href="index.html"><img src="images/RichRealDealLogo.png" class="logo img-fluid"
-              style="width:50%;" alt="Logo"></a>
-              <button class=" navbar-toggler" style="width:40px; height:40px;">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M24 6h-24v-4h24v4zm0 4h-24v4h24v-4zm0 8h-24v4h24v-4z"/></svg>
-              </button>
-          
-            <ul style=" list-style: none; text-align: center;">
-              <li class="nav-item" style="margin-left:-1rem;">
-                <a class="nav-link"  href="about.html">About</a>
-              </li>
-              <li class="nav-item" style="margin-left:-1rem;">
-                <a class="nav-link" href="services.html">Services</a>
-              </li>
-              <li class="nav-item" style="margin-left:-1rem;">
-                <a class="nav-link" href="portfolio.html">Portfolio</a>
-              </li>
-              <li class="nav-item" style="margin-left:-1rem;">
-                <a class="nav-link" href="contact.html">Contact</a>
-              </li>
-            </ul>
+          <a href="index.html"><img src="images/RichRealDealLogo.png" class="logo" alt="Logo"></a>
+          <button class="dropdownbutton"
+          style="width:40px; height:40px; margin-left:9rem; background:none; border:none;">
+          <svg style="background-color:#FFED65;" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+            viewBox="0 0 24 24">
+            <path d="M24 6h-24v-4h24v4zm0 4h-24v4h24v-4zm0 8h-24v4h24v-4z" /></svg>
+        </button>
+
+          <ul style="list-style: none; text-align: center; font-family: 'Fjalla One', sans-serif;">
+            <li class="nav-item" style="margin-left:-1rem;">
+              <a style="color:#FFED65;" class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item" style="margin-left:-1rem;">
+              <a style="color:#FFED65;" class="nav-link" href="services.html">Services</a>
+            </li>
+            <li class="nav-item" style="margin-left:-1rem;">
+              <a style="color:#FFED65;" class="nav-link" href="portfolio.html">Portfolio</a>
+            </li>
+            <li class="nav-item" style="margin-left:-1rem;">
+              <a style="color:#FFED65;" class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
 
         </div>
       </nav>
     </div>
-  
+
     <!-- This is the main main banner with a background image and my name in the background. -->
     <div class="banner">
-      <h1 style="text-align: center;">Services</h1>
+      <h1 style="text-align: center; margin-left:4rem; margin-right:4rem; color:#FFED65;">
+        Portfolio</h1>
     </div>
   </header>
   <!-- This is the filter section with the checkbox to select items you want or don't want to see -->
@@ -108,7 +180,7 @@ margin-top:-29.8rem;
       <img class="artpic1" style="width:76%; margin-left:2.3rem; border: 1px solid;" src="images/landingpage.png" 
         alt="Richard Nguyen">
       <div class="card card1" style="border: 1px solid; margin-left:2.3rem; margin-top:-0.3rem; width:76%; padding-bottom:3em;">
-        <h2 class="card-title" style="text-align:center;">Landing Page</h2>
+        <h2 class="card-title" style="text-align:center; padding-bottom:0.8em; padding-top:0.8em; margin-top:0rem;">Landing Page</h2>
         <p class="card-text" style="text-align: center; margin-left:3rem; width:70%;">A Dash landing page that is responsive on all
           platforms. It runs on a mobile, tablet, and desktop pretty smoothly. This landing page includes a form, a calculation
           section, and a beautiful scooter background. This landing page is done by coding in Visual Studio Code
@@ -119,7 +191,7 @@ margin-top:-29.8rem;
     <div class="artwork2" style="margin-bottom:2rem; margin-left:1.5rem;  width:95%;">
       <img style="width:76%; margin-left:2.3rem; border: 1px solid;" src="images/arcmockup.png" alt="Richard Nguyen">
       <div class="card card2" style="border: 1px solid; margin-left:2.3rem; margin-top:-0.3rem; width:76%;">
-        <h2 class="card-title" style="text-align:center;">ARC Mockup Webpage</h2>
+        <h2 class="card-title" style="text-align:center; padding-bottom:0.8em; padding-top:0.8em; margin-top:0rem;">ARC Mockup Webpage</h2>
         <p class="card-text" style="text-align: center; margin-left:3rem; margin-right:2rem; width:70%;">Here is my mid-term assignment, which is a
           mockup assignment
           on the ARC website. Code on Visual Studio Code using HTML and CSS. It is responsive on a mobile, tablet,
@@ -127,42 +199,39 @@ margin-top:-29.8rem;
       </div>
     </div>
     <div class="artwork3" style="margin-bottom:2rem; margin-left:1.5rem;">
-      <img style="width:337px; object-fit: cover; height:230px; margin-left:2.3rem; border: 1px solid;" src="images/avatarpic2.png" class="card-img-top"
+      <img style="width:350px; object-fit: cover; height:230px; margin-left:2.3rem; border: 1px solid;" src="images/avatarpic2.png" class="card-img-top"
         alt="Richard Nguyen">
-      <div class="card card3" style="border: 1px solid; margin-left:2.3rem; margin-top:-0.3rem; width:337px; padding-bottom:3em;">
-        <h2 class="card-title" style="text-align:center;">Small and Medium Animal Icon</h2>
+      <div class="card card3" style="border: 1px solid; margin-left:2.3rem; margin-top:-0.3rem; width:350px; padding-bottom:3em;">
+        <h2 class="card-title" style="text-align:center; padding-bottom:0.8em; padding-top:0.8em; margin-top:0rem;">Small and Medium Animal Icon</h2>
         <p class="card-text" style="text-align: center; margin-left:3rem; margin-right:2rem; width:70%;">Here is the small and medium animal icon for
-          apple. The tiny icon
-          is a black and white paw, and the medium icon is just the bear's head.</p>
+          apple. The tiny icon is a black and white paw, and the medium icon is just the bear's head.</p>
       </div>
     </div>
 
     <div class="artwork4" style="margin-bottom:2rem; margin-left:1.5rem;">
-      <img style="width:337px; object-fit: cover; height:230px; margin-left:2.3rem; border: 1px solid;" src="images/avatarpic.png" class="card-img-top"
+      <img style="width:350px; object-fit: cover; height:230px; margin-left:2.3rem; border: 1px solid;" src="images/avatarpic.png" class="card-img-top"
         alt="Richard Nguyen">
-      <div class="card card4" style="border: 1px solid; margin-left:2.3rem; margin-top:-0.3rem; width:337px; padding-bottom:3em;">
-        <h2 class="card-title" style="text-align:center;">Large Animal Icon</h2>
+      <div class="card card4" style="border: 1px solid; margin-left:2.3rem; margin-top:-0.3rem; width:350px; padding-bottom:3em;">
+        <h2 class="card-title" style="text-align:center; padding-bottom:0.8em; padding-top:0.8em; margin-top:0rem;">Large Animal Icon</h2>
         <p class="card-text" style="text-align: center; margin-left:3rem; margin-right:2rem; width:70%;">Here is the large animal icon. Here is where
-          all the wildness
-          happens. There is a full bear, with some gradients used and other natural elements to this icon. </p>
+          all the wildness happens. There is a full bear, with some gradients used and other natural elements to this icon. </p>
       </div>
     </div>
     <div class="artwork5" style="margin-bottom:2rem; margin-left:1.5rem;">
-      <img style="width:337px; margin-left:2.3rem; border: 1px solid;" src="images/sciifii.png" class="card-img-top"
+      <img style="width:350px; margin-left:2.3rem; border: 1px solid;" src="images/sciifii.png" class="card-img-top"
         alt="Richard Nguyen">
-      <div class="card card5" style="border: 1px solid; margin-left:2.3rem; margin-top:-0.3rem; width:337px; padding-bottom:3em;">
-        <h2 class="card-title" style="text-align:center;">Sci-Fii Poster</h2>
+      <div class="card card5" style="border: 1px solid; margin-left:2.3rem; margin-top:-0.3rem; width:350px; padding-bottom:3em;">
+        <h2 class="card-title" style="text-align:center; padding-bottom:0.8em; padding-top:0.8em; margin-top:-0.2rem;">Sci-Fii Poster</h2>
         <p class="card-text" style="text-align: center; margin-left:3rem; margin-right:2rem; width:70%;">Here is my Sci-Fii poster, which has two
-          versions, the purple
-          and the blue version. </p>
+          versions, the purple and the blue version. </p>
       </div>
     </div>
 
     <div class="artwork6" style="margin-bottom:2rem; margin-left:1.5rem;">
-      <img style="width:337px; height:200px; object-fit: cover; margin-left:2.3rem; border: 1px solid; height:250px;" src="images/branding.png" class="card-img-top"
+      <img style="width:350px; height:200px; object-fit: cover; margin-left:2.3rem; border: 1px solid; height:250px;" src="images/branding.png" class="card-img-top"
         alt="Richard Nguyen">
-      <div class="card card6" style="border: 1px solid; margin-left:2.3rem; margin-top:-0.3rem; width:337px;  padding-bottom:3em;">
-        <h2 class="card-title" style="text-align:center;">Black Rhino Branding Guide</h2>
+      <div class="card card6" style="border: 1px solid; margin-left:2.3rem; margin-top:-0.3rem; width:350px;  padding-bottom:3em;">
+        <h2 class="card-title" style="text-align:center; padding-bottom:0.8em; padding-top:0.8em; margin-top:0rem;">Black Rhino Branding Guide</h2>
         <p class="card-text" style="text-align: center; margin-left:3rem; width:70%;">Here is my branding assignment that has the colours, logo
           variation, and much more. This assignment is dedicated to the Black Rhino, an art retreat company.</p>
       </div>
