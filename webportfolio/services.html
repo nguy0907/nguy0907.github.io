@@ -16,13 +16,67 @@
       html {
         font-family: 'Fjalla One', sans-serif;
       }
+
+      body {
+      margin: auto;
+    }
+
   
       h1,h2{
         font-family: 'Gochi Hand', cursive;
       }
   
-      @media screen and (min-width: 550px){
-  
+      h1{
+      font-size:30px;
+    }
+    h2{
+      background-color: black;
+      color: #FFED65;
+    }
+      .logo {
+      width: 250px;
+      margin-top: 1rem;
+      margin-bottom: -1rem;
+      margin-left: 2rem;
+    }
+
+    ul li {
+      margin-top: 1.2rem;
+    }
+
+    a {
+      text-decoration: none;
+    }
+
+    .banner {
+      background-image: url(../webportfolio/images/lightcity.jpg);
+      object-fit: cover;
+      background-position: 55% 53%;
+      padding-top: 4em;
+      padding-bottom: 4em;
+      margin-bottom: 3rem;
+    }
+
+  /* Media Query for tablet screen */
+      @media screen and (min-width: 700px){
+        h1{
+        font-size: 50px;
+      }
+
+        .dropdownbutton{
+        display: none;
+     
+      }
+      ul{
+       display: flex;
+       float: right;
+       margin-right:2rem;
+       margin-top:0.5rem;
+      }
+    a{
+        margin-left:2rem;
+      }
+
         .imgcard{
           margin-right:-50rem;
           margin-top:-0.3rem;
@@ -31,7 +85,18 @@
           float: right;
           margin-right:3rem;
           padding-bottom:5.2em;
-  
+        }
+
+        .cardcode{
+          padding-bottom:4.1em;
+        }
+
+        .cardwebsite{
+          padding-bottom:4.9em;
+        }
+
+        .cardgraphic{
+          padding-bottom:4.45em;
         }
         .copyright {
         margin-top: -2rem;
@@ -48,63 +113,65 @@
 
 <body>
       <!-- This is the header where there are different navs displayed in columns. -->
-      <header>
-     
-        <div class="card-header">
-          <nav>
-            <div>
-              <a  href="index.html"><img src="images/RichRealDealLogo.png" class="logo img-fluid"
-                  style="width:50%;" alt="Logo"></a>
-                  <button class=" navbar-toggler" style="width:40px; height:40px;">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M24 6h-24v-4h24v4zm0 4h-24v4h24v-4zm0 8h-24v4h24v-4z"/></svg>
-                  </button>
-              
-                <ul style=" list-style: none; text-align: center;">
-                  <li class="nav-item" style="margin-left:-1rem;">
-                    <a class="nav-link"  href="about.html">About</a>
-                  </li>
-                  <li class="nav-item" style="margin-left:-1rem;">
-                    <a class="nav-link" href="services.html">Services</a>
-                  </li>
-                  <li class="nav-item" style="margin-left:-1rem;">
-                    <a class="nav-link" href="portfolio.html">Portfolio</a>
-                  </li>
-                  <li class="nav-item" style="margin-left:-1rem;">
-                    <a class="nav-link" href="contact.html">Contact</a>
-                  </li>
-                </ul>
-  
-            </div>
-          </nav>
+     <header style="background-color: black;">
+    <div>
+      <nav>
+        <div>
+          <a href="index.html"><img src="images/RichRealDealLogo.png" class="logo" alt="Logo"></a>
+          <button class="dropdownbutton"
+          style="width:40px; height:40px; margin-left:9rem; background:none; border:none;">
+          <svg style="background-color:#FFED65;" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+            viewBox="0 0 24 24">
+            <path d="M24 6h-24v-4h24v4zm0 4h-24v4h24v-4zm0 8h-24v4h24v-4z" /></svg>
+        </button>
+
+          <ul style="list-style: none; text-align: center; font-family: 'Fjalla One', sans-serif;">
+            <li class="nav-item" style="margin-left:-1rem;">
+              <a style="color:#FFED65;" class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item" style="margin-left:-1rem;">
+              <a style="color:#FFED65;" class="nav-link" href="services.html">Services</a>
+            </li>
+            <li class="nav-item" style="margin-left:-1rem;">
+              <a style="color:#FFED65;" class="nav-link" href="portfolio.html">Portfolio</a>
+            </li>
+            <li class="nav-item" style="margin-left:-1rem;">
+              <a style="color:#FFED65;" class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
+
         </div>
-      
-          <!-- This is the main main banner with a background image and my name in the background. -->
-          <div class="banner">
-            <h1 style="text-align: center;">Services</h1>
-          </div>
-      </header>
+      </nav>
+    </div>
+
+    <!-- This is the main main banner with a background image and my name in the background. -->
+    <div class="banner">
+      <h1 style="text-align: center; margin-left:4rem; margin-right:4rem; color:#FFED65;">
+        Services</h1>
+    </div>
+  </header>
       <div class="container" style="margin-bottom:2rem; margin-left:1.5rem; ">
-        <img style="width:100%; max-width: 339px; margin-left:2.3rem; height:250px; object-fit: cover;" src="images/coding.png" class="imgcard " alt="Richard Nguyen">   
-         <div class="cardtext" style="border: 1px solid; margin-left:2.3rem; margin-top:-0.3rem; width: 337px;">
-        <h2 class="card-title" style="text-align:center;">Coding Work</h2>
+        <img style="width:100%; max-width: 352px; margin-left:2.3rem; height:250px; object-fit: cover;" src="images/coding.png" class="imgcard " alt="Richard Nguyen">   
+         <div class="cardtext cardcode" style="border: 1px solid; margin-left:2.3rem; margin-top:-0.3rem; width: 350px;">
+        <h2 class="card-title" style="text-align:center; padding-bottom:0.8em; padding-top:0.8em; margin-top:0rem;">Coding Work</h2>
        <p style="margin-left:2.5rem;  text-align:center; width:240px;">I code websites by using HTML and CSS. The website I create must be responsive on different platforms. There is a lot more to learn.</p>
   </div>
 </div>
 
     <!-- Here is the 2 cards, one of them is facts about me and the other one is my goals -->
     <div class="container" style="margin-bottom:2rem; margin-left:1.5rem; ">
-        <img style="border: 1px solid; width:337px; margin-left:2.3rem;" src="images/websitedesign.png" class="imgcard" alt="Richard Nguyen">
-        <div class="cardtext" style="border: 1px solid; margin-left:2.3rem; margin-top:-0.3rem; width: 337px;">
-        <h2 class="card-title" style="text-align:center;">Website Design</h2>
+        <img style="border: 1px solid; width:350px; margin-left:2.3rem;" src="images/websitedesign.png" class="imgcard" alt="Richard Nguyen">
+        <div class="cardtext cardwebsite" style="border: 1px solid; margin-left:2.3rem; margin-top:-0.3rem; width: 350px;">
+        <h2 class="card-title" style="text-align:center; padding-bottom:0.8em; padding-top:0.8em; margin-top:0rem;">Website Design</h2>
           <p style="margin-left:2.5rem;  margin-right:4rem; width:240px;">I use other ways to create websites using Adobe XD, WordPress, and I am about to 
             learn how to use Drupal and Shopify. </p>
           </div> 
       </div>
       
             <div class="container" style="margin-bottom:2rem; margin-left:1.5rem; " >
-        <img style=" border: 1px solid; width:337px; margin-left:2.3rem;" src="images/graphicwork.png" class="imgcard" alt="Richard Nguyen">
-        <div class="cardtext cardtext3" style="border: 1px solid; margin-left:2.3rem; margin-top:-0.3rem; width: 337px;" >
-        <h2 class="card-title" style="text-align:center;" >Graphic Work</h2>
+        <img style=" border: 1px solid; width:350px; margin-left:2.3rem;" src="images/graphicwork.png" class="imgcard" alt="Richard Nguyen">
+        <div class="cardtext cardgraphic" style="border: 1px solid; margin-left:2.3rem; margin-top:-0.3rem; width: 350px;" >
+        <h2 class="card-title" style="text-align:center; padding-bottom:0.8em; padding-top:0.8em; margin-top:0rem;" >Graphic Work</h2>
           <p style="margin-left:2.5rem; margin-right:4rem; width:240px;">I use Adobe 
             Photoshop and Adobe Illustrator to create art pieces and all the cool stuff you love to see.</p>
             </div> 

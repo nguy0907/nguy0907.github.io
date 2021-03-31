@@ -65,23 +65,26 @@ a{
    max-width:200px; 
    padding-bottom:0.8em; 
    padding-top:0.8em;
-   padding-left:3.7em;
-   padding-right:3.8em;
-   margin-left:3rem;
+   padding-left:3.1em;
+   padding-right:3.15em;
+   margin-left:4rem;
    margin-top:-0.3rem;
    margin-bottom:2rem;
 }
     /* This is the media query use for the tablet version of the about page */
-    @media screen and (min-width: 550px) {
+    @media screen and (min-width: 700px) {
+      h1{
+        font-size: 50px;
+      }
+      
       .dropdownbutton{
         display: none;
-     
       }
       ul{
        display: flex;
        float: right;
        margin-right:2rem;
-       margin-top:1rem;
+       margin-top:0.5rem;
       }
     a{
         margin-left:2rem;
@@ -89,6 +92,14 @@ a{
       /* The paragraph will float to the left so the image will be right beside it */
       .intro-paragraph {
         float: left;
+      }
+      
+      .me{
+        margin-left:25rem;
+      }
+
+      .RichN{
+        margin-bottom:2rem;
       }
 
       /* The goal will float to the right so it will be beside the facts part */
@@ -112,11 +123,7 @@ a{
     }
 
 /* I had to add another media query to fix my name */
-    @media screen and (min-width: 600px){
-         .me{
-        margin-left:25rem;
-      }
-    }
+
     @media screen and (min-width:1100px) {
 
 
@@ -135,7 +142,7 @@ a{
     <div>
       <nav>
         <div>
-          <a href="index.html"><img src="images/RichRealDealLogo.png" class="logo"alt="Logo"></a>
+          <a href="index.html"><img src="images/RichRealDealLogo.png" class="logo" alt="Logo"></a>
           <button class="dropdownbutton" style="width:40px; height:40px; margin-left:9rem; background:none; border:none;">
             <svg style="background-color:#FFED65;" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
               <path d="M24 6h-24v-4h24v4zm0 4h-24v4h24v-4zm0 8h-24v4h24v-4z" /></svg>
@@ -167,7 +174,7 @@ a{
     </div>
   </header>
   <section class="aboutme">
-    <p class="intro-paragraph" style="margin-left:3rem; max-width:300px;">Hello everyone who is visited my website. My
+    <p class="intro-paragraph" style="margin-left:4rem; max-width:300px;">Hello everyone who is visited my website. My
       name is Richard Nguyen, and this is The RichRealDeal Company.
       I am a current student that is attending college to go into Interactive Media Design. I am currently 18
       years
@@ -175,7 +182,7 @@ a{
 
     <!-- This is a card that has a picture of me and my name -->
     <div class="me">
-      <img src="images/me.jpeg" style="width:380px; height:400px; margin-left:3rem;" class="mepic"
+      <img src="images/me.jpeg" style="width:350px; height:400px; margin-left:4rem;" class="mepic"
         alt="Richard Nguyen">
       <h2 class="RichN">Richard Nguyen</h2>
 
@@ -184,7 +191,7 @@ a{
 
 
     <!-- Here is the 2 cards, one of them is facts about me and the other one is my goals -->
-    <div class="facts" style="width:378px; margin-left:3rem; margin-bottom:2rem; border: 1px solid;">
+    <div class="facts" style="width:350px; margin-left:4rem; margin-bottom:2rem; border: 1px solid;">
       <h2 style="text-align: center; padding-bottom:0.8em; padding-top:0.8em; margin-top:-0.1rem;">Facts About Me</h2>
       <div class="paragraph" style="margin-left:1rem; margin-right:4rem;">
         <p>- Transitioning from top chemistry and math mark to become an IMD student. </p>
@@ -193,7 +200,7 @@ a{
       </div>
     </div>
 
-    <div class="goal" style="width:378px; margin-left:3rem; margin-bottom:3rem; border: 1px solid;">
+    <div class="goal" style="width:350px; margin-left:4rem; margin-bottom:3rem; border: 1px solid;">
       <h2 class="card-title" style="text-align: center; padding-bottom:0.8em; padding-top:0.8em; margin-top:0rem;">My Goals</h2>
       <div class="goal-p" style="margin-left:1rem;">
         <p class="card-text" style="margin-right:4rem;">- To become a freelancer </p>

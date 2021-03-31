@@ -27,6 +27,8 @@
 p{
   line-height: 32px;
 }
+
+/* CSS for the header */
     .logo{
       width:250px; 
       margin-top:1rem;
@@ -73,7 +75,10 @@ p{
       background: none;
     }
 
-    @media screen and (min-width: 550px) {
+    @media screen and (min-width: 700px) {
+      h1{
+        font-size: 50px;
+      }
       .logo{
         padding-bottom:0.5em;
       }
@@ -85,6 +90,17 @@ p{
        margin-top:1rem;
        float:right;
       }
+/* Mini slide section for tablet */
+
+.card{
+  margin-left:4rem;
+  width:82%;
+  
+}
+.card-text{
+  width: 440px;
+}
+
       .copyright {
         margin-top: -2rem;
         float: left;
@@ -98,8 +114,11 @@ p{
         margin-left:14rem;
       }
     .darkcircle {
-margin-left:8rem;
+margin-left:12rem;
     }
+.welcome-p{
+  width:600px;
+}
     }
   </style>
 </head>
@@ -145,12 +164,11 @@ margin-left:8rem;
   </header>
   <!-- This is a mini slide show where you have another image with text on the background with a subsribe button
   There will be the two side bars on each end -->
-  <div class="card bg-dark text-white" style="margin-bottom:1rem;">
+  <div class="card" style="margin-bottom:1rem;">
     <img style="height:260px; opacity: 0.76; object-fit: cover;" src="images/keyboardglow.png" class="card-img"
       alt="keyboard">
     <div class="card-img-overlay">
-      <p class="card-text"
-        style="font-family: 'Fjalla One', sans-serif; color:#FFED65; text-align: center; margin-left:4rem; margin-right:5rem;">
+      <p class="card-text" style="font-family: 'Fjalla One', sans-serif; color:#FFED65; text-align: center; margin-left:4rem; margin-right:5rem;">
         If you do like my content and would like to see more of it, please consider subscribing to my website and turn
         on your
         notification for more updates. Thank you for dropping by!</p>
@@ -160,7 +178,7 @@ margin-left:8rem;
   <!-- These are the circles, I used them as button, because I can just use border radius and so on... -->
   <button class="darkcircle"></button>
   <button class="whitecircle"></button>
-  <p class="welcome-p" style="font-family: 'Fjalla One', sans-serif; width:75%; margin-left:3rem;
+  <p class="welcome-p" style="font-family: 'Fjalla One', sans-serif;  margin-left:4rem; margin-right:3rem;
   margin-bottom: 3rem;">Hello everyone, you have reached The RichRealDeal Company website. Thank you so much for
     visiting my website.
     Please feel free to look around to know a little bit about me, my company, my work, and more.</p>
