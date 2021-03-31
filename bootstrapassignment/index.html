@@ -15,7 +15,7 @@
   <body>
       <!-- This is the header of the bootstrap assignment -->
      <header>     
-    <h1 class="h1 text-center">RichRealDeal's trading Card</h1>
+      <h1 class="display-1 text-center">RichRealDeal's trading Card</h1>
 
     <!-- This is the Nav bar using bootstrap -->
     <nav class="navbar navbar-light bg-light">
@@ -32,18 +32,22 @@
       </header>
         <!-- This section is more like a call to action banner, because there is a message and a button below -->
         <section class="card-body text-center">
-          <h2 class="card-title">Purchase some cards and collect them all!</h2>
+          <h2>Purchase some cards and collect them all!</h2>
         </section> 
         
         <!-- Here is the card section where 3 cards will first display in one row,the last 3 grids in the second row. It is just a simple card with text, button.
       One of them contains a badge, because it is a new card. Everything will look squished at first, then it will become bigger 
     and more space. -->
+
+    <!-- If you see a <p></p> with nothing in it, it;s because I added space between the heading 5 and the images -->
            <div class="card text-center">   
         <div class="container d-grid gap-3">
           <div class="row gap-1">
             <div class="col">
               <div class="card" >
                 <div class="card-body">
+                  <img class="img-fluid" src="https://picsum.photos/200" alt="placeholder">
+                  <p></p>
                   <h5 class="card-title">Connor McDavid 99 Overall</h5>
                   <p class="card-text">Speed:99 </p>
                   <p class="card-text">Agility:97 </p>
@@ -56,6 +60,8 @@
             <div class="col">
               <div class="card">
                 <div class="card-body">
+                  <img class="img-fluid" src="https://picsum.photos/200" alt="placeholder">
+                  <p></p>
                   <h5 class="card-title">Henrik Lundqvist 94 Overall</h5>
                   <p class="card-text">GA: 2.35 </p>
                   <p class="card-text">Save:0.954% </p>
@@ -68,6 +74,8 @@
             <div class="col">
               <div class="card">
                 <div class="card-body">
+                  <img class="img-fluid" src="https://picsum.photos/200" alt="placeholder">
+                  <p></p>
                   <h5 class="card-title">Eric Lindros 95 Overall</h5>
                   <p class="card-text">Speed:97 </p>
                   <p class="card-text">Agility:97 </p>
@@ -82,6 +90,8 @@
             <div class="col">
               <div class="card" >
                 <div class="card-body">
+                  <img class="img-fluid" src="https://picsum.photos/200" alt="placeholder">
+                  <p></p>
                   <h5>Dominik Hasek 97 Overall</h5>
                   <p class="card-text">GA: 2.15 </p>
                   <p class="card-text">Save:0.97% </p>
@@ -94,6 +104,8 @@
             <div class="col">
               <div class="card" >
                 <div class="card-body">
+                  <img class="img-fluid" src="https://picsum.photos/200" alt="placeholder">
+                  <p></p>
                   <h5 class="card-title">Sami Salo 82 Overall <span class="badge bg-success">New</span></h5>
                   <p class="card-text">Speed:83 </p>
                   <p class="card-text">Agility:81 </p>
@@ -106,6 +118,8 @@
             <div class="col">
               <div class="card" >
                 <div class="card-body">
+                  <img class="img-fluid" src="https://picsum.photos/200" alt="placeholder">
+                  <p></p>
                   <h5 class="card-title">Mats Sundin 93 Overall</h5>
                   <p class="card-text">Speed:93 </p>
                   <p class="card-text">Agility:92 </p>
@@ -204,22 +218,46 @@ pack that is in stock right now. You will see it will be displayed on the second
       </div>
 
       <!-- This is the legendary pack where you will notice the badge that is yellow. In this case yellow means
-      exclusive and for limited time. -->
-      <div class="row">
-        <div class="col-md-12">
-          <div class="card" >
+      exclusive and for limited time. Unlike other cards, this one uses flex. -->
+
+      <div class="card mb-3">
+        <div class="row">
+          <div class="col-md-1">
+            <img src="https://picsum.photos/200" alt="placeholder">
+          </div>
+          <div class="col-lg-11">
             <div class="card-body">
-              <h5 class="card-title">Legendary Pack <span class="badge bg-warning text-dark">Exclusive</span></h5>
+               <h5 class="card-title">Legendary Pack <span class="badge bg-warning text-dark">Exclusive</span></h5>
               <p>This is the biggest pack that is trending right now. Only for limited time.</p>
-              <p class="card-text">5 rare cards, 2 gold cards, 3 Young Guns, 4 Autograph Cards,
-                 4 Platinum Cards, 2 Diamond Cards, 2 Legendary Cards  </p>
-              <p class="card-text">7000 coins </p>
+              <p class="card-text"> 4 Autograph Cards, 4 Platinum Cards, 2 Diamond Cards, 2 Legendary Cards, 7000 coins </p>
               <a href="#" class="btn btn-dark">Buy Now</a>
             </div>
           </div>
         </div>
-       
+      </div>
+
+      <!-- Here is the news section where you will get the latest update. It will mainly be only text and a red more button
+      Grids were used. On mobile it will be column, from medium and above, it will be in 3 columns 1 row. -->
+      <h2 class="display-2 text-center">News</h2>
+      <div class="row">
+        <div class="col-md-4">
+          <h2>Rookie Packs on sale</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id accusantium, quam, nihil neque repellendus exercitationem, eveniet nobis maxime facilis eaque optio a. Recusandae doloremque ullam odio saepe magnam esse odit?</p>
+          <button type="button" class="btn btn-outline-secondary">Read More</button>
+        </div>
+        <div class="col-md-4">
+          <h2>Basketball Cards Released</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas officiis quod dignissimos harum rem aut nesciunt. Nostrum magnam quos doloremque, dignissimos temporibus reiciendis quam et neque, placeat aut suscipit facilis.</p>
+          <button type="button" class="btn btn-outline-secondary">Read More</button>
+        </div>
+        <div class="col-md-4">
+          <h2>Retro Reverse Cards</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam maxime voluptas magni et dicta nobis a debitis consequuntur dolore ut dolores cupiditate provident, optio sequi ratione ab sed vero libero?</p>
+          <button type="button" class="btn btn-outline-secondary">Read More</button>
+        </div>
       </div>
     </div>
+    <hr>
+    <p class="text-center">Copyright &copy;RichRealDeal's Trading Card, 2021</p> 
   </body>
 </html>

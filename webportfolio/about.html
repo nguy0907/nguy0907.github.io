@@ -20,15 +20,72 @@
     html {
       font-family: 'Fjalla One', sans-serif;
     }
-
+body{
+  margin: auto;  
+}
     h1,
     h2 {
       font-family: 'Gochi Hand', cursive;
+      color: #FFED65;
     }
+    h1{
+      font-size:30px;
+    }
+    h2{
+      background-color: black;
+    }
+    p{
+       line-height: 32px;
+      font-size:17px;
+    }
+    .logo{
+      width:250px; 
+      margin-top:1rem;
+      margin-bottom:-1rem;
+      margin-left:2rem;
+    }
+    
+    ul li{
+      margin-top:1rem;
+    }
+a{
+  text-decoration: none;
+}
+.banner{
+  background-image: url(../webportfolio/images/lightcity.jpg);
+  object-fit: cover;
+    background-position: 55% 53%;
+    padding-top:4em;
+    padding-bottom:4em;
+    margin-bottom:3rem;
+}
 
+.RichN{
+  text-align: center;
+   max-width:200px; 
+   padding-bottom:0.8em; 
+   padding-top:0.8em;
+   padding-left:3.7em;
+   padding-right:3.8em;
+   margin-left:3rem;
+   margin-top:-0.3rem;
+   margin-bottom:2rem;
+}
     /* This is the media query use for the tablet version of the about page */
     @media screen and (min-width: 550px) {
-
+      .dropdownbutton{
+        display: none;
+     
+      }
+      ul{
+       display: flex;
+       float: right;
+       margin-right:2rem;
+       margin-top:1rem;
+      }
+    a{
+        margin-left:2rem;
+      }
       /* The paragraph will float to the left so the image will be right beside it */
       .intro-paragraph {
         float: left;
@@ -37,13 +94,10 @@
       /* The goal will float to the right so it will be beside the facts part */
       .goal {
         float: right;
-        margin-top: -15.5rem;
+        margin-top: -15.8rem;
+        margin-right:2.5rem;
       }
 
-      .RichN {
-        max-width: 340px;
-        margin-left: 27rem;
-      }
 
       .copyright {
         margin-top: -2rem;
@@ -54,12 +108,17 @@
         margin-right: 17rem;
         float: right;
       }
+   
     }
 
-    @media screen and (min-width:1100px) {
-      .mepic {
-        float: left;
+/* I had to add another media query to fix my name */
+    @media screen and (min-width: 600px){
+         .me{
+        margin-left:25rem;
       }
+    }
+    @media screen and (min-width:1100px) {
+
 
       .goal {
         margin-right: 10rem;
@@ -71,31 +130,29 @@
 
 <body>
   <!-- This is the header where there are different navs displayed in columns. -->
-  <header>
+  <header style="background-color: black;">
 
-
-    <div class="card-header">
+    <div>
       <nav>
         <div>
-          <a href="index.html"><img src="images/RichRealDealLogo.png" class="logo img-fluid" style="width:50%;"
-              alt="Logo"></a>
-          <button class=" navbar-toggler" style="width:40px; height:40px;">
-            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+          <a href="index.html"><img src="images/RichRealDealLogo.png" class="logo"alt="Logo"></a>
+          <button class="dropdownbutton" style="width:40px; height:40px; margin-left:9rem; background:none; border:none;">
+            <svg style="background-color:#FFED65;" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
               <path d="M24 6h-24v-4h24v4zm0 4h-24v4h24v-4zm0 8h-24v4h24v-4z" /></svg>
           </button>
 
-          <ul style=" list-style: none; text-align: center;">
+          <ul style="list-style: none; text-align: center; font-family: 'Fjalla One', sans-serif;">
             <li class="nav-item" style="margin-left:-1rem;">
-              <a class="nav-link" href="about.html">About</a>
+              <a style="color:#FFED65;" class="nav-link" href="about.html">About</a>
             </li>
             <li class="nav-item" style="margin-left:-1rem;">
-              <a class="nav-link" href="services.html">Services</a>
+              <a style="color:#FFED65;" class="nav-link" href="services.html">Services</a>
             </li>
             <li class="nav-item" style="margin-left:-1rem;">
-              <a class="nav-link" href="portfolio.html">Portfolio</a>
+              <a style="color:#FFED65;" class="nav-link" href="portfolio.html">Portfolio</a>
             </li>
             <li class="nav-item" style="margin-left:-1rem;">
-              <a class="nav-link" href="contact.html">Contact</a>
+              <a style="color:#FFED65;" class="nav-link" href="contact.html">Contact</a>
             </li>
           </ul>
 
@@ -105,11 +162,12 @@
 
     <!-- This is the main main banner with a background image and my name in the background. -->
     <div class="banner">
-      <h1 style="text-align: center;">About</h1>
+      <h1 style="text-align: center; margin-left:4rem; margin-right:4rem; color:#FFED65;">
+        About</h1>
     </div>
   </header>
   <section class="aboutme">
-    <p class="intro-paragraph" style="margin-left:4rem; max-width:300px;">Hello everyone who is visited my website. My
+    <p class="intro-paragraph" style="margin-left:3rem; max-width:300px;">Hello everyone who is visited my website. My
       name is Richard Nguyen, and this is The RichRealDeal Company.
       I am a current student that is attending college to go into Interactive Media Design. I am currently 18
       years
@@ -117,17 +175,17 @@
 
     <!-- This is a card that has a picture of me and my name -->
     <div class="me">
-      <img src="images/me.jpeg" style="max-width:340px; margin-left:4rem; max-width:340px;" class="mepic"
+      <img src="images/me.jpeg" style="width:380px; height:400px; margin-left:3rem;" class="mepic"
         alt="Richard Nguyen">
-      <h2 class="RichN" style="text-align: center;">Richard Nguyen</h2>
+      <h2 class="RichN">Richard Nguyen</h2>
 
     </div>
 
 
 
     <!-- Here is the 2 cards, one of them is facts about me and the other one is my goals -->
-    <div class="facts" style="width:340px; margin-left:3.8rem; margin-bottom:2rem; border: 1px solid;">
-      <h2 style="text-align: center; padding-bottom:0.8em;">Facts About Me</h2>
+    <div class="facts" style="width:378px; margin-left:3rem; margin-bottom:2rem; border: 1px solid;">
+      <h2 style="text-align: center; padding-bottom:0.8em; padding-top:0.8em; margin-top:-0.1rem;">Facts About Me</h2>
       <div class="paragraph" style="margin-left:1rem; margin-right:4rem;">
         <p>- Transitioning from top chemistry and math mark to become an IMD student. </p>
         <p>- No skills, not talent back in the day </p>
@@ -135,8 +193,8 @@
       </div>
     </div>
 
-    <div class="goal" style="width:340px; margin-left:3.8rem; margin-bottom:3rem; border: 1px solid;">
-      <h2 class="card-title" style="text-align: center;">My Goals</h2>
+    <div class="goal" style="width:378px; margin-left:3rem; margin-bottom:3rem; border: 1px solid;">
+      <h2 class="card-title" style="text-align: center; padding-bottom:0.8em; padding-top:0.8em; margin-top:0rem;">My Goals</h2>
       <div class="goal-p" style="margin-left:1rem;">
         <p class="card-text" style="margin-right:4rem;">- To become a freelancer </p>
         <p class="card-text" style="margin-right:4rem;">- Enjoy my moment in college, have fun and learn something new.
