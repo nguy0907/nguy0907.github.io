@@ -21,27 +21,30 @@
       font-family: 'Gochi Hand', cursive;
     }
 
-    h1{
-      font-size:30px;
+    h1 {
+      font-size: 30px;
     }
-p{
-  line-height: 32px;
-}
 
-/* CSS for the header */
-    .logo{
-      width:250px; 
-      margin-top:1rem;
-      margin-left:2rem;
+    p {
+      line-height: 32px;
     }
-.banner{
-  background-image: url(../webportfolio/images/lightcity.jpg);
-   object-fit: cover;
-    background-position: 55% 53%;
-    padding-top:4em;
-    padding-bottom:4em;
-    margin-bottom:3rem;
-}
+
+    /* CSS for the header */
+    .logo {
+      width: 250px;
+      margin-top: 1rem;
+      margin-left: 2rem;
+    }
+
+    .banner {
+      background-image: url(../webportfolio/images/lightcity.jpg);
+      object-fit: cover;
+      background-position: 55% 53%;
+      padding-top: 4em;
+      padding-bottom: 4em;
+      margin-bottom: 3rem;
+    }
+
     .subscribe {
       font-family: 'Fjalla One', sans-serif;
       background-color: black;
@@ -62,6 +65,7 @@ p{
       border-radius: 100px;
       width: 30px;
       height: 30px;
+      margin: auto;
       margin-left: 15rem;
       margin-bottom: 3rem;
     }
@@ -69,6 +73,7 @@ p{
     .darkcircle {
       background: black;
       margin-left: 5rem;
+
     }
 
     .whitecircle {
@@ -76,53 +81,86 @@ p{
     }
 
     @media screen and (min-width: 768px) {
-      h1{
+      h1 {
         font-size: 50px;
       }
-      .logo{
-        padding-bottom:0.5em;
+
+      .logo {
+        padding-bottom: 0.5em;
       }
-      .dropdownbutton{
+
+      .dropdownbutton {
         display: none;
       }
-      ul{
-       display: flex;
-       margin-top:1rem;
-       float:right;
-      }
-/* Mini slide section for tablet */
 
-.card{
-  margin-left:4rem;
-  width:82%;
-  
-}
-.card-text{
-  width: 440px;
-}
+      ul {
+        display: flex;
+        margin-top: 1rem;
+        float: right;
+      }
+
+      /* Mini slide section for tablet */
+
+      .card {
+        margin-left: 4rem;
+        width: 82%;
+
+      }
+
+      .card-text {
+        width: auto;
+        /* width: 440px; */
+      }
 
       .copyright {
         margin-top: -2rem;
-        float: left;
-        margin-left:-3rem;
+        margin-left: -4rem;
       }
 
       .mediaicon {
-        margin-right: 14rem;
+        margin-right: 4.5rem;
         float: right;
       }
-      .subscribe{
-        margin-left:14rem;
-      }
-    .darkcircle {
-margin-left:14rem;
-    }
-.welcome-p{
-  width:600px;
-}
-    }
-    @media screen and (min-width:1200px){
       
+
+      .subscribe {
+        margin-left: 14rem;
+      }
+
+      .darkcircle {
+        margin-left: 14rem;
+      }
+
+      .welcome-p {
+        width:73%;
+      }
+    }
+
+    @media screen and (min-width:1200px) {
+      ul li {
+        margin-right: 5rem;
+      }
+
+      a {
+        margin-left: 2rem;
+      }
+
+      .card {
+        margin-left: 4rem;
+        width: 89%;
+      }
+
+      .card-text {
+        margin: auto;
+        margin-bottom:3rem;
+
+      }
+    }
+
+  
+
+    .subscribe {
+      margin: auto;
     }
   </style>
 </head>
@@ -136,8 +174,10 @@ margin-left:14rem;
       <nav>
         <div>
           <a href="index.html"><img src="images/RichRealDealLogo.png" class="logo" alt="Logo"></a>
-          <button class="dropdownbutton" style="width:40px; height:40px; margin-left:9rem; background:none; border:none;">
-            <svg style="background-color:#FFED65;" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+          <button class="dropdownbutton"
+            style="width:40px; height:40px; margin-left:9rem; background:none; border:none;">
+            <svg style="background-color:#FFED65;" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+              viewBox="0 0 24 24">
               <path d="M24 6h-24v-4h24v4zm0 4h-24v4h24v-4zm0 8h-24v4h24v-4z" /></svg>
           </button>
 
@@ -172,7 +212,8 @@ margin-left:14rem;
     <img style="height:260px; opacity: 0.76; object-fit: cover;" src="images/keyboardglow.png" class="card-img"
       alt="keyboard">
     <div class="card-img-overlay">
-      <p class="card-text" style="font-family: 'Fjalla One', sans-serif; color:#FFED65; text-align: center; margin-left:4rem; margin-right:5rem;">
+      <p class="card-text"
+        style="font-family: 'Fjalla One', sans-serif; color:#FFED65; text-align: center; margin-left:4rem; margin-right:5rem;">
         If you do like my content and would like to see more of it, please consider subscribing to my website and turn
         on your
         notification for more updates. Thank you for dropping by!</p>
@@ -180,8 +221,10 @@ margin-left:14rem;
     </div>
   </div>
   <!-- These are the circles, I used them as button, because I can just use border radius and so on... -->
-  <button class="darkcircle"></button>
-  <button class="whitecircle"></button>
+  <div class="circles" style="margin: auto;">
+    <button class="darkcircle"></button>
+    <button class="whitecircle"></button>
+  </div>
   <p class="welcome-p" style="font-family: 'Fjalla One', sans-serif;  margin-left:4rem; margin-right:3rem;
   margin-bottom: 3rem;">Hello everyone, you have reached The RichRealDeal Company website. Thank you so much for
     visiting my website.
@@ -193,7 +236,7 @@ margin-left:14rem;
 
   <footer>
     <div class="mediaicon" style="margin-left:11rem; margin-bottom:0.5rem;">
-      
+
       <img src="images/iconmonstr-instagram-11-240.png" alt="instagram" style="margin-right:0.5rem; width: 30px;">
       <img src="images/iconmonstr-twitter-1-240.png" alt="Twitter" style="width: 30px;">
       <img src="images/iconmonstr-facebook-1-240.png" alt="facebook" style="width: 30px;">
