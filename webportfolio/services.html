@@ -88,6 +88,7 @@
           margin-top:-0.3rem;
         }
         .cardtext{
+          max-width: 829px;
           float: right;
           margin-right:3rem;
           padding-bottom:5.2em;
@@ -113,6 +114,29 @@
         margin-right: 19rem;
         float: right;
       }
+      }
+      @media screen and (min-width:1200px){
+        .cardtext{
+          max-width: 829px;
+          float: none;
+          margin-right:3rem;
+          padding-bottom:5.2em;
+        }
+
+        .services{
+          display: flex;
+          justify-content: space-evenly;
+        }
+
+        .coding{
+          /* float:left; */
+        }
+
+        .graphic{
+          /* width: auto;
+          margin: auto; */
+          /* float:right; */
+        }
       }
       </style>
 </head>
@@ -156,8 +180,10 @@
         Services</h1>
     </div>
   </header>
-      <div class="container" style="margin-bottom:2rem; margin-left:1.5rem; ">
-        <img style="width:100%; max-width: 352px; margin-left:2.3rem; height:250px; object-fit: cover;" src="images/coding.png" class="imgcard " alt="Richard Nguyen">   
+
+  <section class="services">
+      <div class="container coding" style="margin-bottom:2rem; margin-left:1.5rem;">
+        <img style="border: 1px solid; width: 350px; margin-left:2.3rem; height:250px; object-fit: cover;" src="images/coding.png" class="imgcard " alt="Richard Nguyen">   
          <div class="cardtext cardcode" style="border: 1px solid; margin-left:2.3rem; margin-top:-0.3rem; width: 350px;">
         <h2 class="card-title" style="text-align:center; padding-bottom:0.8em; padding-top:0.8em; margin-top:0rem;">Coding Work</h2>
        <p style="margin-left:2.5rem;  text-align:center; width:240px;">I code websites by using HTML and CSS. The website I create must be responsive on different platforms. There is a lot more to learn.</p>
@@ -165,7 +191,7 @@
 </div>
 
     <!-- Here is the 2 cards, one of them is facts about me and the other one is my goals -->
-    <div class="container" style="margin-bottom:2rem; margin-left:1.5rem; ">
+    <div class="container websitedesign" style="margin-bottom:2rem; margin-left:1.5rem; ">
         <img style="border: 1px solid; width:350px; margin-left:2.3rem;" src="images/websitedesign.png" class="imgcard" alt="Richard Nguyen">
         <div class="cardtext cardwebsite" style="border: 1px solid; margin-left:2.3rem; margin-top:-0.3rem; width: 350px;">
         <h2 class="card-title" style="text-align:center; padding-bottom:0.8em; padding-top:0.8em; margin-top:0rem;">Website Design</h2>
@@ -174,7 +200,7 @@
           </div> 
       </div>
       
-            <div class="container" style="margin-bottom:2rem; margin-left:1.5rem; " >
+            <div class="container graphic" style="margin-bottom:2rem; margin-left:1.5rem; " >
         <img style=" border: 1px solid; width:350px; margin-left:2.3rem;" src="images/graphicwork.png" class="imgcard" alt="Richard Nguyen">
         <div class="cardtext cardgraphic" style="border: 1px solid; margin-left:2.3rem; margin-top:-0.3rem; width: 350px;" >
         <h2 class="card-title" style="text-align:center; padding-bottom:0.8em; padding-top:0.8em; margin-top:0rem;" >Graphic Work</h2>
@@ -182,7 +208,7 @@
             Photoshop and Adobe Illustrator to create art pieces and all the cool stuff you love to see.</p>
             </div> 
     </div>
-  
+  </section>
 
 
     <!-- Optional JavaScript; choose one of the two! -->
