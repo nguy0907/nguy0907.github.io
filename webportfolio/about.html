@@ -20,121 +20,165 @@
     html {
       font-family: 'Fjalla One', sans-serif;
     }
-body{
-  margin: auto;  
-}
+
+    body {
+      margin: auto;
+    }
+
     h1,
     h2 {
       font-family: 'Gochi Hand', cursive;
       color: #FFED65;
     }
-    h1{
-      font-size:30px;
+
+    h1 {
+      font-size: 30px;
     }
-    h2{
+
+    h2 {
       background-color: black;
     }
-    p{
-       line-height: 32px;
-      font-size:17px;
-    }
-    .logo{
-      width:250px; 
-      margin-top:1rem;
-      margin-bottom:-1rem;
-      margin-left:2rem;
-    }
-    
-    ul li{
-      margin-top:1rem;
-    }
-a{
-  text-decoration: none;
-}
-.banner{
-  background-image: url(../webportfolio/images/lightcity.jpg);
-  object-fit: cover;
-    background-position: 55% 53%;
-    padding-top:4em;
-    padding-bottom:4em;
-    margin-bottom:3rem;
-}
 
-.RichN{
-  text-align: center;
-   max-width:200px; 
-   padding-bottom:0.8em; 
-   padding-top:0.8em;
-   padding-left:3.1em;
-   padding-right:3.15em;
-   margin-left:4rem;
-   margin-top:-0.3rem;
-   margin-bottom:2rem;
-}
+    p {
+      line-height: 32px;
+      font-size: 17px;
+    }
+
+    .logo {
+      width: 250px;
+      margin-top: 1rem;
+      margin-bottom: -1rem;
+      margin-left: 2rem;
+    }
+
+    ul li {
+      margin-top: 1rem;
+    }
+
+    a {
+      text-decoration: none;
+    }
+
+    .banner {
+      background-image: url(../webportfolio/images/lightcity.jpg);
+      object-fit: cover;
+      background-position: 55% 53%;
+      padding-top: 4em;
+      padding-bottom: 4em;
+      margin-bottom: 3rem;
+    }
+
+    .RichN {
+      text-align: center;
+      max-width: 200px;
+      padding-bottom: 0.8em;
+      padding-top: 0.8em;
+      padding-left: 3.1em;
+      padding-right: 3.15em;
+      margin-left: 4rem;
+      margin-top: -0.3rem;
+      margin-bottom: 2rem;
+    }
+
     /* This is the media query use for the tablet version of the about page */
     @media screen and (min-width: 768px) {
-      h1{
+      h1 {
         font-size: 50px;
       }
-      
-      .dropdownbutton{
+
+      .dropdownbutton {
         display: none;
       }
-      ul{
-       display: flex;
-       float: right;
-       margin-right:2rem;
-       margin-top:0.5rem;
+
+      ul {
+        display: flex;
+        float: right;
+        margin-right: 2rem;
+        margin-top: 0.5rem;
       }
-    a{
-        margin-left:2rem;
+
+      a {
+        margin-left: 2rem;
       }
+
       /* The paragraph will float to the left so the image will be right beside it */
       .intro-paragraph {
+        width:300px;
+        margin-bottom:-14rem;
         float: left;
       }
-      
-      .me{
-        margin-left:21rem;
+.mepic{
+  margin-right:3rem;
+}
+.me{
+  margin-left:23.5rem;
+}
+.facts{
+  margin-bottom:-21.6rem;
+}
+.goal{
+  margin-right:5rem;
+  float:right;
+
+}
+      .cards {
+        /* display: flex; */
       }
 
-      .RichN{
-        margin-left:5.75rem;
-        margin-bottom:5rem;
-      }
 
-      .facts{
-        margin-bottom:-21.6rem;
-      }
 
       /* The goal will float to the right so it will be beside the facts part */
-      .goal {
+      /* .goal {
         float: right;
         margin-right:2.5rem;
-      }
+      } */
+  
 
-
-      .copyright {
-        margin-top: -1rem;
-     
+      footer {
+        margin-top: 29rem;
       }
 
       .mediaicon {
-        margin-right: 17rem;
+        margin-right: 8rem;
         float: right;
       }
-   
+
     }
 
-/* I had to add another media query to fix my name */
+    /* I had to add another media query to fix my name */
 
     @media screen and (min-width:1200px) {
-.container{
+      ul li {
+        margin-right: 5rem;
+      }
+
+      a {
+        margin-left: 2rem;
+      }
+
+      .intro-paragraph {
+        float: none;
+      }
+
+      /* Card Section */
+.cards{
   display: flex;
+  margin-top:20rem;
+  margin-left:-24rem;
 }
 
+.mepic{
+  width:2022px;
+}
+.me{
+  width:380px;
+}
+.facts{
+  height:260px;
+}
       .goal {
-        margin-right: 10rem;
+        margin-right: 4rem;
+        
       }
 
     }
@@ -149,8 +193,10 @@ a{
       <nav>
         <div>
           <a href="index.html"><img src="images/RichRealDealLogo.png" class="logo" alt="Logo"></a>
-          <button class="dropdownbutton" style="width:40px; height:40px; margin-left:9rem; background:none; border:none;">
-            <svg style="background-color:#FFED65;" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+          <button class="dropdownbutton"
+            style="width:40px; height:40px; margin-left:9rem; background:none; border:none;">
+            <svg style="background-color:#FFED65;" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+              viewBox="0 0 24 24">
               <path d="M24 6h-24v-4h24v4zm0 4h-24v4h24v-4zm0 8h-24v4h24v-4z" /></svg>
           </button>
 
@@ -179,35 +225,38 @@ a{
         About</h1>
     </div>
   </header>
-  <section class="aboutme">
-    <p class="intro-paragraph" style="margin-left:4rem; max-width:300px;">Hello everyone who is visited my website. My
-      name is Richard Nguyen, and this is The RichRealDeal Company.
-      I am a current student that is attending college to go into Interactive Media Design. I am currently 18
-      years
-      old who is in the second semester of the first year of this program. </p>
 
-    <!-- This is a card that has a picture of me and my name -->
-    <div class="me">
-      <img src="images/me.jpeg" style="width:350px; height:400px; margin-left:4rem;" class="mepic"
-        alt="Richard Nguyen">
-      <h2 class="RichN">Richard Nguyen</h2>
+  <p class="intro-paragraph" style="margin-left:4rem; margin-right:5rem;">Hello everyone who is visited my website. My
+    name is Richard Nguyen, and this is The RichRealDeal Company.
+    I am a current student that is attending college to go into Interactive Media Design. I am currently 18
+    years
+    old who is in the second semester of the first year of this program. </p>
 
-    </div>
-
+  <!-- This is a card that has a picture of me and my name -->
+<section class="cards">
+  <div class="me">
+    <img src="images/me.jpeg" style="width:350px; height:400px; margin-left:4rem;" class="mepic" alt="Richard Nguyen">
+    <h2 class="RichN">Richard Nguyen</h2>
+  </div>
 
 
-    <!-- Here is the 2 cards, one of them is facts about me and the other one is my goals -->
-    <div class="facts" style="width:350px; margin-left:4rem; margin-top:3rem; border: 1px solid; padding-bottom:2rem;">
+
+  <!-- Here is the 2 cards, one of them is facts about me and the other one is my goals -->
+  
+    <div class="facts"
+      style="max-width:400px; width:350px; margin-left:4rem; margin-top:3rem; border: 1px solid; padding-bottom:2rem;">
       <h2 style="text-align: center; padding-bottom:0.8em; padding-top:0.8em; margin-top:-0.1rem;">Facts About Me</h2>
-      <div class="paragraph" style="margin-left:1rem; margin-right:4rem;">
+      <div class="facts-p" style="margin-left:1rem; margin-right:4rem;">
         <p>- Transitioning from top chemistry and math mark to become an IMD student. </p>
         <p>- No skills, not talent back in the day </p>
         <p>- I am a hockey nerd </p>
       </div>
     </div>
 
-    <div class="goal" style="width:350px; margin-left:4rem; margin-top:3rem; margin-bottom:3rem; border: 1px solid;">
-      <h2 class="card-title" style="text-align: center; padding-bottom:0.8em; padding-top:0.8em; margin-top:-0.1rem;">My Goals</h2>
+    <div class="goal"
+      style="max-width:400px; width:350px; margin-left:4rem; margin-top:3rem; margin-bottom:3rem; border: 1px solid;">
+      <h2 class="card-title" style="text-align: center; padding-bottom:0.8em; padding-top:0.8em; margin-top:-0.1rem;">My
+        Goals</h2>
       <div class="goal-p" style="margin-left:1rem;">
         <p class="card-text" style="margin-right:4rem;">- To become a freelancer </p>
         <p class="card-text" style="margin-right:4rem;">- Enjoy my moment in college, have fun and learn something new.
@@ -223,11 +272,12 @@ a{
   <!-- The copyright footer so no one will steal my website -->
   <footer>
     <div class="mediaicon" style="margin-left:11rem; margin-bottom:0.5rem;">
-    <img src="images/iconmonstr-instagram-11-240.png" alt="instagram" style="margin-right:0.5rem; width: 30px;">
-  <img src="images/iconmonstr-twitter-1-240.png" alt="Twitter" style="width: 30px;">
-  <img src="images/iconmonstr-facebook-1-240.png" alt="facebook" style="width: 30px;">
-  </div>
-    <div class="copyright" style="font-family: 'Fjalla One', sans-serif; margin-left:6em; margin-bottom:1rem;">@Copyright RichRealDeal Website 2021</div>
+      <img src="images/iconmonstr-instagram-11-240.png" alt="instagram" style="margin-right:0.5rem; width: 30px;">
+      <img src="images/iconmonstr-twitter-1-240.png" alt="Twitter" style="width: 30px;">
+      <img src="images/iconmonstr-facebook-1-240.png" alt="facebook" style="width: 30px;">
+    </div>
+    <div class="copyright" style="font-family: 'Fjalla One', sans-serif; margin-left:6em; margin-bottom:1rem;">
+      @Copyright RichRealDeal Website 2021</div>
   </footer>
 
 </body>

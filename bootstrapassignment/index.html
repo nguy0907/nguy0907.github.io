@@ -1,7 +1,7 @@
 <!-- Welcome to my Bootstrap Assigment -->
 
 <!-- Bootstrap is a program where it gives you a bunch of components, sets, responsive items, and
-much more. It doesn't not require that much work. It is just a starting poing.  -->
+much more. It doesn't not require that much work. It is just a starting point.  -->
 <!doctype html>
 <html lang="en">
   <head>
@@ -21,8 +21,8 @@ much more. It doesn't not require that much work. It is just a starting poing.  
       <h1 class="display-1 text-center">RichRealDeal's trading Card</h1>
 
     <!-- This is the Nav bar using bootstrap -->
-    <nav class="navbar bg-dark navbar-dark navbar-expand-md">
-      <ul class="navbar-nav">
+    <nav class="navbar bg-dark navbar-dark navbar-expand-md text-center">
+      <ul class="navbar-nav mx-auto">
         <li class="nav-item"><a class=" nav-link" href="#">Home</a></li>
         <li class="nav-item"><a class=" nav-link" href="#">Shop</a></li>
         <li class="nav-item"><a class=" nav-link" href="#">Trade</a></li>
@@ -39,7 +39,7 @@ much more. It doesn't not require that much work. It is just a starting poing.  
       One of them contains a badge, because it is a new card. Everything will look squished at first, then it will become bigger 
     and more space. -->
 
-    <!-- If you see a <p></p> with nothing in it, it;s because I added space between the heading 5 and the images -->
+    <!-- If you see a <p></p> with nothing in it, it's because I added space between the heading 5 and the images -->
            <div class="card text-center">   
         <div class="container d-grid gap-3">
           <div class="row gap-1">
@@ -86,7 +86,8 @@ much more. It doesn't not require that much work. It is just a starting poing.  
               </div>
             </div>
           </div>
-          <div class="row gap-1">
+          <!-- Mb is basically margin botttom using bootstrap. In this case the second row has a margin of 3 bottom -->
+          <div class="row gap-1 mb-3">
             <div class="col">
               <div class="card" >
                 <div class="card-body">
@@ -133,7 +134,7 @@ much more. It doesn't not require that much work. It is just a starting poing.  
      </div>
     </div>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script> -->
 
     <!-- This is the alert section. Since it is green, that means something good. In this case, I released a new
 pack that is in stock right now. You will see it will be displayed on the second row.-->
@@ -221,7 +222,7 @@ pack that is in stock right now. You will see it will be displayed on the second
       exclusive and for limited time. Unlike other cards, this one uses flex. It is always important to have
     badges because it means there is an important point or label.-->
 
-      <div class="card mb-3">
+      <div class="card">
         <div class="row">
           <div class="col-md-1">
             <img src="https://picsum.photos/200" alt="placeholder">
