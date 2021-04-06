@@ -42,16 +42,16 @@ much more. It doesn't not require that much work. It is just a starting point.  
     <!-- If you see a <p></p> with nothing in it, it's because I added space between the heading 5 and the images -->
            <div class="card text-center">   
         <div class="container d-grid gap-3">
-          <div class="row gap-1">
+          <div class="row gap-1 mb-1">
             <div class="col">
               <div class="card" >
                 <div class="card-body">
                   <img class="img-fluid" src="https://picsum.photos/200" alt="placeholder">
                   <p></p>
                   <h5 class="card-title">Connor McDavid 99 Overall</h5>
-                  <p class="card-text">Speed:99 </p>
-                  <p class="card-text">Agility:97 </p>
-                  <p class="card-text">Strength:92 </p>
+                  <p class="card-text text-success">Speed:99 </p>
+                  <p class="card-text text-warning">Agility:97 </p>
+                  <p class="card-text text-danger">Strength:92 </p>
                   <p class="card-text">Accuracy:99 </p>
                   <a href="#" class="btn btn-dark">Buy Now</a>
                 </div>
@@ -63,9 +63,9 @@ much more. It doesn't not require that much work. It is just a starting point.  
                   <img class="img-fluid" src="https://picsum.photos/200" alt="placeholder">
                   <p></p>
                   <h5 class="card-title">Henrik Lundqvist 94 Overall</h5>
-                  <p class="card-text">GA: 2.35 </p>
-                  <p class="card-text">Save:0.954% </p>
-                  <p class="card-text">Strength:92 </p>
+                  <p class="card-text text-success">GA: 2.35 </p>
+                  <p class="card-text text-warning">Save:0.954% </p>
+                  <p class="card-text text-danger">Strength:92 </p>
                   <p class="card-text">Accuracy:91 </p>
                   <a href="#" class="btn btn-dark">Buy Now</a>
                 </div>
@@ -77,9 +77,9 @@ much more. It doesn't not require that much work. It is just a starting point.  
                   <img class="img-fluid" src="https://picsum.photos/200" alt="placeholder">
                   <p></p>
                   <h5 class="card-title">Eric Lindros 95 Overall</h5>
-                  <p class="card-text">Speed:97 </p>
-                  <p class="card-text">Agility:97 </p>
-                  <p class="card-text">Strength:89 </p>
+                  <p class="card-text text-success">Speed:97 </p>
+                  <p class="card-text text-warning ">Agility:97 </p>
+                  <p class="card-text text-danger">Strength:89 </p>
                   <p class="card-text">Accuracy:92 </p>
                   <a href="#" class="btn btn-dark">Buy Now</a>
                 </div>
@@ -94,9 +94,9 @@ much more. It doesn't not require that much work. It is just a starting point.  
                   <img class="img-fluid" src="https://picsum.photos/200" alt="placeholder">
                   <p></p>
                   <h5>Dominik Hasek 97 Overall</h5>
-                  <p class="card-text">GA: 2.15 </p>
-                  <p class="card-text">Save:0.97% </p>
-                  <p class="card-text">Strength:95 </p>
+                  <p class="card-text text-success">GA: 2.15 </p>
+                  <p class="card-text text-warning">Save:0.97% </p>
+                  <p class="card-text text-danger">Strength:95 </p>
                   <p class="card-text">Accuracy:96 </p>
                   <a href="#" class="btn btn-dark">Buy Now</a>
                 </div>
@@ -107,10 +107,10 @@ much more. It doesn't not require that much work. It is just a starting point.  
                 <div class="card-body">
                   <img class="img-fluid" src="https://picsum.photos/200" alt="placeholder">
                   <p></p>
-                  <h5 class="card-title">Sami Salo 82 Overall <span class="badge bg-success">New</span></h5>
-                  <p class="card-text">Speed:83 </p>
-                  <p class="card-text">Agility:81 </p>
-                  <p class="card-text">Strength:78 </p>
+                  <h5 class="card-title">Sami Salo 82 Overall <span class="badge bg-success md-ml-3">New</span></h5>
+                  <p class="card-text text-success">Speed:83 </p>
+                  <p class="card-text text-warning">Agility:81 </p>
+                  <p class="card-text text-danger">Strength:78 </p>
                   <p class="card-text">Accuracy:80 </p>
                   <a href="#" class="btn btn-dark">Buy Now</a>
                 </div>
@@ -122,9 +122,9 @@ much more. It doesn't not require that much work. It is just a starting point.  
                   <img class="img-fluid" src="https://picsum.photos/200" alt="placeholder">
                   <p></p>
                   <h5 class="card-title">Mats Sundin 93 Overall</h5>
-                  <p class="card-text">Speed:93 </p>
-                  <p class="card-text">Agility:92 </p>
-                  <p class="card-text">Strength:90 </p>
+                  <p class="card-text text-success">Speed:93 </p>
+                  <p class="card-text text-warning">Agility:92 </p>
+                  <p class="card-text text-danger">Strength:90 </p>
                   <p class="card-text">Accuracy:94 </p>
                   <a href="#" class="btn btn-dark">Buy Now</a>
                 </div>
@@ -137,16 +137,17 @@ much more. It doesn't not require that much work. It is just a starting point.  
     <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script> -->
 
     <!-- This is the alert section. Since it is green, that means something good. In this case, I released a new
-pack that is in stock right now. You will see it will be displayed on the second row.-->
+pack that is in stock right now. You will see it will be displayed on the second row. I used different colours for different categories. Speed has one colour,
+agility has another colour, strength has another colour...-->
     <div class="alert alert-success" role="alert">
-    <p>The new Russian 5 pack is out now! Please take a look at the shop for more amazing deals! <button type="button" class="btn btn-light">Buy Now</button></p> 
-    </div>
+    <p>The new Russian 5 pack is out now! Please take a look at the shop for more amazing deals! <button type="button" class="btn btn-success mx-auto">Buy Now</button>  </p> 
+  </div>
 
 <!-- In this section, none of the cards are squished together. They will start as one column, but will become
 2 rows and 3 columns as you make the page bigger using grid. I used gap to add some space. -->
     <div class="container d-grid gap-3 text-center">
       <div class="row">
-        <div class="col-md-4">
+        <div class="col-md-4 mb-3">
           <div class="card" >
             <div class="card-body">
               <h5 class="card-title">Bronze Pack</h5>
@@ -157,7 +158,7 @@ pack that is in stock right now. You will see it will be displayed on the second
             </div>
           </div>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-4 mb-3">
           <div class="card">
             <div class="card-body">
               <h5 class="card-title">Silver Pack</h5>
@@ -168,7 +169,7 @@ pack that is in stock right now. You will see it will be displayed on the second
             </div>
           </div>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-4 mb-3">
           <div class="card" >
             <div class="card-body">
               <h5 class="card-title">Gold Pack</h5>
@@ -182,7 +183,7 @@ pack that is in stock right now. You will see it will be displayed on the second
       </div>
 
       <div class="row">
-        <div class="col-md-4">
+        <div class="col-md-4 mb-3">
           <div class="card" >
             <div class="card-body">
               <h5 class="card-title">Big Booster Pack</h5>
@@ -193,18 +194,18 @@ pack that is in stock right now. You will see it will be displayed on the second
             </div>
           </div>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-4 mb-3">
           <div class="card" >
             <div class="card-body">
               <h5 class="card-title">Mega booster Card</h5>
-              <p class="card-text">4 platnum card</p>
+              <p class="card-text">4 platinum card</p>
               <p class="card-text">2 autograph card </p>
               <p class="card-text">2 rookie card </p>
               <a href="#" class="btn btn-dark">Buy Now</a>
             </div>
           </div>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-4 mb-3">
           <div class="card" >
             <div class="card-body">
               <h5 class="card-title">Elite Pack</h5>
@@ -231,7 +232,7 @@ pack that is in stock right now. You will see it will be displayed on the second
             <div class="card-body">
                <h5 class="card-title">Legendary Pack <span class="badge bg-warning text-dark">Exclusive</span></h5>
               <p>This is the biggest pack that is trending right now. Only for limited time.</p>
-              <p class="card-text"> 4 Autograph Cards, 4 Platinum Cards, 2 Diamond Cards, 2 Legendary Cards, 7000 coins </p>
+              <p class="card-text"> 6 Autograph Cards, 4 Platinum Cards, 5 Diamond Cards, 2 Legendary Cards, 7000 coins </p>
               <a href="#" class="btn btn-dark">Buy Now</a>
             </div>
           </div>
@@ -242,19 +243,19 @@ pack that is in stock right now. You will see it will be displayed on the second
       Grids were used. On mobile it will be column, from medium and above, it will be in 3 columns 1 row. -->
       <h2 class="display-2 text-center">News</h2>
       <div class="row">
-        <div class="col-md-4">
+        <div class="col-md-4 mb-3">
           <h2>Rookie Packs on sale</h2>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id accusantium, quam, nihil neque repellendus exercitationem, eveniet nobis maxime facilis eaque optio a. Recusandae doloremque ullam odio saepe magnam esse odit?</p>
           <button type="button" class="btn btn-outline-secondary">Read More</button>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-4 mb-3">
           <h2>Basketball Cards Released</h2>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas officiis quod dignissimos harum rem aut nesciunt. Nostrum magnam quos doloremque, dignissimos temporibus reiciendis quam et neque, placeat aut suscipit facilis.</p>
           <button type="button" class="btn btn-outline-secondary">Read More</button>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-4 mb-3">
           <h2>Retro Reverse Cards</h2>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam maxime voluptas magni et dicta nobis a debitis consequuntur dolore ut dolores cupiditate provident, optio sequi ratione ab sed vero libero?</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id accusantium, quam, nihil neque repellendus exercitationem, eveniet nobis maxime facilis eaque optio a. Recusandae doloremque ullam odio saepe magnam esse odit?</p>
           <button type="button" class="btn btn-outline-secondary">Read More</button>
         </div>
       </div>
