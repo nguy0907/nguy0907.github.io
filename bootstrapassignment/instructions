@@ -9,6 +9,8 @@ use the bootstrap version of media queries by using sm, md, lg, xl, and xxl.
 3)Responsive images: In bootstrap, in order to make images responsive, all you need is to use "img-fluid"
 which makes the max-width:100%; and the height auto.
 
+
+
 Here are some of the components that were used on the website:
 
 Cards: Cards can expand or shrink, but still makes the website responsive. You can also use Bootstrap
@@ -25,4 +27,7 @@ Custom Nav Bar: The nav bar that is used in this assignment is very simple and e
 start displaying as a column on mobile screen, to make it appear in a bigger screen, you will have to use navbar-expand-md
 to make it bigger when the screen size is medium in this example.
 
-
+pagination: It provides a lot of links that will take you from one page to another. It is not a navbar because 
+it will bring you to a different page full of specific items. Nav bar is used to bring you to pages like about, 
+contact... Pagination will bring you to a more specific pages or pages with a lot of items. That is why when 
+you have an online store, it is always good to more pagination because you might have hundreds of items.
