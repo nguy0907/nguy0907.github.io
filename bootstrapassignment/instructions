@@ -1,6 +1,8 @@
 Bootstrap is a program where it provides you tools, components, and much more to get started. It can make
 your workflow very fast. It features responsive and mobile first pages.
 
+Here are some important instructions when using bootstrap:
+
 1) Download the starter template before you can start adding the content.
 
 2) Start creating the website by starting with mobile first. As you make the screen larger, you can
@@ -9,7 +11,10 @@ use the bootstrap version of media queries by using sm, md, lg, xl, and xxl.
 3)Responsive images: In bootstrap, in order to make images responsive, all you need is to use "img-fluid"
 which makes the max-width:100%; and the height auto.
 
-
+4) Using bootstrap grid is very poweful, because you have control of making responsive states. You can control
+when you want your content to be displayed in rows or column. It has a containers, rows and colums. There are 12
+columns in bootstrap grid. You can control how many space an item wants to take. But it should add to 12 columns or 
+less. 
 
 Here are some of the components that were used on the website:
 
@@ -23,11 +28,14 @@ Buttons: In bootstrap, you do not need to use the button tags, because it will g
 
 Badges: Badges are basically labels.  
 
+Alert: It gives users reaction by displaying important messages with a background color to indicate good, warning,
+or danger news.
+
 Custom Nav Bar: The nav bar that is used in this assignment is very simple and easy to make. The nav bar will 
 start displaying as a column on mobile screen, to make it appear in a bigger screen, you will have to use navbar-expand-md
 to make it bigger when the screen size is medium in this example.
 
-pagination: It provides a lot of links that will take you from one page to another. It is not a navbar because 
+Pagination: It provides a lot of links that will take you from one page to another. It is not a navbar because 
 it will bring you to a different page full of specific items. Nav bar is used to bring you to pages like about, 
 contact... Pagination will bring you to a more specific pages or pages with a lot of items. That is why when 
 you have an online store, it is always good to more pagination because you might have hundreds of items.
