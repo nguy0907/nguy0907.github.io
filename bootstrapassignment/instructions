@@ -11,8 +11,8 @@ use the bootstrap version of media queries by using sm, md, lg, xl, and xxl.
 3)Responsive images: In bootstrap, in order to make images responsive, all you need is to use "img-fluid"
 which makes the max-width:100%; and the height auto.
 
-4) Using bootstrap grid is very poweful, because you have control of making responsive states. You can control
-when you want your content to be displayed in rows or column. It has a containers, rows and colums. There are 12
+4) Using bootstrap grid is very powerful, because you have control of making responsive states. You can control
+when you want your content to be displayed in rows or column. It has a containers, rows and columns. There are 12
 columns in bootstrap grid. You can control how many space an item wants to take. But it should add to 12 columns or 
 less. 
 
