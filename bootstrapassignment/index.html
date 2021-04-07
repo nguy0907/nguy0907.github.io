@@ -132,8 +132,19 @@ cards. It has other componens, but cards are the key. -->
         </div>
       </div>
     </div>
+    <!-- This is the pagination section. It provides a lot of links that will take you from one page to another.
+    It is not a navbar because it will bring you to a different page full of specific items. For example, the nav
+  bar will often have about page, contact page, services page...But pagination is good if you have too many items
+on one page and you need more pages. In this case, there is 3 pages, and you can click previous to go back to the
+page before -->
+    <ul class="pagination justify-content-center">
+      <li class="page-item"><a class="page-link text-secondary" href="#">Previous</a></li>
+      <li class="page-item"><a class="page-link text-secondary" href="#">1</a></li>
+      <li class="page-item"><a class="page-link text-secondary" href="#">2</a></li>
+      <li class="page-item"><a class="page-link text-secondary" href="#">3</a></li>
+      <li class="page-item"><a class="page-link text-secondary" href="#">Next</a></li>
+    </ul>
  
-  <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script> -->
 
   <!-- This is the alert section. Since it is green, that means something good. In this case, I released a new
 pack that is in stock right now. You will see it will be displayed on the second row. I used different colours for different categories. Speed has one colour,
@@ -143,9 +154,10 @@ agility has another colour, strength has another colour...-->
         class="btn btn-success mx-auto d-block mt-2">Buy Now</button> </p>
   </div>
 
-  <!-- In this section, none of the cards are squished together. They will start as one column, but will become
-2 rows and 3 columns as you make the page bigger using grid. I used gap to add some space. -->
+
   <div class="container d-grid gap-3 text-center">
+    <!-- In this section, none of the cards are squished together. They will start as one column, but will become
+2 rows and 3 columns as you make the page bigger using grid. I used gap to add some space. -->
     <div class="row">
       <div class="col-md-4 mb-3">
         <div class="card">
@@ -267,6 +279,25 @@ agility has another colour, strength has another colour...-->
         <button type="button" class="btn btn-outline-secondary">Read More</button>
       </div>
     </div>
+<hr>
+<!-- This is the contact section. I did not do anything new here. I got the image floating as the screen gets larger
+and the content will float beside the image. -->
+    <h2 class="display-2 text-center mb-4">Contact</h2>
+      <div class="row">
+        <div class="col-md-3">     
+          <img src="https://picsum.photos/200" alt="placeholder">
+        </div>
+        <div class="col-lg-8">
+          <div class="card-body">
+            <h5 class="card-title">Rich Elite</h5>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas repellendus, ad est officia 
+              nulla officiis! Iure voluptates eligendi ad eum explicabo mollitia asperiores possimus laudantium 
+              enim deleniti dolorum, autem illum.</p>
+
+            <a href="#" class="btn btn-outline-secondary">Contact Now</a>
+          </div>
+        </div>
+      </div>
   </div>
   <!--This is the footer which still uses card-->
 <footer>
