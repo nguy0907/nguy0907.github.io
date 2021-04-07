@@ -26,7 +26,7 @@ Buttons: In bootstrap, you do not need to use the button tags, because it will g
   <a href="#" class="btn btn-warning">Buy Now</a> for example. It is an anchor tag, with a class of
   btn btn-warning.
 
-Badges: Badges are basically labels.  
+Badges: Badges are basically labels. For example, it is good to let users know if the item is new, or it is exclusive.
 
 Alert: It gives users reaction by displaying important messages with a background color to indicate good, warning,
 or danger news.
