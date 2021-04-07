@@ -1,0 +1,28 @@
+Bootstrap is a program where it provides you tools, components, and much more to get started. It can make
+your workflow very fast. It features responsive and mobile first pages.
+
+1) Download the starter template before you can start adding the content.
+
+2) Start creating the website by starting with mobile first. As you make the screen larger, you can
+use the bootstrap version of media queries by using sm, md, lg, xl, and xxl.
+
+3)Responsive images: In bootstrap, in order to make images responsive, all you need is to use "img-fluid"
+which makes the max-width:100%; and the height auto.
+
+Here are some of the components that were used on the website:
+
+Cards: Cards can expand or shrink, but still makes the website responsive. You can also use Bootstrap
+grid to get the cards to be placed in different position or you can make them take up to 12 space by 
+using columns and rows. Inside the cards, you can have things like title, images, text, buttons, and more.
+
+Buttons: In bootstrap, you do not need to use the button tags, because it will give you 
+  <a href="#" class="btn btn-warning">Buy Now</a> for example. It is an anchor tag, with a class of
+  btn btn-warning.
+
+Badges: Badges are basically labels.  
+
+Custom Nav Bar: The nav bar that is used in this assignment is very simple and easy to make. The nav bar will 
+start displaying as a column on mobile screen, to make it appear in a bigger screen, you will have to use navbar-expand-md
+to make it bigger when the screen size is medium in this example.
+
+
