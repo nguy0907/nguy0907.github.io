@@ -2,265 +2,278 @@
 
 <!-- Bootstrap is a program where it gives you a bunch of components, sets, responsive items, and
 much more. It doesn't not require that much work. It is just a starting point.  -->
+
+<!-- Images are taken from https://picsum.photos/ -->
 <!doctype html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Bootstrap Assignment</title>
-  </head>
-  <body>
-      <!-- This is the header of the bootstrap assignment -->
-      
-     <header>     
-      <h1 class="display-1 text-center">RichRealDeal's trading Card</h1>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
 
-    <!-- This is the Nav bar using bootstrap -->
+  <title>Bootstrap Assignment</title>
+</head>
+
+<body>
+  <!-- This is the header of the bootstrap assignment -->
+
+  <header>
+    <h1 class="display-1 text-center">Buy Sell Trade Center</h1>
+
+    <!-- This is the Nav bar using bootstrap. It is very basic. On the mobile screen, the navs are displayed in a column, as it go to tablet screen,
+    the nav will be display in a row. The expand part in navbar-expand-md just mean making it display in row. It is like using flex. -->
     <nav class="navbar bg-dark navbar-dark navbar-expand-md text-center">
+      <!-- mx-auto is used to center the width. -->
       <ul class="navbar-nav mx-auto">
         <li class="nav-item"><a class=" nav-link" href="#">Home</a></li>
         <li class="nav-item"><a class=" nav-link" href="#">Shop</a></li>
         <li class="nav-item"><a class=" nav-link" href="#">Trade</a></li>
       </ul>
     </nav>
+  </header>
+    <h2 class="card-body text-center">Purchase some cards and collect them all!</h2>
+ 
 
-      </header>
-        <!-- This section is more like a call to action banner, because there is a message and a button below -->
-        <section class="card-body text-center">
-          <h2>Purchase some cards and collect them all!</h2>
-        </section> 
-        
-        <!-- Here is the card section where 3 cards will first display in one row,the last 3 grids in the second row. It is just a simple card with text, button.
+  <!-- Here is the card section where 3 cards will first display in one row,the last 3 grids in the second row. It is just a simple card with text, button.
       One of them contains a badge, because it is a new card. Everything will look squished at first, then it will become bigger 
     and more space. -->
-
-    <!-- If you see a <p></p> with nothing in it, it's because I added space between the heading 5 and the images -->
-           <div class="card text-center">   
-        <div class="container d-grid gap-3">
-          <div class="row gap-1 mb-1">
-            <div class="col">
-              <div class="card" >
-                <div class="card-body">
-                  <img class="img-fluid" src="https://picsum.photos/200" alt="placeholder">
-                  <p></p>
-                  <h5 class="card-title">Connor McDavid 99 Overall</h5>
-                  <p class="card-text text-success">Speed:99 </p>
-                  <p class="card-text text-warning">Agility:97 </p>
-                  <p class="card-text text-danger">Strength:92 </p>
-                  <p class="card-text">Accuracy:99 </p>
-                  <a href="#" class="btn btn-dark">Buy Now</a>
-                </div>
-              </div>
-            </div>
-            <div class="col">
-              <div class="card">
-                <div class="card-body">
-                  <img class="img-fluid" src="https://picsum.photos/200" alt="placeholder">
-                  <p></p>
-                  <h5 class="card-title">Henrik Lundqvist 94 Overall</h5>
-                  <p class="card-text text-success">GA: 2.35 </p>
-                  <p class="card-text text-warning">Save:0.954% </p>
-                  <p class="card-text text-danger">Strength:92 </p>
-                  <p class="card-text">Accuracy:91 </p>
-                  <a href="#" class="btn btn-dark">Buy Now</a>
-                </div>
-              </div>
-            </div>
-            <div class="col">
-              <div class="card">
-                <div class="card-body">
-                  <img class="img-fluid" src="https://picsum.photos/200" alt="placeholder">
-                  <p></p>
-                  <h5 class="card-title">Eric Lindros 95 Overall</h5>
-                  <p class="card-text text-success">Speed:97 </p>
-                  <p class="card-text text-warning ">Agility:97 </p>
-                  <p class="card-text text-danger">Strength:89 </p>
-                  <p class="card-text">Accuracy:92 </p>
-                  <a href="#" class="btn btn-dark">Buy Now</a>
-                </div>
-              </div>
+    <!-- The gap-3 means the space between items. It is responsive when you use it right away, better to use it than margin. -->
+    <div class="container d-grid gap-3">
+      <div class="row gap-1">
+        <div class="col">
+          <div class="card text-center">
+            <div class="card-body">
+              <!-- img-fluid means that it will make images responsive by default -->
+              <!-- Mb is basically margin botttom using bootstrap. It is also used to add space or push to whatever direction it is 
+                          set to -->
+              <img class="img-fluid mb-2 mx-auto d-block" src="https://picsum.photos/200" alt="placeholder">
+              <h5 class="card-title">Connor McDavid 99 Overall</h5>
+              <p class="card-text text-success">Speed:99 </p>
+              <p class="card-text text-warning">Agility:97 </p>
+              <p class="card-text text-danger">Strength:92 </p>
+              <p class="card-text">Accuracy:99 </p>
+              <a href="#" class="btn btn-dark">Buy Now</a>
             </div>
           </div>
-          <!-- Mb is basically margin botttom using bootstrap. In this case the second row has a margin of 3 bottom -->
-          <div class="row gap-1 mb-3">
-            <div class="col">
-              <div class="card" >
-                <div class="card-body">
-                  <img class="img-fluid" src="https://picsum.photos/200" alt="placeholder">
-                  <p></p>
-                  <h5>Dominik Hasek 97 Overall</h5>
-                  <p class="card-text text-success">GA: 2.15 </p>
-                  <p class="card-text text-warning">Save:0.97% </p>
-                  <p class="card-text text-danger">Strength:95 </p>
-                  <p class="card-text">Accuracy:96 </p>
-                  <a href="#" class="btn btn-dark">Buy Now</a>
-                </div>
-              </div>
-            </div>
-            <div class="col">
-              <div class="card" >
-                <div class="card-body">
-                  <img class="img-fluid" src="https://picsum.photos/200" alt="placeholder">
-                  <p></p>
-                  <h5 class="card-title">Sami Salo 82 Overall <span class="badge bg-success md-ml-3">New</span></h5>
-                  <p class="card-text text-success">Speed:83 </p>
-                  <p class="card-text text-warning">Agility:81 </p>
-                  <p class="card-text text-danger">Strength:78 </p>
-                  <p class="card-text">Accuracy:80 </p>
-                  <a href="#" class="btn btn-dark">Buy Now</a>
-                </div>
-              </div>
-            </div>
-            <div class="col">
-              <div class="card" >
-                <div class="card-body">
-                  <img class="img-fluid" src="https://picsum.photos/200" alt="placeholder">
-                  <p></p>
-                  <h5 class="card-title">Mats Sundin 93 Overall</h5>
-                  <p class="card-text text-success">Speed:93 </p>
-                  <p class="card-text text-warning">Agility:92 </p>
-                  <p class="card-text text-danger">Strength:90 </p>
-                  <p class="card-text">Accuracy:94 </p>
-                  <a href="#" class="btn btn-dark">Buy Now</a>
-                </div>
-              </div>
+        </div>
+        <div class="col">
+          <div class="card text-center">
+            <div class="card-body">
+              <img class="img-fluid mb-2 mx-auto d-block" src="https://picsum.photos/200" alt="placeholder">
+              <h5 class="card-title">Henrik Lundqvist 94 Overall</h5>
+              <p class="card-text text-success">GA: 2.35 </p>
+              <p class="card-text text-warning">Save:0.954% </p>
+              <p class="card-text text-danger">Strength:92 </p>
+              <p class="card-text">Accuracy:91 </p>
+              <a href="#" class="btn btn-dark">Buy Now</a>
             </div>
           </div>
-     </div>
+        </div>
+        <div class="col">
+          <div class="card text-center">
+            <div class="card-body">
+              <img class="img-fluid mb-2 mx-auto d-block" src="https://picsum.photos/200" alt="placeholder">
+              <h5 class="card-title">Eric Lindros 95 Overall</h5>
+              <p class="card-text text-success">Speed:97 </p>
+              <p class="card-text text-warning ">Agility:97 </p>
+              <p class="card-text text-danger">Strength:89 </p>
+              <p class="card-text">Accuracy:92 </p>
+              <a href="#" class="btn btn-dark">Buy Now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row gap-1 mb-3">
+        <div class="col">
+          <div class="card text-center">
+            <div class="card-body">
+              <img class="img-fluid mb-2 mx-auto d-block" src="https://picsum.photos/200" alt="placeholder">
+              <h5>Dominik Hasek 97 Overall</h5>
+              <p class="card-text text-success">GA: 2.15 </p>
+              <p class="card-text text-warning">Save:0.97% </p>
+              <p class="card-text text-danger">Strength:95 </p>
+              <p class="card-text">Accuracy:96 </p>
+              <a href="#" class="btn btn-dark">Buy Now</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card text-center">
+            <div class="card-body">
+              <img class="img-fluid mb-2 mx-auto d-block" src="https://picsum.photos/200" alt="placeholder">
+              <h5 class="card-title">Sami Salo 82 Overall <span class="badge bg-success md-ml-3">New</span></h5>
+              <p class="card-text text-success">Speed:83 </p>
+              <p class="card-text text-warning">Agility:81 </p>
+              <p class="card-text text-danger">Strength:78 </p>
+              <p class="card-text">Accuracy:80 </p>
+              <a href="#" class="btn btn-dark">Buy Now</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card text-center">
+            <div class="card-body">
+              <img class="img-fluid mb-2 mx-auto d-block" src="https://picsum.photos/200" alt="placeholder">
+              <h5 class="card-title">Mats Sundin 93 Overall</h5>
+              <p class="card-text text-success">Speed:93 </p>
+              <p class="card-text text-warning">Agility:92 </p>
+              <p class="card-text text-danger">Strength:90 </p>
+              <p class="card-text">Accuracy:94 </p>
+              <a href="#" class="btn btn-dark">Buy Now</a>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
+ 
+  <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script> -->
 
-    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script> -->
-
-    <!-- This is the alert section. Since it is green, that means something good. In this case, I released a new
+  <!-- This is the alert section. Since it is green, that means something good. In this case, I released a new
 pack that is in stock right now. You will see it will be displayed on the second row. I used different colours for different categories. Speed has one colour,
 agility has another colour, strength has another colour...-->
-    <div class="alert alert-success" role="alert">
-    <p>The new Russian 5 pack is out now! Please take a look at the shop for more amazing deals! <button type="button" class="btn btn-success mx-auto">Buy Now</button>  </p> 
+  <div class="alert alert-success mb-3" role="alert">
+    <p>The new Russian 5 pack is out now! Please take a look at the shop for more amazing deals! <button type="button"
+        class="btn btn-success mx-auto">Buy Now</button> </p>
   </div>
 
-<!-- In this section, none of the cards are squished together. They will start as one column, but will become
+  <!-- In this section, none of the cards are squished together. They will start as one column, but will become
 2 rows and 3 columns as you make the page bigger using grid. I used gap to add some space. -->
-    <div class="container d-grid gap-3 text-center">
-      <div class="row">
-        <div class="col-md-4 mb-3">
-          <div class="card" >
-            <div class="card-body">
-              <h5 class="card-title">Bronze Pack</h5>
-              <p class="card-text">2 common Cards </p>
-              <p class="card-text">1 uncommon Card </p>
-              <p class="card-text">400 coins </p>
-              <a href="#" class="btn btn-dark">Buy Now</a>
-            </div>
+  <div class="container d-grid gap-3 text-center">
+    <div class="row">
+      <div class="col-md-4 mb-3">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Bronze Pack</h5>
+            <p class="card-text">2 common Cards </p>
+            <p class="card-text">1 uncommon Card </p>
+            <p class="card-text">400 coins </p>
+            <a href="#" class="btn btn-dark">Buy Now</a>
           </div>
         </div>
-        <div class="col-md-4 mb-3">
-          <div class="card">
-            <div class="card-body">
-              <h5 class="card-title">Silver Pack</h5>
-              <p class="card-text">3 uncommon Cards </p>
-              <p class="card-text">1 rare Card </p>
-              <p class="card-text">700 coins </p>
-              <a href="#" class="btn btn-dark">Buy Now</a>
-            </div>
+      </div>
+      <div class="col-md-4 mb-3">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Silver Pack</h5>
+            <p class="card-text">3 uncommon Cards </p>
+            <p class="card-text">1 rare Card </p>
+            <p class="card-text">700 coins </p>
+            <a href="#" class="btn btn-dark">Buy Now</a>
           </div>
         </div>
-        <div class="col-md-4 mb-3">
-          <div class="card" >
-            <div class="card-body">
-              <h5 class="card-title">Gold Pack</h5>
-              <p class="card-text">3 rare card </p>
-              <p class="card-text">2 gold Cards </p>
-              <p class="card-text">1300 coins </p>
-              <a href="#" class="btn btn-dark">Buy Now</a>
-            </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Gold Pack</h5>
+            <p class="card-text">3 rare card </p>
+            <p class="card-text">2 gold Cards </p>
+            <p class="card-text">1300 coins </p>
+            <a href="#" class="btn btn-dark">Buy Now</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-4 mb-3">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Big Booster Pack</h5>
+            <p class="card-text">5 rare cards </p>
+            <p class="card-text">2 gold cards </p>
+            <p class="card-text">2000 coins </p>
+            <a href="#" class="btn btn-dark">Buy Now</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-3">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Mega booster Card</h5>
+            <p class="card-text">4 platinum card</p>
+            <p class="card-text">2 autograph card </p>
+            <p class="card-text">2 rookie card </p>
+            <a href="#" class="btn btn-dark">Buy Now</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Elite Pack</h5>
+            <p class="card-text">4 autograph card </p>
+            <p class="card-text">3 diamond card </p>
+            <p class="card-text">5000 coins </p>
+            <a href="#" class="btn btn-dark">Buy Now</a>
           </div>
         </div>
       </div>
 
-      <div class="row">
-        <div class="col-md-4 mb-3">
-          <div class="card" >
-            <div class="card-body">
-              <h5 class="card-title">Big Booster Pack</h5>
-              <p class="card-text">5 rare cards </p>
-              <p class="card-text">2 gold cards </p>
-              <p class="card-text">2000 coins </p>
-              <a href="#" class="btn btn-dark">Buy Now</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4 mb-3">
-          <div class="card" >
-            <div class="card-body">
-              <h5 class="card-title">Mega booster Card</h5>
-              <p class="card-text">4 platinum card</p>
-              <p class="card-text">2 autograph card </p>
-              <p class="card-text">2 rookie card </p>
-              <a href="#" class="btn btn-dark">Buy Now</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4 mb-3">
-          <div class="card" >
-            <div class="card-body">
-              <h5 class="card-title">Elite Pack</h5>
-              <p class="card-text">4 autograph card </p>
-              <p class="card-text">3 diamond card </p>
-              <p class="card-text">5000 coins </p>
-              <a href="#" class="btn btn-dark">Buy Now</a>
-            </div>
-          </div>
-        </div>
-       
-      </div>
+    </div>
 
-      <!-- This is the legendary pack where you will notice the badge that is yellow. In this case yellow means
+    <!-- This is the legendary pack where you will notice the badge that is yellow. In this case yellow means
       exclusive and for limited time. Unlike other cards, this one uses flex. It is always important to have
     badges because it means there is an important point or label.-->
 
-      <div class="card">
-        <div class="row">
-          <div class="col-md-1">
-            <img src="https://picsum.photos/200" alt="placeholder">
-          </div>
-          <div class="col-lg-11">
-            <div class="card-body">
-               <h5 class="card-title">Legendary Pack <span class="badge bg-warning text-dark">Exclusive</span></h5>
-              <p>This is the biggest pack that is trending right now. Only for limited time.</p>
-              <p class="card-text"> 6 Autograph Cards, 4 Platinum Cards, 5 Diamond Cards, 2 Legendary Cards, 7000 coins </p>
-              <a href="#" class="btn btn-dark">Buy Now</a>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <!-- Here is the news section where you will get the latest update. It will mainly be only text and a red more button
-      Grids were used. On mobile it will be column, from medium and above, it will be in 3 columns 1 row. -->
-      <h2 class="display-2 text-center">News</h2>
+    <div class="card">
       <div class="row">
-        <div class="col-md-4 mb-3">
-          <h2>Rookie Packs on sale</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id accusantium, quam, nihil neque repellendus exercitationem, eveniet nobis maxime facilis eaque optio a. Recusandae doloremque ullam odio saepe magnam esse odit?</p>
-          <button type="button" class="btn btn-outline-secondary">Read More</button>
+        <div class="col-md-1">
+          <img src="https://picsum.photos/200" alt="placeholder">
         </div>
-        <div class="col-md-4 mb-3">
-          <h2>Basketball Cards Released</h2>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas officiis quod dignissimos harum rem aut nesciunt. Nostrum magnam quos doloremque, dignissimos temporibus reiciendis quam et neque, placeat aut suscipit facilis.</p>
-          <button type="button" class="btn btn-outline-secondary">Read More</button>
-        </div>
-        <div class="col-md-4 mb-3">
-          <h2>Retro Reverse Cards</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id accusantium, quam, nihil neque repellendus exercitationem, eveniet nobis maxime facilis eaque optio a. Recusandae doloremque ullam odio saepe magnam esse odit?</p>
-          <button type="button" class="btn btn-outline-secondary">Read More</button>
+        <div class="col-lg-11">
+          <div class="card-body">
+            <h5 class="card-title">Legendary Pack <span class="badge bg-warning text-dark">Exclusive</span></h5>
+            <p>This is the biggest pack that is trending right now. Only for limited time.</p>
+            <p class="card-text"> 6 Autograph Cards, 4 Platinum Cards, 5 Diamond Cards, 2 Legendary Cards, 7000 coins
+            </p>
+            <a href="#" class="btn btn-dark">Buy Now</a>
+          </div>
         </div>
       </div>
     </div>
-    <hr>
-    <p class="text-center">Copyright &copy;RichRealDeal's Trading Card, 2021</p> 
-  </body>
+
+    <!-- Here is the news section where you will get the latest update. It will mainly be only text and a red more button
+      Grids were used. On mobile it will be column, from medium and above, it will be in 3 columns 1 row. When it reaches 
+    the medium size, the text will also take 4 spaces each -->
+    <h2 class="display-2 text-center">News</h2>
+    <div class="row">
+      <div class="col-md-4 mb-4">
+        <h2>Rookie Packs on sale</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id accusantium, quam, nihil neque repellendus
+          exercitationem, eveniet nobis maxime facilis eaque optio a. Recusandae doloremque ullam odio saepe magnam esse
+          odit?</p>
+        <button type="button" class="btn btn-outline-secondary">Read More</button>
+      </div>
+      <div class="col-md-4 mb-4">
+        <h2>Basketball Cards Released</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas officiis quod dignissimos harum rem aut
+          nesciunt. Nostrum magnam quos doloremque, dignissimos temporibus reiciendis quam et neque, placeat aut
+          suscipit facilis.</p>
+        <button type="button" class="btn btn-outline-secondary">Read More</button>
+      </div>
+      <div class="col-md-4 mb-4">
+        <h2>Retro Reverse Cards</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id accusantium, quam, nihil neque repellendus
+          exercitationem, eveniet nobis maxime facilis eaque optio a. Recusandae doloremque ullam odio saepe magnam esse
+          odit?</p>
+        <button type="button" class="btn btn-outline-secondary">Read More</button>
+      </div>
+    </div>
+  </div>
+  <!--This is the footer which still uses card-->
+<footer>
+  <div class="card mt-4">
+    <div class="card-body">
+      <p class="text-center">Copyright &copy;RichRealDeal's Trading Card, 2021</p>
+    </div>
+  </div>
+</footer>
+</body>
+
 </html>
