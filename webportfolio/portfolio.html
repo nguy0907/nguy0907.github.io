@@ -18,7 +18,7 @@
   margin: auto;  
 }
     html,
-    .more {
+    button {
       font-family: 'Fjalla One', sans-serif;
     }
 
@@ -63,6 +63,7 @@
       margin-bottom: 3rem;
     }
 
+
     .more {
       color: #FFED65;
       background-color: black;
@@ -74,6 +75,16 @@
           margin-bottom:3rem;
          margin-right:4rem;
       float: right;
+    }
+
+    .Search{
+      color: #FFED65;
+      background-color: black;
+      padding: 0.5em;
+      padding-left: 2em;
+      padding-right: 2em;
+          border-radius: 24px; 
+          margin-top:2rem;
     }
 
     /* This is the media query use for the tablet version of the about page */
@@ -95,7 +106,14 @@
     a{
         margin-left:2rem;
       }
+.filter{
+  display: flex;
+}
 
+.websitecheckbox{
+  margin-right:5rem;
+  margin-bottom:-300rem;
+}
 .artpic1{
   width:5300px;
 }
@@ -108,7 +126,7 @@
 }
 .artwork4{
  float: right;
- margin-right:4rem;
+ margin-right:12.3rem;
 margin-top:-36.1rem;
 }
 .card5{
@@ -118,7 +136,7 @@ margin-top:-36.1rem;
 .artwork6{
   float:right;
   margin-top:-35.9rem;
-  margin-right:4rem;
+  margin-right:12.3rem;
 }
 
 .more{
@@ -135,6 +153,21 @@ margin-top:-36.1rem;
       .mediaicon {
         margin-right: 19rem;
         float: right;
+      }
+    }
+    @media screen and (min-width:1200px){
+      ul li {
+        margin-right: 5rem;
+      }
+
+      a {
+        margin-left: 2rem;
+      }
+      .artwork4{
+        margin-right:15.1rem;
+      }
+      .artwork6{
+        margin-right:15.1rem;
       }
     }
   </style>
@@ -180,21 +213,22 @@ margin-top:-36.1rem;
     </div>
   </header>
   <!-- This is the filter section with the checkbox to select items you want or don't want to see -->
-  <section class="filter" style="margin-left:3.5rem; margin-bottom: 3rem; display: flex;">
-    <div class="codecheckbox">
-      <input type="checkbox" id="check1" name="check">
+  <section class="filter" style="margin-left:3.5rem; margin-bottom: 3rem;">
+    <div class="codecheckbox" style="margin-bottom:2rem;">
+      <input type="checkbox" id="check1" name="check" style="width:25px; height:25px;">
       <label for="check1">Coding Art</label>
   </div>
 
-  <div class="websitecheckbox" style="margin-left:3rem;">
-    <input type="checkbox" id="check2" name="check">
+  <div class="websitecheckbox" style="margin-bottom:1rem; margin-left:7rem; margin-top:-4rem;">
+    <input type="checkbox" id="check2" name="check" style="width:25px; height:25px;">
     <label for="check2">Website Art</label>
 </div>
 
-<div class="graphiccheckbox" style="margin-top:3rem; margin-left:-14.5rem;">
-  <input type="checkbox" id="check3" name="check">
+<div class="graphiccheckbox">
+  <input type="checkbox" id="check3" name="check" style="width:25px; height:25px;">
   <label for="check3">Graphic Art</label>
 </div>
+<button class="Search" type="submit">Search</button>
   </section>
   
   <section>
