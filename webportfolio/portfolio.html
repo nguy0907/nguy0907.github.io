@@ -14,9 +14,10 @@
     @import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
     @import url('https://fonts.googleapis.com/css2?family=Gochi+Hand&display=swap');
 
-    body{
-  margin: auto;  
-}
+    body {
+      margin: auto;
+    }
+
     html,
     button {
       font-family: 'Fjalla One', sans-serif;
@@ -26,20 +27,22 @@
     h2 {
       font-family: 'Gochi Hand', cursive;
     }
-    h1{
-      font-size:30px;
+
+    h1 {
+      font-size: 30px;
     }
-    h2{
+
+    h2 {
       background-color: black;
       color: #FFED65;
     }
 
-    p{
-       line-height: 32px;
-      font-size:17px;
+    p {
+      line-height: 32px;
+      font-size: 17px;
     }
 
-      .logo {
+    .logo {
       width: 250px;
       margin-top: 1rem;
       margin-bottom: -1rem;
@@ -70,92 +73,99 @@
       padding: 0.5em;
       padding-left: 2em;
       padding-right: 2em;
-          border-radius: 24px;
-          margin-top:-1rem;
-          margin-bottom:3rem;
-         margin-right:4rem;
+      border-radius: 24px;
+      margin-top: 0.5rem;
+      margin-bottom: 7rem;
+      margin-right: 4rem;
       float: right;
     }
 
-    .Search{
+    .Search {
       color: #FFED65;
       background-color: black;
       padding: 0.5em;
       padding-left: 2em;
       padding-right: 2em;
-          border-radius: 24px; 
-          margin-top:2rem;
+      border-radius: 24px;
+      margin-top: 2rem;
     }
 
     /* This is the media query use for the tablet version of the about page */
     @media screen and (min-width: 768px) {
-      h1{
+      h1 {
         font-size: 50px;
       }
 
-        .dropdownbutton{
+      .dropdownbutton {
         display: none;
-     
-      }
-      ul{
-       display: flex;
-       float: right;
-       margin-right:2rem;
-       margin-top:0.5rem;
-      }
-    a{
-        margin-left:2rem;
-      }
-.filter{
-  display: flex;
-}
 
-.websitecheckbox{
-  margin-right:5rem;
-  margin-bottom:-300rem;
-}
-.artpic1{
-  width:5300px;
-}
-/* This is the tablet version of where some of the artwork will float beside each other */
-
-
-.card-text3{
-  margin-bottom:-4.2rem;
-  padding-bottom:7em;
-}
-.artwork4{
- float: right;
- margin-right:12.3rem;
-margin-top:-36.1rem;
-}
-.card5{
-  margin-bottom:-4rem;
-}
-
-.artwork6{
-  float:right;
-  margin-top:-35.9rem;
-  margin-right:12.3rem;
-}
-
-.more{
-  margin-top:4rem;
-  margin-bottom:3rem;
-  margin-left:20rem;
-
-}
-.copyright {
-        margin-top: -2rem;
-        float: left;
       }
 
-      .mediaicon {
-        margin-right: 19rem;
+      ul {
+        display: flex;
+        float: right;
+        margin-right: 2rem;
+        margin-top: 0.5rem;
+      }
+
+      a {
+        margin-left: 2rem;
+      }
+      .filter{
+        display: flex;
+        margin-right:9rem;
         float: right;
       }
+.codecheckbox{
+  margin-right:-6rem;
+}
+
+      .graphiccheckbox{
+margin-left:3rem;
+margin-right:3rem;
+      }
+
+
+
+      .artpic1 {
+        width: auto;
+      }
+
+      /* This is the tablet version of where some of the artwork will float beside each other */
+
+
+      .card-text3 {
+        margin-bottom: -4.2rem;
+        padding-bottom: 7em;
+      }
+
+      .artwork4 {
+        float: right;
+        margin-right: 12.3rem;
+        margin-top: -36.1rem;
+      }
+
+      .card5 {
+        margin-bottom: -4rem;
+      }
+
+      .artwork6 {
+        float: right;
+        margin-top: -35.9rem;
+        margin-right: 12.3rem;
+      }
+
+      .more {
+float: right;
+margin-top: 3rem;
+        margin-bottom: 8rem;
+  margin-right: -26rem;
+
+      }
+
     }
-    @media screen and (min-width:1200px){
+
+    @media screen and (min-width:1200px) {
       ul li {
         margin-right: 5rem;
       }
@@ -163,11 +173,13 @@ margin-top:-36.1rem;
       a {
         margin-left: 2rem;
       }
-      .artwork4{
-        margin-right:15.1rem;
+
+      .artwork4 {
+        margin-right: 15.1rem;
       }
-      .artwork6{
-        margin-right:15.1rem;
+
+      .artwork6 {
+        margin-right: 15.1rem;
       }
     }
   </style>
@@ -181,11 +193,11 @@ margin-top:-36.1rem;
         <div>
           <a href="index.html"><img src="images/RichRealDealLogo.png" class="logo" alt="Logo"></a>
           <button class="dropdownbutton"
-          style="width:40px; height:40px; margin-left:9rem; background:none; border:none;">
-          <svg style="background-color:#FFED65;" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-            viewBox="0 0 24 24">
-            <path d="M24 6h-24v-4h24v4zm0 4h-24v4h24v-4zm0 8h-24v4h24v-4z" /></svg>
-        </button>
+            style="width:40px; height:40px; margin-left:9rem; background:none; border:none;">
+            <svg style="background-color:#FFED65;" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+              viewBox="0 0 24 24">
+              <path d="M24 6h-24v-4h24v4zm0 4h-24v4h24v-4zm0 8h-24v4h24v-4z" /></svg>
+          </button>
 
           <ul style="list-style: none; text-align: center; font-family: 'Fjalla One', sans-serif;">
             <li class="nav-item" style="margin-left:-1rem;">
@@ -213,32 +225,36 @@ margin-top:-36.1rem;
     </div>
   </header>
   <!-- This is the filter section with the checkbox to select items you want or don't want to see -->
-  <section class="filter" style="margin-left:3.5rem; margin-bottom: 3rem;">
-    <div class="codecheckbox" style="margin-bottom:2rem;">
+  <section class="filter" style="margin-left:3.5rem; margin-bottom:3rem;">
+    <div class="codecheckbox" style="margin-bottom:-2rem;">
       <input type="checkbox" id="check1" name="check" style="width:25px; height:25px;">
       <label for="check1">Coding Art</label>
-  </div>
+    </div>
 
-  <div class="websitecheckbox" style="margin-bottom:1rem; margin-left:7rem; margin-top:-4rem;">
-    <input type="checkbox" id="check2" name="check" style="width:25px; height:25px;">
-    <label for="check2">Website Art</label>
-</div>
+    <div class="websitecheckbox" style="margin-bottom:1rem; margin-left:9.5rem;">
+      <input type="checkbox" id="check2" name="check" style="width:25px; height:25px;">
+      <label for="check2">Website Art</label>
+    </div>
 
-<div class="graphiccheckbox">
-  <input type="checkbox" id="check3" name="check" style="width:25px; height:25px;">
-  <label for="check3">Graphic Art</label>
-</div>
-<button class="Search" type="submit">Search</button>
+    <div class="graphiccheckbox">
+      <input type="checkbox" id="check3" name="check" style="width:25px; height:25px;">
+      <label for="check3">Graphic Art</label>
+    </div>
+    <button class="Search" type="submit">Search</button>
   </section>
-  
+
   <section>
-    <div class="artwork1" style="margin-bottom:2rem; margin-left:1.5rem;">
-      <img class="artpic1" style="width:76%; margin-left:2.3rem; border: 1px solid;" src="images/landingpage.png" 
+    <div class="artwork1" style=" margin-bottom:2rem; margin-left:1.5rem;">
+      <img class="artpic1" style="width:76%; margin-left:2.3rem; border: 1px solid;" src="images/landingpage.png"
         alt="Richard Nguyen">
-      <div class="card card1" style="border: 1px solid; margin-left:2.3rem; margin-top:-0.3rem; width:76%; padding-bottom:3em;">
-        <h2 class="card-title" style="text-align:center; padding-bottom:0.8em; padding-top:0.8em; margin-top:0rem;">Landing Page</h2>
-        <p class="card-text1" style="text-align: center; margin-left:3rem; width:70%;">A Dash landing page that is responsive on all
-          platforms. It runs on a mobile, tablet, and desktop pretty smoothly. This landing page includes a form, a calculation
+      <div class="card card1"
+        style="border: 1px solid; margin-left:2.3rem; margin-top:-0.3rem; width:76%; padding-bottom:3em;">
+        <h2 class="card-title" style="text-align:center; padding-bottom:0.8em; padding-top:0.8em; margin-top:0rem;">
+          Landing Page</h2>
+        <p class="card-text1" style="text-align: center; margin-left:3rem; width:70%;">A Dash landing page that is
+          responsive on all
+          platforms. It runs on a mobile, tablet, and desktop pretty smoothly. This landing page includes a form, a
+          calculation
           section, and a beautiful scooter background. This landing page is done by coding in Visual Studio Code
           using HTML and CSS. </p>
       </div>
@@ -247,78 +263,82 @@ margin-top:-36.1rem;
     <div class="artwork2" style="margin-bottom:2rem; margin-left:1.5rem;">
       <img style="width:76%; margin-left:2.3rem; border: 1px solid;" src="images/arcmockup.png" alt="Richard Nguyen">
       <div class="card card2" style="border: 1px solid; margin-left:2.3rem; margin-top:-0.3rem; width:76%;">
-        <h2 class="card-title" style="text-align:center; padding-bottom:0.8em; padding-top:0.8em; margin-top:0rem;">ARC Mockup Webpage</h2>
-        <p class="card-text2" style="text-align: center; margin-left:3rem; margin-right:2rem; width:70%;">Here is my mid-term assignment, which is a
+        <h2 class="card-title" style="text-align:center; padding-bottom:0.8em; padding-top:0.8em; margin-top:0rem;">ARC
+          Mockup Webpage</h2>
+        <p class="card-text2" style="text-align: center; margin-left:3rem; margin-right:2rem; width:70%;">Here is my
+          mid-term assignment, which is a
           mockup assignment
           on the ARC website. Code on Visual Studio Code using HTML and CSS. It is responsive on a mobile, tablet,
           desktop, and another platform. This webpage has three pages, the home, about, and contact page.</p>
       </div>
     </div>
     <div class="artwork3" style="margin-bottom:2rem; margin-left:1.5rem;">
-      <img style="width:350px; object-fit: cover; height:230px; margin-left:2.3rem; border: 1px solid;" src="images/avatarpic2.png" class="card-img-top"
-        alt="Richard Nguyen">
-      <div class="card card3" style="border: 1px solid; margin-left:2.3rem; margin-top:-0.3rem; width:350px; padding-bottom:3em;">
-        <h2 class="card-title" style="text-align:center; padding-bottom:0.8em; padding-top:0.8em; margin-top:0rem;">Small and Medium Animal Icon</h2>
-        <p class="card-text3" style="text-align: center; margin-left:3rem; margin-right:2rem; width:70%;">Here is the small and medium animal icon for
+      <img style="width:350px; object-fit: cover; height:230px; margin-left:2.3rem; border: 1px solid;"
+        src="images/avatarpic2.png" class="card-img-top" alt="Richard Nguyen">
+      <div class="card card3"
+        style="border: 1px solid; margin-left:2.3rem; margin-top:-0.3rem; width:350px; padding-bottom:3em;">
+        <h2 class="card-title" style="text-align:center; padding-bottom:0.8em; padding-top:0.8em; margin-top:0rem;">
+          Small and Medium Animal Icon</h2>
+        <p class="card-text3" style="text-align: center; margin-left:3rem; margin-right:2rem; width:70%;">Here is the
+          small and medium animal icon for
           apple. The tiny icon is a black and white paw, and the medium icon is just the bear's head.</p>
       </div>
     </div>
 
     <div class="artwork4" style="margin-bottom:2rem; margin-left:1.5rem;">
-      <img style="width:350px; object-fit: cover; height:230px; margin-left:2.3rem; border: 1px solid;" src="images/avatarpic.png" class="card-img-top"
-        alt="Richard Nguyen">
-      <div class="card card4" style="border: 1px solid; margin-left:2.3rem; margin-top:-0.3rem; width:350px; padding-bottom:3em;">
-        <h2 class="card-title" style="text-align:center; padding-bottom:0.8em; padding-top:0.8em; margin-top:0rem;">Large Animal Icon</h2>
-        <p class="card-text4" style="text-align: center; margin-left:3rem; margin-right:2rem; width:70%;">Here is the large animal icon. Here is where
-          all the wildness happens. There is a full bear, with some gradients used and other natural elements to this icon. </p>
+      <img style="width:350px; object-fit: cover; height:230px; margin-left:2.3rem; border: 1px solid;"
+        src="images/avatarpic.png" class="card-img-top" alt="Richard Nguyen">
+      <div class="card card4"
+        style="border: 1px solid; margin-left:2.3rem; margin-top:-0.3rem; width:350px; padding-bottom:3em;">
+        <h2 class="card-title" style="text-align:center; padding-bottom:0.8em; padding-top:0.8em; margin-top:0rem;">
+          Large Animal Icon</h2>
+        <p class="card-text4" style="text-align: center; margin-left:3rem; margin-right:2rem; width:70%;">Here is the
+          large animal icon. Here is where
+          all the wildness happens. There is a full bear, with some gradients used and other natural elements to this
+          icon. </p>
       </div>
     </div>
     <div class="artwork5" style="margin-bottom:2rem; margin-left:1.5rem;">
-      <img style="width:350px; object-fit: cover; margin-left:2.3rem; border: 1px solid; height:320px;" src="images/sciifii.png" class="card-img-top"
-        alt="Richard Nguyen">
-      <div class="card card5" style="border: 1px solid; margin-left:2.3rem; margin-top:-0.3rem; width:350px; padding-bottom:6em;">
-        <h2 class="card-title" style="text-align:center; padding-bottom:0.8em; padding-top:0.8em; margin-top:-0.2rem;">Sci-Fii Poster</h2>
-        <p class="card-text5" style="text-align: center; margin-left:3rem; margin-right:2rem; width:70%;">Here is my Sci-Fii poster, which has two
+      <img style="width:350px; object-fit: cover; margin-left:2.3rem; border: 1px solid; height:320px;"
+        src="images/sciifii.png" class="card-img-top" alt="Richard Nguyen">
+      <div class="card card5"
+        style="border: 1px solid; margin-left:2.3rem; margin-top:-0.3rem; width:350px; padding-bottom:6em;">
+        <h2 class="card-title" style="text-align:center; padding-bottom:0.8em; padding-top:0.8em; margin-top:-0.2rem;">
+          Sci-Fii Poster</h2>
+        <p class="card-text5" style="text-align: center; margin-left:3rem; margin-right:2rem; width:70%;">Here is my
+          Sci-Fii poster, which has two
           versions, the purple and the blue version. </p>
       </div>
     </div>
 
     <div class="artwork6" style="margin-bottom:2rem; margin-left:1.5rem;">
-      <img style="width:350px; object-fit: cover; margin-left:2.3rem; margin-top:-0.5rem; border: 1px solid; height:320px;" src="images/branding.png" class="card-img-top"
-        alt="Richard Nguyen">
-      <div class="card card6" style="border: 1px solid; margin-left:2.3rem; margin-top:-0.3rem; width:350px;  padding-bottom:0em;">
-        <h2 class="card-title" style=" width:260px; text-align:center; padding-bottom:0.8em; padding-top:0.8em; padding-left:1.9em;  padding-right:1.9em; margin-top:0rem;">
+      <img
+        style="width:350px; object-fit: cover; margin-left:2.3rem; margin-top:-0.5rem; border: 1px solid; height:320px;"
+        src="images/branding.png" class="card-img-top" alt="Richard Nguyen">
+      <div class="card card6"
+        style="border: 1px solid; margin-left:2.3rem; margin-top:-0.3rem; width:350px;  padding-bottom:0em;">
+        <h2 class="card-title"
+          style=" width:260px; text-align:center; padding-bottom:0.8em; padding-top:0.8em; padding-left:1.9em;  padding-right:1.9em; margin-top:0rem;">
           Black Rhino Branding Guide</h2>
-        <p class="card-text6" style="text-align: center; margin-left:3rem; width:70%;">Here is my branding assignment that has the colours, logo
+        <p class="card-text6" style="text-align: center; margin-left:3rem; width:70%;">Here is my branding assignment
+          that has the colours, logo
           variation, and much more. This assignment is dedicated to the Black Rhino, an art retreat company.</p>
       </div>
     </div>
   </section>
   <button class="more" type="submit">More</button>
-  <!-- This section is going to be more picture heading text -->
-
-  <!-- Optional JavaScript; choose one of the two! -->
-
-  <!-- Option 1: Bootstrap Bundle with Popper -->
 
 
-  <!-- Option 2: Separate Popper and Bootstrap JS -->
-
-  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js"
-    integrity="sha384-KsvD1yqQ1/1+IA7gi3P0tyJcT3vR+NdBTt13hSJ2lnve8agRGXTTyNaBYmCR/Nwi" crossorigin="anonymous">
-  </script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js"
-    integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG" crossorigin="anonymous">
-  </script>
 
   <!-- The copyright footer so no one will steal my website -->
-  <footer style="margin-top:5rem;">
+  <footer style="margin-top:10rem; background-color: black; padding-top:1em; padding-bottom:1em;">
     <div class="mediaicon" style="margin-left:11rem; margin-bottom:0.5rem;">
       <img src="images/iconmonstr-instagram-11-240.png" alt="instagram" style="margin-right:0.5rem; width: 30px;">
       <img src="images/iconmonstr-twitter-1-240.png" alt="Twitter" style="width: 30px;">
       <img src="images/iconmonstr-facebook-1-240.png" alt="facebook" style="width: 30px;">
     </div>
-    <div class="copyright" style="font-family: 'Fjalla One', sans-serif; margin-left:6em; margin-bottom:1rem;">
+    <div class="copyright"
+      style="font-family: 'Fjalla One', sans-serif; color:#FFED65; margin-left:6em; margin-bottom:1rem;">
       @Copyright RichRealDeal Website 2021</div>
   </footer>
 </body>

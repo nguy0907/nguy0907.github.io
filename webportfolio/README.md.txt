@@ -15,3 +15,8 @@ let's talk about what all pages should have:
 They all have a header with the logo on the left, there is the menu icon on the right side. You will see all the menu
 in the center you have all the navs. Every page with have the same banner, and footer as well. If anything that can be 
 used on every page, I will just copy and paste because there is no difference.
+
+
+Other notes:
+I added some css in classes in the element. If there is too much to add, I added all the other css part in a 
+style tag. The style tag also includes media queries.
