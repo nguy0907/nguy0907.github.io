@@ -13,7 +13,11 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
   <title>The RichRealDeal Company</title>
+
+  <!-- I added css into the html file by using style. It does not require stylesheet. -->
   <style>
+    /* I added fonts by using import. The fonts that were used were Fjalla and Gochi Hand. Gochi Hand will be 
+    used for the headings mainly and Fjalla font will be used for the main text. */
     @import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
     @import url('https://fonts.googleapis.com/css2?family=Gochi+Hand&display=swap');
 
@@ -36,7 +40,8 @@
       margin-top: 1rem;
       margin-left: 2rem;
     }
-
+/* The banner is going to be a mini slideshow. I added a background image and it is responsive with the
+object cover. */
     .banner {
       background-image: url(../webportfolio/images/lightcity.jpg);
       object-fit: cover;
@@ -46,6 +51,7 @@
       margin-bottom: 3rem;
     }
 
+/* The subscribe button will be displayin in the middle below the banner texgt */
     .subscribe {
       font-family: 'Fjalla One', sans-serif;
       background-color: black;
@@ -60,7 +66,8 @@
       border: none;
     }
 
-    /* This is just the circle right below the subscribe banner. In the future, I will make it a slideshow */
+    /* This is just the circle right below the subscribe banner. In the future, I will make it a slideshow. The 
+    dark circle is the one the page is showing, the while circle is the one that is not showing. */
     .darkcircle,
     .whitecircle {
       border-radius: 100px;
@@ -81,7 +88,9 @@
       background: none;
     }
 
+/* This will be the tablet version of the homepage. */
     @media screen and (min-width: 768px) {
+/* The size of the heading one is going to be a lot larger */
       h1 {
         font-size: 50px;
       }
@@ -90,6 +99,7 @@
         padding-bottom: 0.5em;
       }
 
+/* There will not be any dropdown button because the navs will be displayed as rows. */
       .dropdownbutton {
         display: none;
       }
