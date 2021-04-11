@@ -14,6 +14,8 @@
   <!-- Here are the css portion in the html, thankfully it does not require any stylesheet, except I used 1 stylesheet
   on the home page only :) -->
   <style>
+        /* I added fonts by using import. The fonts that were used were Fjalla and Gochi Hand. Gochi Hand will be 
+    used for the headings mainly and Fjalla font will be used for the main text. */
     @import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
     @import url('https://fonts.googleapis.com/css2?family=Gochi+Hand&display=swap');
 
@@ -43,7 +45,7 @@
       line-height: 32px;
       font-size: 17px;
     }
-
+/* CSS for the header */
     .logo {
       width: 250px;
       margin-top: 1rem;
@@ -58,7 +60,8 @@
     a {
       text-decoration: none;
     }
-
+/* The banner is going to be a mini slideshow. I added a background image and it is responsive with the
+object cover. */
     .banner {
       background-image: url(../webportfolio/images/lightcity.jpg);
       object-fit: cover;
@@ -68,24 +71,14 @@
       margin-bottom: 3rem;
     }
 
-    .RichN {
-      text-align: center;
-      max-width: 200px;
-      padding-bottom: 0.8em;
-      padding-top: 0.8em;
-      padding-left: 3.12em;
-      padding-right: 3.15em;
-      margin-left: 4rem;
-      margin-top: -0.3rem;
-      margin-bottom: 2rem;
-    }
-
     /* This is the media query use for the tablet version of the about page */
     @media screen and (min-width: 768px) {
+      /* The size of the heading one is going to be a lot larger */
       h1 {
         font-size: 50px;
       }
 
+/* There will not be any dropdown button because the navs will be displayed as rows. */
       .dropdownbutton {
         display: none;
       }
@@ -109,6 +102,10 @@
       }
 .mepic{
   margin-right:3rem;
+ width:10px;
+}
+.richnsection{
+  width: 20px;
 }
 .me{
   margin-left:23.5rem;
@@ -124,8 +121,6 @@
       .cards {
         /* display: flex; */
       }
-
-
 
       /* The goal will float to the right so it will be beside the facts part */
       /* .goal {
@@ -232,7 +227,7 @@ footer{
         About</h1>
     </div>
   </header>
-
+<section>
   <p class="intro-paragraph" style="margin-left:4rem; margin-right:5rem;">Hello everyone who is visited my website. My
     name is Richard Nguyen, and this is The RichRealDeal Company.
     I am a current student that is attending college to go into Interactive Media Design. I am currently 18
@@ -240,16 +235,15 @@ footer{
     old who is in the second semester of the first year of this program. </p>
 
   <!-- This is a card that has a picture of me and my name -->
-
+  
   <div class="me">
-    <img src="images/me.jpeg" style="width: 350px;  height:380px; margin-left:4rem; object-fit: cover;" class="mepic" alt="Richard Nguyen">
-    <h2 class="RichN">Richard Nguyen</h2>
+    <img src="images/me.jpeg" class="mepic" style="max-width: auto; width: 350px;  height:380px; margin-left:4rem; object-fit: cover;"  alt="Richard Nguyen">
+    <h2 class="RichN" style="text-align: center; max-width: 200px; padding-bottom: 0.8em; padding-top: 0.8em;
+    padding-left: 3.12em; padding-right: 3.15em; margin-left: 4rem; margin-top: -0.3rem;  margin-bottom: 2rem;">Richard Nguyen</h2>
   </div>
 
-
-<section class="cards">
-  <!-- Here is the 2 cards, one of them is facts about me and the other one is my goals -->
-  
+  <!-- Here is the 2 cards, one of them is facts about me and the other one is my goals-->
+<div class="cards">
     <div class="facts" style=" width:350px; margin-left:4rem; margin-top:3rem; border: 1px solid; 
  height:360px;">
       <h2 style="text-align: center; padding-bottom:0.8em; padding-top:0.8em; margin-top:-0.1rem;">Facts About Me</h2>
@@ -272,11 +266,11 @@ footer{
           enjoyable. </p>
       </div>
     </div>
-  </section>
+  </div>
+</section>
 
-
-
-  <!-- The copyright footer so no one will steal my website -->
+<!-- Here is the footer, the  colour and design looks the same with different content. On mobile, the social media
+icon is above the copyright line -->
   <footer style="background-color: black; padding-top:1em; padding-bottom:1em;">
     <div class="mediaicon" style="margin-left:11rem; margin-bottom:0.5rem;">
       <img src="images/iconmonstr-instagram-11-240.png" alt="instagram" style="margin-right:0.5rem; width: 30px;">

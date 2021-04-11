@@ -1,4 +1,5 @@
-<!-- This is the html of the home page for my web porfolio -->
+<!-- This is the html of the home page for my web porfolio. The homepage is the only pages where there are not
+a lot of changes compared to other pages of the website. -->
 <!doctype html>
 <html lang="en">
 
@@ -134,6 +135,8 @@ object cover. */
       .welcome-p {
         width:73%;
       }   
+
+      /* Everything in the footer will be displayed in a row */
          .copyright {
         margin-left: -4rem;
       }
@@ -144,6 +147,7 @@ object cover. */
       }
     }
 
+/* This is the desktop version of the home page  */
     @media screen and (min-width:1200px) {
       ul li {
         margin-right: 5rem;
@@ -175,11 +179,12 @@ object cover. */
   </style>
 </head>
 
-<!-- CSS Styles -->
-
+<!-- CSS are also used inside classes. This is the first time I used css in classes in html. -->
 <body>
+  <!-- This is the header section for the pages. It will look the same pretty much.  -->
   <header style="background-color: black;">
-
+<!-- This is also the nav, where the logo is clickable, and all the links work. They will all share
+the yellow colour. They will be in a column for mobile. -->
     <div>
       <nav>
         <div>
@@ -227,6 +232,7 @@ object cover. */
         If you do like my content and would like to see more of it, please consider subscribing to my website and turn
         on your
         notification for more updates. Thank you for dropping by!</p>
+        <!-- This is the subscribe button -->
       <button class="subscribe" type="submit">Subscribe</button>
     </div>
   </div>
@@ -240,10 +246,10 @@ object cover. */
     visiting my website.
     Please feel free to look around to know a little bit about me, my company, my work, and more.</p>
 
-
+<!-- Here is the footer, the  colour and design looks the same with different content. On mobile, the social media
+icon is above the copyright line -->
   <footer style="background-color: black; padding-top:1em; padding-bottom:1em;">
     <div class="mediaicon" style="margin-left:11rem; margin-bottom:0.5rem;">
-
       <img src="images/iconmonstr-instagram-11-240.png" alt="instagram" style="margin-right:0.5rem; width: 30px;">
       <img src="images/iconmonstr-twitter-1-240.png" alt="Twitter" style="width: 30px;">
       <img src="images/iconmonstr-facebook-1-240.png" alt="facebook" style="width: 30px;">
