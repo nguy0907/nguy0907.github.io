@@ -136,50 +136,44 @@
 
 
       /* This is the tablet version of where some of the artwork will float beside each other */
- 
-      .art{
-        
-      }
-      .artwork1{
-        width: 800px;
-        margin-right:-444rem;
-
-
-      }
-
-      .artwork2{
-        width: 800px;
-      }
-
+.artwork1{
+  float: right;
+  width: 97%;
+}
+.artwork2{
+  float: right;
+  margin-right: 0rem;
+  width: 97%;
+}
       .card-text3 {
         margin-bottom: -4.2rem;
         padding-bottom: 7em;
       }
 .artwork3{
-margin-right:24rem;
-width: 9%;
-float: right;
-width: auto;
-}
-.artwork4{
   float: right;
-  margin-right: 1rem;
-  margin-top: -35.9rem;
+  margin-right: 2rem;
+  width: 97%;
 }
-.artwork5{
-margin-right:24rem;
 
-width: auto;
+.artwork4{
+/* display: inline-block; */
+float: right;
+  margin-right: 2rem;
+  margin-top: -37.7rem;
+}
+.artpic5{
+ margin-right:11rem;
 }
 
       .card5 {
-        margin-bottom: -4rem;
+        margin-bottom: 2rem;
       }
 
       .artwork6 {
         float: right;
-  margin-right: 1rem;
-  margin-top: -35.9rem;
+        margin: auto;
+  margin-right: 2rem;
+  margin-top: -39.9rem;
       }
 
       .more {
@@ -198,7 +192,7 @@ margin-top: 3rem;
         padding-bottom:1em;
         float: right;
       }
-    }
+   }
 
     @media screen and (min-width:1200px) {
       ul li {
@@ -209,8 +203,9 @@ margin-top: 3rem;
         margin-left: 2rem;
       }
 
-      .artwork1{
-        width: 1100px;
+      /* .artwork1{
+        width: 1400px;
+        margin: auto;
       }
       .artwork2{
         width: 1100px;
@@ -223,7 +218,7 @@ margin-top: 3rem;
 }
 .artwork6{
   margin-right:18.5rem;
-}
+} */
     }
   </style>
 </head>
@@ -236,11 +231,9 @@ margin-top: 3rem;
         <div>
           <a href="index.html"><img src="images/RichRealDealLogo.png" class="logo" alt="Logo"></a>
           <button class="dropdownbutton"
-            style="width:40px; height:40px; margin-left:9rem; background:none; border:none;">
-            <svg style="background-color:#FFED65;" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-              viewBox="0 0 24 24">
-              <path d="M24 6h-24v-4h24v4zm0 4h-24v4h24v-4zm0 8h-24v4h24v-4z" /></svg>
-          </button>
+          style="width:40px; height:40px; margin-left:9rem; background:none; border:none;">
+          <img src="images/iconmonstr-menu-1-240.png" alt="menu" style="width: 24px; height:24px;">
+        </button>
 
           <ul style="list-style: none; text-align: center; font-family: 'Fjalla One', sans-serif;">
             <li class="nav-item" style="margin-left:-1rem;">
@@ -286,8 +279,8 @@ margin-top: 3rem;
     <button class="Search" type="submit">Search</button>
   </section>
 
-  <section class="art" style="width:100%;">
-    <div class="artwork1" style="margin-bottom:2rem; margin-left:1.5rem;">
+  <section class="art" style="width:auto;">
+    <div class="artwork1" style="margin-bottom:2rem; margin-left:1.5rem; ">
       <img class="artpic1" style="width:76%; margin-left:2.3rem; border: 1px solid;" src="images/landingpage.png"
         alt="Richard Nguyen">
       <div class="card card1"
@@ -304,7 +297,7 @@ margin-top: 3rem;
     </div>
 
     <div class="artwork2" style="margin-bottom:2rem; margin-left:1.5rem;">
-      <img style="width:76%; margin-left:2.3rem; border: 1px solid;" src="images/arcmockup.png" alt="Richard Nguyen">
+      <img class="artpic2" style="width:76%; margin-left:2.3rem; border: 1px solid;" src="images/arcmockup.png" alt="Richard Nguyen">
       <div class="card card2" style="border: 1px solid; margin-left:2.3rem; margin-top:-0.3rem; width:76%;">
         <h2 class="card-title" style="text-align:center; padding-bottom:0.8em; padding-top:0.8em; margin-top:0rem;">ARC
           Mockup Webpage</h2>
@@ -316,8 +309,8 @@ margin-top: 3rem;
       </div>
     </div>
     <div class="artwork3" style="margin-bottom:2rem; margin-left:1.5rem;">
-      <img style="width:350px; object-fit: cover; height:230px; margin-left:2.3rem; border: 1px solid;"
-        src="images/avatarpic2.png" class="card-img-top" alt="Richard Nguyen">
+      <img style="width:350px; object-fit: cover; height:257px; margin-left:2.3rem; border: 1px solid;" src="images/avatarpic2.png" 
+      class="artpic3" alt="Richard Nguyen">
       <div class="card card3"
         style="border: 1px solid; margin-left:2.3rem; margin-top:-0.3rem; width:350px; padding-bottom:3em;">
         <h2 class="card-title" style="text-align:center; padding-bottom:0.8em; padding-top:0.8em; margin-top:0rem;">
@@ -329,8 +322,8 @@ margin-top: 3rem;
     </div>
 
     <div class="artwork4" style="margin-bottom:2rem; margin-left:1.5rem;">
-      <img style="width:350px; object-fit: cover; height:240px; margin-left:2.3rem; border: 1px solid;"
-        src="images/avatarpic.png" class="card-img-top" alt="Richard Nguyen">
+      <img style="width:350px; object-fit: cover; height:256px; margin-left:2.3rem; border: 1px solid;"
+        src="images/avatarpic.png" class="artpic4" alt="Richard Nguyen">
       <div class="card card4"
         style="border: 1px solid; margin-left:2.3rem; margin-top:-0.3rem; width:350px; padding-bottom:3em;">
         <h2 class="card-title" style="text-align:center; padding-bottom:0.8em; padding-top:0.8em; margin-top:0rem;">
@@ -343,21 +336,19 @@ margin-top: 3rem;
     </div>
     <div class="artwork5" style="margin-bottom:2rem; margin-left:1.5rem;">
       <img style="width:350px; object-fit: cover; margin-left:2.3rem; border: 1px solid; height:320px;"
-        src="images/sciifii.png" class="card-img-top" alt="Richard Nguyen">
+        src="images/sciifii.png" class="artpic5" alt="Richard Nguyen">
       <div class="card card5"
         style="border: 1px solid; margin-left:2.3rem; margin-top:-0.3rem; width:350px; padding-bottom:6em;">
         <h2 class="card-title" style="text-align:center; padding-bottom:0.8em; padding-top:0.8em; margin-top:-0.2rem;">
           Sci-Fii Poster</h2>
-        <p class="card-text5" style="text-align: center; margin-left:3rem; margin-right:2rem; width:70%;">Here is my
-          Sci-Fii poster, which has two
+        <p class="card-text5" style="text-align: center; margin-left:3rem; margin-right:2rem;">Here is my Sci-Fii poster, which has two
           versions, the purple and the blue version. </p>
       </div>
     </div>
 
-    <div class="artwork6" style="margin-bottom:2rem; margin-left:1.5rem;">
-      <img
-        style="width:350px; object-fit: cover; margin-left:2.3rem; margin-top:-0.5rem; border: 1px solid; height:320px;"
-        src="images/branding.png" class="card-img-top" alt="Richard Nguyen">
+    <div class="artwork6" style=" margin-bottom:2rem; margin-left:1.5rem;">
+      <img style="width:350px; object-fit: cover; margin-left:2.3rem; margin-top:-0.5rem; border: 1px solid; height:320px;"
+        src="images/branding.png" class="artpic6" alt="Richard Nguyen">
       <div class="card card6"
         style="border: 1px solid; margin-left:2.3rem; margin-top:-0.3rem; width:350px;  padding-bottom:0em;">
         <h2 class="card-title"
