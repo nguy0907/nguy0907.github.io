@@ -21,10 +21,12 @@
 
     html {
       font-family: 'Fjalla One', sans-serif;
+width: auto;
     }
 
     body {
       margin: auto;
+      width: auto;
     }
 
     h1,
@@ -60,8 +62,7 @@
     a {
       text-decoration: none;
     }
-/* The banner is going to be a mini slideshow. I added a background image and it is responsive with the
-object cover. */
+    /* I added a background image and it is responsive with the object cover. */
     .banner {
       background-image: url(../webportfolio/images/lightcity.jpg);
       object-fit: cover;
@@ -83,6 +84,11 @@ object cover. */
         display: none;
       }
 
+      .bordernav{
+        border:1px #FFED65 solid;
+        padding:0.3rem;
+      }
+
       ul {
         display: flex;
         float: right;
@@ -98,15 +104,12 @@ object cover. */
       .intro-paragraph {
         width:300px;
         margin-bottom:-14rem;
-        float: left;
+     
       }
 .mepic{
   margin-right:3rem;
- width:10px;
 }
-.richnsection{
-  width: 20px;
-}
+
 .me{
   margin-left:22.5rem;
 }
@@ -115,12 +118,12 @@ object cover. */
   margin-bottom:-25.6rem;
 }
 .goal{
-  margin-right:5rem;
+  margin-right:3rem;
   float:right;
 
 }
       .cards {
-        margin-left: -0.5rem;
+        margin-left: -1rem;
         /* display: flex; */
       }
 
@@ -130,7 +133,7 @@ object cover. */
         margin-right:2.5rem;
       } */
   
-
+      /* Everything in the footer will be displayed in a row */
       footer {
         margin-top: 29rem;
       }
@@ -142,7 +145,6 @@ object cover. */
 
     }
 
-    /* I had to add another media query to fix my name */
 
     @media screen and (min-width:1200px) {
       ul li {
@@ -158,12 +160,6 @@ object cover. */
         width: auto;
       }
 
-      /* Card Section */
-.cards{
-  display: flex;
-  height: auto;
-  margin-left:22rem;
-}
 .mepic{
   width:100px;
   margin-top:17rem;
@@ -173,6 +169,14 @@ object cover. */
   margin-bottom:-32.8rem;
   margin-left:-1rem; 
 }
+ /* The two cards will be displayed beside each other, and the image of me using flex. */
+
+.cards{
+  display: flex;
+  height: auto;
+  margin-left:22rem;
+}
+
 .facts{
   margin-right: -2rem;
   padding-bottom: 2em;
@@ -204,7 +208,7 @@ footer{
 
           <ul style="list-style: none; text-align: center; font-family: 'Fjalla One', sans-serif;">
             <li class="nav-item" style="margin-left:-1rem;">
-              <a style="color:#FFED65;" class="nav-link" href="about.html">About</a>
+              <a style="color:#FFED65;" class="nav-link bordernav" href="about.html">About</a>
             </li>
             <li class="nav-item" style="margin-left:-1rem;">
               <a style="color:#FFED65;" class="nav-link" href="services.html">Services</a>
@@ -236,13 +240,14 @@ footer{
 
   <!-- This is a card that has a picture of me and my name -->
   
-  <div class="me">
-    <img src="images/me.jpeg" class="mepic" style=" width: 350px;  height:380px; margin-left:4rem; object-fit: cover;"  alt="Richard Nguyen">
-    <h2 class="RichN" style="text-align: center; max-width: 200px; padding-bottom: 0.8em; padding-top: 0.8em;
-    padding-left: 3.12em; padding-right: 3.15em; margin-left: 4rem; margin-top: -0.3rem;  margin-bottom: 2rem;">Richard Nguyen</h2>
-  </div>
-
-  <!-- Here is the 2 cards, one of them is facts about me and the other one is my goals-->
+  <div class="me container">
+    <img src="images/me.jpeg" class="mepic" style=" width: 350px;  height:380px; margin-left:4rem; object-fit: cover;"  alt="Richard Nguyen"> 
+ <h2 class="RichN" style="text-align: center; max-width: 200px; padding-bottom: 0.8em; padding-top: 0.8em;
+padding-left: 3.12em; padding-right: 3.15em; margin-left: 4rem; margin-top: -0.3rem;  margin-bottom: 2rem;">Richard Nguyen</h2>
+ </div>
+ 
+ 
+ <!-- Here is the 2 cards, one of them is facts about me and the other one is my goals-->
 <div class="cards">
     <div class="facts" style=" width:350px; margin-left:4rem; margin-top:3rem; border: 1px solid; 
  height:360px;">

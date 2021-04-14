@@ -71,8 +71,13 @@
 
         .dropdownbutton{
         display: none;
-     
       }
+
+      .bordernav{
+        border:1px #FFED65 solid;
+        padding:0.3rem;
+      }
+      
       ul{
        display: flex;
        float: right;
@@ -88,6 +93,8 @@
           margin-top:-0.3rem;
           margin-bottom:-3.85rem;
         }
+
+        /* Using inline-block with make the card stay right beside the card on the right. I also used margin to make sure it is touches the card a bit. */
         .cardtext{
           display: inline-block;
           /* float: right; */
@@ -189,7 +196,7 @@ margin-bottom:0rem;
               <a style="color:#FFED65;" class="nav-link" href="about.html">About</a>
             </li>
             <li class="nav-item" style="margin-left:-1rem;">
-              <a style="color:#FFED65;" class="nav-link" href="services.html">Services</a>
+              <a style="color:#FFED65;" class="nav-link bordernav" href="services.html">Services</a>
             </li>
             <li class="nav-item" style="margin-left:-1rem;">
               <a style="color:#FFED65;" class="nav-link" href="portfolio.html">Portfolio</a>
