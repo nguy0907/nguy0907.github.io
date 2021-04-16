@@ -18,12 +18,7 @@ but the adjustment to the sizes, responsiveness is the issue for the portfolio p
 Since every screen is different is will be hard to know what screen size is correct. I will just assume that 
 looking at the media query chart, it will say from the minimum screen I assume that I will make it around that size for mobile.
 For tablet, I will use somewhere around 768px since that is the minimum size of the tablet screen. For the desktop screen, I will assume that
-it is 1200px, so I will create everything around that area,
-
-
-
-
-
+it is 1200px, so I will create everything around that area. Once again, we all have different screen.
 
 
 
@@ -41,8 +36,12 @@ used on every page, I will just copy and paste because there is no difference.
 Home page: The homepage is the page is the only page what looks the same no matter what page you are on. Everything is 
 stretched out more.
 
-About Page: The about page
+About Page: The about page is the page that talks about me. On mobile, everything is displayed in a column. As you make it bigger
+it will display in like a grid (I did not use grids). Text on the top left, a picture of me on top right, and the 2 cards are below
+and right beside each other. When you go to the tablet screen, you will have the text, and everything else is in a single row.
 
+Services Section:
+The Services page is one of the easiest page to complete.
 
 Other notes:
 I added some css in classes in the element. If there is too much to add, I added all the other css part in a 
