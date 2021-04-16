@@ -33,15 +33,29 @@ in the center you have all the navs. Every page with have the same banner, and f
 used on every page, I will just copy and paste because there is no difference.
 
 
-Home page: The homepage is the page is the only page what looks the same no matter what page you are on. Everything is 
+Home page:
+ The homepage is the page is the only page what looks the same no matter what page you are on. Everything is 
 stretched out more.
 
-About Page: The about page is the page that talks about me. On mobile, everything is displayed in a column. As you make it bigger
+About Page:
+ The about page is the page that talks about me. On mobile, everything is displayed in a column. As you make it bigger
 it will display in like a grid (I did not use grids). Text on the top left, a picture of me on top right, and the 2 cards are below
 and right beside each other. When you go to the tablet screen, you will have the text, and everything else is in a single row.
 
 Services Section:
-The Services page is one of the easiest page to complete.
+The Services page is one of the easiest page to complete. On the tablet version, the texts will be right beside the image instead of
+under the image. But when you get to the destop screen, the texts will be under the image AGAIN but all the cards will be in rows.
+
+Portfolio: 
+The portfolio page is pretty annoying after getting into the tablet page, resizing the image, and making everything aligned was hard.
+Setting the layout itself is easy. When you get to desktop it will look the same.
+
+Contact Page: 
+The contact page is very easy for mobile, It has text at the top, a picture of the tablet, and the actual form is right below
+it with a big text box, and a submit button. When you go into tablet version, the inputs will be floated by the tablet which makes them
+sit beside each other, and the texbox is below both of them with a button as well. When you get to the desktop page, 
+the form, the textbox and the tablet picture will be in a row. The button is under the form which is aligned with the last input
+which is the email address.
 
 Other notes:
 I added some css in classes in the element. If there is too much to add, I added all the other css part in a 
