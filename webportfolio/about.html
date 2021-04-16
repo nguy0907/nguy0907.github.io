@@ -79,6 +79,10 @@ width: auto;
         font-size: 50px;
       }
 
+      h2{
+        font-size: 25px;
+      }
+
 /* There will not be any dropdown button because the navs will be displayed as rows. */
       .dropdownbutton {
         display: none;
@@ -92,9 +96,13 @@ width: auto;
 
       ul {
         display: flex;
+        margin-top:0.5rem;
+        margin-right:3rem;
         float: right;
-        margin-right: 2rem;
-        margin-top: 0.5rem;
+      }
+
+      li{
+        margin-right:1rem;
       }
 
       a {
@@ -109,13 +117,14 @@ width: auto;
       }
 .mepic{
   margin-right:3rem;
-  height:auto;
+  max-width: 326px;
+  height:360px;
 }
 
 .me{
   margin-left:22.5rem;
+width:390px;
 }
-
 .facts{
   margin-bottom:-25.6rem;
 }
@@ -126,15 +135,8 @@ width: auto;
 }
       .cards {
         margin-left: -1rem;
-        /* display: flex; */
       }
 
-      /* The goal will float to the right so it will be beside the facts part */
-      /* .goal {
-        float: right;
-        margin-right:2.5rem;
-      } */
-  
       /* Everything in the footer will be displayed in a row */
       footer {
         margin-top: 29rem;
@@ -147,7 +149,7 @@ width: auto;
 
     }
 
-
+/* This is the desktop version of the about Page */
     @media screen and (min-width:1200px) {
       ul li {
         margin-right: 5rem;
@@ -162,12 +164,12 @@ width: auto;
         width: auto;
       }
 
+/* The picture of me will diplay in the left right below the text */
 .mepic{
- display: flex;
  max-width: 320px;
   margin-top:17rem;
   margin-left:-20rem;
-  height: 340px;
+  height: 332px;
 }
 .me{
   margin-bottom:-30rem;
@@ -175,7 +177,7 @@ width: auto;
   width:384px;
   
 }
- /* The two cards will be displayed beside each other, and the image of me using flex. */
+ /* The two cards will be displayed beside each other, and the image of me as well by using flex. */
 
 .cards{
   display: flex;
@@ -195,6 +197,9 @@ width: auto;
       }
 footer{
   margin-top:2rem;
+}
+.mediaicon{
+  margin-right:2rem;
 }
     }
   </style>
@@ -256,7 +261,7 @@ padding-left: 3.12em; padding-right: 3.15em; margin-left: 4rem; margin-top: -0.3
  
  <!-- Here is the 2 cards, one of them is facts about me and the other one is my goals-->
 <div class="cards">
-    <div class="facts" style=" width:350px; margin-left:4rem; margin-top:3rem; border: 1px solid; 
+    <div class="facts" style="width:350px; margin-left:4rem; margin-top:3rem; border: 1px solid; 
  height:360px;">
       <h2 style="text-align: center; padding-bottom:0.8em; padding-top:0.8em; margin-top:-0.1rem;">Facts About Me</h2>
       <div class="facts-p" style="margin-left:1rem; ">

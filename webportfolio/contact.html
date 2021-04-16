@@ -93,6 +93,7 @@
       margin-right: 4rem;
     }
 
+  /* This is the tablet version for the Contact Page */
     @media screen and (min-width: 768px) {
 
       h1 {
@@ -110,11 +111,15 @@
 
       ul {
         display: flex;
+        margin-top:0.5rem;
+        margin-right:3rem;
         float: right;
-        margin-right: 2rem;
-        margin-top: 0.5rem;
       }
 
+      li{
+        margin-right:1rem;
+      }
+      
       a {
         margin-left: 2rem;
       }
@@ -124,6 +129,8 @@
         margin-bottom: 2rem;
       }
 
+      /* The tablet will be floating to the right so the inputs will be beside
+      the tablet on the left. */
       .tablet {
         float: right;
         margin-right: 2rem;;
@@ -133,8 +140,12 @@
         width:250px;
       }
 
+/* The textarea will expand all the way to half of the tablet */
+.messagebox{
+  margin-top:6rem;
+}    
 
-      textarea {
+textarea {
         height: 120px;
         width:550px;
       }
