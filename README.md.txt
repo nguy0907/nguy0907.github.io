@@ -1,5 +1,7 @@
 Web Portfolio Reflection
 
+MAYBE TRY MARKING SOME WHERE AROUND THE MEDIA QUERY WIDTH TO MAKE IT MORE ACCURATE!!!
+
 The Web Portfolio is not only for the assignment, it can be used for my actual portfolio pieces. 
 
 
