@@ -61,3 +61,5 @@ which is the email address.
 Other notes:
 I added some css in classes in the element. If there is too much to add, I added all the other css part in a 
 style tag. The style tag also includes media queries.
+
+Animations were only used for the buttons, in the future I am planning to add more content.
