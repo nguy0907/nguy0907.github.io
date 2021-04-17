@@ -6,8 +6,9 @@ The Web Portfolio is not only for the assignment, it can be used for my actual p
 Some of the biggest issue for me is using only one style sheet. I eventually find out how to put the css code
 into the HTML file. 
 
-My new issue is that I can't figure out how to use bootstrap without stylesheet. In this case,I have to move on and 
-verything manually.
+My new issue is that I can't figure out how to use bootstrap without stylesheet. I only have bootstrap for the 
+Homepage which was the jumbotron looking thing which is card-img-overlay. In this case,I have to move on and 
+everything manually.
 
 The biggest issue is also me not having motivation. When I think about how much it is worth, and think I won't do 
 well, it will be harder for me to put in the work and effort.
