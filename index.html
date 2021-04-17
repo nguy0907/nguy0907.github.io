@@ -46,7 +46,8 @@ a lot of changes compared to other pages of the website. -->
     ul li {
       margin-top: 0.3rem;
     }
-/* I added a background image and it is responsive with the object cover. */
+
+    /* I added a background image and it is responsive with the object cover. */
     .banner {
       background-image: url(../webportfolio/images/lightcity.jpg);
       object-fit: cover;
@@ -56,7 +57,7 @@ a lot of changes compared to other pages of the website. -->
       margin-bottom: 3rem;
     }
 
-/* The subscribe button will be displayin in the middle below the banner texgt */
+    /* The subscribe button will be displayin in the middle below the banner texgt */
     .subscribe {
       font-family: 'Fjalla One', sans-serif;
       background-color: black;
@@ -71,12 +72,12 @@ a lot of changes compared to other pages of the website. -->
       border: none;
     }
 
-    .subscribe:hover{
+    .subscribe:hover {
       animation-name: start;
-    animation-duration: 1s;
-    transition: 0.5s;
-    transform: scale(1.3); 
-    border: #FFED65 4px solid;
+      animation-duration: 1s;
+      transition: 0.5s;
+      transform: scale(1.3);
+      border: #FFED65 4px solid;
     }
 
     /* This is just the circle right below the subscribe banner. In the future, I will make it a slideshow. The 
@@ -86,7 +87,7 @@ a lot of changes compared to other pages of the website. -->
       border-radius: 100px;
       width: 30px;
       height: 30px;
-    
+
       margin-left: 15rem;
       margin-bottom: 3rem;
     }
@@ -101,19 +102,20 @@ a lot of changes compared to other pages of the website. -->
       background: none;
     }
 
-/* This will be the tablet version of the homepage. */
+    /* This will be the tablet version of the homepage. */
     @media screen and (min-width: 768px) {
-/* The size of the heading one is going to be a lot larger */
+
+      /* The size of the heading one is going to be a lot larger */
       h1 {
         font-size: 50px;
       }
 
       .logo {
         padding-bottom: 0.5em;
-        margin-left:4rem;
+        margin-left: 4rem;
       }
 
-/* There will not be any dropdown button because the navs will be displayed as rows. */
+      /* There will not be any dropdown button because the navs will be displayed as rows. */
       .dropdownbutton {
         display: none;
       }
@@ -121,12 +123,12 @@ a lot of changes compared to other pages of the website. -->
       ul {
         display: flex;
         margin-top: 1rem;
-        margin-right:3rem;
+        margin-right: 3rem;
         float: right;
       }
 
-      li{
-        margin-right:1rem;
+      li {
+        margin-right: 1rem;
       }
 
       /* Mini slide section for tablet */
@@ -148,11 +150,11 @@ a lot of changes compared to other pages of the website. -->
       }
 
       .welcome-p {
-        width:73%;
-      }   
+        width: 73%;
+      }
 
       /* Everything in the footer will be displayed in a row */
-         .copyright {
+      .copyright {
         margin-left: -4rem;
       }
 
@@ -162,7 +164,7 @@ a lot of changes compared to other pages of the website. -->
       }
     }
 
-/* This is the desktop version of the home page  */
+    /* This is the desktop version of the home page  */
     @media screen and (min-width:1200px) {
       ul li {
         margin-right: 3rem;
@@ -179,36 +181,47 @@ a lot of changes compared to other pages of the website. -->
 
       .card-text {
         margin: auto;
-        margin-bottom:3rem;
+        margin-bottom: 3rem;
 
       }
-      .whitecircle{
-        margin-left:43rem;
+
+      .whitecircle {
+        margin-left: 43rem;
       }
+
       .subscribe {
-      margin: auto;
-    }
-    .welcome-p {
-        width:88%;
-      }   
+        margin: auto;
+      }
 
-    }
+      .welcome-p {
+        width: 88%;
+      }
 
-    
+      .mediaicon {
+        margin-top: 0.6rem;
+        margin-right: 5rem;
+      }
+
+      .copyright {
+        margin-top: 1rem;
+      }
+    }
   </style>
 </head>
 
 <!-- CSS are also used inside classes. This is the first time I used css in classes in html. -->
+
 <body>
   <!-- This is the header section for the pages. It will look the same pretty much.  -->
   <header style="background-color: black;">
-<!-- This is also the nav, where the logo is clickable, and all the links work. They will all share
+    <!-- This is also the nav, where the logo is clickable, and all the links work. They will all share
 the yellow colour. They will be in a column for mobile. -->
     <div>
       <nav>
         <div>
           <a href="index.html"><img src="images/RichRealDealLogo.png" class="logo" alt="Logo"></a>
-          <button class="dropdownbutton" style="width:40px; height:40px; margin-left:9rem; background:none; border:none;">
+          <button class="dropdownbutton"
+            style="width:40px; height:40px; margin-left:9rem; background:none; border:none;">
             <img src="images/iconmonstr-menu-1-240.png" alt="menu" style="width: 24px; height:24px;">
           </button>
 
@@ -235,7 +248,7 @@ the yellow colour. They will be in a column for mobile. -->
     <div class="banner">
       <h1 style="text-align: center; margin-left:4rem; margin-right:4rem; color:#FFED65;">
         Welcome to the RichRealDeal Company Site</h1>
-       
+
     </div>
   </header>
   <!-- This is a mini slide show where you have another image with text on the background with a subsribe button
@@ -245,21 +258,21 @@ the yellow colour. They will be in a column for mobile. -->
       alt="keyboard">
     <div class="card-img-overlay">
       <img src="images/iconmonstr-arrow-64-240.png" alt="arrowleft" style="margin-right:0.5rem; width: 30px; margin-top:-1rem;
-     margin-bottom:-13rem; margin-left:-1rem; background-color: black; padding-top:7em; padding-bottom:7.3em;">  
-         <img src="images/iconmonstr-arrow-63-240.png" alt="arrowright" style=" float:right; margin-right:-1rem; width: 30px; margin-top:-1rem;
+     margin-bottom:-13rem; margin-left:-1rem; background-color: black; padding-top:7em; padding-bottom:7.3em;">
+      <img src="images/iconmonstr-arrow-63-240.png" alt="arrowright" style=" float:right; margin-right:-1rem; width: 30px; margin-top:-1rem;
      margin-bottom:-13rem; background-color: black; padding-top:7em; padding-bottom:7.3em;">
-    
-    <p class="card-text" style="font-family: 'Fjalla One', sans-serif; color:#FFED65; text-align: center; margin-left:4rem; 
+
+      <p class="card-text" style="font-family: 'Fjalla One', sans-serif; color:#FFED65; text-align: center; margin-left:4rem; 
       margin-right:5rem; margin-top:-2rem;">
 
         If you do like my content and would like to see more of it, please consider subscribing to my website and turn
         on your
-        notification for more updates. Thank you for dropping by!</p>   
-        <!-- This is the subscribe button -->
-      <button class="subscribe" type="submit" style="margin-bottom:-8rem;">Subscribe</button> 
-  
+        notification for more updates. Thank you for dropping by!</p>
+      <!-- This is the subscribe button -->
+      <button class="subscribe" type="submit" style="margin-bottom:-8rem;">SUBSCRIBE</button>
+
     </div>
-  </div>    
+  </div>
   <!-- These are the circles, I used them as button, because I can just use border radius and so on... -->
   <div class="circles" style="margin: auto;">
     <button class="darkcircle"></button>
@@ -270,7 +283,7 @@ the yellow colour. They will be in a column for mobile. -->
     visiting my website.
     Please feel free to look around to know a little bit about me, my company, my work, and more.</p>
 
-<!-- Here is the footer, the  colour and design looks the same with different content. On mobile, the social media
+  <!-- Here is the footer, the  colour and design looks the same with different content. On mobile, the social media
 icon is above the copyright line -->
   <footer style="background-color: black; padding-top:1em; padding-bottom:1em;">
     <div class="mediaicon" style="margin-left:11rem; margin-bottom:0.5rem;">
@@ -278,7 +291,8 @@ icon is above the copyright line -->
       <img src="images/iconmonstr-twitter-1-240.png" alt="Twitter" style="width: 30px;">
       <img src="images/iconmonstr-facebook-1-240.png" alt="facebook" style="width: 30px;">
     </div>
-    <div class="copyright" style="font-family: 'Fjalla One', sans-serif; color:#FFED65; margin-left:6em; margin-bottom:1rem;">
+    <div class="copyright"
+      style="font-family: 'Fjalla One', sans-serif; color:#FFED65; margin-left:6em; margin-bottom:1rem;">
       @Copyright RichRealDeal Website 2021</div>
   </footer>
 
