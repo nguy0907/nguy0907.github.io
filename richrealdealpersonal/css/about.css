@@ -5,10 +5,15 @@ html {
 .logo{
     width:20%;
 }
+
 h1 {
     font-size: 35px;
     text-align: center;
-    margin-bottom:3rem;
+}
+
+h2{
+    font-size: 30px;
+    text-align: center;
 }
 
 a {
@@ -27,11 +32,17 @@ a {
 
 }
 
-p {
+p{
     text-align: center;
     margin-left: 2rem;
     margin-right: 2rem;
     line-height: 30px;
+}
+
+.goal-list{
+    line-height: 30px; 
+    margin-left: 2rem;
+    margin-right: 2rem;
 }
 /* Footer area */
 
@@ -39,6 +50,7 @@ p {
     margin-top: 3rem;
     text-align: center;
 }
+
 
 .mediaicon {
     width: 30px;
