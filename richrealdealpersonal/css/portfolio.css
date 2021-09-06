@@ -6,6 +6,8 @@ html {
     width:20%;
 }
 
+
+
 h1 {
     font-size: 35px;
     text-align: center;
@@ -14,6 +16,11 @@ h1 {
 h2{
     font-size: 30px;
     text-align: center;
+}
+
+h3{
+    text-align: center;
+    margin-top:4rem;
 }
 
 a {
@@ -39,11 +46,37 @@ p{
     line-height: 30px;
 }
 
-.goal-list{
-    line-height: 30px; 
-    margin-left: 2rem;
-    margin-right: 2rem;
+/* The Art Work Sample section */
+.artwork{
+    display: flex;
+    justify-content: center;
+    object-fit: cover;
+    margin: auto;
+    width:330px;
 }
+
+.landingpagepic{
+    height:200px;
+}
+
+.ARCPic{
+    height:200px;
+}
+
+/* Button */
+.more{
+    font-family: 'Poppins', sans-serif; 
+    display: flex;
+    margin: auto;
+    margin-top: 3rem;
+    margin-bottom:-1rem;
+    border-radius: 30px;
+    padding:0.5em;
+    padding-left:2em;
+    padding-right:2em;
+
+}
+
 /* Footer area */
 
 .footersection {
