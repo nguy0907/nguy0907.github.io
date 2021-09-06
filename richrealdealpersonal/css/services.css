@@ -6,6 +6,8 @@ html {
     width:20%;
 }
 
+
+
 h1 {
     font-size: 35px;
     text-align: center;
@@ -44,13 +46,31 @@ p{
     line-height: 30px;
 }
 
+/* Services Section */
+.imgservice{
+    display: flex;
+    justify-content: center;
+    object-fit: cover;
+    max-width:300px;
+    margin: auto;
+}
+
+.webimg{
+width: auto;
+height: 270px;
+}
+
+.graphicimg{
+    width: auto;
+    height: 270px;
+    }
+
 /* Footer area */
 
 .footersection {
     margin-top: 3rem;
     text-align: center;
 }
-
 
 .mediaicon {
     width: 30px;
