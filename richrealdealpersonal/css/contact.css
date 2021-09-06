@@ -45,26 +45,28 @@ p{
     margin-right: 2rem;
     line-height: 30px;
 }
+/* Form */
+form{
+    text-align: center;
+}
 
-/* The Art Work Sample section */
-.artwork{
+input{
+    font-family: 'Poppins', sans-serif;
+    display:flex;
+    margin:auto;
+    margin-bottom:1rem;
+    margin-top:1rem;
+}
+
+.message{
+    font-family: 'Poppins', sans-serif;
     display: flex;
-    justify-content: center;
-    object-fit: cover;
     margin: auto;
-    width:330px;
+    margin-top:1rem;
+    margin-bottom:1rem;
 }
 
-.landingpagepic{
-    height:200px;
-}
-
-.ARCPic{
-    height:200px;
-}
-
-/* Button */
-.more{
+.submit{
     font-family: 'Poppins', sans-serif; 
     display: flex;
     margin: auto;
@@ -74,9 +76,7 @@ p{
     padding:0.5em;
     padding-left:2em;
     padding-right:2em;
-
 }
-
 /* Footer area */
 
 .footersection {
