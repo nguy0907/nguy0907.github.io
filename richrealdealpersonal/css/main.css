@@ -1,30 +1,36 @@
 html {
     font-family: 'Poppins', sans-serif;
+    font-weight: 100;
 }
 
 .logo{
-    width:20%;
+    width:100px;
 }
 h1 {
+    font-weight: bold;
     font-size: 35px;
     text-align: center;
     margin-bottom:3rem;
 }
 
 a {
-    color: black;
+    color:#FFED65;
     text-decoration: none;
 
 }
 
 .menuoption {
-    font-size: 20px;
+    font-size: 17px;
     text-align: center;
     list-style: none;
     line-height: 50px;
     margin-left: -1rem;
     margin-bottom: 2rem;
 
+}
+
+header{
+    background: black;
 }
 
 p {
@@ -40,7 +46,7 @@ p {
     display: flex;
     margin: auto;
     margin-top: 3rem;
-    margin-bottom:-1rem;
+    margin-bottom:6rem;
     border-radius: 30px;
     padding:0.5em;
     padding-left:2em;
@@ -69,4 +75,32 @@ p {
 
 .site-footer{
     margin-top:-0.5rem;
+}
+
+@media screen and (min-width:768px) {
+    .logo{
+        float: left;
+    }
+    .menuoption{
+        display: flex;
+    }
+
+    li{
+        margin-right:3rem;
+    }
+
+ /* Footer */
+.footersection{
+    display: flex;
+   justify-content: center;
+   margin-left:-4rem;
+   margin-top:9rem;
+}
+ footer{
+ margin-left:3rem;
+ }
+
+ .mediaicon{
+     margin-top:-0.5rem;
+ }
 }
