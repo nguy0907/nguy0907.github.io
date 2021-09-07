@@ -3,7 +3,7 @@ html {
 }
 
 .logo{
-    width:100px;
+    width:auto;
 }
 
 h1 {
@@ -17,7 +17,7 @@ h2{
 }
 
 a {
-    color: black;
+    color:#FFED65;
     text-decoration: none;
 
 }
@@ -29,7 +29,10 @@ a {
     line-height: 50px;
     margin-left: -1rem;
     margin-bottom: 2rem;
+}
 
+header{
+    background: black;
 }
 
 p{
@@ -66,4 +69,32 @@ p{
 
 .site-footer{
     margin-top:-0.5rem;
+}
+
+@media screen and (min-width:768px) {
+    .logo{
+        float: left;
+    }
+    .menuoption{
+        display: flex;
+    }
+
+    li{
+        margin-right:3rem;
+    }
+
+ /* Footer */
+.footersection{
+    display: flex;
+   justify-content: center;
+   margin-left:-4rem;
+   margin-top:9rem;
+}
+ footer{
+ margin-left:3rem;
+ }
+
+ .mediaicon{
+     margin-top:-0.5rem;
+ }
 }

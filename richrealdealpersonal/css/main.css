@@ -1,10 +1,13 @@
 html {
     font-family: 'Poppins', sans-serif;
     font-weight: 100;
+    margin: auto;
+    width: auto;
 }
 
 .logo{
-    width:100px;
+    margin: auto;
+    width:auto;
 }
 h1 {
     font-weight: bold;
@@ -58,6 +61,10 @@ p {
 .footersection {
     margin-top: 3rem;
     text-align: center;
+    background-color: black;
+    color: #FFED65;
+    padding-bottom:1rem;
+    padding-top:1rem;
 }
 
 .mediaicon {
@@ -89,12 +96,19 @@ p {
         margin-right:3rem;
     }
 
+    p{
+     margin-left:6rem;
+     margin-right: 6rem;
+        margin-top: auto;
+    }
  /* Footer */
 .footersection{
     display: flex;
    justify-content: center;
+   margin: auto;
    margin-left:-4rem;
    margin-top:9rem;
+   padding-top:2rem;
 }
  footer{
  margin-left:3rem;
