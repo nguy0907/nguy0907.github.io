@@ -143,19 +143,22 @@ html {
 }
 
 .logo{
-    margin: auto;
-    width:auto;
+    width:200px;
+    margin-left:1rem;
+    margin-top:0.5rem;
 }
-h1 {
+h1 { 
     font-weight: bold;
     font-size: 35px;
     text-align: center;
     margin-bottom:3rem;
     line-height: 50px;
+
 }
 
 
 a {
+    font-size:17px;
     color:#FFED65;
     text-decoration: none;
 
@@ -166,7 +169,6 @@ a {
     text-align: center;
     list-style: none;
     line-height: 50px;
-    margin-left: -1rem;
     margin-bottom: 2rem;
 
 }
@@ -177,8 +179,8 @@ header{
 
 p {
     text-align: center;
-    margin-left: 2rem;
-    margin-right: 2rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
     line-height: 30px;
 }
 
@@ -202,7 +204,7 @@ p {
     text-align: center;
     background-color: black;
     color: #FFED65;
-    padding-bottom:1rem;
+    padding-bottom:1.5rem;
     padding-top:1rem;
 }
 
@@ -226,6 +228,7 @@ p {
 @media screen and (min-width:768px) {
     .logo{
         float: left;
+        margin-right:2rem;
     }
     .menuoption{
         display: flex;
@@ -247,13 +250,14 @@ p {
    margin: auto;
    margin-left:-4rem;
    margin-top:9rem;
-   padding-top:2rem;
+   padding-top:2.6rem;
+
 }
  footer{
  margin-left:3rem;
  }
 
  .mediaicon{
-     margin-top:-0.5rem;
+     margin-top:-0.8rem;
  }
 }

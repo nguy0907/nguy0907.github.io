@@ -144,9 +144,15 @@ html {
 
 }
 
-.logo{
+.container{
     margin: auto;
-    width:auto;
+    width: auto;
+}
+
+.logo{
+    width:200px;
+    margin-left:1rem;
+    margin-top:0.5rem;
 }
 
 h1 {
@@ -166,6 +172,7 @@ h2{
 }
 
 a {
+    font-size:17px;
     color:#FFED65;
     text-decoration: none;
 
@@ -176,7 +183,6 @@ a {
     text-align: center;
     list-style: none;
     line-height: 50px;
-    margin-left: -1rem;
     margin-bottom: 2rem;
 }
 
@@ -186,12 +192,14 @@ header{
 
 p{
     text-align: center;
-    margin-left: 2rem;
-    margin-right: 2rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
     line-height: 30px;
+    margin-bottom:1rem;
 }
 
 .goal-list{
+    list-style: circle;
     line-height: 30px; 
     margin-left: 2rem;
     margin-right: 2rem;
@@ -203,8 +211,8 @@ p{
     text-align: center;
     background-color: black;
     color: #FFED65;
-    padding-bottom:1rem;
-    padding-top:2rem;
+    padding-bottom:1.5rem;
+    padding-top:1rem;
 }
 
 .mediaicon {
@@ -227,6 +235,7 @@ p{
 @media screen and (min-width:768px) {
     .logo{
         float: left;
+        margin-right:2rem;
     }
     .menuoption{
         display: flex;
@@ -242,19 +251,24 @@ p{
     }
 
     /* Goals */
-
+    .goal-list{
+ 
+    }
  /* Footer */
-.footersection{
+ .footersection{
     display: flex;
    justify-content: center;
+   margin: auto;
    margin-left:-4rem;
    margin-top:9rem;
+   padding-top:2.6rem;
+
 }
  footer{
  margin-left:3rem;
  }
 
  .mediaicon{
-     margin-top:-0.5rem;
+     margin-top:-0.8rem;
  }
 }

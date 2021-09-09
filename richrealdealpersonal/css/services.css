@@ -1,16 +1,159 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
 html {
     font-family: 'Poppins', sans-serif;
 }
 
 .logo{
-    width:100px;
+    width:200px;
+    margin-left:1rem;
+    margin-top:0.5rem;
 }
 
 
 
 h1 {
+    font-weight: bold;
     font-size: 35px;
     text-align: center;
+    margin-bottom:3rem;
+    line-height: 50px;
+
 }
 
 h2{
@@ -19,30 +162,35 @@ h2{
 }
 
 h3{
+    font-size:25px;
     text-align: center;
     margin-top:4rem;
+    margin-bottom:2rem;
 }
 
 a {
-    color: black;
+    color:#FFED65;
     text-decoration: none;
 
 }
 
+
 .menuoption {
-    font-size: 20px;
+    font-size: 17px;
     text-align: center;
     list-style: none;
     line-height: 50px;
-    margin-left: -1rem;
     margin-bottom: 2rem;
+}
 
+header{
+    background: black;
 }
 
 p{
     text-align: center;
-    margin-left: 2rem;
-    margin-right: 2rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
     line-height: 30px;
 }
 
@@ -53,6 +201,7 @@ p{
     object-fit: cover;
     max-width:300px;
     margin: auto;
+    margin-bottom:2rem;
 }
 
 .webimg{
@@ -70,6 +219,10 @@ height: 270px;
 .footersection {
     margin-top: 3rem;
     text-align: center;
+    background-color: black;
+    color: #FFED65;
+    padding-bottom:1.5rem;
+    padding-top:1rem;
 }
 
 .mediaicon {
@@ -89,3 +242,41 @@ height: 270px;
     margin-top:-0.5rem;
 }
 
+@media screen and (min-width:768px) {
+    .logo{
+        float: left;
+        margin-right:2rem;
+    }
+    .menuoption{
+        display: flex;
+    }
+
+    li{
+        margin-right:3rem;
+    }
+
+    p{
+        margin-left:3rem;
+        margin-right:3rem;
+    }
+/* Services section */
+
+
+ /* Footer */
+ .footersection{
+    display: flex;
+   justify-content: center;
+   margin: auto;
+   margin-left:-4rem;
+   margin-top:9rem;
+   padding-top:2.6rem;
+
+}
+ footer{
+ margin-left:3rem;
+ }
+
+ .mediaicon{
+     margin-top:-0.8rem;
+ }
+}
