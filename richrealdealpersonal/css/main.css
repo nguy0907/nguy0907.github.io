@@ -184,6 +184,17 @@ p {
     line-height: 30px;
 }
 
+.maincontent{
+    color: #FFED65;
+   background-image: url(../images/keyboardglow.png);
+ background-size: cover;
+    padding-top:1em;
+    filter: contrast(1.5);
+}
+.backgroundcontent{
+    background: linear-gradient(rgba(0, 0, 0, 0.192),rgba(0, 0, 0, 0.075));
+    color: rgb(255, 255, 255);
+}
 /* Button */
 .subscribe{
     font-family: 'Poppins', sans-serif; 
@@ -226,14 +237,15 @@ p {
 }
 
 @media screen and (min-width:768px) {
-    .logo{
-        float: left;
-        margin-right:2rem;
-    }
+    
     .menuoption{
         display: flex;
+        float: right;
+        margin-top:-3rem;
     }
-
+h1{
+    margin-top:2.5rem;
+}
     li{
         margin-right:3rem;
     }

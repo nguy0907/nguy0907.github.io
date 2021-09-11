@@ -139,38 +139,38 @@ html {
     font-family: 'Poppins', sans-serif;
 }
 
-.logo{
-    width:200px;
-    margin-left:1rem;
-    margin-top:0.5rem;
+.logo {
+    width: 200px;
+    margin-left: 1rem;
+    margin-top: 0.5rem;
 }
 
 h1 {
     font-weight: bold;
     font-size: 35px;
     text-align: center;
-    margin-bottom:3rem;
+    margin-bottom: 3rem;
     line-height: 50px;
 }
 
-h2{
+h2 {
     font-weight: bold;
     font-size: 30px;
     text-align: center;
-    margin-bottom:3rem;
+    margin-bottom: 3rem;
     line-height: 50px;
 }
 
-h3{
-    font-size:25px;
+h3 {
+    font-size: 25px;
     font-weight: bold;
     text-align: center;
-    margin-bottom:2rem;
+    margin-bottom: 2rem;
 }
 
 a {
-    font-size:17px;
-    color:#FFED65;
+    font-size: 17px;
+    color: #FFED65;
     text-decoration: none;
 
 }
@@ -184,11 +184,11 @@ a {
 
 }
 
-header{
+header {
     background: black;
 }
 
-p{
+p {
     text-align: center;
     margin-left: 3rem;
     margin-right: 3rem;
@@ -196,35 +196,35 @@ p{
 }
 
 /* The Art Work Sample section */
-.artwork{
+.artwork {
     display: flex;
     justify-content: center;
     object-fit: cover;
     margin: auto;
-    margin-top:2rem;
-    margin-bottom:2rem;
-    width:330px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    width: 330px;
 }
 
-.landingpagepic{
-    height:200px;
+.landingpagepic {
+    height: 200px;
 }
 
-.ARCPic{
-    height:200px;
+.ARCPic {
+    height: 200px;
 }
 
 /* Button */
-.more{
-    font-family: 'Poppins', sans-serif; 
+.more {
+    font-family: 'Poppins', sans-serif;
     display: flex;
     margin: auto;
     margin-top: 3rem;
-    margin-bottom:-1rem;
+    margin-bottom: -1rem;
     border-radius: 30px;
-    padding:0.5em;
-    padding-left:2em;
-    padding-right:2em;
+    padding: 0.5em;
+    padding-left: 2em;
+    padding-right: 2em;
 
 }
 
@@ -235,8 +235,8 @@ p{
     text-align: center;
     background-color: black;
     color: #FFED65;
-    padding-bottom:1.5rem;
-    padding-top:1rem;
+    padding-bottom: 1.5rem;
+    padding-top: 1rem;
 }
 
 .mediaicon {
@@ -244,52 +244,55 @@ p{
     margin-bottom: 1rem;
 }
 
-.instagram{
-    margin-right:0.5rem;
+.instagram {
+    margin-right: 0.5rem;
 }
 
-.facebook{
-    margin-bottom:1.05rem;
+.facebook {
+    margin-bottom: 1.05rem;
 }
 
-.site-footer{
-    margin-top:-0.5rem;
+.site-footer {
+    margin-top: -0.5rem;
 }
 
 @media screen and (min-width:768px) {
-    .logo{
-        float: left;
-        margin-right:2rem;
-    }
-    .menuoption{
+    .menuoption {
         display: flex;
+        float: right;
+        margin-top: -3rem;
     }
 
-    li{
-        margin-right:3rem;
+    h1 {
+        margin-top: 2.5rem;
     }
 
-    p{
-        margin-left:3rem;
-        margin-right:3rem;
+    li {
+        margin-right: 3rem;
+    }
+
+    p {
+        margin-left: 3rem;
+        margin-right: 3rem;
     }
 
 
- /* Footer */
- .footersection{
-    display: flex;
-   justify-content: center;
-   margin: auto;
-   margin-left:-4rem;
-   margin-top:9rem;
-   padding-top:2.6rem;
+    /* Footer */
+    .footersection {
+        display: flex;
+        justify-content: center;
+        margin: auto;
+        margin-left: -4rem;
+        margin-top: 9rem;
+        padding-top: 2.6rem;
 
-}
- footer{
- margin-left:3rem;
- }
+    }
 
- .mediaicon{
-     margin-top:-0.8rem;
- }
+    footer {
+        margin-left: 3rem;
+    }
+
+    .mediaicon {
+        margin-top: -0.8rem;
+    }
 }
