@@ -195,6 +195,12 @@ p{
     margin-bottom: 2rem;
 }
 
+.tablet{
+    display: flex;
+    margin: auto;
+    width:300px;
+    margin-bottom:2rem;
+}
 /* Form */
 form{
     text-align: center;
@@ -205,6 +211,7 @@ input{
     display:flex;
     margin:auto;
     width:40%;
+    max-width: 200px;
     padding:0.5em;
     padding-right:5em;
     border-radius: 30px;
@@ -217,6 +224,7 @@ input{
     display: flex;
     margin: auto;
     width:40%;
+    max-width: 200px;
     border-radius: 20px;
     padding:1em;
     padding-right:5em;
@@ -280,7 +288,20 @@ input{
         margin-left:3rem;
         margin-right:3rem;
     }
+    .tablet{
+        float: right;
+        margin-right:3rem;
+    }
 
+   .messagebox{
+       margin-top:5rem;
+       margin-left:-22rem;
+   }
+
+   .submit{
+       margin-top:-9rem;
+       margin-left:25.5rem;
+   }
  /* Footer */
  .footersection{
     display: flex;

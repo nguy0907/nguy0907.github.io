@@ -198,12 +198,21 @@ p{
     margin-bottom:1rem;
 }
 
-.goal-list{
+.intro{
+    margin-bottom:2rem;
+}
+
+.goal-list,.skill-list{
     list-style: circle;
     line-height: 30px; 
-    margin-left: 2rem;
+    margin-left: 4rem;
     margin-right: 2rem;
 }
+
+.goal{
+    margin-bottom:2rem;
+}
+
 /* Footer area */
 
 .footersection {
@@ -251,9 +260,10 @@ p{
     }
 
     /* Goals */
-    .goal-list{
- 
+    .goal-list,.skill-list{
+ margin-left:6rem;
     }
+
  /* Footer */
  .footersection{
     display: flex;
