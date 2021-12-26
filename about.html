@@ -1,326 +1,61 @@
-<!-- This is the about page of the website in html. -->
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <!-- Required meta tags -->
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <!-- Bootstrap CSS -->
-  <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
-  integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous"> -->
-  <title>About</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <!-- Bootstrap CSS -->
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    
+      <link rel="stylesheet" href="css/style.css">
+      <link rel="stylesheet" href="css/about.css">
 
-  <!-- Here are the css portion in the html, thankfully it does not require any stylesheet, except I used 1 stylesheet
-  on the home page only :) -->
-  <style>
-    /* I added fonts by using import. The fonts that were used were Fjalla and Gochi Hand. Gochi Hand will be 
-    used for the headings mainly and Fjalla font will be used for the main text. */
-    @import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
-    @import url('https://fonts.googleapis.com/css2?family=Gochi+Hand&display=swap');
-
-    html {
-      font-family: 'Fjalla One', sans-serif;
-      width: auto;
-    }
-
-    body {
-      margin: auto;
-      width: auto;
-    }
-
-    h1,
-    h2 {
-      font-family: 'Gochi Hand', cursive;
-      color: #FFED65;
-    }
-
-    h1 {
-      font-size: 30px;
-    }
-
-    h2 {
-      background-color: black;
-    }
-
-    p {
-      line-height: 32px;
-      font-size: 17px;
-    }
-
-    /* CSS for the header */
-    .logo {
-      width: 250px;
-      margin-top: 1rem;
-      margin-bottom: -1rem;
-      margin-left: 2rem;
-    }
-
-    ul li {
-      margin-top: 1.35rem;
-    }
-
-    a {
-      text-decoration: none;
-    }
-
-    /* I added a background image and it is responsive with the object cover. */
-    .banner {
-      background-image: url(../webportfolio/images/lightcity.jpg);
-      object-fit: cover;
-      background-position: 55% 53%;
-      padding-top: 4em;
-      padding-bottom: 4em;
-      margin-bottom: 3rem;
-    }
-
-    /* This is the media query use for the tablet version of the about page */
-    @media screen and (min-width: 768px) {
-
-      /* The size of the heading one is going to be a lot larger */
-      h1 {
-        font-size: 50px;
-      }
-
-      h2 {
-        font-size: 25px;
-      }
-
-      /* There will not be any dropdown button because the navs will be displayed as rows. */
-      .dropdownbutton {
-        display: none;
-      }
-
-      .bordernav {
-        border: 1px #FFED65 solid;
-        padding: 0.3rem;
-
-      }
-
-      ul {
-        display: flex;
-        margin-top: 0.7rem;
-        margin-right: 3rem;
-        float: right;
-      }
-
-      li {
-        margin-right: 1rem;
-      }
-
-      a {
-        margin-left: 2rem;
-      }
-
-      /* The paragraph will float to the left so the image will be right beside it */
-      .intro-paragraph {
-        width: 300px;
-        margin-bottom: -14rem;
-
-      }
-
-      .mepic {
-        margin-right: 3rem;
-        max-width: 326px;
-        height: 360px;
-      }
-
-      .me {
-        margin-left: 22.5rem;
-        width: 390px;
-      }
-
-      .facts {
-        margin-bottom: -25.6rem;
-      }
-
-      .goal {
-        margin-right: 3rem;
-        float: right;
-
-      }
-
-      .cards {
-        margin-left: -1rem;
-      }
-
-      /* Everything in the footer will be displayed in a row */
-      footer {
-        margin-top: 29rem;
-      }
-
-      .mediaicon {
-        margin-right: 8rem;
-        float: right;
-      }
-
-    }
-
-    /* This is the desktop version of the about Page */
-    @media screen and (min-width:1200px) {
-      ul li {
-        margin-right: 1rem;
-      }
-
-      a {
-        margin-left: 4rem;
-      }
-
-      .intro-paragraph {
-        float: none;
-        width: auto;
-      }
-
-      /* The picture of me will diplay in the left right below the text */
-      .mepic {
-        max-width: 320px;
-        margin-top: 17rem;
-        margin-left: -20rem;
-        height: 332px;
-      }
-
-      .me {
-        margin-bottom: -30rem;
-        margin-left: -1rem;
-        width: 384px;
-
-      }
-
-      /* The two cards will be displayed beside each other, and the image of me as well by using flex. */
-
-      .cards {
-        display: flex;
-        height: auto;
-        margin-left: 22rem;
-      }
-
-      .facts {
-        margin-right: -2rem;
-        padding-bottom: 2.3em;
-
-      }
-
-      .goal {
-        margin-right: 0rem;
-        padding-bottom: 2.3em;
-
-      }
-
-      footer {
-        margin-top: 1rem;
-      }
-
-      .mediaicon {
-        margin-top: 0.6rem;
-        margin-right: 5rem;
-      }
-
-      .copyright {
-        margin-top: 1rem;
-      }
-    }
-  </style>
+    <title>Document</title>
 </head>
-
 <body>
-  <!-- This is the header where there are different navs displayed in columns. -->
-  <header style="background-color: black;">
+    <header>
+        <nav class="menu">
+            <a href="index.html"><img src="images/RRDLogoV2.png" alt="logo" class="logo" ></a> 
+               <ul>
+                   <li><a href="about.html">ABOUT</a></li>
+                   <li><a href="services.html">SERVICES</a></li>
+                   <li><a href="portfolio.html">PORTFOLIO</a></li>
+                   <li><a href="contact.html">CONTACT</a></li>
+               </ul>
+           </nav>
+    </header>
+    <main>
+        <h1>About Us</h1>
+<section class="intro">
+    <p>Hello everyone who is visited my website. My name is Richard Nguyen, and this is The RichRealDeal Company.
+      I am a current student that is attending college to go into Interactive Media Design. I am currently 19
+      years old who is in the second semester of the first year of this program.</p>
+</section>
 
-    <div>
-      <nav>
-        <div>
-          <a href="index.html"><img src="images/RichRealDealLogo.png" class="logo" alt="Logo"></a>
-          <button class="dropdownbutton"
-            style="width:40px; height:40px; margin-left:9rem; background:none; border:none;">
-            <img src="images/iconmonstr-menu-1-240.png" alt="menu" style="width: 24px; height:24px;">
-          </button>
-
-          <ul style="list-style: none; text-align: center; font-family: 'Fjalla One', sans-serif;">
-            <li class="nav-item" style="margin-left:-1rem;">
-              <a style="color:#FFED65;" class="nav-link bordernav" href="about.html">About</a>
-            </li>
-            <li class="nav-item" style="margin-left:-1rem;">
-              <a style="color:#FFED65;" class="nav-link" href="services.html">Services</a>
-            </li>
-            <li class="nav-item" style="margin-left:-1rem;">
-              <a style="color:#FFED65;" class="nav-link" href="portfolio.html">Portfolio</a>
-            </li>
-            <li class="nav-item" style="margin-left:-1rem;">
-              <a style="color:#FFED65;" class="nav-link" href="contact.html">Contact</a>
-            </li>
-          </ul>
-
-        </div>
-      </nav>
+<div class="card">
+    <div class="card-body">
+      <h5 class="card-title">Goal</h5>
+      <p class="goal">To become a freelancer</p>
+      <p class="goal">Enjoy my moment in college, have fun and learn something new.</p>
+      <p class="goal">Live the best life I can ever live. Every moment should be enjoyable.</p>
     </div>
+  </div>
 
-    <!-- This is the main main banner with a background image and my name in the background. -->
-    <div class="banner">
-      <h1 style="text-align: center; margin-left:4rem; margin-right:4rem; color:#FFED65;">
-        About</h1>
+  <div class="card">
+    <div class="card-body">
+      <h5 class="card-title">Skills</h5>
+        <p class="skill">Coding using html and css. </p>
+        <p class="skill">Always working hard and willing to learn.</p>
+        <p class="skill"> Designing arts using various Adobe Programs, such as Illustrator, Photoshop...</p>
     </div>
-  </header>
-  <section>
-    <p class="intro-paragraph" style="margin-left:4rem; margin-right:5rem;">Hello everyone who is visited my website. My
-      name is Richard Nguyen, and this is The RichRealDeal Company.
-      I am a current student that is attending college to go into Interactive Media Design. I am currently 18
-      years
-      old who is in the second semester of the first year of this program. </p>
+  </div>
 
-    <!-- This is a card that has a picture of me and my name -->
+    </main>
+    <footer>
+        &copy; RichRealDeal Website 2021
+    </footer>
 
-    <div class="me container">
-      <img class="mepic" src="images/me.jpeg" style=" width: 350px; margin-left:4rem; object-fit: cover;"
-        alt="Richard Nguyen">
-      <h2 class="RichN" style="text-align: center; max-width: 200px; padding-bottom: 0.8em; padding-top: 0.8em;
-padding-left: 3.12em; padding-right: 3.15em; margin-left: 4rem; margin-top: -0.3rem;  margin-bottom: 2rem;">Richard
-        Nguyen</h2>
-    </div>
-
-
-    <!-- Here is the 2 cards, one of them is facts about me and the other one is my goals. It has a header, and
-    some texts.-->
-    <div class="cards">
-      <div class="facts" style="width:350px; margin-left:4rem; margin-top:3rem; border: 1px solid; 
- height:360px;">
-        <h2 style="text-align: center; padding-bottom:0.8em; padding-top:0.8em; margin-top:-0.1rem;">Facts About Me</h2>
-        <div class="facts-p" style="margin-left:1rem; ">
-          <p>- Transitioning from top chemistry and math mark to become an IMD student. </p>
-          <p>- No skills, not talent back in the day </p>
-          <p>- I am a hockey nerd </p>
-        </div>
-      </div>
-
-      <div class="goal" style="max-width:400px; width:350px; margin-left:4rem; margin-top:3rem; margin-bottom:3rem; 
- border: 1px solid; height:360px;">
-        <h2 class="card-title" style="text-align: center; padding-bottom:0.8em; padding-top:0.8em; margin-top:-0.1rem;">
-          My
-          Goals</h2>
-        <div class="goal-p" style="margin-left:1rem;">
-          <p class="card-text" style="margin-right:4rem;">- To become a freelancer </p>
-          <p class="card-text" style="margin-right:4rem;">- Enjoy my moment in college, have fun and learn something
-            new.
-          </p>
-          <p class="card-text" style="margin-right:4rem;">- Live the best life I can ever live. Every moment should be
-            enjoyable. </p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Here is the footer, the  colour and design looks the same with different content. On mobile, the social media
-icon is above the copyright line -->
-  <footer style="background-color: black; padding-top:1em; padding-bottom:1em;">
-    <div class="mediaicon" style="margin-left:11rem; margin-bottom:0.5rem;">
-      <img src="images/iconmonstr-instagram-11-240.png" alt="instagram" style="margin-right:0.5rem; width: 30px;">
-      <img src="images/iconmonstr-twitter-1-240.png" alt="Twitter" style="width: 30px;">
-      <img src="images/iconmonstr-facebook-1-240.png" alt="facebook" style="width: 30px;">
-    </div>
-    <div class="copyright"
-      style="font-family: 'Fjalla One', sans-serif; color:#FFED65; margin-left:6em; margin-bottom:1rem;">
-      @Copyright RichRealDeal Website 2021</div>
-  </footer>
-
+        <!-- Option 1: Bootstrap Bundle with Popper -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
-
 </html>

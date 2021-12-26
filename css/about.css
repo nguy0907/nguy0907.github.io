@@ -1,0 +1,15 @@
+.skill-list{
+    margin-top: 2rem;
+}
+
+.card{
+    margin: auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    line-height: 25px;
+    width: 80%;
+    }
+
+    .goal,.skill{
+        margin-bottom: 2rem;
+    }
