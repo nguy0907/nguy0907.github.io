@@ -1,3 +1,8 @@
+p{
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
 .subscribe{
     margin-top: 2rem;
 }
@@ -9,4 +14,10 @@
     margin-bottom:3rem;
     height:260px;
     color: #FFED65;
+}
+
+@media screen and (min-width:768px) {
+/* footer{
+    margin-top:2.5rem;
+} */
 }
