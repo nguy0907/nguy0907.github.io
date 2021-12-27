@@ -10,6 +10,7 @@ textarea{
     margin: auto;
     margin-top: 1rem;
     margin-bottom: 2rem;
+    max-width: 380px;
     width: 70%;
     border-radius: 20px;
     padding-left: 1em;
@@ -18,4 +19,12 @@ textarea{
     padding-bottom: 0.5em;
 }
 
-
+@media screen and (min-width:768px){
+    p{
+        margin-bottom:4rem;
+    }
+.tablet{
+    float: right;
+    margin-right:2rem;
+}
+}
