@@ -206,7 +206,6 @@ footer{
 h5{
     font-size: 20px;
 font-weight: bold;
-
 margin-top: -1rem;
 margin-left: -1rem;
 padding-top:1em;
@@ -234,13 +233,17 @@ padding-bottom: 1em;
     ul li{
         display: inline-block;
         margin-top: 1rem;
-        margin-left: 4rem;
+        margin-right: 4rem;
    
     }
+    
 }
 
 /* Desktop Screen */
 @media screen and (min-width:1200px) {
+    ul li{
+margin-left:3rem;
+    }
 
     .services{
         display: flex;
