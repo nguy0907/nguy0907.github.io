@@ -27,4 +27,18 @@ textarea{
     float: right;
     margin-right:2rem;
 }
+
+
+.submit{
+ float: right;
+ margin-right: 10rem;
+ margin-top: -8rem;
+}
+}
+
+@media screen and (min-width:1200px) {
+ .fillin{
+display: inline-block;
+width: 400px;
+}   
 }
