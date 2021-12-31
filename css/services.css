@@ -1,7 +1,10 @@
 .card{
     width:350px;
 }
-
+.webpic,.graphicpic{
+    height: 415px;
+    object-fit: cover;
+}
 @media screen and (min-width:768px) {
     .card{
         width:450px;
